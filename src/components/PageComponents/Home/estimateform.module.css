@@ -1,0 +1,39 @@
+.formBox {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.90);
+    padding: 30px;
+    margin: 20% 0;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.95);
+    border-radius: 5px;
+    box-shadow: 0px 0px 11px 5px rgba(186, 186, 186, 1);
+    -webkit-box-shadow: 0px 0px 11px 5px rgba(186, 186, 186, 1);
+}
+
+.title {
+    text-align: center;
+}
+
+.estimateSubmit {
+    width: 100%;
+    background-color: #FF9900;
+    background: #FF9900;
+    border: 1px solid;
+    border-color: #FF9900;
+    -moz-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	-webkit-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	-ms-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+    transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+    margin: 5% 0 0 0;
+}
+
+.estimateSubmit:hover {
+    background-color: #40C620;
+    background: #40C620;
+    border: 1px solid;
+    border-color: #40C620;
+    -moz-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	-webkit-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	-ms-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
