@@ -2,7 +2,10 @@ import React from "react";
 import SystemsBoxLeft from "./SystemsBoxLeft";
 import SystemsBoxRight from "./SystemsBoxRight";
 
-import { Row, Card } from 'reactstrap'
+import Row from "react-bootstrap/Row"
+//import Container from "react-bootstrap/Container"
+//import Col from "react-bootstrap/Col"
+import Card from "react-bootstrap/Card"
 
 
 class SystemsBox extends React.Component {

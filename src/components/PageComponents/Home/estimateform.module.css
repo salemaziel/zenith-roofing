@@ -37,3 +37,48 @@
 	-ms-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 	transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
+
+
+@media only screen and (min-width: 2400px) {
+
+}
+
+@media only screen and (max-width: 1680px) {
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+
+@media only screen and (max-width: 960px) {
+    .formBox {
+        padding: 20px 30px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .formBox {
+      /*  display: none; */
+      box-shadow: none;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .formBox {
+      /*  display: none;*/
+      box-shadow: none;
+      padding: 0;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+    .formBox {
+       /* display: none; */
+       box-shadow: none;
+    }
+}

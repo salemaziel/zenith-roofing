@@ -1,0 +1,77 @@
+
+.SectionService {
+    position: relative;
+    background: #0d4879;
+    background-size: cover;
+    background-image: url(../../../images/pattern2.png);
+    padding: 4rem 0 0 0;
+}
+
+
+.topText {
+    display: block;
+    text-align: center;
+    margin: 10% auto;
+}
+
+.Title {
+    font-size: 24px;
+    color: #ff9900;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px #8b8888;
+    -webkit-text-shadow: 2px 2px 3px #8b8888;
+    margin: auto;
+    padding: 2rem 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Subtitle {
+    color: #ffffff;
+    font-weight: 700;
+    margin: auto;
+    padding: 0px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (min-width: 2400px) {
+
+}
+
+@media only screen and (max-width: 1680px) {
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+
+@media only screen and (max-width: 960px) {
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    .SectionService {
+        padding: 2rem 0 0 0;
+    }
+
+    .Subtitle {
+        font-size: 2rem;
+        padding: 1rem 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 360px) {
+
+}

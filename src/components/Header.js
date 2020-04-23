@@ -2,8 +2,8 @@ import React from "react"
 import NavBarCustom from "./NavBar"
 //import NavbarRowFull from "./NavRowFull"
 //import SideNav from "react-simple-sidenav"
-import { Link } from 'gatsby'
-import { LogoWshadowDarkVertSm } from '../images/index'
+//import { Link } from 'gatsby'
+//import { LogoWshadowDarkVertSm } from '../images/index'
 
 
 //const Header = () => (

@@ -628,9 +628,11 @@ aside {
   .mobileNav {
     display: none;
   }
+
   .mobileNavRow{
     display: none;
   }
+
 .navbar-toggle {
   position: relative;
   display: inline-block;
@@ -717,6 +719,8 @@ aside {
       align-content: center;
       align-items: center;
       padding: 1rem 2rem;
+      position: fixed;
+
   }
   .navbar-toggle {
   
@@ -735,11 +739,13 @@ aside {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     z-index: 10;
+    box-shadow: 2px 1px 2px #ff9900;
+
 }
     .mobileLogo {
       width: 80%;
       margin: auto;
-      padding: 0;
+      padding: 0 2rem;
     }
   
   }  
@@ -765,6 +771,8 @@ aside {
       align-content: center;
       align-items: center;
       padding: 1rem;
+      position: fixed;
+
   }
   .navbar-toggle {
   
@@ -814,6 +822,8 @@ aside {
     align-content: center;
     align-items: center;
     padding: 1rem;
+    position: fixed;
+
 }
 .navbar-toggle {
 
@@ -849,6 +859,8 @@ aside {
     display: inline-block!important;
     margin: auto;
     transform: scale(1.1);
+    position: fixed;
+
   }
   .mobileNavRow{
     display: flex;

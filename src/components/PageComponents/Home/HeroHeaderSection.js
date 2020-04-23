@@ -6,7 +6,7 @@ import React from "react"
 import Col from "react-bootstrap/Col"
 //import { RoofOnly } from "../../../images/index"
 import { LogoWshadowDarkVertMd } from "../../../images/index"
-//import Modal from "react-modal"
+import Modal from "react-modal"
 import { Link } from "gatsby"
 import Row from "react-bootstrap/Row"
 import Container from "react-bootstrap/Container"
@@ -46,7 +46,7 @@ class HeroHeaderSection extends React.Component {
   render() {
     return (
       <section className={homeStyles.HeroSection}>
-        <Container className={homeStyles.HeroContainer}>
+        <Container fluid className={homeStyles.HeroContainer}>
           <Row>
             <Col>
               {/*<h1>
@@ -65,7 +65,6 @@ class HeroHeaderSection extends React.Component {
                   Call Us Now
                 </Button>
                 <Button
-                  tag={Link}
                   className={homeStyles.getquote}
                   onClick={this.handleModalOpen}
                 >
@@ -73,10 +72,10 @@ class HeroHeaderSection extends React.Component {
                 </Button>
               </div>
             </Col>
-            <Col>
+            <Col className={homeStyles.FormDesktop}>
               <EstimateForm />
             </Col>
-            {/*<Modal
+            <Modal
               isOpen={this.state.isModalOpen}
               onRequestClose={this.handleModalClose}
               contentLabel="Request A Quote"
@@ -88,7 +87,8 @@ class HeroHeaderSection extends React.Component {
               overlayClassName="modalmailingOverlay"
             >
               <Container>
-                <LeadFormModal />
+               {/* <LeadFormModal /> */}
+               <EstimateForm />
               </Container>
             </Modal>*/}
           </Row>

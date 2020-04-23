@@ -1,10 +1,11 @@
 import React from "react"
 import SideNav from "react-simple-sidenav"
 import { Link } from 'gatsby'
-import { LogoWshadowDarkVertSm } from '../images/index'
+//import { LogoWshadowDarkVertSm } from '../images/index'
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
+import { LogoWshadowDarkVertSm } from '../images/index'
 
 
 
@@ -66,9 +67,6 @@ class NavMobile extends React.Component {
             <Link rel="preload" className="nav-link" to="/services">
               Services
             </Link>,
-            <Link rel="preload" className="nav-link" to="/systems">
-              Systems
-            </Link>,
             <Link rel="preload" className="nav-link" to="/contact">
               Contact
             </Link>,
@@ -78,7 +76,9 @@ class NavMobile extends React.Component {
             color: "#fff",
             fontSize: "inherit",
             padding: "0.5rem 0",
+            textAlign: "center",
           }}
+          navStyle={{width: "70%"}}
           showNav={this.state.showNav}
           onHideNav={() => this.setState({ showNav: false })}
         />

@@ -24,8 +24,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-tawk`,
       options: {
-        tawkId: "5e77c1ad8d24fc2265895053",
-        widgetId: "YOUR_WIDGET_ID" 
+        tawkId: "5ea0b46f69e9320caac662db",
+        //widgetId: "5ea0b46f69e9320caac662db" 
         // get this from the tawk script widget
       },
     },
@@ -33,12 +33,14 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Zenith Roofing`,
-        short_name: `Zenith`,
+        short_name: `Zenith Roofers`,
+        description: `Roofing Services for San Diego`,
+        lang: `en`,
         start_url: `/`,
         background_color: `#0d4879`,
         theme_color: `#ff9900`,
         display: `minimal-ui`,
-        icon: `src/images/logo-vertical-dark-500x410.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo-vert-square-x512.png`, // This path is relative to the root of the site.
       },
     },
     /*{

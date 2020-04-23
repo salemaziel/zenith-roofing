@@ -4,6 +4,7 @@
   background-size: cover;
   padding: 30px 0px 10% 0px;
   min-height: 80vh;
+  background-position: center center;
 }
 .divheroLogo {
   max-width: 60%;
@@ -192,7 +193,7 @@
 }
 
 /*** ### Services ### ***/
-section.service-offer {
+.service-offer {
   position: relative;
   background: #0d4879;
   background-size: cover;
@@ -530,6 +531,12 @@ div.boxes-area .row {
     text-align: center;
   }
 
+  .HeroContainer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
   .hero-section h1 {
     font-size: 50px;
   }
@@ -559,6 +566,7 @@ div.boxes-area .row {
     justify-content: inherit;
     align-content: inherit;
     align-items: inherit;
+    display: none;
   }
 
   .freecall {
@@ -686,8 +694,21 @@ div.boxes-area .row {
   .testmonial .slick-dots {
     bottom: 30px;
   }
+  .FormDesktop {
+    display: block;
+  }
+  .Logo {
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    margin: 40% auto;
+    display: inline-block;
+  }
+  .HeroContainer {
+    max-width: 100%;
+    
 }
-
+}
 @media screen and (max-width: 767px) {
   .container-fluid {
     width: 100%;
@@ -908,6 +929,10 @@ div.boxes-area .row {
   .action-wrap-layout1 {
     padding: 5rem 0;
   }
+
+  .FormDesktop {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -917,10 +942,17 @@ div.boxes-area .row {
   .HeroSection .container {
     margin: 10% 0;
   }
+  .HeroContainer {
+    margin: auto;
+    width: 90%;
+    max-width: 100%;
+    padding: 0;
+}
 
   .Logo {
     margin: auto;
     max-width: 75%;
+    padding: 0 0 3rem 0;
   }
   .mobileLogo {
     width: 100%;
@@ -929,19 +961,26 @@ div.boxes-area .row {
   }
 
   .freecall {
-    width: 150px;
+    width: 200px;
     display: inline-block;
   }
 
   .getquote {
-    width: 150px;
+    width: 200px;
     display: inline-block;
   }
 
   .serviceBoxesArea {
     padding: 30px 15px;
   }
+
+  .FormDesktop {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 360px) {
+  .FormDesktop {
+    display: none;
+  }
 }

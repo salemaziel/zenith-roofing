@@ -9,7 +9,7 @@ export const Block1 = require('./featuredblock1.jpg');
 export const Block2 = require('./featuredblock2.jpg');
 export const Block3 = require('./featuredblock3.jpg');
 export const Hero = require('./hero.jpg');
-export const Logo = require('./logo.png');
+export const Logo = require('./logo-vert-square-x512.png');
 export const PatternBg = require('./pattern-bg.jpg');
 export const PatternRoofRed1 = require('./pattern1.png');
 export const PatternRoofBlue = require('./pattern2.png');
@@ -40,5 +40,8 @@ export const LogoWshadowDarkVertMd = require('./logo-vertical-dark-500x410.png')
 export const LogoWshadowLightVertMd = require('./logo-vertical-light-500x410.png');
 export const LogoWshadowDarkVertSm = require('./logo-vertical-dark-300x246.png');
 export const LogoWshadowLightVertSm = require('./logo-vertical-light-300x246.png');
+export const BadgeHAbest2019 = require('./badges-best2019.png');
+export const BadgeHAelite = require('./badges-elite.png');
+export const BadgeHAtoprated = require('./badges-toprated.png');
 export const CustomersLoveGuy = require('./customersloveus.png');
 
