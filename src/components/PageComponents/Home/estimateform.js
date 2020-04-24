@@ -42,39 +42,45 @@ function encode(data) {
     <h3 className={estimateformStyles.title}>Get A Free Estimate</h3>
   </div>
 
-  <Form>
+  <Form name="HomeEstimateForm" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks">
+  <input type="hidden" name="form-name" value="contact" />
+                                            <p hidden>
+                                                <label>
+                                                    Don’t fill this out: <input name="bot-field" onChange={handleChange} />
+                                                </label>
+                                            </p>
       <Form.Row>
           <Col>
-  <Form.Group controlId="EstimateFormFirstName">
+  <Form.Group controlId="HomeEstimateFirstName">
     {/*<Form.Label>First Name</Form.Label>*/}
-    <Form.Control type="text" placeholder="First Name" />
+    <Form.Control type="text" placeholder="First Name" onChange={handleChange} />
   </Form.Group>
   </Col>
   <Col>
-  <Form.Group controlId="EstimateFormLastName">
+  <Form.Group controlId="HomeEstimateLastName">
    {/* <Form.Label>Last Name</Form.Label>*/}
-    <Form.Control type="text" placeholder="Last Name" />
+    <Form.Control type="text" placeholder="Last Name" onChange={handleChange} />
   </Form.Group>
   </Col>
   </Form.Row>
 
   <Form.Row>
   <Col>
-  <Form.Group controlId="EstimateFormEmail">
+  <Form.Group controlId="HomeEstimateEmail">
   {/*  <Form.Label>Email address</Form.Label>*/}
-    <Form.Control type="email" placeholder="Email" />
+    <Form.Control type="email" placeholder="Email" onChange={handleChange} />
   </Form.Group>
   </Col>
 
   <Col>
-  <Form.Group controlId="EstimateFormPhone">
+  <Form.Group controlId="HomeEstimatePhone">
    {/* <Form.Label>Phone</Form.Label>*/}
-    <Form.Control type="tel" placeholder="Phone" />
+    <Form.Control type="tel" placeholder="Phone" onChange={handleChange} />
   </Form.Group>
   </Col>
   </Form.Row>
 
-  <Form.Group controlId="EsimateFormJobType">
+  <Form.Group controlId="HomeEsimateJobType">
     <Form.Label>Job Type</Form.Label>
     <Form.Control as="select">
       <option>Residential</option>
@@ -84,7 +90,7 @@ function encode(data) {
     </Form.Control>
   </Form.Group>
 
-  <Button variant="primary" className={estimateformStyles.estimateSubmit} type="submit" onClick={handleSubmit}>
+  <Button  className={estimateformStyles.estimateSubmit} type="submit" onClick={handleSubmit}>
     Submit
   </Button>
 

@@ -1,20 +1,20 @@
-import React from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
+import React from "react"
+import Navbar from "react-bootstrap/Navbar"
+import Container from "react-bootstrap/Container"
 //import { LinkContainer } from "react-router-bootstrap";
-import Nav from "react-bootstrap/Nav";
-import Button from "react-bootstrap/Button";
+import Nav from "react-bootstrap/Nav"
+import Button from "react-bootstrap/Button"
 //import { useRouter } from "./../util/router.js";
-import { Link } from 'gatsby'
-import { LogoWshadowDarkVertSm } from '../images/index'
+import { Link } from "gatsby"
+import { LogoWshadowDarkVertSm } from "../images/index"
 //import NavMobile from './NavMobile'
 
 function NavbarCustom(props) {
-//  const router = useRouter();
+  //  const router = useRouter();
 
   return (
     <Navbar className="fullNav">
-      <Container >
+      <Container>
         <Link rel="preload" to="/">
           <Navbar.Brand>
             <img
@@ -39,36 +39,30 @@ function NavbarCustom(props) {
         </div>*/}
         <Navbar.Collapse id="navbar-nav" className="justify-content-end">
           <Nav className="mr-1">
-
-          <Link to="/services" className="nav-link" rel="preload">
-             Services
+            <Link to="/services" className="nav-link" rel="preload">
+              Services
             </Link>
 
-            {/*<Link to="/systems" className="nav-link" rel="preload">
+            <Link to="/systems" className="nav-link" rel="preload">
               Systems
-      </Link>*/}
+            </Link>
 
             <Link to="/about" className="nav-link" rel="preload">
               About
             </Link>
 
-            <Link to="/contact" className="nav-link" rel="preload">
+            {/*<Link to="/contact" className="nav-link" rel="preload">
               Contact
-            </Link>
+             </Link>*/}
 
-            <Button
-              className="QuoteNav"
-              /*onClick={() => {
-                router.push("/auth/signup");
-              }}*/
-            >
-              Get A Quote
+            <Button className="QuoteNav" tag={Link} rel="preload" to="/contact">
+              Contact
             </Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );
+  )
 }
 
-export default NavbarCustom;
+export default NavbarCustom
