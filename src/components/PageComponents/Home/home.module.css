@@ -524,6 +524,16 @@ div.boxes-area .row {
 }
 
 @media screen and (max-width: 980px) {
+
+  .HeroSection {
+    position: relative;
+    background: url("../../../images/hero.jpg") no-repeat;
+    background-size: cover;
+    padding: 20px 0px 10% 0px;
+    max-height: 500px;
+    background-position: center center;
+    min-height: 0;
+  }
   section.hero-section {
     justify-content: center;
     align-items: center;
@@ -701,13 +711,17 @@ div.boxes-area .row {
     width: auto;
     max-width: 300px;
     height: auto;
-    margin: 40% auto;
+    margin: 10% auto;
     display: inline-block;
   }
   .HeroContainer {
     max-width: 100%;
     
 }
+
+
+
+
 }
 @media screen and (max-width: 767px) {
   .container-fluid {

@@ -1,7 +1,7 @@
 .CLsection {
     display: block;
     background-image: linear-gradient(9deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.3) 33%, rgba(255,255,255,0.3) 66%, rgba(159,177,181,1) 100%), url('../../../images/pattern-bg.jpg');
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -18,14 +18,17 @@
     vertical-align: bottom;
     vertical-align: -webkit-baseline-bottom;
     margin: 20% 0 0 0;
+}
 
+.ColGuy {
+    display: block;
 }
 
 .Badgesbox {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     margin: 10% auto;
-    padding: 1rem;
+    padding: 1rem 0 1rem 10rem;
 }
 
 .Badges {
@@ -68,7 +71,9 @@
 
 
 @media only screen and (min-width: 2400px) {
-
+    .CLsection {
+        background-image: linear-gradient(9deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.3) 33%, rgba(255,255,255,0.3) 66%, rgba(159,177,181,1) 100%), url('../../../images/pattern-bg.jpg');
+    }
 }
 
 @media only screen and (max-width: 1680px) {
@@ -76,17 +81,25 @@
 }
 
 @media only screen and (max-width: 1280px) {
-
+    .CLsection {
+        background-image: linear-gradient(9deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.3) 33%, rgba(255,255,255,0.3) 66%, rgba(159,177,181,1) 100%), url('../../../images/pattern-bg.jpg');
+    }
 }
 
 
-@media only screen and (max-width: 960px) {
-
+@media only screen and (max-width: 980px) {
+    .CLsection {
+        background-image: linear-gradient(9deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.3) 33%, rgba(255,255,255,0.3) 66%, rgba(255,255,255,0.8) 100%), url('../../../images/pattern-bg.jpg');
+        background-size: contain;
+        background-position: top center;
+    }
 }
 
 
 @media only screen and (max-width: 767px) {
-
+    .CLsection {
+        background-image: linear-gradient(9deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.3) 33%, rgba(255,255,255,0.3) 66%, rgba(255,255,255,0.8) 100%), url('../../../images/pattern-bg.jpg');
+    }
 }
 
 
@@ -94,6 +107,13 @@
     .CLsection {
         background-image: linear-gradient(9deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.3) 33%, rgba(255,255,255,0.3) 66%, rgba(255,255,255,0.8) 100%), url('../../../images/pattern-bg.jpg');
     }
+    .Badgesbox {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10% auto;
+        padding: 1rem 0;
+    }
+    
 
     .WhySubtitle {
         font-size: 2rem;
@@ -110,6 +130,10 @@
     
 
     .CLGuy {
+        display: none;
+    }
+
+    .ColGuy {
         display: none;
     }
 }

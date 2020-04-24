@@ -44,4 +44,4 @@ export const BadgeHAbest2019 = require('./badges-best2019.png');
 export const BadgeHAelite = require('./badges-elite.png');
 export const BadgeHAtoprated = require('./badges-toprated.png');
 export const CustomersLoveGuy = require('./customersloveus.png');
-
+export const MenuIcon = require('./menuIcon.png')

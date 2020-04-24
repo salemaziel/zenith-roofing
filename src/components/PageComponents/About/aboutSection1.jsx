@@ -1,13 +1,17 @@
 import React, { Component } from "react"
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
 
 class AboutSection1 extends Component {
   render() {
     return (
       <>
         <section className="about" />
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-10 col-12">
+        <Container>
+          <Row className="justify-content-center">
+            <Col /*className="col-xl-10 col-12"*/>
               <div className="heading-layout1">
                 <h2>
                   We Won The ‘Best Roofing Company’ Award 2019 &amp; Tightly
@@ -23,9 +27,9 @@ class AboutSection1 extends Component {
                   typesetting, remaining essentially unchanged.{" "}
                 </p>
               </div>
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Container>
       </>
     )
   }

@@ -62,14 +62,14 @@ function encode(data) {
   <Col>
   <Form.Group controlId="EstimateFormEmail">
   {/*  <Form.Label>Email address</Form.Label>*/}
-    <Form.Control type="email" placeholder="Email Address" />
+    <Form.Control type="email" placeholder="Email" />
   </Form.Group>
   </Col>
 
   <Col>
   <Form.Group controlId="EstimateFormPhone">
    {/* <Form.Label>Phone</Form.Label>*/}
-    <Form.Control type="tel" placeholder="Phone Number" />
+    <Form.Control type="tel" placeholder="Phone" />
   </Form.Group>
   </Col>
   </Form.Row>

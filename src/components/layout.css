@@ -701,7 +701,7 @@ aside {
 
 
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 980px) {
     html {
       font-size: 100%;
     }
@@ -718,10 +718,18 @@ aside {
       justify-content: center;
       align-content: center;
       align-items: center;
-      padding: 1rem 2rem;
+      padding: 0;
       position: fixed;
-
+      cursor: pointer;
   }
+  .menuIcon {
+    margin: auto;
+    height: 80%;
+    width: 80%;
+  }
+
+
+  
   .navbar-toggle {
   
   }
@@ -797,6 +805,12 @@ aside {
       margin: 1rem auto;
       padding: 10px;
     }
+
+    .menuIcon {
+      margin: auto;
+      height: 80%;
+      width: 80%;
+    }
   
   }
 
@@ -817,13 +831,17 @@ aside {
   .mobileNav {
     display: inline-block!important;
     z-index: 10;
-    margin: auto;
+    margin: 1% auto;
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 0;
     position: fixed;
 
+}
+
+.mobilespace {
+  margin-top: 1rem;
 }
 .navbar-toggle {
 
@@ -842,6 +860,11 @@ aside {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     z-index: 10;
+}
+.menuIcon {
+  margin: auto;
+  height: 80%;
+  width: 80%;
 }
 
 }
