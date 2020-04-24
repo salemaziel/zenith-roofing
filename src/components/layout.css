@@ -618,122 +618,148 @@ pre tt:after {
 */
 
 aside {
-  z-index: 10!important;
+  z-index: 10 !important;
 }
 
-  .fullNav {
-    display: flex;
-  }
+.fullNav {
+  display: flex;
+}
 
-  .mobileNav {
-    display: none;
-  }
+.mobileNav {
+  display: none;
+}
 
-  .mobileNavRow{
-    display: none;
-  }
+.mobileNavRow {
+  display: none;
+}
 
 .navbar-toggle {
   position: relative;
   display: inline-block;
   vertical-align: middle;
   padding: 10px;
-  color: #0F4573;
+  color: #0f4573;
   /*border: 2px solid #0d4879;
   border-radius: 4px;*/
   cursor: pointer;
   display: none;
 }
 
-
-
 @media only screen and (min-width: 2400px) {
-    html {
-      font-size: 100%;
-    }
-    .fullNav {
-      display: flex;
-    }
-    .mobileNav {
-      display: none!important;
-    }
-    .mobileNavRow{
-      display: none;
-    }
-  
+  html {
+    font-size: 100%;
   }
-
-
+  .fullNav {
+    display: flex;
+  }
+  .mobileNav {
+    display: none !important;
+  }
+  .mobileNavRow {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 1680px) {
-    html {
-      font-size: 100%;
-    }
-    .fullNav {
-      display: flex!important;
-    }
-    .mobileNav {
-      display: none!important;
-    }
-    .mobileNavRow{
-      display: none;
-    }
-  
+  html {
+    font-size: 100%;
   }
-
-
+  .fullNav {
+    display: flex !important;
+  }
+  .mobileNav {
+    display: none !important;
+  }
+  .mobileNavRow {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 1280px) {
-    html {
-      font-size: 100%;
-    }
-    .fullNav {
-      display: flex!important;
-    }
-    .mobileNav {
-      display: none!important;
-    }
-    .mobileNavRow{
-      display:none;
-    }
-  
-  } 
-
-
+  html {
+    font-size: 100%;
+  }
+  .fullNav {
+    display: flex !important;
+  }
+  .mobileNav {
+    display: none !important;
+  }
+  .mobileNavRow {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 980px) {
-    html {
-      font-size: 100%;
-    }
-    .fullNav {
-      display: none!important;
-    }
-    .mobileNavRow{
-      display: flex;
-    }
-    .mobileNav {
-      display: inline-block!important;
-      z-index: 10;
-      margin: 1rem auto;
-      justify-content: center;
-      align-content: center;
-      align-items: center;
-      padding: 0;
-      position: fixed;
-      cursor: pointer;
+  html {
+    font-size: 100%;
+  }
+  .fullNav {
+    display: none !important;
+  }
+  .mobileNavRow {
+    display: flex;
+  }
+  .mobileNav {
+    display: inline-block !important;
+    z-index: 10;
+    margin: 1rem auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 0;
+    position: fixed;
+    cursor: pointer;
   }
   .menuIcon {
     margin: auto;
     height: 80%;
     width: 80%;
+    transform: rotate(0deg) translateZ(0px) !important;
+    transform-origin: 0px center !important;
+    margin: 0px !important;
+    top: 20px !important;
+    bottom: auto !important;
+    right: 20px !important;
+    left: auto !important;
+    display: block !important;
+    transform: scale(1);
+    transform-origin: left bottom;
+    outline: none !important;
+    visibility: visible !important;
+    resize: none !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+    background: none transparent !important;
+    opacity: 1 !important;
+    top: auto !important;
+    left: auto !important;
+    position: absolute !important;
+    border: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    transition-property: none !important;
+    transform: none !important;
+    z-index: 1000000 !important;
+    cursor: auto !important;
+    float: none !important;
+    border-radius: unset !important;
+    pointer-events: auto !important;
+    display: block !important;
+    height: 75px !important;
+    width: 75px !important;
+    min-height: 75px !important;
+    min-width: 75px !important;
+    max-height: 75px !important;
+    max-width: 75px !important;
+    top: 10px !important;
+    right: 5px !important;
+    left: 70px!important;
   }
 
-
-  
   .navbar-toggle {
-  
   }
-  
+
   .icon-bar {
     display: block;
     width: 50px;
@@ -745,109 +771,46 @@ aside {
     list-style: none;
     border: none;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     z-index: 10;
     box-shadow: 2px 1px 2px #ff9900;
+  }
+  .mobileLogo {
+    width: 80%;
+    margin: auto;
+    padding: 0 2rem;
+  }
 
+  .mobilespace {
+    margin-top: 1.5rem;
+  }
 }
-    .mobileLogo {
-      width: 80%;
-      margin: auto;
-      padding: 0 2rem;
-    }
-  
-  }  
-
-
 
 @media only screen and (max-width: 767px) {
-    html {
-      font-size: 100%;
-    }
-
-    .fullNav {
-      display: none!important;
-    }
-    .mobileNavRow{
-      display: flex;
-    }
-    .mobileNav {
-      display: inline-block!important;
-      z-index: 10;
-      margin: auto;
-      justify-content: center;
-      align-content: center;
-      align-items: center;
-      padding: 1rem;
-      position: fixed;
-
-  }
-  .navbar-toggle {
-  
-  }
-  
-  .icon-bar {
-      display: block;
-      width: 35px;
-      height: 5px;
-      border-radius: 1px;
-      background: #0d4879;
-      margin: 4px 0 0 0;
-      padding: 0;
-      list-style: none;
-      border: none;
-      text-decoration: none;
-      font-family: 'Montserrat', sans-serif;
-      z-index: 10;
-  }
-    .mobileLogo {
-      width: 100%;
-      margin: 1rem auto;
-      padding: 10px;
-    }
-
-    .menuIcon {
-      margin: auto;
-      height: 80%;
-      width: 80%;
-    }
-  
-  }
-
-
-  
-@media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
   }
 
   .fullNav {
-    display: none!important;
+    display: none !important;
   }
-
-  .mobileNavRow{
+  .mobileNavRow {
     display: flex;
   }
   .mobileNav {
-    display: inline-block!important;
+    display: inline-block !important;
     z-index: 10;
-    margin: 1% auto;
+    margin: auto;
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1rem;
     position: fixed;
+  }
+  .navbar-toggle {
+  }
 
-}
-
-.mobilespace {
-  margin-top: 1rem;
-}
-.navbar-toggle {
-
-}
-
-.icon-bar {
+  .icon-bar {
     display: block;
     width: 35px;
     height: 5px;
@@ -858,17 +821,100 @@ aside {
     list-style: none;
     border: none;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     z-index: 10;
-}
-.menuIcon {
-  margin: auto;
-  height: 80%;
-  width: 80%;
+  }
+  .mobileLogo {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 10px;
+  }
+
+  .menuIcon {
+    margin: auto;
+    height: 80%;
+    width: 80%;
+  }
+
+  .mobilespace {
+    margin-top: 1.5rem;
+  }
 }
 
-}
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
 
+  .fullNav {
+    display: none !important;
+  }
+
+  .mobileNavRow {
+    display: flex;
+  }
+  .mobileNav {
+    display: inline-block !important;
+    z-index: 10;
+    margin: 1% auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    position: fixed;
+  }
+
+  .mobilespace {
+    margin-top: 1rem;
+  }
+  .navbar-toggle {
+  }
+
+  .icon-bar {
+    display: block;
+    width: 35px;
+    height: 5px;
+    border-radius: 1px;
+    background: #0d4879;
+    margin: 4px 0 0 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    z-index: 10;
+  }
+  .menuIcon {
+    margin: auto;
+    height: 80%!important;
+    width: 80%!important;
+    outline: none !important;
+    visibility: visible !important;
+    resize: none !important;
+    box-shadow: none !important;
+    overflow: hidden!important ;
+    background: none transparent !important;
+    opacity: 1 !important;
+    position: absolute !important;
+    border: 0px !important;
+    padding: 0px !important;
+    transition-property: none !important;
+    transform: none !important;
+    z-index: 1000000 !important;
+    cursor: auto !important;
+    float: none !important;
+    border-radius: unset !important;
+    pointer-events: auto !important;
+    display: block !important;
+    top: 14px !important;
+    left: 5px!important;
+    max-width: 50px!important;
+    max-height: 50px!important;
+    min-width: 50px!important;
+    min-height: 50px!important;
+}
+  
+}
 
 @media only screen and (max-width: 360px) {
   html {
@@ -876,16 +922,15 @@ aside {
   }
 
   .fullNav {
-    display: none!important;
+    display: none !important;
   }
   .mobileNav {
-    display: inline-block!important;
+    display: inline-block !important;
     margin: auto;
     transform: scale(1.1);
     position: fixed;
-
   }
-  .mobileNavRow{
+  .mobileNavRow {
     display: flex;
   }
   .mobileLogo {
@@ -893,5 +938,4 @@ aside {
     margin: auto;
     padding: 5px;
   }
-
 }

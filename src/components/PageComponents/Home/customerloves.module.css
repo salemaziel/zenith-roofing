@@ -93,6 +93,23 @@
         background-size: contain;
         background-position: top center;
     }
+
+    .Badgesbox {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10% auto;
+    padding: 1rem;
+
+    }
+
+    .Badges {
+        height: auto;
+        width: auto;
+    }
+
+    .ColGuy {
+        display: none;
+    }
 }
 
 

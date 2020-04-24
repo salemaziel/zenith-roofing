@@ -8,7 +8,7 @@ class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <div className="container-fluid">
+        <div className="container">
           <Row className="justify-content-center">
             <FooterBox></FooterBox>
           </Row>

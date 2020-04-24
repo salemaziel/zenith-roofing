@@ -103,7 +103,7 @@ class NavMobile extends React.Component {
             padding: "0.5rem 0",
             textAlign: "center",
           }}
-          navStyle={{ width: "70%" }}
+          navStyle={{ width: "75%" }}
           showNav={this.state.showNav}
           onHideNav={() => this.setState({ showNav: false })}
         />

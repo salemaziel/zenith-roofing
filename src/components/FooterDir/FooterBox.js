@@ -4,6 +4,7 @@ import FooterBoxMiddle from "./FooterBoxMiddle";
 import FooterBoxRight from "./FooterBoxRight";
 
 import Row from "react-bootstrap/Row";
+import Col from 'react-bootstrap/Col'
 
 
 class FooterBox extends React.Component {
@@ -11,15 +12,15 @@ class FooterBox extends React.Component {
     return (
       <div className="col-md-11 white-footer">
         <Row>
-          <div className="col-lg-4">
+          <Col>
             <FooterBoxLeft></FooterBoxLeft>
-          </div>
-          <div className="col-lg-4">
+          </Col>
+          <Col>
             <FooterBoxMiddle></FooterBoxMiddle>
-          </div>
-          <div className="col-lg-4">
+          </Col>
+          {/*<div className="col-lg-4">
             <FooterBoxRight></FooterBoxRight>
-          </div>
+    </div>*/}
           </Row>
       </div>
     );

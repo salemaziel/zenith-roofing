@@ -518,6 +518,13 @@ div.boxes-area .row {
 }
 
 @media screen and (max-width: 1280px) {
+  .HeroContainer {
+    margin: auto;
+    width: 90vw;
+    max-width: 100%;
+}
+  
+
   .freecall {
     display: none;
   }

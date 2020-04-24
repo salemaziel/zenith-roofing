@@ -55,7 +55,7 @@ function NavbarCustom(props) {
               Contact
              </Link>*/}
 
-            <Button className="QuoteNav" tag={Link} rel="preload" to="/contact">
+            <Button className="QuoteNav" as={Link} rel="preload" to="/contact">
               Contact
             </Button>
           </Nav>

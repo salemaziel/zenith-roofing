@@ -253,7 +253,7 @@ max-width: 100%;
         vertical-align: middle;
 		background: #ff9900!important;
 		background-color: #ff9900;
-        padding: 10px 20px;
+        padding: 1rem;
         text-align: center;
 		color: #FFFFFF;
 		border-color: #ff9900;
@@ -270,6 +270,8 @@ max-width: 100%;
 		box-shadow: 0px 0px 11px 5px rgba(186, 186, 186,1);
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 700;
+		line-height: 1.5;
+		min-width: 120px;
         
     }
 
@@ -846,11 +848,11 @@ footer .white-footer .box-one .logo{
     margin: 1rem;
     padding: 1rem;
 }
-footer .white-footer .box-one .logo img{
-	display:inline-block;
-	vertical-align:top;
-	width:100%;
-	max-width:300px;
+footer .white-footer .box-one .logo img {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    max-width: 200px;
 }
 footer .white-footer .box-one .social-icon{
 	position:relative;
@@ -932,6 +934,11 @@ footer .white-footer .box-two  .nav-list a{
 	outline:none;
 	border:none;
 }
+footer .white-footer .box-two .nav-list a:hover {
+	color: #ff9900;
+}
+
+
 footer .white-footer .box-two  .nav-list li:nth-child(even){
 	text-align:right;
 }
@@ -1207,8 +1214,11 @@ footer .white-footer .box-two  .contactform button{
 	margin-bottom: 2rem;
 	}
 
+footer .white-footer .box-one{
+	padding:25px 0px;
 }
 
+}
 
 
 /********************* max-width 767px **************/
@@ -1395,6 +1405,7 @@ max-width: 100%;
 
 footer .white-footer .box-one{
 	padding:25px 0px;
+	display: none;
 }
 footer .white-footer .box-two{
 	padding:25px 0px;
@@ -1506,6 +1517,24 @@ img.heroLogo {
 		box-shadow: 0px 5px 24px 0px rgba(82, 78, 78, 0.75);
 	  }
 
+	  footer {
+		  min-height: 20rem;
+	  }
+
+	  footer .white-footer .box-one{
+		padding:25px 0px;
+		display: none;
+	  }
+	  footer .white-footer .box-two{
+		padding:25px 0px;
+		display: none;
+	  }
+
+	  footer .white-footer .box-three{
+		padding:25px 0px;
+		display: none;
+	  }
+
 
 }
 
@@ -1529,4 +1558,7 @@ img.heroLogo {
 	.img-system {
 		display: none;
 	}
+
+
+
 }
