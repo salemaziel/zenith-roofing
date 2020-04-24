@@ -42,7 +42,7 @@ function encode(data) {
     <h3 className={estimateformStyles.title}>Get A Free Estimate</h3>
   </div>
 
-  <Form name="HomeEstimateForm" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks">
+  <Form name="HomeEstimateForm" method="post" data-netlify="true" action="/about">
   <input type="hidden" name="form-name" value="contact" />
                                             <p hidden>
                                                 <label>
@@ -90,7 +90,7 @@ function encode(data) {
     </Form.Control>
   </Form.Group>
 
-  <Button  className={estimateformStyles.estimateSubmit} type="submit" onClick={handleSubmit}>
+  <Button className={estimateformStyles.estimateSubmit} type="submit" onClick={handleSubmit}>
     Submit
   </Button>
 
