@@ -7,14 +7,13 @@ import { navigate } from "gatsby"
 import estimateformStyles from "./estimateform.module.css"
 import Container from "react-bootstrap/Container"
 
-/*
 function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
     .join("&")
 }
-*/
-/*export default function EstimateForm() {
+
+export default function EstimateForm() {
   const [state, setState] = React.useState({})
 
   const handleChange = (e) => {
@@ -36,43 +35,45 @@ function encode(data) {
       .catch((error) => alert(error))
   }
 
-  return ( */
-  const EstimateForm = (props) => (
-
+  return (
     <div className={estimateformStyles.formBox}>
       <Container fluid>
         <div className="item-heading">
           <h3 className={estimateformStyles.title}>Get A Free Estimate</h3>
         </div>
-        <Form>
-          <form
-            name="EstimateForm2"
-            method="post"
-            action="/success"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-          >
-            <input type="hidden" name="bot-field" />
+
+        <Form
+          method="post"
+          data-netlify-honeypot="bot-field"
+          data-netlify="true"
+        >
+          <input type="hidden" name="bot-field" />
+          <p hidden>
+            <label>
+              Don’t fill this out:{" "}
+              <input name="bot-field" onChange={handleChange} />
+            </label>
+          </p>
           <Form.Row>
             <Col>
-              <Form.Group controlId="EstimateForm2">
+              <Form.Group controlId="HomeEstimate">
                 <Form.Label>First Name</Form.Label>
                 <Form.Control
                   type="text"
                   name="firstName"
                   placeholder=""
-                  /*onChange={handleChange}*/
+                  onChange={handleChange}
                 />
               </Form.Group>
             </Col>
             <Col>
-              <Form.Group controlId="EstimateForm2e">
+              <Form.Group controlId="HomeEstimateLastName">
                 <Form.Label>Last Name</Form.Label>
                 <Form.Control
                   type="text"
                   name="lastName"
                   placeholder=""
-                /*  onChange={handleChange} */
+                  onChange={handleChange}
                 />
               </Form.Group>
             </Col>
@@ -86,7 +87,7 @@ function encode(data) {
                   type="email"
                   name="email"
                   placeholder=""
-              /*    onChange={handleChange} */
+                  onChange={handleChange}
                 />
               </Form.Group>
             </Col>
@@ -98,7 +99,7 @@ function encode(data) {
                   type="tel"
                   name="tel"
                   placeholder=""
-               /*   onChange={handleChange} */
+                  onChange={handleChange}
                 />
               </Form.Group>
             </Col>
@@ -117,14 +118,12 @@ function encode(data) {
           <Button
             className={estimateformStyles.estimateSubmit}
             type="submit"
-          /*  onClick={handleSubmit} */
+            onClick={handleSubmit}
           >
             Submit
           </Button>
-          </form>
         </Form>
       </Container>
     </div>
   )
-
-export default EstimateForm
+}
