@@ -14,7 +14,7 @@ import Button from "react-bootstrap/Button"
 //import LeadFormModal from "./LeadFormModal"
 
 
-import EstimateForm from './estimateform'
+import EstimateForm2 from './estimateform2'
 
 
 import homeStyles from "./home.module.css"
@@ -73,7 +73,7 @@ class HeroHeaderSection extends React.Component {
               </div>
             </Col>
             <Col className={homeStyles.FormDesktop}>
-              <EstimateForm />
+              <EstimateForm2 />
             </Col>
             <Modal
               isOpen={this.state.isModalOpen}
@@ -88,9 +88,9 @@ class HeroHeaderSection extends React.Component {
             >
               <Container>
                {/* <LeadFormModal /> */}
-               <EstimateForm />
+               <EstimateForm2 />
               </Container>
-            </Modal>*/}
+            </Modal>
           </Row>
         </Container>
       </section>

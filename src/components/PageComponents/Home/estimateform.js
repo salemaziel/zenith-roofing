@@ -43,13 +43,11 @@ export default function EstimateForm() {
         </div>
 
         <Form
-          name="HomeEstimate"
           method="post"
-          data-netlify="true"
           data-netlify-honeypot="bot-field"
-          action="/about/"
+          data-netlify="true"
         >
-          <input type="hidden" name="form-name" value="HomeEstimate" />
+          <input type="hidden" name="bot-field" />
           <p hidden>
             <label>
               Don’t fill this out:{" "}
