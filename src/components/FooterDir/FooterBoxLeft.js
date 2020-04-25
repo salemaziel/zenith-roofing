@@ -2,6 +2,10 @@ import React from "react";
 
 import { Logo } from '../../images/index'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
 class FooterBoxLeft extends React.Component {
   render() {
     return (
@@ -12,16 +16,16 @@ class FooterBoxLeft extends React.Component {
         <div className="social-icon">
           {" "}
           <a href="#">
-            <span className="fa fa-facebook-f" />
+            <FontAwesomeIcon icon={faFacebook} />
           </a>{" "}
           <a href="#">
-            <span className="fa fa-twitter" />
+          <FontAwesomeIcon icon={faTwitter} />
           </a>{" "}
           <a href="#">
-            <span className="fa fa-pinterest-p" />
+          <FontAwesomeIcon icon={faLinkedin} />
           </a>{" "}
           <a href="#">
-            <span className="fa fa-envelope" />
+          <FontAwesomeIcon icon={faEnvelope} />
           </a>{" "}
         </div>
       </div>

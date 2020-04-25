@@ -3,33 +3,50 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+import aboutStyle from './about.module.css'
+
+import { Climbing } from '../../../images/index'
+
 
 class AboutSection1 extends Component {
   render() {
     return (
       <>
-        <section className="about" />
-        <Container>
-          <Row className="justify-content-center">
-            <Col /*className="col-xl-10 col-12"*/>
-              <div className="heading-layout1">
-                <h2>
+        <section className={aboutStyle.Section} >
+        <Container >
+          <Row className={aboutStyle.Titlerow}>
+            <Col>
+              <div className={aboutStyle.Header}>
+                <h2 className={aboutStyle.Title}>
                   We Won The ‘Best Roofing Company’ Award 2019 &amp; Tightly
                   Connected with our communities.
                 </h2>
                 <p>
                   {" "}
-                  Simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the when an unknown printer took a galley of type and
-                  scrambled it to make a type specimen book. It has survived not
-                  only five centuries but also the leap into electronic
-                  typesetting, remaining essentially unchanged.{" "}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{" "}
                 </p>
               </div>
             </Col>
           </Row>
         </Container>
+        </section>
+        <section className={aboutStyle.Section}>
+          <Container>
+        <Row className={aboutStyle.HistoryRow}>
+            <Col>
+              <div className={aboutStyle.Header}>
+                <h2 className={aboutStyle.Title}>Our History</h2>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </Col>
+            <div className="single-item right-item">
+              <img src={Climbing} alt="About Us" className="img-fluid"/>
+            </div>
+            </Row>
+          </Container>
+        </section>
       </>
     )
   }

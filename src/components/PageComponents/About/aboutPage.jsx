@@ -4,9 +4,10 @@ import React, { Component } from 'react';
 
 import AboutHeader from './aboutheader'
 import AboutSection1 from './aboutSection1';
-import AboutSection2 from './aboutSection2';
 import AboutSection3 from './aboutSection3';
-import AboutSection4 from './aboutSection4';
+import AboutSectionParallax from './aboutSectionParallax';
+
+import ActionBanner2 from './actionBanner2'
 
 //import './about.css'
 
@@ -16,9 +17,10 @@ class AboutPage extends Component {
         <>
         <AboutHeader />
         <AboutSection1 />
-        <AboutSection2 />
+        {/*<AboutSectionParallax />*/}
         <AboutSection3 />
-        <AboutSection4 />
+        <ActionBanner2 />
+        
       
       </>
     );
