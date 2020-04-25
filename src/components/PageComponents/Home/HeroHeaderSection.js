@@ -88,7 +88,7 @@ class HeroHeaderSection extends React.Component {
             >
               <Container>
                {/* <LeadFormModal /> */}
-               <EstimateForm2 />
+               <EstimateForm2  />
               </Container>
             </Modal>
           </Row>
