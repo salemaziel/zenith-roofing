@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-import { ProgressBg } from '../../../images/index'
+import aboutStyle from "./about.module.css"
+
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 
 
-class AboutSection4 extends Component {
+class AboutSectionParallax extends Component {
   render() {
     return (
       <>
-        <section
-          className="progress-wrap-layout2 parallax-window"
-          data-parallax="scroll"
-          data-image-src={ProgressBg}
-        >
-          <div className="container">
-            <div className="row">
+        <section 
+        className={aboutStyle.SectionParallax}>
+          <Container>
+            <Row>
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="progress-box-layout1">
                   <div className="progress-content">
@@ -93,12 +94,12 @@ class AboutSection4 extends Component {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
+          </Row>
+          </Container>
         </section>
       </>
     );
   }
 }
 
-export default AboutSection4;
+export default AboutSectionParallax

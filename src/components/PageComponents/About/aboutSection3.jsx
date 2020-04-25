@@ -1,88 +1,102 @@
-import React, { Component } from 'react';
+import React, { Component } from "react"
 
-import { ProgressBg } from '../../../images/index'
+import { 
+  ProgressBg,
+  WoodFrame,
+  RooferOnSlant,
+  HouseBuilding
 
+ } from "../../../images/index"
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
+
+import aboutStyle from "./about.module.css"
 
 class AboutSection3 extends Component {
   render() {
     return (
       <>
-        <section className="why-choose-wrap-layout1">
-          <div className="container">
-            <div className="heading-layout1">
-              <div className="item-subtitle">Our Speciality</div>
-              <h2>Why Choose Us</h2>
-            </div>
-            <div className="row">
-              <div className="col-lg-4 col-md-6 col-12">
-                <div className="why-choose-box-layout1">
-                  <div className="item-img">
-                    <img
-                      src="img/figure/why-choose.jpg"
-                      alt="why choose"
-                    />
+        <section className={aboutStyle.Section}>
+          <Container>
+            
+              <Row className={aboutStyle.Titlerow}>
+                <Col>
+              <div className={aboutStyle.Header}>
+                <h2 className={aboutStyle.Title}>Our Promise</h2>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                </div>
+                </Col>
+              </Row>
+              <Row className={aboutStyle.Titlerow}>
+              <Col>
+                <div className={aboutStyle.Box}>
+                  <div className={aboutStyle.BoxImg}>
+                    <img src={HouseBuilding} alt="why choose" className="img-fluid" />
                   </div>
-                  <div className="item-content">
-                    <h3 className="item-title">
-                      {' '}
-                      <a href="#">Innovation</a>
+                  </div>
+                  </Col>
+                  
+                <Col>
+              <div className={aboutStyle.Header}>
+                    <h3 className={aboutStyle.Subtitles}>
+                    Innovation
                     </h3>
                     <p>
-                      When an unknown printer took a galley of type
-                      and scrambled it to make a type specimen book.
-                      It has survived not only five centuries.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     </p>
                   </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-12">
-                <div className="why-choose-box-layout1">
-                  <div className="item-img">
-                    <img
-                      src="img/figure/why-choose1.jpg"
-                      alt="why choose"
-                    />
-                  </div>
-                  <div className="item-content">
-                    <h3 className="item-title">
-                      {' '}
-                      <a href="#">Commitment to Quality</a>
+                </Col>
+              </Row>
+              <Row className={aboutStyle.Titlerow}>
+              
+                <Col>
+              <div className={aboutStyle.Header}>
+                    
+                  <h3 className={aboutStyle.Subtitles}>    Commitment to Quality
                     </h3>
                     <p>
-                      When an unknown printer took a galley of type
-                      and scrambled it to make a type specimen book.
-                      It has survived not only five centuries.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     </p>
                   </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-12 d-block d-md-none d-lg-block">
-                <div className="why-choose-box-layout1">
-                  <div className="item-img">
-                    <img
-                      src="img/figure/why-choose2.jpg"
-                      alt="why choose"
-                    />
+                </Col>
+
+                <Col>
+              <div className={aboutStyle.Box}>
+              <div className={aboutStyle.BoxImg}>
+                    <img src={WoodFrame} alt="why choose" className="img-fluid" />
                   </div>
-                  <div className="item-content">
-                    <h3 className="item-title">
-                      {' '}
-                      <a href="#">Core Values</a>
+                  </div>
+                  </Col>
+                  
+              </Row>
+              <Row className={aboutStyle.Titlerow}>
+              <Col>
+              <div className={aboutStyle.Box}>
+              <div className={aboutStyle.BoxImg}>
+                    <img src={RooferOnSlant} alt="why choose" className="img-fluid" />
+                  </div>
+                  </div>
+                  </Col>
+                <Col>
+              <div className={aboutStyle.Header}>
+                    <h3 className={aboutStyle.Subtitles}>
+                      
+                      Core Values
                     </h3>
                     <p>
-                      When an unknown printer took a galley of type
-                      and scrambled it to make a type specimen book.
-                      It has survived not only five centuries.
-                    </p>
-                  </div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                      </p>
                 </div>
-              </div>
-            </div>
-          </div>
+                </Col>
+              </Row>
+          </Container>
         </section>
       </>
-    );
+    )
   }
 }
 
-export default AboutSection3;
+export default AboutSection3

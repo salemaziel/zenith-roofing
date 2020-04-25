@@ -1,4 +1,4 @@
-section.about {
+/*section.about {
   margin: 1rem 0;
   padding: 2rem 4rem;
 }
@@ -80,7 +80,7 @@ section.about {
     .about-box-layout1 {
       padding-left: calc((100% - 510px) / 2);
     }
-  }*/
+  }* /
 }
 @media only screen and (max-width: 991px) {
     .about-box-layout2 {
@@ -210,7 +210,7 @@ section.about {
     position: absolute;
     top: -15px;
     left: -53px;
-/*    z-index: -1;*/
+/*    z-index: -1;* /
   }
   .about-box-layout4 .about-box-content {
     padding: 0 30px;
@@ -290,7 +290,7 @@ section.about {
     position: absolute;
     top: -15px;
     right: -53px;
-    /*z-index: -1*/;
+    /*z-index: -1* /;
   }
   .about-box-layout5 .about-box-content {
     padding-right: 5rem;

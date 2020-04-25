@@ -1,4 +1,4 @@
-.Section {
+.Section3 {
     display: block;
     margin: 0;
     padding: 0;
@@ -7,26 +7,9 @@
     align-content: center;
 }
 
-.SectionParallax {
-    display: block;
-    background-image: url('../../../images/progressBg.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: 100%;
-    min-height: 50vh;
-}
-
 .Titlerow {
     display: flex;
     flex-wrap: wrap;
-    margin: 2rem auto;
-    padding: 2rem;
-}
-
-.HistoryRow {
-    display: block;
     margin: 2rem auto;
     padding: 2rem;
 }
@@ -37,30 +20,6 @@
 
 .Title {
     padding: 1rem 0;
-    color: #0F4573;
-}
-
-.Subtitles {
-    padding: 1rem 0;    
-    color: #0F4573;
-}
-
-.Box {
-    margin-bottom: 30px;
-}
-
-.BoxImg {
-    margin-bottom: 24px;
-    overflow: hidden;
-    border-radius: 4px;
-    position: relative;
-}
-
-.Titlerow {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2rem auto;
-    padding: 2rem;
 }
 
 
