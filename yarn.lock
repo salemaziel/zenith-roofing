@@ -6646,6 +6646,14 @@ gatsby-plugin-create-client-paths@^2.2.1:
   dependencies:
     "@babel/runtime" "^7.8.7"
 
+gatsby-plugin-google-analytics@^2.2.5:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.2.5.tgz#4f9f00e2be9178430306c2214b5964c413689c98"
+  integrity sha512-pB03ICMXMcCSf8Qq/h0Pd0J3JpSpBPp78JJv8rDDfD3Ly6+SWuREBdkrq1d3CpwJ3ANGiaH3aGtN7ztlwmoXsw==
+  dependencies:
+    "@babel/runtime" "^7.8.7"
+    minimatch "3.0.4"
+
 gatsby-plugin-manifest@^2.1.1:
   version "2.3.6"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.3.6.tgz#89c091a9cd7d221139c3881e8cf197242a8cb24c"
