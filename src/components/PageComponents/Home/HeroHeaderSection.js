@@ -83,8 +83,8 @@ class HeroHeaderSection extends React.Component {
               shouldCloseOnOverlayClick={true}
               shouldCloseOnEsc={true}
               shouldReturnFocusAfterClose={true}
-              className="modalmailing"
-              overlayClassName="modalmailingOverlay"
+              className={homeStyles.modalmailing}
+              overlayClassName={homeStyles.modalmailingOverlay}
             >
               <Container>
                {/* <LeadFormModal /> */}

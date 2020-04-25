@@ -37,94 +37,65 @@ function encode(data) {
   }
 
   return ( */
-  const EstimateForm = (props) => (
-
-    <div className={estimateformStyles.formBox}>
-      <Container fluid>
-        <div className="item-heading">
-          <h3 className={estimateformStyles.title}>Get A Free Estimate</h3>
-        </div>
-        <Form>
-          <form
-            name="EstimateForm2"
-            method="post"
-            action="/success"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-          >
-            <input type="hidden" name="bot-field" />
+const EstimateForm = (props) => (
+  <>
+  <div className={estimateformStyles.formBox}>
+    <Container fluid>
+      <div className="item-heading">
+        <h3 className={estimateformStyles.title}>Get A Free Estimate</h3>
+      </div>
+      <Form>
+        <form
+          name="EstimateForm2"
+          method="post"
+          action="/success"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="bot-field" />
           <Form.Row>
             <Col>
-              <Form.Group controlId="EstimateForm2">
-                <Form.Label>First Name</Form.Label>
-                <Form.Control
-                  type="text"
-                  name="firstName"
-                  placeholder=""
-                  /*onChange={handleChange}*/
-                />
+              <Form.Group>
+                <label htmlFor="name">First Name</label>
+                <input type="text" name="firstname" id="firstname" required />
               </Form.Group>
             </Col>
             <Col>
-              <Form.Group controlId="EstimateForm2e">
-                <Form.Label>Last Name</Form.Label>
-                <Form.Control
-                  type="text"
-                  name="lastName"
-                  placeholder=""
-                /*  onChange={handleChange} */
-                />
+              <Form.Group>
+                <label htmlFor="name">Last Name</label>
+                <input type="text" name="lastname" id="lastname" required />
               </Form.Group>
             </Col>
           </Form.Row>
 
           <Form.Row>
             <Col>
-              <Form.Group controlId="HomeEstimateEmail">
-                <Form.Label>Email address</Form.Label>
-                <Form.Control
-                  type="email"
-                  name="email"
-                  placeholder=""
-              /*    onChange={handleChange} */
-                />
+              <Form.Group>
+                  <label htmlFor="email">Email</label>
+                  <input type="text" name="email" id="email" required />
               </Form.Group>
             </Col>
-
             <Col>
-              <Form.Group controlId="HomeEstimatePhone">
-                <Form.Label>Phone</Form.Label>
-                <Form.Control
-                  type="tel"
-                  name="tel"
-                  placeholder=""
-               /*   onChange={handleChange} */
-                />
+              <Form.Group>
+              <label htmlFor="tel">Phone</label>
+                  <input type="tel" name="phone" id="phone" required />
               </Form.Group>
             </Col>
           </Form.Row>
 
-          <Form.Group controlId="HomeEsimateJobType">
-            <Form.Label>Job Type</Form.Label>
-            <Form.Control as="select">
-              <option>Residential</option>
-              <option>Commercial</option>
-              <option>Contractor</option>
-              <option>Realtor</option>
-            </Form.Control>
-          </Form.Group>
 
           <Button
             className={estimateformStyles.estimateSubmit}
-            type="submit"
-          /*  onClick={handleSubmit} */
           >
-            Submit
+             Submit
+            <input type="submit" value="" />
+           
           </Button>
-          </form>
-        </Form>
-      </Container>
-    </div>
-  )
+        </form>
+      </Form>
+    </Container>
+  </div>
+  </>
+)
 
 export default EstimateForm

@@ -24,7 +24,10 @@
 	-webkit-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 	-ms-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
     transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-    margin: 5% 0 0 0;
+    margin: 0 0 0 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 30px;
 }
 
 .estimateSubmit:hover {
@@ -36,6 +39,13 @@
 	-webkit-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 	-ms-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 	transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.estimateSubmit:focus {
+    background-color: #FF9900;
+    background: #FF9900;
+    border: 1px solid;
+    border-color: #FF9900;
 }
 
 
@@ -56,21 +66,45 @@
     .formBox {
         padding: 15px 20px;
         margin: 8% auto 5%;
+        box-shadow: none;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        padding: 0 0 1rem 0;
     }
 }
 
 
 @media only screen and (max-width: 767px) {
     .formBox {
-      /*  display: none; */
       box-shadow: none;
+    }
+
+    .estimateSubmit {
+        width: 100%;
+        background-color: #FF9900;
+        background: #FF9900;
+        border: 1px solid;
+        border-color: #FF9900;
+        -moz-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+        -webkit-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+        -ms-transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+        transition: opacity 0.35s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+        margin: 1rem 0 0 0;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 10px 30px;
     }
 }
 
 
 @media only screen and (max-width: 480px) {
+.title {
+    font-size: 1.5rem;
+}
+
     .formBox {
-      /*  display: none;*/
       box-shadow: none;
       padding: 0;
     }
@@ -79,7 +113,6 @@
 
 @media only screen and (max-width: 360px) {
     .formBox {
-       /* display: none; */
        box-shadow: none;
     }
 }
