@@ -1,0 +1,145 @@
+.Section {
+    background-image: url('../../../images/new/graypattern-1920x700.png');
+    background-size: stretch;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 3rem 0;
+    
+}
+
+.ImgBox {
+    margin: auto;
+    padding: 1rem;
+    max-width: 100%;
+    max-height: 400px;
+    width: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.OCPanther {
+    height: 350px;
+    margin: auto;
+}
+
+.OCLogo {
+    width: 500px;
+    margin: auto;
+}
+
+.ColNoMobile{
+    display: block;
+
+}
+
+
+@media screen and (min-width: 2400px) {
+
+}
+
+@media screen and (max-width: 1680px) {
+
+}
+
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 980px) {
+
+    .ColNoMobile{
+         display: none;   
+    }
+    .ImgBox {
+        margin: auto;
+        padding: 1rem;
+        max-width: 100%;
+        max-height: 400px;
+        width: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .OCPanther {
+        height: 250px;
+        margin: auto;
+    }
+    
+    .OCLogo {
+        width: 350px;
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .Section {
+        background-image: url('../../../images/new/graypattern-767x564.png');
+    }
+    .ImgBox {
+        margin: auto;
+        padding: 1rem;
+        max-width: 100%;
+        max-height: 400px;
+        width: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .OCPanther {
+        height: 250px;
+        margin: auto;
+    }
+    
+    .OCLogo {
+        width: 350px;
+        margin: auto;
+    }
+    .ColNoMobile{
+        display: none;   
+   }
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    .ImgBox {
+            margin: auto;
+            padding: 0;
+            max-width: 50%;
+            max-height: 400px;
+            width: auto;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+        .OCPanther {
+            height: 200px;
+        }
+        
+        .OCLogo {
+            width: 200px;
+            margin-left: -3rem;
+        }
+        .ColNoMobile{
+            display: none;   
+       }
+}
+
+
+@media screen and (max-width: 360px) {
+    .ColNoMobile{
+        display: none;   
+   }
+}

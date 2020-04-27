@@ -74,6 +74,19 @@
     .CLsection {
         background-image: linear-gradient(9deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.3) 33%, rgba(255,255,255,0.3) 66%, rgba(159,177,181,1) 100%), url('../../../images/pattern-bg.jpg');
     }
+    .Badgesbox {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 20% 7% 10% 25%;
+    padding: 1rem 0 1rem 10rem;
+}
+.Badges {
+    display: inline-flex;
+    width: auto;
+    margin: auto;
+    padding: 2rem;
+    height: 350px;
+}
 }
 
 @media only screen and (max-width: 1680px) {

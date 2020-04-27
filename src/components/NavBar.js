@@ -39,13 +39,16 @@ function NavbarCustom(props) {
         </div>*/}
         <Navbar.Collapse id="navbar-nav" className="justify-content-end">
           <Nav className="mr-1">
+          <Link rel="preload" className="nav-link" to="/">
+              Home
+            </Link>,
             <Link to="/services" className="nav-link" rel="preload">
               Services
             </Link>
 
-            <Link to="/systems" className="nav-link" rel="preload">
+            {/*<Link to="/systems" className="nav-link" rel="preload">
               Systems
-            </Link>
+      </Link>*/}
 
             <Link to="/about" className="nav-link" rel="preload">
               About

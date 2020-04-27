@@ -50,3 +50,6 @@ export const WoodFrame = require('./new/woodframe_1920.jpg')
 export const HouseBuilding = require('./new/housebuilding_1920.jpg')
 export const TwoRoofersVert = require('./new/TwoRoofersVert_1920.jpg')
 export const RooferOnSlant = require('./new/RooferOnSlant.jpg')
+export const PinkPanther = require('./new/pinkpanther-tracenosmooth.png')
+export const OwensPreferred = require('./new/owens-preferred2.png')
+
