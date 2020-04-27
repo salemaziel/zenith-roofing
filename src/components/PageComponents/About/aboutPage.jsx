@@ -9,6 +9,7 @@ import AboutSectionParallax from './aboutSectionParallax';
 
 import ActionBanner2 from './actionBanner2'
 
+import aboutStyle from './about.module.css'
 //import './about.css'
 
 class AboutPage extends Component {
@@ -16,9 +17,11 @@ class AboutPage extends Component {
     return (
         <>
         <AboutHeader />
+        <div className={aboutStyle.AboutBody} >
         <AboutSection1 />
         {/*<AboutSectionParallax />*/}
         <AboutSection3 />
+        </div>
         <ActionBanner2 />
         
       

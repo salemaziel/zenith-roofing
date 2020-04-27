@@ -61,7 +61,7 @@ class HeroHeaderSection extends React.Component {
               </h1>
     <h2>Roofing</h2>*/}
               <div className={homeStyles.HomeHeroBtns}>
-                <Button tag={Link} className={homeStyles.freecall}>
+                <Button className={homeStyles.freecall} href="tel:8589006163">
                   Call Us Now
                 </Button>
                 <Button

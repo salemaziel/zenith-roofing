@@ -7,6 +7,7 @@ import ServicesSection from './ServicesSection'
 import SystemsSection from './SystemsSection'
 import TestimonialSection from './TestimonialSection'
 import ActionBanner from '../../actionBanner'
+import Preferred from './preferred'
 
 import '../../../css/main.css'
 
@@ -19,6 +20,7 @@ class HomeIndex extends Component {
         <HeroHeaderSection />
         <HeroBoxesSection />
         <CustomerLovesSection />
+        <Preferred />
         <ServicesSection />
         <ActionBanner />
         <SystemsSection />

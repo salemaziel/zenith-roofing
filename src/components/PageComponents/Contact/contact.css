@@ -6,7 +6,9 @@
 
 .contactBanner {
     background-image: url('../../../images/toolbelt.jpg');
-    background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 .section-contact{
 	position:relative;

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="363.73mm" height="270mm" version="1.1" viewBox="0 0 1288.8106 956.68594" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <clipPath id="az">
+   <rect x="92.057" y="-435.82" width="1288.8" height="956.69" fill="#dbdbdb" fill-opacity=".49065"/>
+  </clipPath>
+  <linearGradient id="ba" x2="184.12" y1="414.57" y2="414.57" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#dcdcdc" offset="1"/>
+  </linearGradient>
+  <linearGradient id="bb" x1="92.058" x2="184.12" y1="494.29" y2="494.29" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#b8b8b8" stop-opacity=".99206" offset="0"/>
+   <stop stop-color="#181818" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(-92.057 435.82)">
+  <g clip-path="url(#az)">
+   <g id="a">
+    <path d="m0 414.57 92.058-53.15 92.058 53.15-92.058 53.15z" fill="url(#ba)" fill-rule="evenodd"/>
+    <path d="m0 414.57v106.3l92.058 53.15v-106.3z" fill="#dbdbdb" fill-rule="evenodd"/>
+    <path d="m184.12 414.57v106.3l-92.058 53.15v-106.3z" fill="url(#bb)" fill-rule="evenodd"/>
+   </g>
+   <use id="ap" transform="translate(184.12 1.9926e-6)" width="100%" height="100%" xlink:href="#a"/>
+   <use id="aq" transform="translate(368.23)" width="100%" height="100%" xlink:href="#a"/>
+   <use id="ar" transform="translate(368.23)" width="100%" height="100%" xlink:href="#ap"/>
+   <use id="as" transform="translate(368.23)" width="100%" height="100%" xlink:href="#aq"/>
+   <use id="at" transform="translate(368.23)" width="100%" height="100%" xlink:href="#ar"/>
+   <use id="au" transform="translate(368.23)" width="100%" height="100%" xlink:href="#as"/>
+   <use id="bc" transform="translate(368.23)" width="100%" height="100%" xlink:href="#at"/>
+   <use id="bd" transform="translate(92.057 -159.45)" width="100%" height="100%" xlink:href="#a"/>
+   <use id="be" transform="translate(92.057 -159.45)" width="100%" height="100%" xlink:href="#ap"/>
+   <use id="bf" transform="translate(92.057 -159.45)" width="100%" height="100%" xlink:href="#aq"/>
+   <use id="bg" transform="translate(92.057 -159.45)" width="100%" height="100%" xlink:href="#ar"/>
+   <use id="bh" transform="translate(92.057 -159.45)" width="100%" height="100%" xlink:href="#as"/>
+   <use id="bi" transform="translate(92.057 -159.45)" width="100%" height="100%" xlink:href="#at"/>
+   <use id="bj" transform="translate(92.057 -159.45)" width="100%" height="100%" xlink:href="#au"/>
+   <use id="bk" transform="translate(-1.3562e-6 -318.9)" width="100%" height="100%" xlink:href="#a"/>
+   <use id="bl" transform="translate(-1.3562e-6 -318.9)" width="100%" height="100%" xlink:href="#ap"/>
+   <use id="bm" transform="translate(-1.3562e-6 -318.9)" width="100%" height="100%" xlink:href="#aq"/>
+   <use id="bn" transform="translate(-1.3562e-6 -318.9)" width="100%" height="100%" xlink:href="#ar"/>
+   <use id="bo" transform="translate(-1.3562e-6 -318.9)" width="100%" height="100%" xlink:href="#as"/>
+   <use id="bp" transform="translate(-1.3562e-6 -318.9)" width="100%" height="100%" xlink:href="#at"/>
+   <use id="bq" transform="translate(-1.3562e-6 -318.9)" width="100%" height="100%" xlink:href="#au"/>
+   <use id="br" transform="translate(-1.3562e-6 -318.9)" width="100%" height="100%" xlink:href="#bc"/>
+   <use id="bs" transform="translate(-1.3562e-6 -318.9)" width="100%" height="100%" xlink:href="#bd"/>
+   <use id="bt" transform="translate(-1.3562e-6 -318.9)" width="100%" height="100%" xlink:href="#be"/>
+   <use id="bu" transform="translate(-1.3562e-6 -318.9)" width="100%" height="100%" xlink:href="#bf"/>
+   <use id="bv" transform="translate(-1.3562e-6 -318.9)" width="100%" height="100%" xlink:href="#bg"/>
+   <use id="bw" transform="translate(-1.3562e-6 -318.9)" width="100%" height="100%" xlink:href="#bh"/>
+   <use id="bx" transform="translate(-1.3562e-6 -318.9)" width="100%" height="100%" xlink:href="#bi"/>
+   <use id="by" transform="translate(-1.3562e-6 -318.9)" width="100%" height="100%" xlink:href="#bj"/>
+   <use id="bz" transform="translate(-.001484 -318.9)" width="100%" height="100%" xlink:href="#bk"/>
+   <use id="ca" transform="translate(-.001484 -318.9)" width="100%" height="100%" xlink:href="#bl"/>
+   <use id="cb" transform="translate(-.001484 -318.9)" width="100%" height="100%" xlink:href="#bm"/>
+   <use id="cc" transform="translate(-.001484 -318.9)" width="100%" height="100%" xlink:href="#bn"/>
+   <use id="av" transform="translate(-.001484 -318.9)" width="100%" height="100%" xlink:href="#bo"/>
+   <use id="aw" transform="translate(-.001484 -318.9)" width="100%" height="100%" xlink:href="#bp"/>
+   <use id="ax" transform="translate(-.001484 -318.9)" width="100%" height="100%" xlink:href="#bq"/>
+   <use id="ay" transform="translate(-.001484 -318.9)" width="100%" height="100%" xlink:href="#br"/>
+   <use transform="translate(-.001484 -318.9)" width="100%" height="100%" xlink:href="#bs"/>
+   <use transform="translate(-.001484 -318.9)" width="100%" height="100%" xlink:href="#bt"/>
+   <use transform="translate(-.001484 -318.9)" width="100%" height="100%" xlink:href="#bu"/>
+   <use transform="translate(-.001484 -318.9)" width="100%" height="100%" xlink:href="#bv"/>
+   <use transform="translate(-.001484 -318.9)" width="100%" height="100%" xlink:href="#bw"/>
+   <use transform="translate(-.001484 -318.9)" width="100%" height="100%" xlink:href="#bx"/>
+   <use transform="translate(-.001484 -318.9)" width="100%" height="100%" xlink:href="#by"/>
+   <use transform="translate(.00074167 -318.9)" width="100%" height="100%" xlink:href="#bz"/>
+   <use transform="translate(.00074167 -318.9)" width="100%" height="100%" xlink:href="#ca"/>
+   <use transform="translate(.00074167 -318.9)" width="100%" height="100%" xlink:href="#cb"/>
+   <use transform="translate(.00074167 -318.9)" width="100%" height="100%" xlink:href="#cc"/>
+   <use transform="translate(.00074167 -318.9)" width="100%" height="100%" xlink:href="#av"/>
+   <use transform="translate(.00074167 -318.9)" width="100%" height="100%" xlink:href="#aw"/>
+   <use transform="translate(.00074167 -318.9)" width="100%" height="100%" xlink:href="#ax"/>
+   <use transform="translate(.00074167 -318.9)" width="100%" height="100%" xlink:href="#ay"/>
+  </g>
+ </g>
+</svg>

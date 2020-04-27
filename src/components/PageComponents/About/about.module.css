@@ -1,3 +1,11 @@
+.AboutBody {
+    background-image: url('../../../images/pattern-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+}
+
 .Section {
     display: block;
     margin: 0;
@@ -65,28 +73,70 @@
 
 
 @media screen and (min-width: 2400px) {
+    .AboutBody {
+        background-image: url('../../../images/pattern-bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+    }
 }
 
 
 
 @media screen and (max-width: 1680px) {
+    .AboutBody {
+        background-image: url('../../../images/pattern-bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+    }
 }
 
 
 
 @media screen and (max-width: 1280px) {
+    .AboutBody {
+        background-image: url('../../../images/pattern-bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+    }
 }
 
 
 @media screen and (max-width: 980px) {
+    .AboutBody {
+        background-image: url('../../../images/pattern-bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+    }
 }
 
 
 @media screen and (max-width: 767px) {
+    .AboutBody {
+        background-image: url('../../../images/pattern-bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+    }
 }
 
 
 @media screen and (max-width: 480px) {
+    .AboutBody {
+        background-image: url('../../../images/pattern-bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+    }
     .Titlerow {
         display: flex;
         flex-wrap: wrap;
@@ -103,4 +153,11 @@
 }
 
 @media screen and (max-width: 360px) {
+    .AboutBody {
+        background-image: url('../../../images/pattern-bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+    }
 }
