@@ -817,11 +817,12 @@ div.boxes-area .row {
 
 footer{
 	position:relative;
-	padding:50px 0px 0px 0px;
+	padding:25px 0px 0px 0px;
     background:#0d4778;
 	background-size: cover;
 	background-image: url('../images/pattern2.png');
 	margin: -3rem 0 0 0;
+	min-height: 30em;
 }
 footer .white-footer{
 	position:relative;
@@ -867,7 +868,6 @@ footer .white-footer .box-one .social-icon a{
 
 footer .white-footer .box-two{
 	position:relative;
-	padding:50px 0px;
 }
 footer .white-footer .box-two h2{
 	position:relative;
@@ -982,6 +982,10 @@ footer .white-footer .box-two  .contactform button{
     background-repeat: no-repeat;
 }
 
+
+#streetname {
+	width: 100%;
+}
 
 
 /********************* max-width 991px **************/
@@ -1144,7 +1148,7 @@ footer{
 	padding:30px 0px 0px 0px;
 }
 footer .white-footer .box-one{
-	padding:30px 0px;
+
 }
 footer .white-footer .box-one .social-icon a{
 	width:40px;

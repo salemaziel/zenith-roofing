@@ -1,0 +1,128 @@
+.Logo {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.SocialIcon {
+width: 100%;
+min-height: 50px;
+justify-content: center;
+align-items: center;
+align-content: center;
+text-align: center;
+font-size: 3rem;
+margin: auto;
+
+}
+
+.Icon {
+    margin: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.QuickLinks {
+    margin: auto;
+    color: #ff9900;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.LinkBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.Spacer {
+    display: block;
+    padding: 3em 0;
+}
+
+.Middle {
+    background-color: rgba(255,255,255,0.7);
+    margin: 3rem;
+    padding: 1rem 2rem 0;
+    border: 1px solid;
+    border-color: rgba(255,255,255,0.9);
+    border-radius: 5px;
+}
+
+.FooterRow {
+    display: flex;
+}
+
+.ColNoMobile {
+    display: block;
+}
+
+@media screen and (min-width: 2400px) {
+
+
+}
+
+@media screen and (max-width: 1680px) {
+    .ColNoMobile {
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width: 1280px) {
+    .ColNoMobile {
+        display: block;
+    }
+    
+}
+
+
+@media screen and (max-width: 980px) {
+
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    .FooterRow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ColNoMobile {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .FooterRow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Middle {
+        margin: auto;
+        padding: 1rem 1rem 0;
+        width: 90vw;
+    }
+
+    .ColNoMobile {
+        display: none;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 360px) {
+    .ColNoMobile {
+        display: none;
+    }
+    
+    
+}

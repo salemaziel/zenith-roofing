@@ -1,5 +1,6 @@
 import React from "react"
 import Form from "react-bootstrap/Form"
+import Row from 'react-bootstrap/Row'
 import Col from "react-bootstrap/Col"
 import Button from "react-bootstrap/Button"
 import { navigate } from "gatsby"
@@ -100,6 +101,59 @@ export default function EstimateForm() {
                   />
                 </Form.Group>
               </Col>
+            </Form.Row>
+
+            <Form.Row>
+              <Col>
+            <Form.Group>
+                  <label htmlFor="streetname">Street Address</label>
+                  <input
+                    type="text"
+                    name="streetname"
+                    id="streetname"
+                    required
+                    onChange={handleChange}
+                  />
+                </Form.Group>
+                </Col>
+            </Form.Row>
+            <Form.Row>
+              <Col>
+            <Form.Group>
+                  <label htmlFor="city">City</label>
+                  <input
+                    type="text"
+                    name="city"
+                    id="city"
+                    required
+                    onChange={handleChange}
+                  />
+                </Form.Group>
+                </Col>
+                <Col xs={2}>
+            <Form.Group>
+                  <label htmlFor="state">State</label>
+                  <input
+                    type="text"
+                    name="state"
+                    id="state"
+                    required
+                    onChange={handleChange}
+                  />
+                </Form.Group>
+                </Col>
+                <Col>
+            <Form.Group>
+                  <label htmlFor="address">Zip Code</label>
+                  <input
+                    type="text"
+                    name="zipcode"
+                    id="zipcode"
+                    required
+                    onChange={handleChange}
+                  />
+                </Form.Group>
+                </Col>
             </Form.Row>
 
             <Form.Group>

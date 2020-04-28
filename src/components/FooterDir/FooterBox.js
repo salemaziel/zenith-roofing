@@ -2,7 +2,7 @@ import React from "react"
 //import FooterBoxLeft from "./FooterBoxLeft"
 //import FooterBoxMiddle from "./FooterBoxMiddle"
 //import FooterBoxRight from "./FooterBoxRight"
-
+import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
@@ -14,67 +14,79 @@ import {
   faTwitter,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons"
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { Link } from 'gatsby'
+
+import footerStyle from './footer.module.css'
 
 class FooterBox extends React.Component {
   render() {
     return (
-      <div className="col-md-11 white-footer">
-        <Row>
+      <>
+        <Row className={footerStyle.FooterRow}>
+          
+        <Col xs={1} className={footerStyle.ColNoMobile}></Col>
           <Col>
-            <div className="box-one">
-              <div className="logo">
+              <div className={footerStyle.Logo}>
                 <img src={Logo} className="img-fluid" alt="" />
               </div>
-              <div className="social-icon">
+              <div className={footerStyle.SocialIcon}>
                 {" "}
                 <a href="#">
-                  <FontAwesomeIcon icon={faFacebook} />
+                  <FontAwesomeIcon icon={faFacebook} className={footerStyle.Icon} />
                 </a>{" "}
                 <a href="#">
-                  <FontAwesomeIcon icon={faTwitter} />
+                  <FontAwesomeIcon icon={faTwitter} className={footerStyle.Icon} />
                 </a>{" "}
                 <a href="#">
-                  <FontAwesomeIcon icon={faLinkedin} />
+                  <FontAwesomeIcon icon={faLinkedin} className={footerStyle.Icon} />
                 </a>{" "}
-                <a href="#">
-                  <FontAwesomeIcon icon={faEnvelope} />
-                </a>{" "}
+               {/*} <a href="#">
+                  <FontAwesomeIcon icon={faEnvelope} className={footerStyle.Icon} />
+    </a>{" "}*/}
               </div>
-            </div>
           </Col>
+          <Col xs={6}>
+            <div className={footerStyle.Middle}>
+              <p>
+                Zenith Roofing Services provides Service to Escondido, San Marcos, Vista, Oceanside, Rancho Bernardo, Poway, Temecula, Leucadia, Encinitas, Rancho Penasquitos, Carlsbad, Mira Mesa, downtown San Diego, and the  rest of the Greater County of San Diego.
+              </p>
+
+            </div>
+            </Col>
           <Col>
-            <div className="box-two">
+          <div className={footerStyle.Spacer} />
+            <div className={footerStyle.LinkBox}>
               <h2>
                 {" "}
-                <span className="inner-span">Quick Links</span>{" "}
+                <div className={footerStyle.QuickLinks}>Quick Links</div>{" "}
               </h2>
               <div className="nav-list">
                 <ul>
                   <li>
-                    <a href="#">About</a>
+                    <Link rel="preload" to="/about ">About</Link>
                   </li>
                   <li>
-                    <a href="#">Services</a>
+                    <Link rel="preload" to="/services">Services</Link>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <Link rel="preload" to="/contact">Contact</Link>
                   </li>
                   <li>
-                    <a href="#">Systems</a>
+                    <Link rel="preload" to="/systems">Systems</Link>
                   </li>
+                  {/*<li>
+                    <Link rel="preload" to="/">Site Map</Link>
+                  </li>*/}
                   <li>
-                    <a href="#">Site Map</a>
-                  </li>
-                  <li>
-                    <a href="#">Referrals</a>
+                    <Link rel="preload" to="/">Referrals</Link>
                   </li>
                 </ul>
               </div>
             </div>{" "}
           </Col>
+          <Col xs={1} className={footerStyle.ColNoMobile}></Col>
         </Row>
-      </div>
+        </>
     )
   }
 }
