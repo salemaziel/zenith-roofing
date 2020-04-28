@@ -29,7 +29,7 @@ function NavbarCustom(props) {
           </Navbar.Brand>
         </Link>
         <div style={{margin: 'auto', padding: '1.5rem 0.5rem 1rem', maxWidth: '110px'}}>
-          <img src={PhoneNumber} alt="PhoneNumber:8589006163" className='' />
+         <a href="tel:8589006163"><img src={PhoneNumber} alt="PhoneNumber:8589006163" className='' /></a> 
         </div>
 
 
@@ -48,7 +48,12 @@ function NavbarCustom(props) {
           <Nav className="mr-1">
           <Link rel="preload" className="nav-link" to="/">
               Home
-            </Link>,
+            </Link>
+
+            <Link to="/about" className="nav-link" rel="preload">
+              About
+            </Link>
+
             <Link to="/services" className="nav-link" rel="preload">
               Services
             </Link>
@@ -57,9 +62,7 @@ function NavbarCustom(props) {
               Systems
       </Link>*/}
 
-            <Link to="/about" className="nav-link" rel="preload">
-              About
-            </Link>
+
 
             {/*<Link to="/contact" className="nav-link" rel="preload">
               Contact

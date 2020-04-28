@@ -1,18 +1,17 @@
 import React from "react";
 import FooterBox from "./FooterDir/FooterBox";
 
-import Row from "react-bootstrap/Row";
+import RContainer from "react-bootstrap/Container";
+import Container from "react-bootstrap/Container";
 
 
 class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <div className="container">
-          <Row className="justify-content-center">
+        <Container fluid>
             <FooterBox></FooterBox>
-          </Row>
-        </div>
+        </Container>
       </footer>
     );
   }
