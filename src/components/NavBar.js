@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav"
 import Button from "react-bootstrap/Button"
 //import { useRouter } from "./../util/router.js";
 import { Link } from "gatsby"
-import { LogoWshadowDarkVertSm } from "../images/index"
+import { LogoWshadowDarkVertSm,PhoneNumber } from "../images/index"
 //import NavMobile from './NavMobile'
 
 function NavbarCustom(props) {
@@ -28,6 +28,9 @@ function NavbarCustom(props) {
             >Lic# 1036112</p>
           </Navbar.Brand>
         </Link>
+        <div style={{margin: 'auto', padding: '1.5rem 0.5rem 1rem', maxWidth: '110px'}}>
+          <img src={PhoneNumber} alt="PhoneNumber:8589006163" className='' />
+        </div>
 
 
         {/*<div
