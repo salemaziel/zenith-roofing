@@ -7,14 +7,15 @@ import { navigate } from "gatsby"
 import estimateformStyles from "./estimateform.module.css"
 import Container from "react-bootstrap/Container"
 
-/*
+///const EstimateForm = (props) => (
+
 function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
     .join("&")
 }
-*/
-/*export default function EstimateForm() {
+
+export default function EstimateForm() {
   const [state, setState] = React.useState({})
 
   const handleChange = (e) => {
@@ -36,66 +37,89 @@ function encode(data) {
       .catch((error) => alert(error))
   }
 
-  return ( */
-const EstimateForm = (props) => (
-  <>
-  <div className={estimateformStyles.formBox}>
-    <Container fluid>
-      <div className="item-heading">
-        <h3 className={estimateformStyles.title}>Get A Free Estimate</h3>
-      </div>
-      <Form>
-        <form
-          name="EstimateForm2"
-          method="post"
-          action="/success"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-        >
-          <input type="hidden" name="bot-field" />
-          <Form.Row>
-            <Col>
-              <Form.Group>
-                <label htmlFor="name">First Name</label>
-                <input type="text" name="firstname" id="firstname" required />
-              </Form.Group>
-            </Col>
-            <Col>
-              <Form.Group>
-                <label htmlFor="name">Last Name</label>
-                <input type="text" name="lastname" id="lastname" required />
-              </Form.Group>
-            </Col>
-          </Form.Row>
-
-          <Form.Row>
-            <Col>
-              <Form.Group>
-                  <label htmlFor="email">Email</label>
-                  <input type="text" name="email" id="email" required />
-              </Form.Group>
-            </Col>
-            <Col>
-              <Form.Group>
-              <label htmlFor="tel">Phone</label>
-                  <input type="tel" name="phone" id="phone" required />
-              </Form.Group>
-            </Col>
-          </Form.Row>
-
-
-          <Button
-            className={estimateformStyles.estimateSubmit}
+  return (
+    <>
+      <div className={estimateformStyles.formBox}>
+        <Container fluid>
+          <div className="item-heading">
+            <h3 className={estimateformStyles.title}>Get A Free Estimate</h3>
+          </div>
+          <form
+            name="EstimateForm"
+            method="post"
+            action="/success"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
           >
-             Submit
-            <input type="submit" value="" />
-           
-          </Button>
-        </form>
-      </Form>
-    </Container>
-  </div>
-  </>
-)
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="EstimateForm" />
 
-export default EstimateForm
+            <Form.Row>
+              <Col>
+                <Form.Group>
+                  <label htmlFor="name">First Name</label>
+                  <input type="text" name="firstname" id="firstname" required />
+                </Form.Group>
+              </Col>
+              <Col>
+                <Form.Group>
+                  <label htmlFor="name">Last Name</label>
+                  <input
+                    type="text"
+                    name="lastname"
+                    id="lastname"
+                    required
+                    onClick={handleChange}
+                  />
+                </Form.Group>
+              </Col>
+            </Form.Row>
+
+            <Form.Row>
+              <Col>
+                <Form.Group>
+                  <label htmlFor="email">Email</label>
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    required
+                    onChange={handleChange}
+                  />
+                </Form.Group>
+              </Col>
+              <Col>
+                <Form.Group>
+                  <label htmlFor="tel">Phone</label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    required
+                    onChange={handleChange}
+                  />
+                </Form.Group>
+              </Col>
+            </Form.Row>
+
+            <Form.Group>
+              <ul className="actions">
+                <li>
+                  <Button
+                    type="submit"
+                    value="Send Message"
+                    className="special"
+                    className={estimateformStyles.estimateSubmit}
+                    onChange={handleSubmit}
+                  >
+                    Submit{" "}
+                  </Button>
+                </li>
+              </ul>
+            </Form.Group>
+          </form>
+        </Container>
+      </div>
+    </>
+  )
+}
