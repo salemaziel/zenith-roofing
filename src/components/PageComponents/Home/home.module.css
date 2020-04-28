@@ -6,6 +6,7 @@
   min-height: 80vh;
   background-position: center center;
 }
+
 .divheroLogo {
   max-width: 60%;
   margin: auto;
@@ -18,6 +19,7 @@
   height: auto;
   margin: 10% 0;
 }
+
 .heroTitle h1 {
   color: #ff9900;
   font-size: 70px;
@@ -38,6 +40,7 @@
   text-transform: uppercase;
   text-shadow: 4px 1px 5px rgba(186, 186, 186, 1);
 }
+
 .HeroAlink {
   display: inline-block;
   vertical-align: middle;
@@ -94,6 +97,7 @@
   max-width: 300px;
   display: none;
 }
+
 .freecall:hover {
   background: #0d4879;
   background-color: #0d4879;
@@ -121,6 +125,7 @@
   max-width: 300px;
   display: inline-block;
 }
+
 .getquote:hover {
   background: #ff9900;
   text-decoration: none;
@@ -133,6 +138,7 @@
   box-shadow: 0px 0px 11px 5px rgba(186, 186, 186, 1);
   -webkit-box-shadow: 0px 0px 11px 5px rgba(186, 186, 186, 1);
 }
+
 .getquote:focus {
     background: #ff9900;
     text-decoration: none;
@@ -179,6 +185,7 @@
   box-shadow: 0px 0px 11px 5px rgba(186, 186, 186, 1);
   -webkit-box-shadow: 0px 0px 11px 5px rgba(186, 186, 186, 1);
 }
+
 .modalmailingOverlay {
   position: fixed;
   justify-self: center;
@@ -198,6 +205,7 @@
   position: relative;
   margin-top: -6%;
 }
+
 .hero-image-boxes .boxes {
   position: relative;
   border-radius: 5px;
@@ -233,6 +241,7 @@
   text-transform: uppercase;
   text-shadow: 3px 3px 5px black;
 }
+
 .service-offer .top-text h3 {
   color: #ffffff;
   font-weight: 700;
@@ -242,13 +251,16 @@
   text-transform: uppercase;
   text-shadow: 3px 3px 5px black;
 }
+
 div.boxes-area .row {
   margin: 1rem;
 }
+
 .serviceBoxesArea {
   position: relative;
   padding: 50px 15px;
 }
+
 .boxes {
   position: relative;
   -webkit-transition: all 0.4s ease-in-out;
@@ -261,6 +273,7 @@ div.boxes-area .row {
   transform: scale(1);
   border-radius: 5px;
 }
+
 .boxes:hover {
   position: relative;
   -webkit-transition: all 0.4s ease-in-out;
@@ -329,26 +342,32 @@ div.boxes-area .row {
   background: #fdffff;
   padding: 50px 0px;
 }
+
 .system-we-work .box {
   position: relative;
   padding: 30px;
   border: 2px solid #ff9900;
   border-radius: 5px;
 }
+
 .system-we-work .box .box-left {
   position: relative;
 }
+
 .system-we-work .box .box-left img {
   border-radius: 5px;
 }
+
 .system-we-work .box .box-right {
   position: relative;
 }
+
 .system-we-work .box .box-right h2 img {
   display: inline-block;
   vertical-align: middle;
   margin: 0px 10px 0px 0px;
 }
+
 .system-we-work .box .box-right h2 {
   color: #0c4372;
   font-weight: 700;
@@ -358,14 +377,17 @@ div.boxes-area .row {
   display: inline-block;
   vertical-align: top;
 }
+
 .system-we-work .box .box-right h2 span {
   color: #ffab2d;
 }
+
 .system-we-work .box .box-right ul {
   margin: 0px;
   padding: 20px 0px;
   list-style: none;
 }
+
 .system-we-work .box .box-right li {
   display: inline-block;
   vertical-align: top;
@@ -377,6 +399,7 @@ div.boxes-area .row {
   font-weight: 600;
   padding: 0px 0px 0px 20px;
 }
+
 .system-we-work .box .box-right li:before {
   position: absolute;
   content: "";
@@ -1002,11 +1025,14 @@ div.boxes-area .row {
   .freecall {
     width: 200px;
     display: inline-block;
+    font-weight: 600;
   }
 
   .getquote {
     width: 200px;
     display: inline-block;
+    font-weight: 600;
+
   }
 
   .serviceBoxesArea {

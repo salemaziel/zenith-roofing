@@ -52,4 +52,5 @@ export const TwoRoofersVert = require('./new/TwoRoofersVert_1920.jpg')
 export const RooferOnSlant = require('./new/RooferOnSlant.jpg')
 export const PinkPanther = require('./new/pinkpanther-tracenosmooth.png')
 export const OwensPreferred = require('./new/owens-preferred2.png')
+export const Avatar = require('./new/avatar_640.png');
 

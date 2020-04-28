@@ -21,10 +21,14 @@ function NavbarCustom(props) {
               className="d-inline-block align-top"
               src={LogoWshadowDarkVertSm}
               alt="Logo"
-              height="100"
+              height="110"
             ></img>
+                    <p
+            style={{textAlign: 'center', margin: '0 auto', padding: '0 5px 0 0', }}
+            >Lic# 1036112</p>
           </Navbar.Brand>
         </Link>
+
 
         {/*<div
           aria-controls="navbar-nav"

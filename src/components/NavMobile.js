@@ -1,13 +1,12 @@
 import React from "react"
 import SideNav from "react-simple-sidenav"
 import { Link } from "gatsby"
-//import { LogoWshadowDarkVertSm } from '../images/index'
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import { LogoWshadowDarkVertSm } from "../images/index"
 
-import navmobileStyles from "./navmobile.module.css"
+//import navmobileStyles from "./navmobile.module.css"
 import { MenuIcon } from "../images/index"
 
 class NavMobile extends React.Component {
@@ -49,6 +48,9 @@ class NavMobile extends React.Component {
                 className="mobileLogo"
               />
             </Link>
+            <p
+            style={{textAlign: 'center', margin: '0 auto', padding: '0 5px 0 0', fontWeight: 'bold'}}
+            >Lic# 1036112</p>
           </Col>
           <Col
             style={{

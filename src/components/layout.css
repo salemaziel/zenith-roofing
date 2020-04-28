@@ -826,8 +826,8 @@ aside {
   }
   .mobileLogo {
     width: 100%;
-    margin: 1rem auto;
-    padding: 10px;
+    margin: auto;
+    padding: 10px 10px 0;
   }
 
   .menuIcon {
