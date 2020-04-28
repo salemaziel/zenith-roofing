@@ -1,17 +1,16 @@
 import React from "react"
-//import HeroBtnCallNow from "./HeroDir/HeroBtnCallNow";
-//import HeroBtnGetQuote from "./HeroDir/HeroBtnGetQuote";
 
-//import { Container, Row } from 'reactstrap'
+
 import Col from "react-bootstrap/Col"
-//import { RoofOnly } from "../../../images/index"
 import { LogoWshadowDarkVertMd } from "../../../images/index"
 import Modal from "react-modal"
-import { Link } from "gatsby"
 import Row from "react-bootstrap/Row"
 import Container from "react-bootstrap/Container"
 import Button from "react-bootstrap/Button"
-//import LeadFormModal from "./LeadFormModal"
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons"
 
 
 import EstimateForm from './estimateform'
@@ -62,7 +61,9 @@ class HeroHeaderSection extends React.Component {
     <h2>Roofing</h2>*/}
               <div className={homeStyles.HomeHeroBtns}>
                 <Button className={homeStyles.freecall} href="tel:8589006163">
-                  Call Us Now
+                <FontAwesomeIcon icon={faPhoneAlt} style={{margin: '0 4px 0 0'}}/>
+                  
+                  Call Now
                 </Button>
                 <Button
                   className={homeStyles.getquote}

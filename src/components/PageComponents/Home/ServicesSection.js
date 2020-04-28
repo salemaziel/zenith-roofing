@@ -1,5 +1,4 @@
 import React from "react"
-//import ServicesTitles from "./ServicesDir/ServicesTitles"
 import ServiceBoxesArea from "./ServicesDir/ServiceBoxesArea"
 
 import Row from "react-bootstrap/Row"

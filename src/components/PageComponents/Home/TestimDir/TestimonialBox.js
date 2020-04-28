@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardBody, CardImg } from 'reactstrap'
+import { Card, CardImg } from 'reactstrap'
 import { Reviewer2 } from '../../../../images/index'
 
 class TestimonialBox extends React.Component {
