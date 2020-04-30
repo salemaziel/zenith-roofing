@@ -1,5 +1,5 @@
 import React from "react";
-import { CardImg } from 'reactstrap'
+import CardImg from 'react-bootstrap/CardImg'
 import { SystemsImage } from '../../../../images/index'
 
 class SystemsBoxLeft extends React.Component {

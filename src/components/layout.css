@@ -617,6 +617,10 @@ pre tt:after {
 }
 */
 
+*:focus{
+  outline: none;
+  outline-color: transparent;
+}
 aside {
   z-index: 10 !important;
 }
@@ -643,6 +647,12 @@ aside {
   border-radius: 4px;*/
   cursor: pointer;
   display: none;
+}
+
+.navbar-expand .navbar-collapse {
+  display: flex!important;
+  flex-basis: auto;
+  justify-content: flex-end;
 }
 
 @media only screen and (min-width: 2400px) {

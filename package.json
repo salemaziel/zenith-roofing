@@ -25,7 +25,6 @@
     "gatsby-plugin-sitemap": "2.4.0",
     "gatsby-plugin-tawk": "^1.0.0",
     "gatsby-source-filesystem": "2.3.0",
-    "gatsby-source-google-spreadsheet": "2.0.0",
     "gatsby-transformer-sharp": "2.5.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
@@ -38,7 +37,6 @@
     "react-simple-sidenav": "2.0.0",
     "react-slick": "^0.25.2",
     "react-zapier-form": "^1.0.0",
-    "reactstrap": "^8.4.1",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.1.0",
     "typeface-montserrat": "^0.0.75"

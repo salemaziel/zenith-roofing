@@ -25,8 +25,7 @@ module.exports = {
       resolve: `gatsby-plugin-tawk`,
       options: {
         tawkId: "5ea0b46f69e9320caac662db",
-        //widgetId: "5ea0b46f69e9320caac662db" 
-        // get this from the tawk script widget
+            // tawkID = widget ID
       },
     },
     {
@@ -59,8 +58,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Zenith Roofing`,
-        short_name: `Zenith Roofers`,
+        name: `Zenith Roofing Services`,
+        short_name: `Zenith Roofing`,
         description: `Roofing Services for San Diego`,
         lang: `en`,
         start_url: `/`,
@@ -70,16 +69,6 @@ module.exports = {
         icon: `src/images/logo-vert-square-x512.png`, // This path is relative to the root of the site.
       },
     },
-    /*{
-      resolve: `gatsby-source-google-spreadsheet`,
-      options:{
-        spreadsheetId:process.env.SPREADSHEET_ID,
-        credentials:{
-          client_email:process.env.CLIENT_EMAIL,
-          private_key:process.env.PRIVATE_KEY
-        }
-      }
-    },*/
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
     `gatsby-plugin-offline`,

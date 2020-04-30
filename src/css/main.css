@@ -136,14 +136,20 @@ nav {
 	font-family: 'Montserrat';
 	background-color: rgba(255, 255, 255, 0.85)!important;
 	background: rgba(255, 255, 255, 0.85)!important;
+	margin: auto;
 	
 }
 .nav {
 	display: flex;
+	margin: auto;
 }
-#navbar-nav {
 
-}
+#navbar-nav:hover,
+#navbar-nav:focus {
+		background: white;
+		border-color: white;
+	}
+
 /*
 .navbar-toggle {
   position: relative;

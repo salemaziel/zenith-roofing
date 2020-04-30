@@ -2,7 +2,7 @@ import React from "react"
 import NavLogo from "./NavDir/NavLogo"
 import NavPages from "./NavDir/NavPages"
 import Row from "react-bootstrap/Row";
-import { NavLink } from "reactstrap"
+import NavLink  from "react-bootstrap/NavLink"
 import SideNav from "react-simple-sidenav"
 import { Link } from 'gatsby'
 import { LogoWshadowDarkVert } from "../images/index"

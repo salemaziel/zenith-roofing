@@ -1,8 +1,10 @@
 import React from 'react';
 //import NavListItem from "./NavListItem";
 import NavListItemRequestQuote from './NavListItemRequestQuote';
+import Nav from 'react-bootstrap/Nav'
+import NavLink from 'react-bootstrap/NavLink'
+import NavItem from 'react-bootstrap/NavItem'
 
-import { Nav, NavLink, NavItem } from 'reactstrap';
 import { Link } from 'gatsby';
 
 class NavPages extends React.Component {

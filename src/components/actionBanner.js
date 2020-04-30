@@ -1,38 +1,84 @@
 import React from 'react';
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
+
 import Button from "react-bootstrap/Button";
-import { Link } from 'gatsby'
+import Modal from "react-modal"
+
+import EstimateForm from './PageComponents/Home/estimateform'
+
+
+import homeStyles from "./PageComponents/Home/home.module.css"
+import actioncomponentStyle from '../css/actioncomponent.module.css'
 
 import '../css/actioncomponent.css'
 
 class ActionBanner extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      isModalOpen: false,
+      className: "",
+      shouldCloseOnOverlayClick: "",
+      shouldCloseOnEsc: "",
+      shouldReturnFocusAfterClose: "",
+      contentLabel: "",
+    }
+  }
+
+  handleModalOpen = (event) => {
+    // console.log('handleModalOpen: ', event);
+    this.setState({ isModalOpen: true })
+  }
+
+  handleModalClose = (event) => {
+    // console.log('handleModalOpen: ', event);
+    this.setState({ isModalOpen: false })
+  }
   render() {
     return (
       <section
         className="action-wrap-layout1 bg-common"
       >
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-9 col-12">
-              <div className="action-box-layout1">
-                <h2 className="item-title">
+        <Container >
+          <Row /*className="align-items-center"*/>
+            <Col /*className="col-lg-9 col-12"*/ >
+              <div className={actioncomponentStyle.ButtonBox}>
+                <h2 className={actioncomponentStyle.ItemTitle}>
                   Get Your Roofing Project Started Today!
                 </h2>
               </div>
-            </div>
-            <div className="col-lg-3 col-12 d-flex justify-content-lg-end justify-content-center">
-              <div className="">
+            </Col>
+            <Col /*className="col-lg-3 col-12 d-flex justify-content-lg-end justify-content-center"*/ >
+              <div className={actioncomponentStyle.ButtonBox}>
                 <Button 
-                  tag={Link}
-                  to="#"
+                  onClick={this.handleModalOpen}
                   className="CTAbutton"
                 >
                   GET A QUOTE
                   <i className="fas fa-angle-right" />
                 </Button>
               </div>
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+          <Modal
+              isOpen={this.state.isModalOpen}
+              onRequestClose={this.handleModalClose}
+              contentLabel="Request A Quote"
+              id="homeActionBanner"
+              shouldCloseOnOverlayClick={true}
+              shouldCloseOnEsc={true}
+              shouldReturnFocusAfterClose={true}
+              className={homeStyles.homeActionBanner}
+              overlayClassName={homeStyles.modalmailingOverlay}
+            >
+              <Container>
+               {/* <LeadFormModal /> */}
+               <EstimateForm  />
+              </Container>
+            </Modal>
+        </Container>
       </section>
     );
   }

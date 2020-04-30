@@ -8,21 +8,14 @@
     background: rgba(255, 153, 0, 0.902) url('../images/roofbanner.jpg');
     margin: 0;
   }
-.item-title {
+
+.ItemTitle {
     text-shadow: 3px 3px 5px black;
     font-size: 40px;
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 0;
-}
-
-.ItemTitle {
-  text-shadow: 3px 3px 5px black;
-  font-size: 40px;
-  font-weight: 700;
-  color: #ffffff;
-  margin-bottom: 0;
-}
+  }
 
 .CTAbutton {
     width: 250px;
@@ -75,18 +68,29 @@
   transition: all 0.3s ease-out;
 }
 
+.ButtonBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: left;
+  padding: 0;
+}
+
+
+
 
 @media screen and (max-width: 991px) {
     .action-box-layout1 {
       text-align: center;
       margin-bottom: 30px;
     }
-      .action-box-layout1 .item-title {
+      .action-box-layout1 .itemTitle {
         font-size: 38px;
       }
     
   }
-  .action-box-layout1 .item-title {
+  .action-box-layout1 .itemTitle {
     font-size: 40px;
     font-weight: 700;
     color: #ffffff;
@@ -94,12 +98,27 @@
   }
 
   @media screen and (max-width: 767px) {
-    .action-box-layout1 .item-title {
+    .ItemTitle {
       font-size: 34px;
     }
   }
   @media screen and (max-width: 480px) {
-    .action-box-layout1 .item-title {
+    .ItemTitle {
       font-size: 32px;
     }
+
+    .ButtonBox {
+      padding: 1rem 0;
+      margin: auto;
+      padding: 1rem 0;
+      text-align: center;
+    }
   }
+
+  @media screen and (max-width: 360px) {
+    .ButtonBox {
+    margin: auto;
+    padding: 1rem 0;
+    text-align: center;
+  }
+}

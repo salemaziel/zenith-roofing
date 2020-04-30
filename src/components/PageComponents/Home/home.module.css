@@ -153,17 +153,7 @@
 
 
 
-#modalmailing {
-  background-color: #fff;
-  color: #000;
-  border-radius: 5px;
-  z-index: 4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-}
+
 
 .modalmailing {
   display: flex;
@@ -187,6 +177,42 @@
 }
 
 .modalmailingOverlay {
+  position: fixed;
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  max-width: 100%;
+}
+
+
+.homeActionBanner {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  color: #000;
+  height: 60%;
+  width: 50%;
+  border-radius: 5px;
+  margin: auto;
+  padding: 0px;
+  z-index: 4;
+  max-width: 60%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  transform: translate(0%, 30%);
+  /*box-shadow: 0px 0px 11px 5px rgba(186, 186, 186, 1);
+  -webkit-box-shadow: 0px 0px 11px 5px rgba(186, 186, 186, 1);*/
+}
+
+.homeActionBannerOverlay {
   position: fixed;
   justify-self: center;
   justify-content: center;
@@ -578,16 +604,15 @@ div.boxes-area .row {
     background: url("../../../images/hero.jpg") no-repeat;
     background-size: cover;
     padding: 20px 0px 10% 0px;
-    max-height: 500px;
+    max-height: 650px;
     background-position: center center;
     min-height: 0;
-  }
-  section.hero-section {
     justify-content: center;
     align-items: center;
     align-content: center;
     text-align: center;
   }
+
 
   .HeroContainer {
     width: 100%;
@@ -649,6 +674,26 @@ div.boxes-area .row {
     background-color: #fff;
     color: #000;
     height: 60%;
+    width: 70%;
+    border-radius: 5px;
+    margin: auto;
+    padding: 0px;
+    z-index: 4;
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    transform: translate(0%, 30%);
+    max-width: 100%;
+  }
+
+  .homeActionBanner {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #000;
+    height: 60%;
     width: 50%;
     border-radius: 5px;
     margin: auto;
@@ -662,6 +707,7 @@ div.boxes-area .row {
     transform: translate(0%, 30%);
     max-width: 100%;
   }
+
 
   .service-offer .top-text {
     padding: 25px 0px;
@@ -759,7 +805,7 @@ div.boxes-area .row {
     width: auto;
     max-width: 300px;
     height: auto;
-    margin: 10% auto;
+    margin: 25% auto;
     display: inline-block;
   }
   .HeroContainer {

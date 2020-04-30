@@ -18,21 +18,35 @@ class CustomerLovesSection extends React.Component {
     return (
       <section className={customerlovesStyle.CLsection}>
         <Container>
-        <Row>
-          <Col>
-          <div style={{marginTop: '5rem'}} >
-          <h1 style={{textAlign: 'center'}}>Zenith Roofing is proudly serving you. </h1>
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          </div>
-          </Col>
-        </Row>
+          <Row>
+            <Col>
+              <div className={customerlovesStyle.Intro} >
+                <h1 className={customerlovesStyle.IntroTitle} >
+                  Zenith Roofing Services proudly serves the Counties of: <br /> San Diego, Temecula, Orange, Riverside and Los Angeles.{" "}
+                </h1>
+                <p className={customerlovesStyle.IntroText}>
+                  With years of experience serving the greater Southern California
+                  area, Zenith Roofing Services is
+                  the solution for all your roofing needs. </p>
+
+                  <p className={customerlovesStyle.IntroText}>
+                  We take great pride in our work and prioritize extreme
+                  professionalism, timeliness, and superior customer service on
+                  every job. We strive to lasting relationships with all of our
+                  customers by getting the job done so well, the next time
+                  roofing service is needed, there is is no question who to call.
+                </p>
+
+                <p className={customerlovesStyle.IntroText}>
+                  Contact us today so we can discuss your needs and make a plan
+                  that fits your budget. Satisfaction guaranteed!
+                </p>
+
+              </div>
+            </Col>
+          </Row>
         </Container>
-        <Container fluid style={{ }}>
+        <Container fluid style={{}}>
           <Row className={customerlovesStyle.CLRow}>
             <Col></Col>
             <Col>
@@ -47,12 +61,18 @@ class CustomerLovesSection extends React.Component {
                 <h2 className={customerlovesStyle.WhySubtitle}>
                   Our Customers Love Us!
                 </h2>
+
+                <p>
+                  Check out our 5 star reviews from happy customers! Call us
+                  today so we can discuss your needs and make a plan that fits
+                  your budget. Satisfaction guaranteed!
+                </p>
               </div>
-              </Col>
-              <Col />
-              </Row>
-              <Row>
-              <Col>
+            </Col>
+            <Col />
+          </Row>
+          <Row>
+            <Col>
               <div className={customerlovesStyle.Badgesbox}>
                 <img
                   src={BadgeHAtoprated}

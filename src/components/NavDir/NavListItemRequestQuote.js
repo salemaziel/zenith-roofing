@@ -1,5 +1,7 @@
 import React from "react";
-import { Button, NavItem } from 'reactstrap'
+import Button from 'react-bootstrap/Button'
+import NavItem from 'react-bootstrap/NavItem'
+
 import { Link } from 'gatsby'
 
 class NavListItemRequestQuote extends React.Component {
