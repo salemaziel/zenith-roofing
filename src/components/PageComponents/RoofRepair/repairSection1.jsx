@@ -13,13 +13,12 @@ class RRSection1 extends Component {
     return (
       <>
         <section className={repairStyle.Section} >
-        <Container >
+        {/*<Container >
           <Row className={repairStyle.Titlerow}>
             <Col>
               <div className={repairStyle.Header}>
                 <h2 className={repairStyle.Title}>
-                  We Won The ‘Best Roofing Company’ Award 2019 &amp; Tightly
-                  Connected with our communities.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 </h2>
                 <p>
                   {" "}
@@ -28,22 +27,34 @@ class RRSection1 extends Component {
               </div>
             </Col>
           </Row>
-        </Container>
+        </Container>*/}
         </section>
         <section className={repairStyle.Section}>
           <Container>
         <Row className={repairStyle.HistoryRow}>
             <Col>
-              <div className={repairStyle.Header}>
-                <h2 className={repairStyle.Title}>Our History</h2>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              </div>
-            </Col>
-            <div className="single-item right-item">
+            <div className={repairStyle.Header}>
+                <h2 className={repairStyle.Title}>How to Repair Your Roof</h2>
+            <div className="">
               <img src={Climbing} alt="Roof Repairs" className="img-fluid"/>
             </div>
+            <div className="">
+                <p>
+                1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </p>
+
+                <p>
+                  2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+
+                <p>
+                  3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                </p>
+                </div>
+              </div>
+            </Col>
+
             </Row>
           </Container>
         </section>

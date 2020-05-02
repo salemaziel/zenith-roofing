@@ -17,7 +17,7 @@ class RRPage extends Component {
         <RepairHeader />
         <div className={roofrepairStyle.AboutBody} >
         <RRSection1 />
-        <RRSection2 />
+        {/*<RRSection2 />*/}
         </div>
         <ActionBanner2 />
         

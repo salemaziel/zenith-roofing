@@ -2,7 +2,7 @@ import React from "react"
 
 
 import Col from "react-bootstrap/Col"
-import { LogoWshadowDarkVertMd } from "../../../images/index"
+import { LogoWshadowDarkVertMd, PhoneNumber, PhonenumberHorz } from "../../../images/index"
 import Modal from "react-modal"
 import Row from "react-bootstrap/Row"
 import Container from "react-bootstrap/Container"
@@ -50,18 +50,22 @@ class HeroHeaderSection extends React.Component {
             <Col>
               {/*<h1>
                 {" "}*/}
+        <div>
               <img
                 src={LogoWshadowDarkVertMd}
                 className={homeStyles.Logo}
                 alt=""
+          
               />
+            </div>
+            
               {/*{" "}
                 Zenith{" "}
               </h1>
     <h2>Roofing</h2>*/}
               <div className={homeStyles.HomeHeroBtns}>
                 <Button className={homeStyles.freecall} href="tel:8589006163">
-                <FontAwesomeIcon icon={faPhoneAlt} style={{margin: '0 4px 0 0'}}/>
+                <FontAwesomeIcon icon={faPhoneAlt} style={{margin: '0 4px 0 0', fontSize: '16px'}}/>
                   
                   Call Now
                 </Button>
@@ -91,6 +95,19 @@ class HeroHeaderSection extends React.Component {
                <EstimateForm  />
               </Container>
             </Modal>
+ {/*           <div style={{ margin: "auto", padding: "0", }}>
+          <a
+            href="tel:8589006163"
+            style={{ cursor: "pointer", lineHeight: "150px" }}
+          >
+            <img
+              src={PhonenumberHorz}
+              style={{ margin: 'auto' }}
+              alt="PhoneNumber:8589006163"
+              className=""
+            />
+          </a>
+  </div>*/}
           </Row>
         </Container>
       </section>

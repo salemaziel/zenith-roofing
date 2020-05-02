@@ -79,6 +79,7 @@
   align-content: inherit;
   align-items: inherit;
   display: none;
+  font-weight: 800;
 }
 
 .freecall {
@@ -113,6 +114,7 @@
 
 .getquote {
   background: #ff9900;
+  background-color: #ff9900;
   text-decoration: none;
   transition: 0.4s ease-out;
   -webkit-transition: 0.3s all ease-in-out;
@@ -128,6 +130,7 @@
 
 .getquote:hover {
   background: #ff9900;
+  background-color: #ff9900;
   text-decoration: none;
   color: white;
   transform: scale(1.05);
@@ -141,6 +144,7 @@
 
 .getquote:focus {
     background: #ff9900;
+    background-color: #ff9900;
     text-decoration: none;
     color: white;
     transition: 0.4s ease-out;
@@ -522,7 +526,7 @@ div.boxes-area .row {
 }
 .testmonial .white-box p {
   padding: 20px 0px;
-  color: #bcbcbc;
+  color: #5a5858;
   font-size: 20px;
   font-weight: 600;
   font-style: italic;
@@ -805,7 +809,7 @@ div.boxes-area .row {
     width: auto;
     max-width: 300px;
     height: auto;
-    margin: 25% auto;
+    margin: 25% auto 10%;
     display: inline-block;
   }
   .HeroContainer {

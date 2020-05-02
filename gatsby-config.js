@@ -1,14 +1,15 @@
-'use strict';
+//'use strict';
 
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
+//require("dotenv").config({
+//  path: `.env.${process.env.NODE_ENV}`,
+//})
 
+//const siteConfig = require('./config.js');
+const config = require('./config/site');
 
-const siteConfig = require('./config.js');
 module.exports = {
   siteMetadata: {
-    ...siteConfig,
+    ...config,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,6 +20,21 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/templates/SingleService`,
+        name: 'service',
+      },
+    },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

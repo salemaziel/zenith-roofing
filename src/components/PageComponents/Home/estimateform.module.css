@@ -7,7 +7,7 @@
     border-color: rgba(255, 255, 255, 0.95);
     border-radius: 5px;
     box-shadow: 0px 0px 11px 5px rgba(186, 186, 186, 1);
-    -webkit-box-shadow: 0px 0px 11px 5px rgba(186, 186, 186, 1);
+    -webkit-box-shadow: 0px 0px 11px 5px rgba(186, 186, 186,1);
 }
 
 .title {

@@ -1,9 +1,8 @@
-import React from 'react';
-
-
-class RepairHeader extends React.Component {
-  render() {
-    return (
+import React from "react"
+import Layout from "../../components/layout"
+const SingleService = () => (
+  
+  <Layout>
       <section
         className="inner-page-banner servicesBanner"
         >
@@ -24,8 +23,7 @@ class RepairHeader extends React.Component {
           </div>
         </div>
       </section>
-    );
-  }
-}
 
-export default RepairHeader
+  </Layout>
+)
+export default SingleService

@@ -80,7 +80,7 @@ class Testimonials extends React.Component {
             <Card className={testimonialStyle.CardStyle}>
             <Card.Body>
             <Media>
-              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} />
+              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} alt='Reviewer Profile Pic' />
 
                 <Card.Title 
                 >Deborah J.</Card.Title>
@@ -97,7 +97,7 @@ class Testimonials extends React.Component {
           <Card className={testimonialStyle.CardStyle}>
           <Card.Body>
           <Media>
-              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} />
+              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} alt='Reviewer Profile Pic' />
 
                 <Card.Title 
                 >Deborah J.</Card.Title>
@@ -113,24 +113,7 @@ class Testimonials extends React.Component {
           <Card className={testimonialStyle.CardStyle}>
           <Card.Body>
           <Media>
-              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} />
-
-                <Card.Title 
-                >Deborah J.</Card.Title>
-                </Media>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-              </Card.Body>
-
-            </Card>          
-            </div>
-            <div className="">
-          <Card className={testimonialStyle.CardStyle}>
-          <Card.Body>
-          <Media>
-              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} />
+              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} alt='Reviewer Profile Pic'/>
 
                 <Card.Title 
                 >Deborah J.</Card.Title>
@@ -147,7 +130,24 @@ class Testimonials extends React.Component {
           <Card className={testimonialStyle.CardStyle}>
           <Card.Body>
           <Media>
-              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} />
+              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} alt='Reviewer Profile Pic'/>
+
+                <Card.Title 
+                >Deborah J.</Card.Title>
+                </Media>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+
+            </Card>          
+            </div>
+            <div className="">
+          <Card className={testimonialStyle.CardStyle}>
+          <Card.Body>
+          <Media>
+              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} alt='Reviewer Profile Pic'/>
 
                 <Card.Title 
                 >Deborah J.</Card.Title>
@@ -165,7 +165,7 @@ class Testimonials extends React.Component {
           <Card className={testimonialStyle.CardStyle}>
           <Card.Body>
           <Media>
-              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} />
+              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} alt='Reviewer Profile Pic' />
 
                 <Card.Title 
                 >Deborah J.</Card.Title>

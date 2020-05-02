@@ -7,7 +7,7 @@ class SystemsBoxLeft extends React.Component {
     return (
       <div className="box-left">
         {" "}
-        <CardImg src={SystemsImage} className="img-fluid" />{" "}
+        <CardImg src={SystemsImage} className="img-fluid" alt='Roofer Working' />{" "}
       </div>
     );
   }

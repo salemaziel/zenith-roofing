@@ -146,8 +146,8 @@ nav {
 
 #navbar-nav:hover,
 #navbar-nav:focus {
-		background: white;
-		border-color: white;
+		background: transparent;
+		border-color: transparent;
 	}
 
 /*

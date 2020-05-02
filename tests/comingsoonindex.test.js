@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import comingsoonindex from '../src/component/comingsoonindex.js';
+import comingsoonindex from '../src/component/comingsoonindex.js'
 
 describe('<comingsoonindex />', () => {
     it('should match the snapshot', () => {

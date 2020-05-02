@@ -12,7 +12,7 @@ module.exports = {
     copyright: '© All rights reserved.',
     disqusShortname: '',
     postsPerPage: 4,
-    image: 'src/images/logo-vert-square-x512.png',
+    image: 'logo-vertical-dark-300x246.png',
     twitterUsername: 'ZenithRoofings',
   },
   home: {
