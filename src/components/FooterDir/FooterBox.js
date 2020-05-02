@@ -76,48 +76,48 @@ class FooterBox extends React.Component {
               <div className="nav-list">
               <Col>
                 <ul>
-                  <Nav.Item>
+                  
                     <li style={{padding: '1rem'}}>
                       <Link rel="preload" to="/about ">
                         About
                       </Link>
                     </li>
-                  </Nav.Item>
+                  
 
-                  <Nav.Item>
+                  
                     <li style={{padding: '1rem'}}>
                       <Link rel="preload" to="/services">
                         Services
                       </Link>
                     </li>
-                  </Nav.Item>
+                  
 
-                  <Nav.Item>
+                  
                     <li style={{padding: '1rem'}}>
                       <Link rel="preload" to="/contact">
                         Contact
                       </Link>
                     </li>
-                  </Nav.Item>
+                  
 
-                  <Nav.Item>
+                  
                     <li style={{padding: '1rem'}}>
                       <Link rel="preload" to="/systems">
                         Systems
                       </Link>
                     </li>
-                  </Nav.Item>
+                  
 
                   {/*<li style={{padding: '1rem'}}>
                     <Link rel="preload" to="/">Site Map</Link>
                   </li>*/}
-                  <Nav.Item>
+                  
                     <li style={{padding: '1rem'}}>
                       <Link rel="preload" to="/">
                         Referrals
                       </Link>
                     </li>
-                  </Nav.Item>
+                  
                 </ul>
                 </Col>
               </div>
