@@ -1,6 +1,6 @@
 [build]
-  command = "gatsby build"
-  publish = "public/"
+command = "gatsby build"
+publish = "public/"
 
 
 [[plugins]]
@@ -10,4 +10,4 @@ package = "netlify-plugin-image-optim"
 package = "netlify-plugin-gatsby-cache"
 
 [[plugins]]
-package = "netlify-plugin-subfont
+package = "netlify-plugin-subfont"
