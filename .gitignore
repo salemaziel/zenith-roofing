@@ -78,3 +78,5 @@ redux.*.state
 redux.*.state/
 /redux.*.state
 /redux.*.state/
+
+tests/
