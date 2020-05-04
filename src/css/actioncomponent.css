@@ -103,3 +103,16 @@
       font-size: 32px;
     }
   }
+
+  @media screen and (max-width: 360px) {
+    .action-wrap-layout1 {
+      padding: 5rem 0;
+      margin: -2rem 0 4rem 0;
+  }
+
+  .CTAbutton {
+    width: 200px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  }

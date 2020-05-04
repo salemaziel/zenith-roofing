@@ -278,7 +278,7 @@ form button:disabled {
 
 
 
-@media (max-width:1024px){
+@media screen and (max-width:1024px){
 .section-contact h1{
 	font-size:50px;
 }
@@ -293,7 +293,7 @@ form button:disabled {
 	font-size:15px;
 }
 }
-@media (max-width:991px){
+@media screen and (max-width:991px){
 .section-contact{
 	padding:75px 0px;
 }
@@ -305,7 +305,7 @@ form button:disabled {
 	padding:20px 0px;
 }
 }
-@media (max-width:767px){
+@media screen and (max-width:767px){
 .section-contact{
 	padding:50px 0px;
 }
@@ -316,4 +316,27 @@ form button:disabled {
 	font-size:16px;
 	padding:20px 0px;
 }
+}
+
+
+@media screen and (max-width: 480px) {
+
+
+}
+
+
+@media screen and (max-width: 360px) {
+	form input[type="text"], form input[type="email"], form textarea, form select, form input[type="tel"], form .file {
+	text-align: left;
+    display: block;
+    background-color: #fafafa;
+    width: 100%;
+    outline: 0;
+    border: 1px solid #e4e9ea;
+    border-radius: 3px;
+    transition: all .25s;
+    padding: 8px;
+    margin: 0.5em 0 0.5em;
+	}
+	
 }

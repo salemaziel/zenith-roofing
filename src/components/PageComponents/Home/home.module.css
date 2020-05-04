@@ -565,6 +565,10 @@ div.boxes-area .row {
   max-width: 100%;
 }
 
+.ModalContainer {
+  padding: auto;
+}
+
 @media screen and (min-width: 2400px) {
   .HomeHeroBtns {
     display: none;
@@ -1049,8 +1053,8 @@ div.boxes-area .row {
 
 @media screen and (max-width: 480px) {
   .HeroSection {
-    padding: 20% 0;
-  }
+    padding: 25% 0;
+}
   .HeroSection .container {
     margin: 10% 0;
   }
@@ -1120,4 +1124,57 @@ div.boxes-area .row {
   .FormDesktop {
     display: none;
   }
+
+  .HeroSection {
+    padding: 15% 0 20%;
+  }
+
+  .HeroContainer {
+    margin: auto;
+    width: 90vw;
+    max-width: 100%;
+}
+
+.Logo {
+  padding: 0 0 10px 0;
+}
+
+.HomeHeroBtns {
+  margin: 0 0;
+  padding: 0;
+
+}
+
+.freecall {
+  font-size: 14px;
+}
+
+.getquote {
+  font-size:14px
+}
+.modalmailing {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: #000;
+  height: 90%;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #ff9900;
+  margin: auto;
+  padding: 0px;
+  z-index: 4;
+  max-width: 90%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  transform: translate(0%, 5%);
+}
+
+.ModalContainer {
+  padding: 0;
+}
+
 }

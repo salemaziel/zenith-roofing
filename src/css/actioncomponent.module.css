@@ -121,4 +121,8 @@
     padding: 1rem 0;
     text-align: center;
   }
+
+  .ItemTitle {
+    font-size: 24px;
+  }
 }

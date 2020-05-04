@@ -1,0 +1,166 @@
+.containerServices {
+	width: 100%;
+	margin: auto;
+	max-width: 100vw;
+	padding: 0 5%;
+}
+.servicesGrid {
+    padding: 10rem 0 6.5rem;
+  }
+
+/* Page Banner */
+.inner-page-banner {
+  display: block;
+  padding: 10.4rem 0;
+  position: relative;
+  min-height: 30em;
+}
+/*
+.inner-page-banner:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(237, 28, 37, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+*/
+
+.servicesBanner {
+  background-image: url('../../../images/toolbelt.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  
+}
+
+
+
+
+
+
+/*Service-Boxes */
+
+.service-box-layout6 {
+    margin-bottom: 35px;
+  }
+  .service-box-layout6 .item-img {
+    position: relative;
+    margin-bottom: 18px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .service-box-layout6 .item-img img {
+    border-radius: 4px;
+    transform: scale(1);
+    transition: transform 5s cubic-bezier(0.2, 0.96, 0.34, 1);
+  }
+  .service-box-layout6 .item-img .item-icon {
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    z-index: 2;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .service-box-layout6 .item-img .item-icon i:before {
+    font-size: 36px;
+    color: #082c4b;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .service-box-layout6 .item-img:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(9, 45, 76, 0.8);
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .service-box-layout6 .item-content .item-title {
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  .service-box-layout6 .item-content .item-title a {
+    color: #111111;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .service-box-layout6 .item-content .item-title a:hover {
+    color: #ee212b;
+  }
+  .service-box-layout6 .item-content p {
+    margin-bottom: 25px;
+  }
+  .service-box-layout6:hover .item-img img {
+    transform: scale(1.2);
+  }
+  .service-box-layout6:hover .item-img:after {
+    visibility: visible;
+    opacity: 1;
+  }
+  .service-box-layout6:hover .item-img .item-icon {
+    background-color: #ee212b;
+    animation: pulse 1500ms infinite;
+  }
+  .service-box-layout6:hover .item-img .item-icon i:before {
+    color: #ffffff;
+  }
+
+
+
+    
+  @media screen and (max-width: 991px) {
+    .inner-page-banner .breadcrumbs-area h1 {
+      font-size: 30px;
+    }
+  }
+
+
+
+  @media screen and (max-width: 767px) {
+    .inner-page-banner .breadcrumbs-area h1 {
+      font-size: 28px;
+    }
+    .servicesGrid {
+        padding: 8rem 0 6.5rem;
+    }
+  }
+  
+
+
+  @media screen and (max-width: 480px) {
+    .inner-page-banner {
+        max-height: 0;
+        min-height: 0;
+        height: 20rem;
+    }
+  }

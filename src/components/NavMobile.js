@@ -1,10 +1,13 @@
 import React from "react"
 import SideNav from "react-simple-sidenav"
-import { Link } from "gatsby"
+import { Link, navigateTo } from "gatsby"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import { LogoWshadowDarkVertSm } from "../images/index"
+
+import NavDropdown from "react-bootstrap/NavDropdown"
+
 
 //import navmobileStyles from "./navmobile.module.css"
 import { MenuIcon } from "../images/index"
@@ -49,8 +52,15 @@ class NavMobile extends React.Component {
               />
             </Link>
             <p
-            style={{textAlign: 'center', margin: '0 auto', padding: '0 5px 0 0', fontWeight: 'bold'}}
-            >Lic# 1036112</p>
+              style={{
+                textAlign: "center",
+                margin: "0 auto",
+                padding: "0 5px 0 0",
+                fontWeight: "bold",
+              }}
+            >
+              Lic# 1036112
+            </p>
           </Col>
           <Col
             style={{
@@ -70,7 +80,7 @@ class NavMobile extends React.Component {
               <span className="icon-bar" />
               <span className="icon-bar" /> 
           </div>*/}
-                <img src={MenuIcon} alt='' className="menuIcon" />
+              <img src={MenuIcon} alt="" className="menuIcon" />
             </div>
           </Col>
         </Row>
@@ -83,31 +93,44 @@ class NavMobile extends React.Component {
               </Link>
             </div>
           }
-          titleStyle={{ background: "inherit", color: "#black" }}
+          titleStyle={{
+            background: "inherit",
+            color: "#black",
+            width: "200px",
+            margin: "auto",
+          }}
           items={[
             <Link rel="preload" className="nav-link" to="/">
               Home
             </Link>,
+            <Link rel="preload" className="nav-link" to="/services/roofrepairs">
+              Roof Repairs
+            </Link>,
+            <Link rel="preload" className="nav-link" to="/commercial/services">
+              Commercial
+            </Link>,
+            <Link rel="preload" className="nav-link" to="/residential/services">
+              Residential
+            </Link>,
             <Link rel="preload" className="nav-link" to="/about">
               About
             </Link>,
-            <Link rel="preload" className="nav-link" to="/services">
-              Services
-            </Link>,
+
             <Link rel="preload" className="nav-link" to="/contact">
-              Contact
+              Contact Us
             </Link>,
           ]}
           itemStyle={{
             background: "inherit",
             color: "#fff",
             fontSize: "inherit",
-            padding: "0.5rem 0",
+            padding: "0",
             textAlign: "center",
           }}
           navStyle={{ width: "75%" }}
           showNav={this.state.showNav}
           onHideNav={() => this.setState({ showNav: false })}
+          
         />
       </Container>
     )

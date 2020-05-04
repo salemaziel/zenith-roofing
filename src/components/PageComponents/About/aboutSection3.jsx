@@ -51,7 +51,7 @@ class AboutSection3 extends Component {
               </Row>
               <Row className={aboutStyle.Titlerow}>
               
-                <Col>
+                <Col className={aboutStyle.Nomobile}>
               <div className={aboutStyle.Header}>
                     
                   <h3 className={aboutStyle.Subtitles}>    Commitment to Quality
@@ -69,6 +69,17 @@ class AboutSection3 extends Component {
                   </div>
                   </div>
                   </Col>
+
+                  <Col className={aboutStyle.Nodesktop}>
+              <div className={aboutStyle.Header}>
+                    
+                  <h3 className={aboutStyle.Subtitles}>    Commitment to Quality
+                    </h3>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p>
+                  </div>
+                </Col>
                   
               </Row>
               <Row className={aboutStyle.Titlerow}>

@@ -53,7 +53,9 @@ function encode(data) {
                         <div className="row pb-5 mb-5" style={{display: 'flex', flexWrap: 'wrap'}}>
                             <div className="col-12 col-md-8">
                                 {/* Form */}
-                                <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks">
+                                <form name="contact" 
+                                method="post" 
+                                data-netlify="true" data-netlify-honeypot="bot-field" action="/success">
                                     <div className="row mt-5 mb-4" style={{display: 'flex', flexWrap: 'wrap'}}>
                                     <input type="hidden" name="form-name" value="contact" />
                                     <input type="hidden" name="form-name" value="contact" />
@@ -79,7 +81,8 @@ function encode(data) {
                                         </div>
                                     <div className="row" style={{display: 'flex', flexWrap: 'wrap'}}>
                                         <div className="col-12">
-                                            <button type="submit" className="form button">SUBMIT</button>
+                                            <button type="submit" className="form button"                     onChange={handleSubmit}
+                  >SUBMIT</button>
 
                                         </div>
                                     </div>

@@ -78,7 +78,7 @@ class FooterBox extends React.Component {
                 <ul>
                   
                     <li style={{padding: '1rem'}}>
-                      <Link rel="preload" to="/about ">
+                      <Link rel="preload" to="/about" style={{ color: 'white'}}>
                         About
                       </Link>
                     </li>
@@ -86,7 +86,7 @@ class FooterBox extends React.Component {
 
                   
                     <li style={{padding: '1rem'}}>
-                      <Link rel="preload" to="/services">
+                      <Link rel="preload" to="/services" style={{ color: 'white'}}>
                         Services
                       </Link>
                     </li>
@@ -94,7 +94,7 @@ class FooterBox extends React.Component {
 
                   
                     <li style={{padding: '1rem'}}>
-                      <Link rel="preload" to="/contact">
+                      <Link rel="preload" to="/contact" style={{ color: 'white'}}>
                         Contact
                       </Link>
                     </li>
@@ -102,7 +102,7 @@ class FooterBox extends React.Component {
 
                   
                     <li style={{padding: '1rem'}}>
-                      <Link rel="preload" to="/systems">
+                      <Link rel="preload" to="/systems" style={{ color: 'white'}}>
                         Systems
                       </Link>
                     </li>
@@ -113,7 +113,7 @@ class FooterBox extends React.Component {
                   </li>*/}
                   
                     <li style={{padding: '1rem'}}>
-                      <Link rel="preload" to="/">
+                      <Link rel="preload" to="/" style={{ color: 'white'}}>
                         Referrals
                       </Link>
                     </li>

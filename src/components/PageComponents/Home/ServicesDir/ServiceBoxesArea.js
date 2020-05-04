@@ -27,7 +27,7 @@ class ServiceBoxesArea extends React.Component {
       <div className={homeStyles.serviceBoxesAreas}>
         <Row style={{marginLeft: '0', marginRight: '0'}}>
           <div className="col-md-4 col-6 p-0">
-            <Link>
+          <Link rel="preload" to="/services/roofrepairs">
               {" "}
               <Card >
                 <div className={homeStyles.boxes}>
@@ -38,7 +38,7 @@ class ServiceBoxesArea extends React.Component {
                     <Card.Title>
                       {" "}
                       <div className={homeStyles.textTitles}>
-                        Roof Repair
+                        Roof Repairs
                       </div>{" "}
                     </Card.Title>
                   </div>{" "}

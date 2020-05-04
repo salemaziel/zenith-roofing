@@ -71,6 +71,14 @@
     padding: 2rem;
 }
 
+.Nomobile {
+    display: block;
+}
+
+.Nodesktop {
+    display: none;
+}
+
 
 @media screen and (min-width: 2400px) {
     .AboutBody {
@@ -79,6 +87,13 @@
         background-size: cover;
         background-position: center;
         background-color: transparent;
+    }
+    .Nomobile {
+        display: block;
+    }
+    
+    .Nodesktop {
+        display: none;
     }
 }
 
@@ -92,6 +107,14 @@
         background-position: center;
         background-color: transparent;
     }
+
+    .Nomobile {
+        display: block;
+    }
+    
+    .Nodesktop {
+        display: none;
+    }
 }
 
 
@@ -103,6 +126,14 @@
         background-size: cover;
         background-position: center;
         background-color: transparent;
+    }
+
+    .Nomobile {
+        display: block;
+    }
+    
+    .Nodesktop {
+        display: none;
     }
 }
 
@@ -137,6 +168,14 @@
     align-content: center;
     vertical-align: middle;
 }
+.Nomobile {
+    display: block;
+}
+
+.Nodesktop {
+    display: none;
+}
+
     
 }
 
@@ -149,6 +188,15 @@
         background-position: center;
         background-color: transparent;
     }
+
+    .Nomobile {
+        display: none;
+    }
+
+    .Nodesktop {
+        display: block;
+    }
+    
 }
 
 
@@ -161,7 +209,7 @@
         background-color: transparent;
     }
     .Titlerow {
-        display: flex;
+        display: block;
         flex-wrap: wrap;
         margin: 2rem auto;
         padding: 0 5px;
@@ -170,8 +218,20 @@
     .Title {
         
     }
-    
 
+    .Nomobile {
+        display: none;
+    }
+
+    .Nodesktop {
+        display: block;
+    }
+    
+    .HistoryRow {
+    display: block;
+    margin: 2rem auto;
+    padding: 0;
+    }
 
 }
 
@@ -183,4 +243,19 @@
         background-position: center;
         background-color: transparent;
     }
+
+    .Nomobile {
+        display: none;
+    }
+
+    .Nodesktop {
+        display: block;
+    }
+
+    .HistoryRow {
+        display: block;
+        margin: 2rem auto;
+        padding: 0;
+        }
+    
 }

@@ -1525,6 +1525,10 @@ img.heroLogo {
 		display: none;
 	  }
 
+	  .col-6 {
+		  max-width: 100%;
+	  }
+
 
 }
 
@@ -1548,7 +1552,34 @@ img.heroLogo {
 	.img-system {
 		display: none;
 	}
-
+	.nav-link {
+		color: #0D4879;
+		font-weight: 700;
+		border-radius: 3px;
+		border: 2px solid rgba(255, 255, 255,0);
+		-webkit-transition: 0.4s all ease-in-out;
+		-o-transition: 0.4s all ease-in-out;
+		transition: 0.4s all ease-in-out;
+		padding: 0.8rem;
+		font-size: 16px;
+	}
+	
+	.nav-link:hover {
+		background: #FF9900;
+		color: white;
+		border-radius: 3px;
+		border: 2px solid #FF9900;
+		-webkit-transition: 0.4s all ease-in-out;
+		-o-transition: 0.4s all ease-in-out;
+		transition: 0.4s all ease-in-out;
+	}
+	.nav-link:active {
+		background: #FF9900;
+		color: white;
+		border-radius: 3px;
+		border: 2px solid #FF9900;
+	}
+	
 
 
 }

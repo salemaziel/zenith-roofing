@@ -91,7 +91,7 @@ class HeroHeaderSection extends React.Component {
               className={homeStyles.modalmailing}
               overlayClassName={homeStyles.modalmailingOverlay}
             >
-              <Container style={{outlineColor: 'none!important'}}>
+              <Container style={{outlineColor: 'none!important', padding: 'auto 0!important'}} className={homeStyles.ModalContainer}>
                <EstimateForm  />
               </Container>
             </Modal>
