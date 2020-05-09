@@ -8,16 +8,21 @@
 }
 
 .divheroLogo {
-  max-width: 60%;
+  max-width: 100%;
   margin: auto;
   padding: 2rem 0;
   transform: scale(1.1);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
 
 .Logo {
-  width: 500px;
-  height: 500px;
-  margin: 10% 0;
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 10% auto;
 }
 
 .heroTitle {
@@ -226,7 +231,7 @@
   align-items: center;
   align-content: center;
   text-align: center;
-  transform: translate(0%, 30%);
+  transform: translate(0%, 40%);
   /*box-shadow: 0px 0px 11px 5px rgba(186, 186, 186, 1);
   -webkit-box-shadow: 0px 0px 11px 5px rgba(186, 186, 186, 1);*/
 }
@@ -603,7 +608,8 @@ div.boxes-area .row {
     display: none;
   }
   .Logo {
-    max-width: 400px;
+    width: 300px;
+    height: 300px;
   }
 }
 
@@ -727,7 +733,7 @@ div.boxes-area .row {
     align-items: center;
     align-content: center;
     text-align: center;
-    transform: translate(0%, 30%);
+    transform: translate(0%, 40%);
     max-width: 100%;
   }
 
@@ -825,9 +831,8 @@ div.boxes-area .row {
     display: block;
   }
   .Logo {
-    width: auto;
-    max-width: 300px;
-    height: auto;
+    width: 300px;
+    height: 300px;
     margin: 25% auto 10%;
     display: inline-block;
   }
@@ -1082,7 +1087,7 @@ div.boxes-area .row {
 
   .Logo {
     margin: auto;
-    max-width: 75%;
+    /*max-width: 75%;*/
     padding: 0 0 3rem 0;
   }
   .mobileLogo {
@@ -1152,6 +1157,8 @@ div.boxes-area .row {
 
 .Logo {
   padding: 0 0 10px 0;
+  width: 300px;
+  height: 300px;
 }
 
 .HomeHeroBtns {

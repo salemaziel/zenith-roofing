@@ -16,7 +16,19 @@ function NavbarCustom(props) {
   //  const router = useRouter();
 
   return (
-    <Navbar className="fullNav">
+    <Navbar 
+    className="fullNav" 
+    style={{
+      position: 'fixed',
+      top: '0',
+      right: '0',
+      left: '0',
+      zIndex: '5',
+      border: '1px solid',
+      borderColor: 'rgba(0,0,0,0.05)',
+      borderRadius: '5px'
+    }}
+    >
       <Container
         fluid
         style={{
@@ -27,21 +39,22 @@ function NavbarCustom(props) {
           margin: "auto",
         }}
       >
-        <Row>
+        <Row style={{display: 'flex', flexWrap: 'nowrap'}}>
           <Link rel="preload" to="/">
             <Navbar.Brand>
               <img
                 className="d-inline-block align-top"
                 src={LogoWshadowDarkVertSm}
                 alt="Logo"
-                height="110"
-                width="135"
+                height="75px"
+                width="auto"
               ></img>
               <p
                 style={{
                   textAlign: "center",
                   margin: "0 auto",
                   padding: "0 5px 0 0",
+                  fontSize: "1rem"
                 }}
               >
                 Lic# 1036112
@@ -52,11 +65,11 @@ function NavbarCustom(props) {
           <div style={{ margin: "auto", padding: "0" }}>
             <a
               href="tel:8589006163"
-              style={{ cursor: "pointer", lineHeight: "150px" }}
+              style={{ cursor: "pointer" }}
             >
               <img
                 src={PhoneNumber}
-                style={{ width: "100%", maxWidth: "200px", minWidth: "170px" }}
+                style={{ width: "100%", maxWidth: "150px", minWidth: "100px" }}
                 alt="PhoneNumber:8589006163"
                 className=""
               />
@@ -73,15 +86,18 @@ function NavbarCustom(props) {
           <span className="icon-bar" />{" "}
         
         </div>*/}
-          <Navbar.Collapse
+        {/*  <Navbar.Collapse
             id="navbar-nav"
             className="justify-content-end"
             className="nav-link"
-          >
+        > */}
             <Nav
               className="mr-1"
               defaultActiveKey="/"
               onSelect={(selectedKey) => navigateTo(`${selectedKey}`)}
+              style={{
+                marginTop: '1.5rem'
+              }}
             >
               {/* <Link rel="preload" className="nav-link" to="/">
               Home
@@ -105,6 +121,7 @@ function NavbarCustom(props) {
 
               <NavDropdown
                 as={Link}
+                href="/commercial"
                 to="/commercial"
                 eventKey="commercial"
                 title="Commercial"
@@ -159,29 +176,31 @@ function NavbarCustom(props) {
               {/*<Link to="/services" className="nav-link" rel="preload" eventKey="Services-Link">
               Services
           </Link>*/}
-
-              <Link
+<Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/about"
                 className="nav-link"
                 rel="preload"
-                eventKey="aboutLink"
+                eventKey="/about"
               >
                 About
-              </Link>
-
+              </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
               <Link
                 to="/services/roofrepairs"
                 className="nav-link"
                 rel="preload"
-                eventKey="repairLink"
+                eventKey="/services/roofrepairs"
               >
                 Roof Repairs{" "}
               </Link>
-
+              </Nav.Item>
               {/*<Link to="/contact" className="nav-link" rel="preload">
               Contact
              </Link>*/}
-
+<Nav.Item>
               <Button
                 className="QuoteNav"
                 as={Link}
@@ -190,8 +209,9 @@ function NavbarCustom(props) {
               >
                 Contact
               </Button>
+              </Nav.Item>
             </Nav>
-          </Navbar.Collapse>
+          {/*</Navbar.Collapse>*/}
         </Row>
       </Container>
     </Navbar>

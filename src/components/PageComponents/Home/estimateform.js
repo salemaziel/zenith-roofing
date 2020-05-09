@@ -58,17 +58,18 @@ export default function EstimateForm() {
             <Form.Row>
               <Col>
                 <Form.Group>
-                  <label htmlFor="name">First Name</label>
-                  <input type="text" name="firstname" id="firstname" required />
+                  <label style={{display: 'none'}} htmlFor="name">First Name</label>
+                  <input type="text" name="firstname" id="firstname" placeholder="First Name" required />
                 </Form.Group>
               </Col>
               <Col>
                 <Form.Group>
-                  <label htmlFor="name">Last Name</label>
+                  <label htmlFor="name" style={{display: 'none'}} >Last Name</label>
                   <input
                     type="text"
                     name="lastname"
                     id="lastname"
+                    placeholder="Last Name"
                     required
                     onClick={handleChange}
                   />
@@ -79,11 +80,12 @@ export default function EstimateForm() {
             <Form.Row>
               <Col>
                 <Form.Group>
-                  <label htmlFor="email">Email</label>
+                  <label htmlFor="email" style={{display: 'none'}}>Email</label>
                   <input
                     type="text"
                     name="email"
                     id="email"
+                    placeholder="Email"
                     required
                     onChange={handleChange}
                   />
@@ -91,11 +93,12 @@ export default function EstimateForm() {
               </Col>
               <Col>
                 <Form.Group>
-                  <label htmlFor="tel">Phone</label>
+                  <label htmlFor="tel" style={{display: 'none'}}>Phone</label>
                   <input
                     type="tel"
                     name="phone"
                     id="phone"
+                    placeholder="Phone"
                     required
                     onChange={handleChange}
                   />
@@ -106,11 +109,12 @@ export default function EstimateForm() {
             <Form.Row>
               <Col>
             <Form.Group>
-                  <label htmlFor="streetname">Street Address</label>
+                  <label htmlFor="streetname" style={{display: 'none'}}>Street Address</label>
                   <input
                     type="text"
                     name="streetname"
                     id="streetname"
+                    placeholder="123 Your Street"
                     required
                     onChange={handleChange}
                   />
@@ -120,11 +124,12 @@ export default function EstimateForm() {
             <Form.Row>
               <Col>
             <Form.Group>
-                  <label htmlFor="city">City</label>
+                  <label htmlFor="city" style={{display: 'none'}}>City</label>
                   <input
                     type="text"
                     name="city"
                     id="city"
+                    placeholder="City"
                     required
                     onChange={handleChange}
                   />
@@ -132,11 +137,12 @@ export default function EstimateForm() {
                 </Col>
                 <Col xs={2}>
             <Form.Group>
-                  <label htmlFor="state">State</label>
+                  <label htmlFor="state" style={{display: 'none'}}>State</label>
                   <input
                     type="text"
                     name="state"
                     id="state"
+                    value="CA"
                     required
                     onChange={handleChange}
                   />
@@ -144,11 +150,12 @@ export default function EstimateForm() {
                 </Col>
                 <Col>
             <Form.Group>
-                  <label htmlFor="address">Zip Code</label>
+                  <label htmlFor="address" style={{display: 'none'}}>Zip Code</label>
                   <input
                     type="text"
                     name="zipcode"
                     id="zipcode"
+                    placeholder="Zip Code"
                     required
                     onChange={handleChange}
                   />

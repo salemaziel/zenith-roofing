@@ -1,8 +1,12 @@
 import React from "react"
 
-
 import Col from "react-bootstrap/Col"
-import { LogoWshadowDarkVertMd, FullLogoNoBgMd, PhoneNumber, PhonenumberHorz } from "../../../images/index"
+import {
+  LogoWshadowDarkVertMd,
+  FullLogoNoBgMd,
+  PhoneNumber,
+  PhonenumberHorz,
+} from "../../../images/index"
 import Modal from "react-modal"
 import Row from "react-bootstrap/Row"
 import Container from "react-bootstrap/Container"
@@ -12,9 +16,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons"
 
-
-import EstimateForm from './estimateform'
-
+import EstimateForm from "./estimateform"
 
 import homeStyles from "./home.module.css"
 import "./home.module.css"
@@ -46,31 +48,28 @@ class HeroHeaderSection extends React.Component {
     return (
       <section className={homeStyles.HeroSection}>
         <Container fluid className={homeStyles.HeroContainer}>
-          <Row>
+          <Row style={{margin: '10% auto'}}>
             <Col>
-              {/*<h1>
-                {" "}*/}
-        <div>
-              <img
-                src={FullLogoNoBgMd}
-                className={homeStyles.Logo}
-                alt="Logo for Zenith Roofing Services Southern California"
-          
-              />
-          <h1 className={homeStyles.heroTitle}>
-            <span style={{display: "none"}}>Zenith Roofing Services</span>
-            Serving Southern California
-          </h1>
-            </div>
-            
-              {/*{" "}
-                Zenith{" "}
-              </h1>
-    <h2>Roofing</h2>*/}
+              <div>
+                <img
+                  src={FullLogoNoBgMd}
+                  className={homeStyles.Logo}
+                  alt="Logo for Zenith Roofing Services Southern California"
+                />
+                <h1 className={homeStyles.heroTitle}>
+                  <span style={{ display: "none" }}>
+                    Zenith Roofing Services
+                  </span>
+                  Serving Southern California
+                </h1>
+              </div>
+
               <div className={homeStyles.HomeHeroBtns}>
                 <Button className={homeStyles.freecall} href="tel:8589006163">
-                <FontAwesomeIcon icon={faPhoneAlt} style={{margin: '0 4px 0 0', fontSize: '16px'}}/>
-                  
+                  <FontAwesomeIcon
+                    icon={faPhoneAlt}
+                    style={{ margin: "0 4px 0 0", fontSize: "16px" }}
+                  />
                   Call Now
                 </Button>
                 <Button
@@ -95,23 +94,16 @@ class HeroHeaderSection extends React.Component {
               className={homeStyles.modalmailing}
               overlayClassName={homeStyles.modalmailingOverlay}
             >
-              <Container style={{outlineColor: 'none!important', padding: 'auto 0!important'}} className={homeStyles.ModalContainer}>
-               <EstimateForm  />
+              <Container
+                style={{
+                  outlineColor: "none!important",
+                  padding: "auto 0!important",
+                }}
+                className={homeStyles.ModalContainer}
+              >
+                <EstimateForm />
               </Container>
             </Modal>
- {/*           <div style={{ margin: "auto", padding: "0", }}>
-          <a
-            href="tel:8589006163"
-            style={{ cursor: "pointer", lineHeight: "150px" }}
-          >
-            <img
-              src={PhonenumberHorz}
-              style={{ margin: 'auto' }}
-              alt="PhoneNumber:8589006163"
-              className=""
-            />
-          </a>
-  </div>*/}
           </Row>
         </Container>
       </section>
