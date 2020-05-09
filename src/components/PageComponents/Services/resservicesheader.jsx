@@ -11,7 +11,7 @@ class ResServicesHeader extends React.Component {
           <div className="row">
             <div className="col-12">
               <div className="breadcrumbs-area">
-                <h1>Our Services</h1>
+                <h1>Residential Services</h1>
                 <ul>
                   <li>
                     <Link rel="preload" to="/">Home</Link>

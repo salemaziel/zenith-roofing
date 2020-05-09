@@ -18,13 +18,15 @@ class AboutSection1 extends Component {
             <Col>
               <div className={aboutStyle.Header}>
                 <h2 className={aboutStyle.Title}>
-                  We Won The ‘Best Roofing Company’ Award 2019 &amp; Tightly
-                  Connected with our communities.
+                  Zenith Roofing Services is about getting the job done right.
                 </h2>
                 <p>
                   {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{" "}
-                </p>
+                  With years of experience serving the area, we are your solution for all your roofing needs. We take great pride in our extreme professionalism, timeliness and superior customer service on every job. We strive to develop a lasting relationship with our customers by delivering consistent quality work, so that the next time service is needed there will be no question on who to call. 
+                  </p>
+                  <h3 style={{color: '#ff9900', textAlign: 'center'}}>
+                    Satisfaction guaranteed!{" "}
+                </h3>
               </div>
             </Col>
           </Row>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-import ServicesGrid from './servicesgrid'
+import ResServicesGrid from './resservicesgrid'
 import ResServicesHeader from './resservicesheader'
 import './services.css'
 
@@ -11,7 +11,7 @@ class ResServicesPage extends Component {
     return (
         <>
         <ResServicesHeader />
-        <ServicesGrid />
+        <ResServicesGrid />
       
       </>
     );

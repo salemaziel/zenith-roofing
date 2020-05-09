@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'gatsby'
 
 class RepairHeader extends React.Component {
   render() {
@@ -14,9 +14,10 @@ class RepairHeader extends React.Component {
                 <h1>Roof Repair</h1>
                 <ul>
                   <li>
-                    <a href="index.html">Home</a>
+                    <Link rel="preload" to="/">Home</Link>
                   </li>
-                  <li>Services</li>
+                  <li>
+                  <Link rel="preload" to="/">Services</Link></li>
                   <li>Roof Repairs</li>
                 </ul>
               </div>

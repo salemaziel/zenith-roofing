@@ -22,7 +22,7 @@ class CustomerLovesSection extends React.Component {
             <Col>
               <div className={customerlovesStyle.Intro} >
                 <h1 className={customerlovesStyle.IntroTitle} >
-                  Zenith Roofing Services proudly serves the Counties of: <br /> San Diego, Temecula, Orange, Riverside and Los Angeles.{" "}
+                  Zenith Roofing Services proudly serves the following Southern California Counties: <br /> San Diego, Temecula, Orange, Riverside and Los Angeles.{" "}
                 </h1>
                 <p className={customerlovesStyle.IntroText}>
                   With years of experience serving the greater Southern California
@@ -32,14 +32,14 @@ class CustomerLovesSection extends React.Component {
                   <p className={customerlovesStyle.IntroText}>
                   We take great pride in our work and prioritize extreme
                   professionalism, timeliness, and superior customer service on
-                  every job. We strive to lasting relationships with all of our
+                  every job. We strive to develop lasting relationships with all of our
                   customers by getting the job done so well, the next time
                   roofing service is needed, there is is no question who to call.
                 </p>
 
                 <p className={customerlovesStyle.IntroText}>
                   Contact us today so we can discuss your needs and make a plan
-                  that fits your budget. Satisfaction guaranteed!
+                  that fits your budget.<br /> <strong> Satisfaction guaranteed!</strong>
                 </p>
 
               </div>

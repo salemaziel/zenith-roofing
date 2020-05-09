@@ -110,27 +110,27 @@ function NavbarCustom(props) {
                 title="Commercial"
                 id="nav-dropdown-commercial"
               >
-                <NavDropdown.Item eventKey="commercial/page">
+                <NavDropdown.Item eventKey="commercial/services#Owenscorning">
                   Owens-Corning Systems
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item eventKey="commercial/page">
+                <NavDropdown.Item eventKey="commercial/services#TPO">
                   Thermoplastic Polyolefin (TPO)
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="commercial/page">
+                <NavDropdown.Item eventKey="commercial/services#PVC">
                   {" "}
                   Polyvinyl Chloride (PVC){" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="commercial/page">
+                <NavDropdown.Item eventKey="commercial/services#EPDM">
                   Ethylene Propylene Diene Monomer (EPDM){" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="commercial/page">
+                <NavDropdown.Item eventKey="commercial/services#Tile">
                   Tile{" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="commercial/page">
+                <NavDropdown.Item eventKey="commercial/services#Shingle">
                   Shingle{" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="commercial/page">
+                <NavDropdown.Item eventKey="commercial/services#BUR">
                   Built-up Roofing BUR{" "}
                 </NavDropdown.Item>
                 <NavDropdown.Item eventKey="commercial/services">Services</NavDropdown.Item>

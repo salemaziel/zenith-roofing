@@ -15,14 +15,29 @@
 }
 
 .Logo {
-  width: auto;
-  height: auto;
+  width: 500px;
+  height: 500px;
   margin: 10% 0;
 }
 
+.heroTitle {
+    font-size: 24px;
+    color: #ff9900;
+    font-weight: bold;
+    text-transform: uppercase;
+   /* text-shadow: 2px 2px 3px #8b8888;*/
+    text-shadow: 3px 3px 5px black;
+    -webkit-text-shadow: 3px 3px 5px black;
+/*    -webkit-text-shadow: 3px 3px 5px #8b8888;*/
+    margin: auto;
+    padding: 0 0 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 .heroTitle h1 {
   color: #ff9900;
-  font-size: 70px;
+  font-size: 36px;
   margin: 0px;
   padding: 0px;
   font-weight: 800;
@@ -1053,7 +1068,7 @@ div.boxes-area .row {
 
 @media screen and (max-width: 480px) {
   .HeroSection {
-    padding: 25% 0;
+    padding: 5% 0;
 }
   .HeroSection .container {
     margin: 10% 0;

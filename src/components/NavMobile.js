@@ -6,8 +6,7 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import { LogoWshadowDarkVertSm } from "../images/index"
 
-import NavDropdown from "react-bootstrap/NavDropdown"
-
+import Button from "react-bootstrap/Button"
 
 //import navmobileStyles from "./navmobile.module.css"
 import { MenuIcon } from "../images/index"
@@ -113,12 +112,14 @@ class NavMobile extends React.Component {
               Residential
             </Link>,
             <Link rel="preload" className="nav-link" to="/about">
-              About
+              About Us
             </Link>,
-
-            <Link rel="preload" className="nav-link" to="/contact">
+            <Button
+              className="QuoteNav"
+              onClick={() => navigateTo("/contact")}
+            >
               Contact Us
-            </Link>,
+            </Button>,
           ]}
           itemStyle={{
             background: "inherit",
@@ -130,7 +131,6 @@ class NavMobile extends React.Component {
           navStyle={{ width: "75%" }}
           showNav={this.state.showNav}
           onHideNav={() => this.setState({ showNav: false })}
-          
         />
       </Container>
     )

@@ -2,7 +2,7 @@ import React from "react"
 
 
 import Col from "react-bootstrap/Col"
-import { LogoWshadowDarkVertMd, PhoneNumber, PhonenumberHorz } from "../../../images/index"
+import { LogoWshadowDarkVertMd, FullLogoNoBgMd, PhoneNumber, PhonenumberHorz } from "../../../images/index"
 import Modal from "react-modal"
 import Row from "react-bootstrap/Row"
 import Container from "react-bootstrap/Container"
@@ -52,11 +52,15 @@ class HeroHeaderSection extends React.Component {
                 {" "}*/}
         <div>
               <img
-                src={LogoWshadowDarkVertMd}
+                src={FullLogoNoBgMd}
                 className={homeStyles.Logo}
-                alt=""
+                alt="Logo for Zenith Roofing Services Southern California"
           
               />
+          <h1 className={homeStyles.heroTitle}>
+            <span style={{display: "none"}}>Zenith Roofing Services</span>
+            Serving Southern California
+          </h1>
             </div>
             
               {/*{" "}
