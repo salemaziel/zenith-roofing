@@ -1,5 +1,5 @@
 .AboutBody {
-    background-image: url('../../../images/pattern-bg.jpg');
+    background-image: url('../../../../images/pattern-bg.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -17,7 +17,7 @@
 
 .SectionParallax {
     display: block;
-    background-image: url('../../../images/progressBg.jpg');
+    background-image: url('../../../../images/progressBg.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
@@ -74,7 +74,7 @@
 
 @media screen and (min-width: 2400px) {
     .AboutBody {
-        background-image: url('../../../images/pattern-bg.jpg');
+        background-image: url('../../../../images/pattern-bg.jpg');
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -86,7 +86,7 @@
 
 @media screen and (max-width: 1680px) {
     .AboutBody {
-        background-image: url('../../../images/pattern-bg.jpg');
+        background-image: url('../../../../images/pattern-bg.jpg');
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -98,7 +98,7 @@
 
 @media screen and (max-width: 1280px) {
     .AboutBody {
-        background-image: url('../../../images/pattern-bg.jpg');
+        background-image: url('../../../../images/pattern-bg.jpg');
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -109,7 +109,7 @@
 
 @media screen and (max-width: 980px) {
     .AboutBody {
-        background-image: url('../../../images/pattern-bg.jpg');
+        background-image: url('../../../../images/pattern-bg.jpg');
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -143,7 +143,7 @@
 
 @media screen and (max-width: 767px) {
     .AboutBody {
-        background-image: url('../../../images/pattern-bg.jpg');
+        background-image: url('../../../../images/pattern-bg.jpg');
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -154,7 +154,7 @@
 
 @media screen and (max-width: 480px) {
     .AboutBody {
-        background-image: url('../../../images/pattern-bg.jpg');
+        background-image: url('../../../../images/pattern-bg.jpg');
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -177,7 +177,7 @@
 
 @media screen and (max-width: 360px) {
     .AboutBody {
-        background-image: url('../../../images/pattern-bg.jpg');
+        background-image: url('../../../../images/pattern-bg.jpg');
         background-attachment: fixed;
         background-size: cover;
         background-position: center;

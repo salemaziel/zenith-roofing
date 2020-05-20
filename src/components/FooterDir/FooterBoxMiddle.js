@@ -11,22 +11,19 @@ class FooterBoxMiddle extends React.Component {
         <div className="nav-list">
           <ul>
             <li>
-              <a href="#">About</a>
+              <a href="/about">About</a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a href="/services">Services</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="/contact">Contact</a>
             </li>
             <li>
-              <a href="#">Systems</a>
+              <a href="/sitemap.xml">Site Map</a>
             </li>
             <li>
-              <a href="#">Site Map</a>
-            </li>
-            <li>
-              <a href="#">Referrals</a>
+              <a href="https://zenith-referrals.netlify.app/auth/signin">Referrals</a>
             </li>
           </ul>
         </div>

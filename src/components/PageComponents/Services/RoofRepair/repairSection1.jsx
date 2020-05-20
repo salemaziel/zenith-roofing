@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col'
 
 import repairStyle from './rr.module.css'
 
-import { Climbing } from '../../../images/index'
+import { Climbing } from '../../../../images/index'
 
 
 class RRSection1 extends Component {

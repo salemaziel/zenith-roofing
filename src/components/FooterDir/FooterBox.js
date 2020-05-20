@@ -72,53 +72,64 @@ class FooterBox extends React.Component {
                 {" "}
                 <div className={footerStyle.QuickLinks}>Quick Links</div>{" "}
               </h2>
-             
+
               <div className="nav-list">
-              <Col>
-                <ul>
-                  
-                    <li style={{padding: '1rem'}}>
-                      <Link rel="preload" to="/about" style={{ color: 'white'}}>
+                <Col>
+                  <ul>
+                    <li style={{ padding: "1rem" }}>
+                      <Link
+                        rel="preload"
+                        to="/about"
+                        style={{ color: "white" }}
+                      >
                         About
                       </Link>
                     </li>
-                  
 
-                  
-                    <li style={{padding: '1rem'}}>
-                      <Link rel="preload" to="/services" style={{ color: 'white'}}>
+                    <li style={{ padding: "1rem" }}>
+                      <Link
+                        rel="preload"
+                        to="/services"
+                        style={{ color: "white" }}
+                      >
                         Services
                       </Link>
                     </li>
-                  
 
-                  
-                    <li style={{padding: '1rem'}}>
-                      <Link rel="preload" to="/contact" style={{ color: 'white'}}>
+                    <li style={{ padding: "1rem" }}>
+                      <Link
+                        rel="preload"
+                        to="/contact"
+                        style={{ color: "white" }}
+                      >
                         Contact
                       </Link>
                     </li>
-                  
 
-                  
-                    <li style={{padding: '1rem'}}>
-                      <Link rel="preload" to="/systems" style={{ color: 'white'}}>
+                    <li style={{ padding: "1rem" }}>
+                      <Link
+                        rel="preload"
+                        to="/systems"
+                        style={{ color: "white" }}
+                      >
                         Systems
                       </Link>
                     </li>
-                  
 
-                  {/*<li style={{padding: '1rem'}}>
+                    {/*<li style={{padding: '1rem'}}>
                     <Link rel="preload" to="/">Site Map</Link>
                   </li>*/}
-                  
-                    <li style={{padding: '1rem'}}>
-                      <Link rel="preload" to="/" style={{ color: 'white'}}>
+
+                    <li style={{ padding: "1rem" }}>
+                      <a
+                        rel=""
+                        href="https://zenith-referrals.netlify.app/auth/signin"
+                        style={{ color: "white" }}
+                      >
                         Referrals
-                      </Link>
+                      </a>
                     </li>
-                  
-                </ul>
+                  </ul>
                 </Col>
               </div>
             </div>{" "}

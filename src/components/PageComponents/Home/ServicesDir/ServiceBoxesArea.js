@@ -48,7 +48,7 @@ class ServiceBoxesArea extends React.Component {
             </Link>
           </div>
           <div className="col-md-4 col-6 p-0">
-            <Link>
+            <Link rel="preload" to="/services/skylights">
               {" "}
               <Card >
                 <div className={homeStyles.boxes}>
@@ -67,7 +67,7 @@ class ServiceBoxesArea extends React.Component {
             </Link>
           </div>
           <div className="col-md-4 col-6 p-0">
-            <Link>
+            <Link rel="preload" to="/services/solar">
               {" "}
               <Card >
                 <div className={homeStyles.boxes}>
@@ -86,7 +86,7 @@ class ServiceBoxesArea extends React.Component {
             </Link>
           </div>
           <div className="col-md-4 col-6 p-0">
-            <Link>
+            <Link rel="preload" to="/services/roofrestorations">
               {" "}
               <Card >
                 <div className={homeStyles.boxes}>
@@ -110,7 +110,7 @@ class ServiceBoxesArea extends React.Component {
             </Link>
           </div>
           <div className="col-md-4 col-6 p-0">
-            <Link>
+            <Link rel="preload" to="/services/roofinspections">
               {" "}
               <Card >
                 <div className={homeStyles.boxes}>
@@ -134,7 +134,7 @@ class ServiceBoxesArea extends React.Component {
             </Link>
           </div>
           <div className="col-md-4 col-6 p-0">
-            <Link>
+            <Link rel="preload" to="/services/roofreplacements">
               {" "}
               <Card >
                 <div className={homeStyles.boxes}>
