@@ -114,10 +114,13 @@ class NavMobile extends React.Component {
             <Link rel="preload" className="nav-link" to="/about">
               About Us
             </Link>,
-            <Button
-              className="QuoteNav"
-              onClick={() => navigateTo("/contact")}
+            <a
+              className="nav-link"
+              href="https://zenith-referrals.netlify.app/"
             >
+              About Us
+            </a>,
+            <Button className="QuoteNav" onClick={() => navigateTo("/contact")}>
               Contact Us
             </Button>,
           ]}
