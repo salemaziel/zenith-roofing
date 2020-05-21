@@ -116,7 +116,7 @@ class NavMobile extends React.Component {
             </Link>,
             <a
               className="nav-link"
-              href="https://zenith-referrals.netlify.app/"
+              href="https://referrals.zenithroofingservices.com"
             >
               About Us
             </a>,

@@ -23,7 +23,7 @@ class FooterBoxMiddle extends React.Component {
               <a href="/sitemap.xml">Site Map</a>
             </li>
             <li>
-              <a href="https://zenith-referrals.netlify.app/auth/signin">Referrals</a>
+              <a href="https://referrals.zenithroofingservices.com">Referrals</a>
             </li>
           </ul>
         </div>

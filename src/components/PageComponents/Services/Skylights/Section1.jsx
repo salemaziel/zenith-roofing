@@ -40,7 +40,7 @@ class Section1 extends Component {
             </div>
             <div className="">
                 <p>
-                1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Skylights wear and have an estimated life expectancy of about 15 years depending on which kind of skylight you have installed. There are different options of skylight whether it is a custom size or traditional. They come in acrylic, glass, and even Low-E glass. Operable skylights are available upon request. Schedule an inspection and see if your skylight is a standard size. 
                 </p>
 
                 <p>
