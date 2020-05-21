@@ -6,11 +6,13 @@ import Header from './Header'
 import Section1 from './Section1';
 import Section2 from './Section2';
 
-import ActionBanner2 from '../About/actionBanner2'
+import ActionBanner2 from '../../About/actionBanner2'
 
 import pageStyle from './page.module.css'
 
-const OwensCorningPage = () => (
+class Page extends Component {
+    render() {
+    return (
         <>
         <Header />
         <div className={pageStyle.AboutBody} >
@@ -18,9 +20,12 @@ const OwensCorningPage = () => (
         {/*<Section2 />*/}
         </div>
         <ActionBanner2 />
+        
+      
       </>
     );
+  }
+}
 
-
-export default OwensCorningPage
+export default Page
 

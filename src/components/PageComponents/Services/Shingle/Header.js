@@ -12,7 +12,7 @@ class PageHeader extends React.Component {
           <div className="row">
             <div className="col-12">
               <div className="breadcrumbs-area">
-                <h1>Inspections</h1>
+                <h1>Shingle</h1>
                 <ul>
                   <li>
                     <a href="/">Home</a>

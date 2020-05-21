@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Climbing } from '../../../images/index'
+import { Climbing } from '../../../../images/index'
 
 class RRSection2 extends Component {
   render() {

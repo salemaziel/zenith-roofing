@@ -34,23 +34,23 @@ class Section1 extends Component {
         <Row className={pageStyle.HistoryRow}>
             <Col>
             <div className={pageStyle.Header}>
-                <h2 className={pageStyle.Title}>Roof Replacements</h2>
+                <h2 className={pageStyle.Title}>Shingle</h2>
             <div className="">
               <img src={Climbing} alt="Roof Repairs" className="img-fluid"/>
             </div>
             <div className="">
                 <p>
-                1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                A Owens-Corning system will warranty your roof for a lifetime, with shingles that can withstand high winds and heavy rains, this will be a system worth installing. Call for more info on this premium warranty! 
                 </p>
 
-                <p>
+                {/*<p>
                   2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
 
                 <p>
                   3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-                </p>
+                </p>*/}
                 </div>
               </div>
             </Col>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby'
 
 
 class PageHeader extends React.Component {
@@ -11,13 +12,12 @@ class PageHeader extends React.Component {
           <div className="row">
             <div className="col-12">
               <div className="breadcrumbs-area">
-                <h1>Owens-Corning</h1>
+                <h1>Tile</h1>
                 <ul>
                   <li>
-                    <a href="index.html">Home</a>
+                    <a href="/">Home</a>
                   </li>
-                  <li>Commercial</li>
-                  <li>Services</li>
+                  <li><Link rel="preload" to="/services"> Services</Link></li>
                 </ul>
               </div>
             </div>

@@ -17,7 +17,7 @@ class PageHeader extends React.Component {
                     <a href="index.html">Home</a>
                   </li>
                   <li>Commercial</li>
-                  <li>Services</li>
+                  <li><Link rel="preload" to="/services"> Services</Link></li>
                 </ul>
               </div>
             </div>

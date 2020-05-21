@@ -9,6 +9,10 @@
 	padding: 0 5%;
 }
 
+.ServicesGrid h3 {
+    margin-bottom: 2rem;
+}
+
 .ServiceTitle a {
     font-weight: 700;
     margin-bottom: 12px;

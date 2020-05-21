@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby'
 
-
 class PageHeader extends React.Component {
   render() {
     return (
@@ -12,7 +11,7 @@ class PageHeader extends React.Component {
           <div className="row">
             <div className="col-12">
               <div className="breadcrumbs-area">
-                <h1>Inspections</h1>
+                <h1>Built-Up Roofing (BUR) </h1>
                 <ul>
                   <li>
                     <a href="/">Home</a>

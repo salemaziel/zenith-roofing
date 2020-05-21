@@ -18,7 +18,6 @@ class RepairHeader extends React.Component {
                   </li>
                   <li>
                   <Link rel="preload" to="/">Services</Link></li>
-                  <li>Roof Repairs</li>
                 </ul>
               </div>
             </div>

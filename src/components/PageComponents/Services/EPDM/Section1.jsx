@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col'
 
 import pageStyle from './page.module.css'
 
-import { Climbing } from '../../../images/index'
+import { Climbing } from '../../../../images/index'
 
 
 class Section1 extends Component {
@@ -34,7 +34,7 @@ class Section1 extends Component {
         <Row className={pageStyle.HistoryRow}>
             <Col>
             <div className={pageStyle.Header}>
-                <h2 className={pageStyle.Title}>Owens-Corning</h2>
+                <h2 className={pageStyle.Title}>EPDM</h2>
             <div className="">
               <img src={Climbing} alt="Roof Repairs" className="img-fluid"/>
             </div>

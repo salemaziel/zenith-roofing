@@ -127,30 +127,29 @@ function NavbarCustom(props) {
                 title="Commercial"
                 id="nav-dropdown-commercial"
               >
-                <NavDropdown.Item eventKey="commercial/services#Owenscorning">
+                <NavDropdown.Item eventKey="services/owenscorning">
                   Owens-Corning Systems
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item eventKey="commercial/services#TPO">
+                <NavDropdown.Item eventKey="services/TPO">
                   Thermoplastic Polyolefin (TPO)
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="commercial/services#PVC">
+                <NavDropdown.Item eventKey="services/PVC">
                   {" "}
                   Polyvinyl Chloride (PVC){" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="commercial/services#EPDM">
+                <NavDropdown.Item eventKey="services/EPDM">
                   Ethylene Propylene Diene Monomer (EPDM){" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="commercial/services#Tile">
+                <NavDropdown.Item eventKey="services/tile">
                   Tile{" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="commercial/services#Shingle">
+                <NavDropdown.Item eventKey="services/shingle">
                   Shingle{" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="commercial/services#BUR">
+                <NavDropdown.Item eventKey="services/BUR">
                   Built-up Roofing BUR{" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="commercial/services">Services</NavDropdown.Item>
+                <NavDropdown.Item eventKey="services">Services</NavDropdown.Item>
               </NavDropdown>
 
               {/*<Link to="/services/roofrepairs" className="nav-link" rel="preload" eventKey="Repairs-Link">
@@ -164,13 +163,19 @@ function NavbarCustom(props) {
                 id="nav-dropdown-residential"
                 eventKey="residential"
               >
-                <NavDropdown.Item eventKey="residential/page">
+                <NavDropdown.Item eventKey="services/roofmaintenance">
                   Roof Maintenance
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="residential/page">
+                <NavDropdown.Item eventKey="services/skylights">
                   Skylights
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="residential/services">Services</NavDropdown.Item>
+                <NavDropdown.Item eventKey="services/solar">
+                  Solar
+                </NavDropdown.Item>
+                <NavDropdown.Item eventKey="services/roofinspections">
+                  Inspections
+                </NavDropdown.Item>
+                <NavDropdown.Item eventKey="services">Services</NavDropdown.Item>
 
               </NavDropdown>
               {/*<Link to="/services" className="nav-link" rel="preload" eventKey="Services-Link">
