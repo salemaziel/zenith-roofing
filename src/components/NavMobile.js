@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import { LogoWshadowDarkVertSm } from "../images/index"
 
+import Nav from 'react-bootstrap/Nav'
 import Button from "react-bootstrap/Button"
 
 //import navmobileStyles from "./navmobile.module.css"
@@ -99,30 +100,44 @@ class NavMobile extends React.Component {
             margin: "auto",
           }}
           items={[
+            <Nav.Item>
             <Link rel="preload" className="nav-link" to="/">
               Home
-            </Link>,
+            </Link>
+            </Nav.Item>,
+                        <Nav.Item>
             <Link rel="preload" className="nav-link" to="/services/roofrepairs">
               Roof Repairs
-            </Link>,
-            <Link rel="preload" className="nav-link" to="/commercial/services">
+            </Link>
+            </Nav.Item>,
+            <Nav.Item>
+            <Link rel="preload" className="nav-link" to="/services">
               Commercial
-            </Link>,
-            <Link rel="preload" className="nav-link" to="/residential/services">
+            </Link>
+            </Nav.Item>,
+            <Nav.Item>
+            <Link rel="preload" className="nav-link" to="/services">
               Residential
-            </Link>,
+            </Link>
+            </Nav.Item>,
+            <Nav.Item>
             <Link rel="preload" className="nav-link" to="/about">
               About Us
-            </Link>,
+            </Link>
+            </Nav.Item>,
+            <Nav.Item>
             <a
               className="nav-link"
               href="https://referrals.zenithroofingservices.com"
             >
-              About Us
-            </a>,
+              Referrals
+            </a>
+            </Nav.Item>,
+            <Nav.Item>
             <Button className="QuoteNav" onClick={() => navigateTo("/contact")}>
               Contact Us
-            </Button>,
+            </Button>
+            </Nav.Item>,
           ]}
           itemStyle={{
             background: "inherit",
