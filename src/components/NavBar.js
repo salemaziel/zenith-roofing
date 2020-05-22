@@ -121,7 +121,7 @@ function NavbarCustom(props) {
 
               <NavDropdown
                 as={Link}
-                href="/commercial"
+                href="/services"
                 to="/commercial"
                 eventKey="commercial"
                 title="Commercial"
@@ -130,14 +130,14 @@ function NavbarCustom(props) {
                 <NavDropdown.Item eventKey="services/owenscorning">
                   Owens-Corning Systems
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services/TPO">
+                <NavDropdown.Item eventKey="services/thermoplastic-polyolefin">
                   Thermoplastic Polyolefin (TPO)
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services/PVC">
+                <NavDropdown.Item eventKey="services/polyvinyl-chloride">
                   {" "}
                   Polyvinyl Chloride (PVC){" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services/EPDM">
+                <NavDropdown.Item eventKey="services/ethylene-propylene-diene-monomer">
                   Ethylene Propylene Diene Monomer (EPDM){" "}
                 </NavDropdown.Item>
                 <NavDropdown.Item eventKey="services/tile">
@@ -146,10 +146,10 @@ function NavbarCustom(props) {
                 <NavDropdown.Item eventKey="services/shingle">
                   Shingle{" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services/BUR">
+                <NavDropdown.Item eventKey="services/builtup-roofing">
                   Built-up Roofing BUR{" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services">Services</NavDropdown.Item>
+                <NavDropdown.Item eventKey="services">All Services</NavDropdown.Item>
               </NavDropdown>
 
               {/*<Link to="/services/roofrepairs" className="nav-link" rel="preload" eventKey="Repairs-Link">
@@ -157,6 +157,7 @@ function NavbarCustom(props) {
       </Link>*/}
 
               <NavDropdown
+                href="/services"
                 as={Link}
                 to="/residential"
                 title="Residential"
@@ -175,7 +176,7 @@ function NavbarCustom(props) {
                 <NavDropdown.Item eventKey="services/roofinspections">
                   Inspections
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services">Services</NavDropdown.Item>
+                <NavDropdown.Item eventKey="services">All Services</NavDropdown.Item>
 
               </NavDropdown>
               {/*<Link to="/services" className="nav-link" rel="preload" eventKey="Services-Link">

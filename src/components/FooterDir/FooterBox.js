@@ -108,7 +108,7 @@ class FooterBox extends React.Component {
                       </Link>
                     </li>
 
-                    <li style={{ padding: "1rem" }}>
+                 {/*   <li style={{ padding: "1rem" }}>
                       <Link
                         rel="preload"
                         to="/systems"
@@ -116,7 +116,7 @@ class FooterBox extends React.Component {
                       >
                         Systems
                       </Link>
-                    </li>
+                    </li> */}
 
                     {/*<li style={{padding: '1rem'}}>
                     <Link rel="preload" to="/">Site Map</Link>

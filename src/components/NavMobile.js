@@ -135,7 +135,7 @@ class NavMobile extends React.Component {
             </a>
             </Nav.Item>,
             <Nav.Item>
-            <Button className="QuoteNav" onClick={() => navigateTo("/contact")}>
+            <Button className="QuoteNav" rel="preload" onClick={() => navigateTo("/contact")}>
               Contact Us
             </Button>
             </Nav.Item>,
