@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 
 import '../../../css/actioncomponent.css'
 
-class ActionBanner2 extends React.Component {
+class ActionBanner extends React.Component {
   render() {
     return (
       <section
@@ -38,4 +38,4 @@ class ActionBanner2 extends React.Component {
   }
 }
 
-export default ActionBanner2
+export default ActionBanner

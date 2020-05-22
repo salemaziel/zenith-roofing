@@ -40,7 +40,7 @@ class Section1 extends Component {
             </div>
             <div className="">
                 <p>
-                A Owens-Corning system will warranty your roof for a lifetime, with shingles that can withstand high winds and heavy rains, this will be a system worth installing. Call for more info on this premium warranty! 
+                Shingles are the most economical choice and come in a variety of colors. Usually last 30-50 years depending on which system you would like to have installed on your roof. It is resistant from high winds and has a nice clean look. The Owens Corning System warranty is by far our best warranty for this system.
                 </p>
 
                 {/*<p>

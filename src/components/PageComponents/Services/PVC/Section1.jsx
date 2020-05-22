@@ -40,7 +40,7 @@ class Section1 extends Component {
             </div>
             <div className="">
                 <p>
-                A Owens-Corning system will warranty your roof for a lifetime, with shingles that can withstand high winds and heavy rains, this will be a system worth installing. Call for more info on this premium warranty! 
+                Polyvinyl Chloride (PVC) is a single ply membrane that is typically used on low slopes roofs. Like TPO It is also an energy efficient membrane because of its ability to reflect (Ultra Violet) UV rays. It will help reduce energy cost and also complies with Title 24 requirements.
                 </p>
 
                 {/*<p>

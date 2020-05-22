@@ -40,7 +40,7 @@ class Section1 extends Component {
             </div>
             <div className="">
                 <p>
-                A Owens-Corning system will warranty your roof for a lifetime, with shingles that can withstand high winds and heavy rains, this will be a system worth installing. Call for more info on this premium warranty! 
+                BuiltUp-Roofing (BUR) commonly used on low sloped roofs. There are different types of BUR such as hot or cold process. It consist of plies of felts that are layered using asphalt, coal tar pitch, or cold applied adhesive. Rolled cap sheet or aggregates are common to layer over to protect the plies from the UV ray and creates a finished membrane.
                 </p>
 
                 {/*<p>

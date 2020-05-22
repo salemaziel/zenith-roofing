@@ -42,6 +42,7 @@ class NavMobile extends React.Component {
               justifyContent: "center",
               alignContent: "center",
               alignItems: "center",
+              textAlign: 'center'
             }}
           >
             <Link to="/" rel="preload">

@@ -6,8 +6,7 @@ import Header from './Header'
 import Section1 from './Section1';
 import Section2 from './Section2';
 
-import ActionBanner2 from '../../About/actionBanner2'
-
+import ActionBanner from '../../../actionBanner'
 import pageStyle from './page.module.css'
 
 class Page extends Component {
@@ -19,7 +18,7 @@ class Page extends Component {
         <Section1 />
         {/*<Section2 />*/}
         </div>
-        <ActionBanner2 />
+        <ActionBanner />
         
       
       </>

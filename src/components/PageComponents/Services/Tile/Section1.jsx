@@ -40,7 +40,7 @@ class Section1 extends Component {
             </div>
             <div className="">
                 <p>
-                A Owens-Corning system will warranty your roof for a lifetime, with shingles that can withstand high winds and heavy rains, this will be a system worth installing. Call for more info on this premium warranty! 
+                Tile roofs come in a variety of shapes styles and colors, from concrete to clay. Whether you would like to reuse your tiles or replace them with new ones this roof system has the capacity to last about 30 years until you will have to install new underlayment (Felt paper).
                 </p>
 
                 {/*<p>

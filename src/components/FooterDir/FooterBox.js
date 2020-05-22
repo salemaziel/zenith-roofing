@@ -26,6 +26,7 @@ class FooterBox extends React.Component {
         <Row className={footerStyle.FooterRow}>
           <Col xs={1} className={footerStyle.ColNoMobile}></Col>
           <Col>
+          <div className={footerStyle.CenterFooter}>
             <div className={footerStyle.Logo}>
               <img src={Logo} className="img-fluid" alt="" />
             </div>
@@ -52,6 +53,7 @@ class FooterBox extends React.Component {
               {/*} <a href="#">
                   <FontAwesomeIcon icon={faEnvelope} className={footerStyle.Icon} />
     </a>{" "}*/}
+            </div>
             </div>
           </Col>
           <Col xs={6}>

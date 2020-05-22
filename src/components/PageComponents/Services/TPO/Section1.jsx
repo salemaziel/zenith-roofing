@@ -34,13 +34,13 @@ class Section1 extends Component {
         <Row className={pageStyle.HistoryRow}>
             <Col>
             <div className={pageStyle.Header}>
-                <h2 className={pageStyle.Title}>TPO</h2>
+                <h2 className={pageStyle.Title}>Thermoplastic Polyolefin (TPO)</h2>
             <div className="">
               <img src={Climbing} alt="Roof Repairs" className="img-fluid"/>
             </div>
             <div className="">
                 <p>
-                A Owens-Corning system will warranty your roof for a lifetime, with shingles that can withstand high winds and heavy rains, this will be a system worth installing. Call for more info on this premium warranty! 
+                -Thermoplastic polyolefin (TPO) is single ply membrane that is typically used on low slopes roofs. It is a nice clean look and usually comes in white or tan colors. It is an energy efficient membrane because of its ability to reflect (Ultra Violet) UV rays. It will help reduce energy cost and also complies with Title 24 requirements.
                 </p>
 
                 {/*<p>

@@ -37,6 +37,9 @@
 	padding: 0;
   }
   
+  .card-subtitle {
+	  color: gray;
+  }
   
   .img-fluid {
 	width: 100%;
@@ -797,9 +800,9 @@ div.boxes-area .row {
 	font-size:25px;
 }
 .testmonial .white-box p{
-	padding:20px 0px;
+	padding:0px 0px 20px;
 	color:#bcbcbc;
-	font-size:20px;
+	font-size:16px;
 	font-weight:600;
 	font-style:italic;
 	line-height:28px;
@@ -829,8 +832,9 @@ footer{
 	background-size: cover;
 	background-image: url('../images/pattern2.png');
 	margin: -3rem 0 0 0;
-	min-height: 30em;
+	min-height: 25em;
 }
+
 footer .white-footer{
 	position:relative;
 	background:#fdfcf8;
@@ -1006,9 +1010,27 @@ footer .white-footer .box-two  .contactform button{
 	background-color: #FF9900;
 }
 
+.Nomobile {
+    display: block;
+}
+
+.Nodesktop {
+    display: none;
+}
+
 /********************* max-width 991px **************/
 
 @media screen and (max-width: 991px) {
+	.nav-link {
+		color: #0D4879;
+		font-weight: 700;
+		border-radius: 3px;
+		border: 2px solid rgba(255, 255, 255,0);
+		transition: 0.4s all ease-in-out;
+		padding: 1rem 1.5rem;
+		font-size: 20px;
+	}
+
 
 section.hero-section {
 	justify-content: center;
@@ -1218,6 +1240,14 @@ footer .white-footer .box-two  .contactform button{
 
 footer .white-footer .box-one{
 	padding:25px 0px;
+}
+
+.Nomobile {
+    display: none;
+}
+
+.Nodesktop {
+    display: block;
 }
 
 }
@@ -1541,6 +1571,18 @@ img.heroLogo {
 		  max-width: 100%;
 	  }
 
+	  .Nomobile {
+		display: none;
+	}
+	
+	.Nodesktop {
+		display: block;
+	}
+
+	.system-we-work {
+		padding: 30px 10px;
+	}
+
 
 }
 
@@ -1594,6 +1636,12 @@ img.heroLogo {
 		border: 2px solid #FF9900;
 	}
 	*/
-
+	.Nomobile {
+		display: none;
+	}
+	
+	.Nodesktop {
+		display: block;
+	}
 
 }

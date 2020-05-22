@@ -3,11 +3,15 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
 import Card from "react-bootstrap/Card"
-import Media from 'react-bootstrap/Media'
+import Media from "react-bootstrap/Media"
+import Col from "react-bootstrap/Col"
 
-import { Avatar } from '../../../../images/index'
+import { Avatar } from "../../../../images/index"
 
-import testimonialStyle from './testimonial.module.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faStar } from "@fortawesome/free-solid-svg-icons"
+
+import testimonialStyle from "./testimonial.module.css"
 import Slider from "react-slick"
 
 /*const testimonies = [
@@ -38,7 +42,7 @@ class Testimonials extends React.Component {
       className: "center",
       centerMode: true,
       infinite: true,
-      centerPadding: "3px",
+      centerPadding: "10px",
       slidesToShow: 2,
       slidesToScroll: 2,
       autoplay: true,
@@ -47,10 +51,19 @@ class Testimonials extends React.Component {
       cssEase: "linear",
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1280,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
+            infinite: true,
+            dots: false,
+          },
+        },
+        {
+          breakpoint: 980,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
             infinite: true,
             dots: false,
           },
@@ -71,113 +84,405 @@ class Testimonials extends React.Component {
           },
         },
       ],
-    };
+    }
 
     return (
       <>
         <Slider {...settings}>
-            <div className="">
+          <div className={testimonialStyle.CardOutline}>
             <Card className={testimonialStyle.CardStyle}>
-            <Card.Body>
-            <Media>
-              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} alt='Reviewer Profile Pic' />
-
-                <Card.Title 
-                >Deborah J.</Card.Title>
+              <Card.Body>
+                <Media>
+                  {/* <Card.Img 
+                  
+                    variant="bottom" */}
+                  <img
+                    src={Avatar}
+                    className={testimonialStyle.cardImg}
+                    alt="Reviewer Profile Pic"
+                  />
+                  <Col>
+                    <Card.Title>Fred B. in San Diego, CA</Card.Title>
+                    <Card.Subtitle>HomeAdvisor</Card.Subtitle>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        padding: "5px 0px",
+                        color: "orange",
+                      }}
+                    >
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                    </div>{" "}
+                  </Col>
                 </Media>
+
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  I had a roof leak and Bryan from Zenith came right out and we
+                  agreed to replace the under layment on the half of the roof
+                  was leaking. They were prompt and quick and finished the job
+                  in one before it rained again. They even reset my gutters that
+                  were leaking without me asking them to do that. No leaks now,
+                  prompt service and quality job along with the clean up. And
+                  all at a very reasonable price. I highly recommend them like a
+                  neighbor did for me.
                 </Card.Text>
               </Card.Body>
-
             </Card>
-            </div>
-            <div className="">
-          <Card className={testimonialStyle.CardStyle}>
-          <Card.Body>
-          <Media>
-              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} alt='Reviewer Profile Pic' />
+          </div>
+          <div className={testimonialStyle.CardOutline}>
+            <Card className={testimonialStyle.CardStyle}>
+              <Card.Body>
+                <Media>
+                  {/*   <Card.Img
+                    variant="bottom" */}
+                  <img
+                    src={Avatar}
+                    className={testimonialStyle.cardImg}
+                    alt="Reviewer Profile Pic"
+                  />
+                  <Col>
+                    <Card.Title>Frank C. in Poway, CA</Card.Title>
+                    <Card.Subtitle>HomeAdvisor</Card.Subtitle>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        padding: "5px 0px",
+                        color: "orange",
+                      }}
+                    >
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                    </div>
+                  </Col>
+                </Media>
 
-                <Card.Title 
-                >Deborah J.</Card.Title>
+                <Card.Text>
+                  Bryan is GREAT!! Exception from start to finish! Easy to deal
+                  with. Exceptional quality!
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className={testimonialStyle.CardOutline}>
+            <Card className={testimonialStyle.CardStyle}>
+              <Card.Body>
+                <Media>
+                  {/*   <Card.Img
+                    variant="bottom" */}
+                  <img
+                    src={Avatar}
+                    className={testimonialStyle.cardImg}
+                    alt="Reviewer Profile Pic"
+                  />
+                  <Col>
+                    <Card.Title>Brooke G. in Carlsbad, CA</Card.Title>
+                    <Card.Subtitle>HomeAdvisor</Card.Subtitle>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        padding: "5px 0px",
+                        color: "orange",
+                      }}
+                    >
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                    </div>
+                  </Col>
+                </Media>
+
+                <Card.Text>
+                Bryan is a true professional. He responded to my request immediately and was at my house the next day to give me a free estimate. His suggestions were spot on and I felt his prices were fair.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className={testimonialStyle.CardOutline}>
+            <Card className={testimonialStyle.CardStyle}>
+              <Card.Body>
+                <Media>
+                  {/*   <Card.Img
+                    variant="bottom" */}
+                  <img
+                    src={Avatar}
+                    className={testimonialStyle.cardImg}
+                    alt="Reviewer Profile Pic"
+                  />
+                  <Col>
+                    <Card.Title>Hanh T. in Escondido, CA</Card.Title>
+                    <Card.Subtitle>Thumbtack</Card.Subtitle>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        padding: "5px 0px",
+                        color: "orange",
+                      }}
+                    >
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                    </div>
+                  </Col>
+                </Media>
+
+                <Card.Text>
+                Bryan came out the same day to look at my leaking roof. Explained his scope of work and provided a quote in a timely manner. He was super friendly throughout the process.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className={testimonialStyle.CardOutline}>
+            <Card className={testimonialStyle.CardStyle}>
+              <Card.Body>
+                <Media>
+                  {/*   <Card.Img
+                    variant="bottom" */}
+                  <img
+                    src={Avatar}
+                    className={testimonialStyle.cardImg}
+                    alt="Reviewer Profile Pic"
+                  />
+                  <Col>
+                    <Card.Title>James N. in Encinitas, CA</Card.Title>
+                    <Card.Subtitle>HomeAdvisor</Card.Subtitle>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        padding: "5px 0px",
+                        color: "orange",
+                      }}
+                    >
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                    </div>
+                  </Col>
+                </Media>
+
+                <Card.Text>
+                Professional. Responsive. Fair bid. Completed job before other companies even got back to me. Maybe a HomeAdvisor issue? Completed job quickly. No BS or upsell.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className={testimonialStyle.CardOutline}>
+            <Card className={testimonialStyle.CardStyle}>
+              <Card.Body>
+                <Media>
+                  {/*   <Card.Img
+                    variant="bottom" */}
+                  <img
+                    src={Avatar}
+                    className={testimonialStyle.cardImg}
+                    alt="Reviewer Profile Pic"
+                  />
+                  <Col>
+                    <Card.Title>Connor B. in Vista, CA</Card.Title>
+                    <Card.Subtitle>HomeAdvisor</Card.Subtitle>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        padding: "5px 0px",
+                        color: "orange",
+                      }}
+                    >
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                    </div>
+                  </Col>
+                </Media>
+
+                <Card.Text>
+                Brian got back to me incredibly fast. I had to have a roof inspection ASAP to close a real estate transaction. He was on time, courteous and extremely knowledge. I will use him in the future. I would give him 6 stars if I could.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className={testimonialStyle.CardOutline}>
+            <Card className={testimonialStyle.CardStyle}>
+              <Card.Body>
+                <Media>
+                  {/*   <Card.Img
+                    variant="bottom" */}
+                  <img
+                    src={Avatar}
+                    className={testimonialStyle.cardImg}
+                    alt="Reviewer Profile Pic"
+                  />
+                  <Col>
+                    <Card.Title>Carlene Y. in Escondido, CA</Card.Title>
+                    <Card.Subtitle>HomeAdvisor</Card.Subtitle>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        padding: "5px 0px",
+                        color: "orange",
+                      }}
+                    >
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                    </div>
+                  </Col>
+                </Media>
+
+                <Card.Text>
+                Bryan was very professional and prompt ! The work was done on time. They were very respectful of my property and cleaned every thing up before leaving.. Would definitely recommend Zenith Roofing Services !
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className={testimonialStyle.CardOutline}>
+            <Card className={testimonialStyle.CardStyle}>
+              <Card.Body>
+                <Media>
+                  {/*   <Card.Img
+                    variant="bottom" */}
+                  <img
+                    src={Avatar}
+                    className={testimonialStyle.cardImg}
+                    alt="Reviewer Profile Pic"
+                  />
+                  <Col>
+                    <Card.Title>Cindy R in Escondido, CA</Card.Title>
+                    <Card.Subtitle>Thumbtack</Card.Subtitle>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        padding: "5px 0px",
+                        color: "orange",
+                      }}
+                    >
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                    </div>
+                  </Col>
+                </Media>
+
+                <Card.Text>
+                Bryan was punctual, professional and very responsive. The price was reasonable and he really exceeded our expectations. I would definitely use them again.
+
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+
+          {/*      <div className={testimonialStyle.CardOutline}>
+            <Card className={testimonialStyle.CardStyle}>
+              <Card.Body>
+                <Media>
+                  <Card.Img
+                    variant="bottom"
+                    src={Avatar}
+                    className={testimonialStyle.cardImg}
+                    alt="Reviewer Profile Pic"
+                  />
+
+                  <Card.Title>Deborah J.</Card.Title>
                 </Media>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
               </Card.Body>
-            </Card>          
-            </div>
-            <div className="">
-          <Card className={testimonialStyle.CardStyle}>
-          <Card.Body>
-          <Media>
-              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} alt='Reviewer Profile Pic'/>
+            </Card>
+          </div> */}
+          {/*        <div className={testimonialStyle.CardOutline}>
+            <Card className={testimonialStyle.CardStyle}>
+              <Card.Body>
+                <Media>
+                  <Card.Img
+                    variant="bottom"
+                    src={Avatar}
+                    className={testimonialStyle.cardImg}
+                    alt="Reviewer Profile Pic"
+                  />
 
-                <Card.Title 
-                >Deborah J.</Card.Title>
+                  <Card.Title>Deborah J.</Card.Title>
                 </Media>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
               </Card.Body>
+            </Card>
+          </div> */}
+          {/*     <div className={testimonialStyle.CardOutline}>
+            <Card className={testimonialStyle.CardStyle}>
+              <Card.Body>
+                <Media>
+                  <Card.Img
+                    variant="bottom"
+                    src={Avatar}
+                    className={testimonialStyle.cardImg}
+                    alt="Reviewer Profile Pic"
+                  />
 
-            </Card>          
-            </div>
-            <div className="">
-          <Card className={testimonialStyle.CardStyle}>
-          <Card.Body>
-          <Media>
-              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} alt='Reviewer Profile Pic'/>
+                  <Card.Title>Deborah J.</Card.Title>
+                </Media>
 
-                <Card.Title 
-                >Deborah J.</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div> */}
+          {/*   <div className={testimonialStyle.CardOutline}>
+            <Card className={testimonialStyle.CardStyle}>
+              <Card.Body>
+                <Media>
+                  <Card.Img
+                    variant="bottom"
+                    src={Avatar}
+                    className={testimonialStyle.cardImg}
+                    alt="Reviewer Profile Pic"
+                  />
+
+                  <Card.Title>Deborah J.</Card.Title>
                 </Media>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
               </Card.Body>
-
-            </Card>          
-            </div>
-            <div className="">
-          <Card className={testimonialStyle.CardStyle}>
-          <Card.Body>
-          <Media>
-              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} alt='Reviewer Profile Pic'/>
-
-                <Card.Title 
-                >Deborah J.</Card.Title>
-                </Media>
-              
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-              </Card.Body>
-
-            </Card>          
-            </div>
-            <div className="">
-          <Card className={testimonialStyle.CardStyle}>
-          <Card.Body>
-          <Media>
-              <Card.Img variant="bottom" src={Avatar} className={testimonialStyle.cardImg} alt='Reviewer Profile Pic' />
-
-                <Card.Title 
-                >Deborah J.</Card.Title>
-                </Media>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-              </Card.Body>
-
-            </Card> 
-            </div>         
+            </Card>
+          </div>*/}
         </Slider>
       </>
     )

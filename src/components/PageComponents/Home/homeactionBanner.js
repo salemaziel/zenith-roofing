@@ -6,15 +6,14 @@ import Col from "react-bootstrap/Col"
 import Button from "react-bootstrap/Button";
 import Modal from "react-modal"
 
-import EstimateForm from './PageComponents/Home/estimateform'
+import EstimateForm from '../../PageComponents/Home/estimateform'
 
-
-import homeStyles from "./PageComponents/Home/home.module.css"
-import actioncomponentStyle from '../css/actioncomponent.module.css'
+import homeStyles from "../../PageComponents/Home/home.module.css"
+import homeactioncomponentStyle from './homeactionbanner.module.css'
 
 //import '../css/actioncomponent.css'
 
-class ActionBanner extends React.Component {
+class HomeActionBanner extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -39,22 +38,22 @@ class ActionBanner extends React.Component {
   render() {
     return (
       <section
-        className={actioncomponentStyle.actionwraplayout1}
+        className={homeactioncomponentStyle.actionwraplayout1}
       >
         <Container >
           <Row /*className="align-items-center"*/>
             <Col /*className="col-lg-9 col-12"*/ >
-              <div className={actioncomponentStyle.ButtonBox}>
-                <h2 className={actioncomponentStyle.ItemTitle}>
+              <div className={homeactioncomponentStyle.ButtonBox}>
+                <h2 className={homeactioncomponentStyle.ItemTitle}>
                   Get Your Roofing Project Started Today!
                 </h2>
               </div>
             </Col>
             <Col /*className="col-lg-3 col-12 d-flex justify-content-lg-end justify-content-center"*/ >
-              <div className={actioncomponentStyle.ButtonBox}>
+              <div className={homeactioncomponentStyle.ButtonBox}>
                 <Button 
                   onClick={this.handleModalOpen}
-                  className={actioncomponentStyle.CTAbutton}
+                  className={homeactioncomponentStyle.CTAbutton}
                 >
                   GET A QUOTE
                   <i className="fas fa-angle-right" />
@@ -84,4 +83,4 @@ class ActionBanner extends React.Component {
   }
 }
 
-export default ActionBanner
+export default HomeActionBanner

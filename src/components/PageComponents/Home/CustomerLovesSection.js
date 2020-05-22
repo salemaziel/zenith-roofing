@@ -48,7 +48,7 @@ class CustomerLovesSection extends React.Component {
         </Container>
         <Container fluid style={{}}>
           <Row className={customerlovesStyle.CLRow}>
-            <Col></Col>
+            <Col className="Nomobile"></Col>
             <Col>
               <div className={customerlovesStyle.WhyloveUs}>
                 <h1 className={customerlovesStyle.WhyTitle}>
@@ -69,7 +69,7 @@ class CustomerLovesSection extends React.Component {
                 </p>
               </div>
             </Col>
-            <Col />
+            <Col className="Nomobile"/>
           </Row>
           <Row>
             <Col>
