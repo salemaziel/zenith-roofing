@@ -11,6 +11,8 @@ import {
   BadgeHAtoprated,
 } from "../../../images/index"
 
+import Fade from 'react-reveal/Fade'
+
 import customerlovesStyle from "./customerloves.module.css"
 
 class CustomerLovesSection extends React.Component {
@@ -21,9 +23,12 @@ class CustomerLovesSection extends React.Component {
           <Row>
             <Col>
               <div className={customerlovesStyle.Intro} >
+                <Fade top>
                 <h1 className={customerlovesStyle.IntroTitle} >
                   Zenith Roofing Services proudly serves the following Southern California Counties: <br /> San Diego, Temecula, Orange, Riverside and Los Angeles.{" "}
                 </h1>
+                </Fade>
+                <Fade top>
                 <p className={customerlovesStyle.IntroText}>
                   With years of experience serving the greater Southern California
                   area, Zenith Roofing Services is
@@ -41,7 +46,7 @@ class CustomerLovesSection extends React.Component {
                   Contact us today so we can discuss your needs and make a plan
                   that fits your budget.<br /> <strong> Satisfaction guaranteed!</strong>
                 </p>
-
+                </Fade>
               </div>
             </Col>
           </Row>
@@ -51,6 +56,7 @@ class CustomerLovesSection extends React.Component {
             <Col className="Nomobile"></Col>
             <Col>
               <div className={customerlovesStyle.WhyloveUs}>
+                <Fade top>
                 <h1 className={customerlovesStyle.WhyTitle}>
                   {" "}
                   Why Choose Zenith Roofing?
@@ -67,6 +73,7 @@ class CustomerLovesSection extends React.Component {
                   today so we can discuss your needs and make a plan that fits
                   your budget. Satisfaction guaranteed!
                 </p>
+                </Fade>
               </div>
             </Col>
             <Col className="Nomobile"/>

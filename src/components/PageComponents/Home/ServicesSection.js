@@ -6,6 +6,8 @@ import Container from "react-bootstrap/Container"
 
 import servicessectionStyle from './servicessection.module.css'
 
+import Fade from 'react-reveal/Fade'
+
 class ServicesSection extends React.Component {
   render() {
     return (
@@ -14,12 +16,14 @@ class ServicesSection extends React.Component {
           <Row>
             <div className="col-md-12">
               <div className={servicessectionStyle.topText}>
+                <Fade top>
                 <h2
                 className={servicessectionStyle.Title}>
                   What we do</h2>
                 <h3
                 className={servicessectionStyle.Subtitle}
                 >Services we offer</h3>
+                </Fade>
               </div>
             </div>
           </Row>

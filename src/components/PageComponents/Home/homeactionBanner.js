@@ -11,6 +11,8 @@ import EstimateForm from '../../PageComponents/Home/estimateform'
 import homeStyles from "../../PageComponents/Home/home.module.css"
 import homeactioncomponentStyle from './homeactionbanner.module.css'
 
+import Fade from 'react-reveal/Fade'
+
 
 class HomeActionBanner extends React.Component {
   constructor(props) {
@@ -41,15 +43,18 @@ class HomeActionBanner extends React.Component {
       >
         <Container >
           <Row /*className="align-items-center"*/>
-            <Col /*className="col-lg-9 col-12"*/ >
+            <Col className="col-sm-6 col-md-6" >
               <div className={homeactioncomponentStyle.ButtonBox}>
+                <Fade top>
                 <h2 className={homeactioncomponentStyle.ItemTitle}>
                   Get Your Roofing Project Started Today!
                 </h2>
+                </Fade>
               </div>
             </Col>
             <Col /*className="col-lg-3 col-12 d-flex justify-content-lg-end justify-content-center"*/ >
               <div className={homeactioncomponentStyle.ButtonBox}>
+                <Fade top>
                 <Button 
                   onClick={this.handleModalOpen}
                   className={homeactioncomponentStyle.CTAbutton}
@@ -57,6 +62,7 @@ class HomeActionBanner extends React.Component {
                   GET A QUOTE
                   <i className="fas fa-angle-right" />
                 </Button>
+                </Fade>
               </div>
             </Col>
           </Row>
