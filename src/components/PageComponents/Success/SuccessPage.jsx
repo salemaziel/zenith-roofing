@@ -6,19 +6,19 @@ import Container from "react-bootstrap/Container"
 
 import successStyle from "./success.module.css"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
+
 import {
-  faFacebook,
-  faTwitter,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons"
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  faEnvelope
+} from 'react-icons/fa'
 
 
 
-class SuccessPage extends React.Component {
-    render() {
-      return (
+
+      const SuccessPage = () => (
         <section className={successStyle.CLsection}>
           <Container fluid style={{ }}>
             <Row className={successStyle.CLRow}>
@@ -46,16 +46,16 @@ class SuccessPage extends React.Component {
                 <div className={successStyle.SocialIcons}>
                 {" "}
                 <a href="#">
-                  <FontAwesomeIcon icon={faFacebook} className={successStyle.Icon} />
+                  <FaFacebook className={successStyle.Icon} />
                 </a>{" "}
                 <a href="#">
-                  <FontAwesomeIcon icon={faTwitter} className={successStyle.Icon} />
+                  <FaTwitter className={successStyle.Icon} />
                 </a>{" "}
-                <a href="#">
-                  <FontAwesomeIcon icon={faLinkedin} className={successStyle.Icon} />
+                <a href="https://www.instagram.com/zenithroofingservices_ca/">
+                  <FaInstagram className={successStyle.Icon} />
                 </a>{" "}
-                <a href="#">
-                  <FontAwesomeIcon icon={faEnvelope}  className={successStyle.Icon} />
+                <a href="mailto:admin@zenithroofingca.com">
+                  <faEnvelope className={successStyle.Icon} />
                 </a>{" "}
               </div>
                 </Col>
@@ -75,8 +75,7 @@ class SuccessPage extends React.Component {
           
         </section>
       )
-    }
-  }
+
   
   export default SuccessPage
   

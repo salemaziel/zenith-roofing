@@ -12,7 +12,6 @@ import EstimateForm from './PageComponents/Home/estimateform'
 import homeStyles from "./PageComponents/Home/home.module.css"
 import actioncomponentStyle from '../css/actioncomponent.module.css'
 
-//import '../css/actioncomponent.css'
 
 class ActionBanner extends React.Component {
   constructor(props) {

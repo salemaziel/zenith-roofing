@@ -1,112 +1,37 @@
-import React, { Component } from "react"
+import React, { Component } from 'react';
 
-import { 
-  WoodFrame,
-  RooferOnSlant,
-  HouseBuilding
+import { Climbing } from '../../../images/index'
 
- } from "../../../images/index"
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
-
-import aboutStyle from "./about.module.css"
-
-class AboutSection3 extends Component {
+class AboutSection2 extends Component {
   render() {
     return (
       <>
-        <section className={aboutStyle.Section}>
-          <Container>
-            
-              <Row className={aboutStyle.Titlerow}>
-                <Col>
-              <div className={aboutStyle.Header}>
-                <h2 className={aboutStyle.Title}>Our Promise</h2>
+        <section /*className="about-wrap-layout7 bg-shape-2"*/>
+          <div className="container">
+            <div className="single-item left-item">
+              <div className="item-content">
+                <h2 className="item-title">Our History</h2>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Wesimply dummy text offer the printing and type
+                  setting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s,
+                  when an unknown printer took a galley of type and
+                  scrambled it to make a type specimen book. It has
+                  survived not only five centuries, but also the leap
+                  into electronic type aeasetting remaining
+                  essentially unchanged. It was popularised in the
+                  area tehcnology with the release.
                 </p>
-                </div>
-                </Col>
-              </Row>
-              <Row className={aboutStyle.Titlerow}>
-              <Col>
-                <div className={aboutStyle.Box}>
-                  <div className={aboutStyle.BoxImg}>
-                    <img src={HouseBuilding} alt="why choose" className="img-fluid" />
-                  </div>
-                  </div>
-                  </Col>
-                  
-                <Col>
-              <div className={aboutStyle.Header}>
-                    <h3 className={aboutStyle.Subtitles}>
-                    Innovation
-                    </h3>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    </p>
-                  </div>
-                </Col>
-              </Row>
-              <Row className={aboutStyle.Titlerow}>
-              
-                <Col className={aboutStyle.Nomobile}>
-              <div className={aboutStyle.Header}>
-                    
-                  <h3 className={aboutStyle.Subtitles}>    Commitment to Quality
-                    </h3>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    </p>
-                  </div>
-                </Col>
-
-                <Col>
-              <div className={aboutStyle.Box}>
-              <div className={aboutStyle.BoxImg}>
-                    <img src={WoodFrame} alt="why choose" className="img-fluid" />
-                  </div>
-                  </div>
-                  </Col>
-
-                  <Col className={aboutStyle.Nodesktop}>
-              <div className={aboutStyle.Header}>
-                    
-                  <h3 className={aboutStyle.Subtitles}>    Commitment to Quality
-                    </h3>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    </p>
-                  </div>
-                </Col>
-                  
-              </Row>
-              <Row className={aboutStyle.Titlerow}>
-              <Col>
-              <div className={aboutStyle.Box}>
-              <div className={aboutStyle.BoxImg}>
-                    <img src={RooferOnSlant} alt="why choose" className="img-fluid" />
-                  </div>
-                  </div>
-                  </Col>
-                <Col>
-              <div className={aboutStyle.Header}>
-                    <h3 className={aboutStyle.Subtitles}>
-                      
-                      Core Values
-                    </h3>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                      </p>
-                </div>
-                </Col>
-              </Row>
-          </Container>
+              </div>
+            </div>
+            <div className="single-item right-item">
+              <img src={Climbing} alt="About Us" className="img-fluid"/>
+            </div>
+          </div>
         </section>
       </>
-    )
+    );
   }
 }
 
-export default AboutSection3
+export default AboutSection2

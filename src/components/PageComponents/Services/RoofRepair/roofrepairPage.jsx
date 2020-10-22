@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 
 
 
-import RepairHeader from './repairHeader'
+import Header from '../Header'
 import RRSection1 from './repairSection1';
-import RRSection2 from './repairSection2';
 
 import ActionBanner from '../../../actionBanner'
 
@@ -14,10 +13,11 @@ class RRPage extends Component {
     render() {
     return (
         <>
-        <RepairHeader />
+        <Header 
+        Service="Roof Repair"
+        />
         <div className={roofrepairStyle.AboutBody} >
         <RRSection1 />
-        {/*<RRSection2 />*/}
         </div>
         <ActionBanner />
         

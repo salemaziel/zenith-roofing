@@ -1,0 +1,199 @@
+.AboutBody {
+    background-image: url('../../../images/pattern-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+}
+
+.sidebarPageContainer {
+    position: relative;
+    padding: 100px 0px 60px;
+}
+
+.autoContainer {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+
+.Section {
+    display: block;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.SectionParallax {
+    display: block;
+    background-image: url('../../../images/progressBg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 50vh;
+}
+
+.Titlerow {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.HistoryRow {
+    display: block;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.Header {
+    padding: 1rem 0;
+}
+
+.Title {
+    padding: 1rem 0;
+    color: #0F4573;
+}
+
+.Subtitles {
+    padding: 1rem 0;    
+    color: #0F4573;
+}
+
+.Box {
+    margin-bottom: 30px;
+}
+
+.BoxImg {
+    margin-bottom: 24px;
+    overflow: hidden;
+    border-radius: 4px;
+    position: relative;
+}
+
+.Titlerow {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+
+@media screen and (min-width: 2400px) {
+    .AboutBody {
+        background-image: url('../../../images/pattern-bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+    }
+}
+
+
+
+@media screen and (max-width: 1680px) {
+    .AboutBody {
+        background-image: url('../../../images/pattern-bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+    }
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    .AboutBody {
+        background-image: url('../../../images/pattern-bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+    .AboutBody {
+        background-image: url('../../../images/pattern-bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+    }
+
+    .Box {
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+
+    }
+
+    .BoxImg {
+    margin: 4rem auto 0;
+    overflow: hidden;
+    border-radius: 4px;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+}
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    .AboutBody {
+        background-image: url('../../../images/pattern-bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .AboutBody {
+        background-image: url('../../../images/pattern-bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+    }
+    .Titlerow {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem auto;
+        padding: 0 5px;
+    }
+
+    .Title {
+        
+    }
+    
+
+
+}
+
+@media screen and (max-width: 360px) {
+    .AboutBody {
+        background-image: url('../../../images/pattern-bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-color: transparent;
+    }
+}

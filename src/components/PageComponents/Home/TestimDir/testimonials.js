@@ -8,8 +8,11 @@ import Col from "react-bootstrap/Col"
 
 import { Avatar } from "../../../../images/index"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faStar } from "@fortawesome/free-solid-svg-icons"
+
+
+import {
+  FaStar
+} from 'react-icons/fa'
 
 import testimonialStyle from "./testimonial.module.css"
 import Slider from "react-slick"
@@ -112,11 +115,11 @@ class Testimonials extends React.Component {
                         color: "orange",
                       }}
                     >
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
                     </div>{" "}
                   </Col>
                 </Media>
@@ -156,11 +159,11 @@ class Testimonials extends React.Component {
                         color: "orange",
                       }}
                     >
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
                     </div>
                   </Col>
                 </Media>
@@ -195,11 +198,11 @@ class Testimonials extends React.Component {
                         color: "orange",
                       }}
                     >
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
                     </div>
                   </Col>
                 </Media>
@@ -233,11 +236,11 @@ class Testimonials extends React.Component {
                         color: "orange",
                       }}
                     >
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
                     </div>
                   </Col>
                 </Media>
@@ -271,11 +274,11 @@ class Testimonials extends React.Component {
                         color: "orange",
                       }}
                     >
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
                     </div>
                   </Col>
                 </Media>
@@ -309,11 +312,11 @@ class Testimonials extends React.Component {
                         color: "orange",
                       }}
                     >
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
                     </div>
                   </Col>
                 </Media>
@@ -347,11 +350,11 @@ class Testimonials extends React.Component {
                         color: "orange",
                       }}
                     >
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
                     </div>
                   </Col>
                 </Media>
@@ -385,11 +388,11 @@ class Testimonials extends React.Component {
                         color: "orange",
                       }}
                     >
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
-                      <FontAwesomeIcon icon={faStar} />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
                     </div>
                   </Col>
                 </Media>

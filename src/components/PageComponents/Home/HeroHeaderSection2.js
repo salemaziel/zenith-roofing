@@ -23,7 +23,7 @@ import EstimateForm from "./estimateform"
 import homeStyles from "./home.module.css"
 import "./home.module.css"
 
-class HeroHeaderSection extends React.Component {
+class HeroHeaderSection2 extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -112,4 +112,4 @@ class HeroHeaderSection extends React.Component {
   }
 }
 
-export default HeroHeaderSection
+export default HeroHeaderSection2

@@ -12,7 +12,6 @@ const Preferred = () => (
     <section className={preferredStyle.Section}>
         <Container fluid>
     <Row>
-        <Col className={preferredStyle.ColNoMobile} />
         <Col>
         <Media>
             <div className={preferredStyle.ImgBox}>
@@ -24,7 +23,6 @@ const Preferred = () => (
             </div>
             </Media>
         </Col>
-        <Col className={preferredStyle.ColNoMobile} />
 
 
     </Row>

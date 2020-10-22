@@ -2,8 +2,12 @@ import React from 'react'
 import { navigate } from 'gatsby-link'
 import './contact.css'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+import {
+    FaFacebook,
+    FaInstagram,
+    FaTwitter
+} from 'react-icons/fa'
 
 import ContactHeader from './contactheader'
 
@@ -104,13 +108,13 @@ function encode(data) {
                                     <h4 className="followus">Follow Us</h4>
                                     <div className="followus">
                                         <a href="#">
-                                            <FontAwesomeIcon icon={faTwitter} />
+                                            <FaFacebook />
                                         </a>
                                         <a href="#">
-                                            <FontAwesomeIcon icon={faLinkedin} />
+                                            <FaTwitter />
                                         </a>
-                                        <a href="#">
-                                            <FontAwesomeIcon icon={faFacebook} />
+                                        <a href="https://www.instagram.com/zenithroofingservices_ca/">
+                                            <FaInstagram />
                                         </a>
                                     </div>
                                 </aside>

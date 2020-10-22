@@ -11,7 +11,6 @@ import EstimateForm from '../../PageComponents/Home/estimateform'
 import homeStyles from "../../PageComponents/Home/home.module.css"
 import homeactioncomponentStyle from './homeactionbanner.module.css'
 
-//import '../css/actioncomponent.css'
 
 class HomeActionBanner extends React.Component {
   constructor(props) {

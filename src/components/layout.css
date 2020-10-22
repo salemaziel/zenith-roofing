@@ -650,7 +650,7 @@ aside {
 }
 
 .navbar-expand .navbar-collapse {
-  display: flex!important;
+  display: flex;
   flex-basis: auto;
   justify-content: flex-end;
 }
@@ -663,7 +663,7 @@ aside {
     display: flex;
   }
   .mobileNav {
-    display: none !important;
+    display: none;
   }
   .mobileNavRow {
     display: none;
@@ -675,10 +675,10 @@ aside {
     font-size: 100%;
   }
   .fullNav {
-    display: flex !important;
+    display: flex ;
   }
   .mobileNav {
-    display: none !important;
+    display: none ;
   }
   .mobileNavRow {
     display: none;
@@ -690,10 +690,10 @@ aside {
     font-size: 100%;
   }
   .fullNav {
-    display: flex !important;
+    display: flex ;
   }
   .mobileNav {
-    display: none !important;
+    display: none ;
   }
   .mobileNavRow {
     display: none;
@@ -705,13 +705,13 @@ aside {
     font-size: 100%;
   }
   .fullNav {
-    display: none !important;
+    display: none ;
   }
   .mobileNavRow {
     display: flex;
   }
   .mobileNav {
-    display: inline-block !important;
+    display: inline-block ;
     z-index: 10;
     margin: 1rem auto;
     justify-content: center;
@@ -802,13 +802,13 @@ aside {
   }
 
   .fullNav {
-    display: none !important;
+    display: none ;
   }
   .mobileNavRow {
     display: flex;
   }
   .mobileNav {
-    display: inline-block !important;
+    display: inline-block ;
     z-index: 10;
     margin: auto;
     justify-content: center;
@@ -859,14 +859,14 @@ aside {
   }
 
   .fullNav {
-    display: none !important;
+    display: none ;
   }
 
   .mobileNavRow {
     display: flex;
   }
   .mobileNav {
-    display: inline-block !important;
+    display: inline-block ;
     z-index: 10;
     margin: 1% auto;
     justify-content: center;
@@ -934,10 +934,10 @@ aside {
   }
 
   .fullNav {
-    display: none !important;
+    display: none ;
   }
   .mobileNav {
-    display: inline-block !important;
+    display: inline-block ;
     margin: auto;
     transform: scale(1.1);
     position: fixed;

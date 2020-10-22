@@ -3,28 +3,26 @@ import React, { Component } from 'react';
 
 
 import AboutHeader from './aboutheader'
-import AboutSection1 from './aboutSection1';
-import AboutSection3 from './aboutSection3';
+import AboutSectionHistory from './aboutSection1History';
+import AboutSectionPromise from './aboutSection2Promise';
 
 import ActionBanner from '../../actionBanner'
 import aboutStyle from './about.module.css'
 
-class AboutPage extends Component {
-    render() {
-    return (
+
+      const AboutPage = () => (
         <>
         <AboutHeader />
         <div className={aboutStyle.AboutBody} >
-        <AboutSection1 />
-        <AboutSection3 />
+        <AboutSectionHistory />
+        <AboutSectionPromise />
         </div>
         <ActionBanner />
         
       
       </>
     );
-  }
-}
+
 
 export default AboutPage
 

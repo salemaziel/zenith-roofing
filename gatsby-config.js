@@ -27,23 +27,16 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/templates/SingleService`,
-        name: 'service',
-      },
-    },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-tawk`,
-      options: {
-        tawkId: "5ea0b46f69e9320caac662db",
-            // tawkID = widget ID
-      },
-    },
+//    {
+//      resolve: `gatsby-plugin-tawk`,
+//      options: {
+//        tawkId: "5ea0b46f69e9320caac662db",
+//            // tawkID = widget ID
+//     },
+//    },
    // { 
    //   resolve: `gatsby-plugin-purgecss`,
     //  options: {
