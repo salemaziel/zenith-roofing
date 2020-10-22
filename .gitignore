@@ -81,5 +81,12 @@ redux.*.state/
 
 tests/
 
+.vscode
+
+.vscode/*
+
+.vscode*
+
+/.vscode
 
 oldREADME.md
