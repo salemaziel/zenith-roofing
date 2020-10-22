@@ -12,6 +12,7 @@ import { Link, navigate, navigateTo } from "gatsby"
 import { LogoWshadowDarkVertSm, PhoneNumber } from "../images/index"
 //import NavMobile from './NavMobile'
 
+
 function NavbarCustom(props) {
   //  const router = useRouter();
 
@@ -106,7 +107,7 @@ function NavbarCustom(props) {
               {/*<NavDropdown
               as={Link}
               to="/services/roofrepairs"
-              eventKey="services/roofrepairs"
+              eventKey="/services/roofrepairs"
               title="Roof Repairs"
               id="nav-dropdown"
             >
@@ -127,29 +128,29 @@ function NavbarCustom(props) {
                 title="Commercial"
                 id="nav-dropdown-commercial"
               >
-                <NavDropdown.Item eventKey="services/owenscorning">
+                <NavDropdown.Item eventKey="/services/owens-corning">
                   Owens-Corning Systems
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services/thermoplastic-polyolefin">
+                <NavDropdown.Item eventKey="/services/thermoplastic-polyolefin">
                   Thermoplastic Polyolefin (TPO)
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services/polyvinyl-chloride">
+                <NavDropdown.Item eventKey="/services/polyvinyl-chloride">
                   {" "}
                   Polyvinyl Chloride (PVC){" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services/ethylene-propylene-diene-monomer">
+                <NavDropdown.Item eventKey="/services/ethylene-propylene-diene-monomer">
                   Ethylene Propylene Diene Monomer (EPDM){" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services/tile">
+                <NavDropdown.Item eventKey="/services/tile">
                   Tile{" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services/shingle">
+                <NavDropdown.Item eventKey="/services/shingle">
                   Shingle{" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services/builtup-roofing">
+                <NavDropdown.Item eventKey="/services/builtup-roofing">
                   Built-up Roofing BUR{" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services">All Services</NavDropdown.Item>
+                <NavDropdown.Item eventKey="/services">All Services</NavDropdown.Item>
               </NavDropdown>
 
               {/*<Link to="/services/roofrepairs" className="nav-link" rel="preload" eventKey="Repairs-Link">
@@ -164,19 +165,19 @@ function NavbarCustom(props) {
                 id="nav-dropdown-residential"
                 eventKey="residential"
               >
-                <NavDropdown.Item eventKey="services/roofmaintenance">
+                <NavDropdown.Item eventKey="/services/roof-maintenance">
                   Roof Maintenance
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services/skylights">
+                <NavDropdown.Item eventKey="/services/sky-lights">
                   Skylights
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services/solar">
+                <NavDropdown.Item eventKey="/services/solar">
                   Solar
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services/roofinspections">
+                <NavDropdown.Item eventKey="/services/roof-inspections">
                   Inspections
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="services">All Services</NavDropdown.Item>
+                <NavDropdown.Item eventKey="/services">All Services</NavDropdown.Item>
 
               </NavDropdown>
               {/*<Link to="/services" className="nav-link" rel="preload" eventKey="Services-Link">
@@ -195,10 +196,10 @@ function NavbarCustom(props) {
               </Nav.Item>
               <Nav.Item>
               <Link
-                to="/services/roofrepairs"
+                to="/services/roof-repairs"
                 className="nav-link"
                 rel="preload"
-                eventKey="/services/roofrepairs"
+                eventKey="/services/roof-repairs"
               >
                 Roof Repairs{" "}
               </Link>

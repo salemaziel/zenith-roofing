@@ -107,7 +107,7 @@ class NavMobile extends React.Component {
             </Link>
             </Nav.Item>,
                         <Nav.Item>
-            <Link rel="preload" className="nav-link" to="/services/roofrepairs">
+            <Link rel="preload" className="nav-link" to="/services/roof-repairs">
               Roof Repairs
             </Link>
             </Nav.Item>,
@@ -155,5 +155,6 @@ class NavMobile extends React.Component {
     )
   }
 }
+
 
 export default NavMobile
