@@ -98,7 +98,7 @@ class ServicesGrid extends Component {
             <div className="col-lg-4 col-md-6 col-12">
               <div className={serviceStyle.ServiceBox}>
                 <div className={serviceStyle.ServiceImgBox}>
-                  <Link rel="preload" to="/services/inspections">
+                  <Link rel="preload" to="/services/roof-inspections">
                     <img
                       src={Service18}
                       alt="Service"
@@ -108,7 +108,7 @@ class ServicesGrid extends Component {
                 </div>
                 <div className="item-content">
                   <h3 className={serviceStyle.ServiceTitle}>
-                    <Link rel="preload" to="/services/inspections">
+                    <Link rel="preload" to="/services/roof-inspections">
                       Inspections
                     </Link>
                   </h3>
@@ -119,7 +119,7 @@ class ServicesGrid extends Component {
                 </p>*/}
                   <Link
                     rel="preload"
-                    to="/services/inspections"
+                    to="/services/roof-inspections"
                     className={serviceStyle.ReadMore}
                   >
                     LEARN MORE
@@ -182,7 +182,7 @@ class ServicesGrid extends Component {
                 Is a system that will warranty your roof for a lifetime, with shingles that can withstand high winds and heavy rains, this will be a system worth installing. Call for more info on this premium warranty!
                 </p>*/}
                   <Link
-                    to="/services/owenscorning"
+                    to="/services/owens-corning"
                     className={serviceStyle.ReadMore}
                   >
                     LEARN MORE
@@ -226,7 +226,7 @@ class ServicesGrid extends Component {
             <div className="col-lg-4 col-md-6 col-12">
               <div className={serviceStyle.ServiceBox}>
                 <div className={serviceStyle.ServiceImgBox}>
-                  <Link rel="preload" to="/services/roof-repair">
+                  <Link rel="preload" to="/services/roof-repairs">
                     <img
                       src={Service14}
                       alt="Service"
@@ -236,7 +236,7 @@ class ServicesGrid extends Component {
                 </div>
                 <div className="item-content">
                   <h3 className={serviceStyle.ServiceTitle}>
-                    <Link rel="preload" to="/services/roof-repair">
+                    <Link rel="preload" to="/services/roof-repairs">
                       Roof Repair
                     </Link>
                   </h3>
@@ -247,7 +247,7 @@ class ServicesGrid extends Component {
                 </p>*/}
                   <Link
                     rel="preload"
-                    to="/services/roof-repair"
+                    to="/services/roof-repairs"
                     className={serviceStyle.ReadMore}
                   >
                     LEARN MORE
