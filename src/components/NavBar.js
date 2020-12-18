@@ -3,18 +3,15 @@ import Navbar from "react-bootstrap/Navbar"
 import Row from "react-bootstrap/Row"
 import Container from "react-bootstrap/Container"
 
-//import { LinkContainer } from "react-router-bootstrap";
 import Nav from "react-bootstrap/Nav"
 import Button from "react-bootstrap/Button"
 import NavDropdown from "react-bootstrap/NavDropdown"
-//import { useRouter } from "./../util/router.js";
 import { Link, navigate, navigateTo } from "gatsby"
 import { LogoWshadowDarkVertSm, PhoneNumber } from "../images/index"
 //import NavMobile from './NavMobile'
 
 
 function NavbarCustom(props) {
-  //  const router = useRouter();
 
   return (
     <Navbar 
@@ -76,22 +73,7 @@ function NavbarCustom(props) {
               />
             </a>
           </div>
-          {/*<div
-          aria-controls="navbar-nav"
-          className="border-0 navbar-toggle"
-          onClick={() => this.setState({showNav: true})}>
-          {" "}
-         
-          <span className="icon-bar" /> 
-          <span className="icon-bar" />{" "}
-          <span className="icon-bar" />{" "}
-        
-        </div>*/}
-        {/*  <Navbar.Collapse
-            id="navbar-nav"
-            className="justify-content-end"
-            className="nav-link"
-        > */}
+
             <Nav
               className="mr-1"
               defaultActiveKey="/"
@@ -100,25 +82,7 @@ function NavbarCustom(props) {
                 marginTop: '1.5rem'
               }}
             >
-              {/* <Link rel="preload" className="nav-link" to="/">
-              Home
-      </Link>*/}
 
-              {/*<NavDropdown
-              as={Link}
-              to="/services/roofrepairs"
-              eventKey="/services/roofrepairs"
-              title="Roof Repairs"
-              id="nav-dropdown"
-            >
-              <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
-              <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
-              <NavDropdown.Item eventKey="4.3">
-                Something else here
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
-            </NavDropdown>*/}
 
               <NavDropdown
                 as={Link}
@@ -153,9 +117,6 @@ function NavbarCustom(props) {
                 <NavDropdown.Item eventKey="/services">All Services</NavDropdown.Item>
               </NavDropdown>
 
-              {/*<Link to="/services/roofrepairs" className="nav-link" rel="preload" eventKey="Repairs-Link">
-              Roof Repairs
-      </Link>*/}
 
               <NavDropdown
                 href="/services"
@@ -168,7 +129,7 @@ function NavbarCustom(props) {
                 <NavDropdown.Item eventKey="/services/roof-maintenance">
                   Roof Maintenance
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/sky-lights">
+                <NavDropdown.Item eventKey="/services/skylights">
                   Skylights
                 </NavDropdown.Item>
                 <NavDropdown.Item eventKey="/services/solar">
@@ -180,9 +141,7 @@ function NavbarCustom(props) {
                 <NavDropdown.Item eventKey="/services">All Services</NavDropdown.Item>
 
               </NavDropdown>
-              {/*<Link to="/services" className="nav-link" rel="preload" eventKey="Services-Link">
-              Services
-          </Link>*/}
+
 <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -204,9 +163,7 @@ function NavbarCustom(props) {
                 Roof Repairs{" "}
               </Link>
               </Nav.Item>
-              {/*<Link to="/contact" className="nav-link" rel="preload">
-              Contact
-             </Link>*/}
+
 <Nav.Item>
               <Button
                 className="QuoteNav"
@@ -218,7 +175,6 @@ function NavbarCustom(props) {
               </Button>
               </Nav.Item>
             </Nav>
-          {/*</Navbar.Collapse>*/}
         </Row>
       </Container>
     </Navbar>

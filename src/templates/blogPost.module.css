@@ -1,0 +1,9 @@
+.blogPostBG {
+    background-image: url('../images/pattern-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    padding: 10rem 0 6.5rem;
+}
+

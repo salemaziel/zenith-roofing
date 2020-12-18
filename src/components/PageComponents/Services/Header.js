@@ -14,7 +14,7 @@ import { Link } from 'gatsby'
               <h1>{props.Service}</h1>
               <ul>
                 <li>
-                  <a href="/">Home</a>
+                  <Link to="/" rel="preload">Home</Link>
                 </li>
                 <li><Link rel="preload" to="/services"> Services</Link></li>
               </ul>
