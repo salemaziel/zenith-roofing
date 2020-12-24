@@ -17,7 +17,7 @@ import '../css/main.css'
 import "./layout.css"
 
 
-const Layout = ({ children }) => (
+const Layout = ({ children, hideFooter }) => (
   /*const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -37,10 +37,9 @@ const Layout = ({ children }) => (
       <NavMobile />
 
       {children}
-      <Footer />
+      {!hideFooter && <Footer />}
     </>
   )
-
 
 Layout.propTypes = {
   children: PropTypes.oneOfType([PropTypes.array, PropTypes.node]).isRequired,

@@ -12,6 +12,7 @@ import homeStyles from "../../PageComponents/Home/home.module.css"
 import homeactioncomponentStyle from './homeactionbanner.module.css'
 
 import Fade from 'react-reveal/Fade'
+import {Link} from 'gatsby'
 
 
 class HomeActionBanner extends React.Component {
@@ -64,6 +65,11 @@ class HomeActionBanner extends React.Component {
                 </Button>
                 </Fade>
               </div>
+              <Row className="justify-content-center text-center text-white">
+                <Col>
+                  <p>Financing Available. Learn More <Link to="/financing" rel="preload">Here</Link></p>
+                </Col>
+              </Row>
             </Col>
           </Row>
           <Modal
