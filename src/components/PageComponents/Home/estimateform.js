@@ -59,7 +59,7 @@ export default function EstimateForm() {
               <Col>
                 <Form.Group>
                   <label style={{display: 'none'}} htmlFor="name">First Name</label>
-                  <input type="text" name="firstname" id="firstname" placeholder="First Name" required />
+                  <input type="text" name="firstname" id="firstname" placeholder="First Name*" required />
                 </Form.Group>
               </Col>
               <Col>
@@ -69,7 +69,7 @@ export default function EstimateForm() {
                     type="text"
                     name="lastname"
                     id="lastname"
-                    placeholder="Last Name"
+                    placeholder="Last Name*"
                     required
                     onClick={handleChange}
                   />
@@ -85,7 +85,7 @@ export default function EstimateForm() {
                     type="text"
                     name="email"
                     id="email"
-                    placeholder="Email"
+                    placeholder="Email*"
                     required
                     onChange={handleChange}
                   />
@@ -98,7 +98,7 @@ export default function EstimateForm() {
                     type="tel"
                     name="phone"
                     id="phone"
-                    placeholder="Phone"
+                    placeholder="Phone*"
                     required
                     onChange={handleChange}
                   />
@@ -114,7 +114,7 @@ export default function EstimateForm() {
                     type="text"
                     name="streetname"
                     id="streetname"
-                    placeholder="123 Your Street"
+                    placeholder="123 Your Street*"
                     required
                     onChange={handleChange}
                   />
@@ -129,7 +129,7 @@ export default function EstimateForm() {
                     type="text"
                     name="city"
                     id="city"
-                    placeholder="City"
+                    placeholder="City*"
                     required
                     onChange={handleChange}
                   />
@@ -144,7 +144,7 @@ export default function EstimateForm() {
                     id="state"
                     value="CA"
                     required
-                    onChange={handleChange}
+                    /*onChange={handleChange}*/
                   />
                 </Form.Group>
                 </Col>
@@ -155,13 +155,29 @@ export default function EstimateForm() {
                     type="text"
                     name="zipcode"
                     id="zipcode"
-                    placeholder="Zip Code"
+                    placeholder="Zip Code*"
                     required
                     onChange={handleChange}
                   />
                 </Form.Group>
                 </Col>
             </Form.Row>
+            <Form.Row>
+              <Col>
+            <Form.Group>
+                  <label htmlFor="message" style={{display: 'none'}}>Message</label>
+                  <textarea
+                    
+                    type="textarea"
+                    name="message"
+                    id="message"
+                    placeholder="Additional Comments"
+                    onChange={handleChange}
+                  />
+                </Form.Group>
+                </Col>
+            </Form.Row>
+            
 
             <Form.Group>
               <ul className="actions">
