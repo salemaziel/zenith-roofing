@@ -5,6 +5,7 @@
   "version": "1.22.4",
   "author": "Salem Aziel <contact@salemaziel.com>",
   "dependencies": {
+    "@react-google-maps/api": "^2.0.2",
     "bootstrap": "4.5.3",
     "gatsby": "2.29.1",
     "gatsby-cli": "2.16.1",

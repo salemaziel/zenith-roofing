@@ -1,0 +1,17 @@
+.cityName {
+
+}
+
+.subDescription {
+
+}
+
+article.article {
+    margin: auto;
+    margin-top: 2rem;
+}
+
+article.article p {
+    margin: auto;
+    padding: 0.5rem 0 1rem 0;
+}
