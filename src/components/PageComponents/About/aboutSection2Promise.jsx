@@ -25,7 +25,8 @@ import aboutStyle from "./about.module.css"
               <div className={aboutStyle.Header}>
                 <h2 className={aboutStyle.Title}>Our Promise</h2>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our promise to our customers is to provide the highest level of customer service. We aim to provide straight forward, pleasant experiences for home and business owners alike. We promise that our team has the capability, responsiveness, and power to provide the best and most efficient process for you. </p>
+<p>We will be a helpful source for you to collect valuable information and get the most out of your roof and money. At Zenith Roofing Services, we promise to continue our research and advance in technology to help educate ourselves as well as home and business owners about roofing. Our team promises to look at what is in your best interest at the most affordable price for quality work.  
                 </p>
                 </div>
                 </Col>
@@ -45,7 +46,7 @@ import aboutStyle from "./about.module.css"
                     Innovation
                     </h3>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    We are committed to research all products old and new and advance with technology so we can provide the best possible roof systems to our clients. Our service will constantly be improving to make your roofing project process be as smooth and efficient as possible. 
                     </p>
                   </div>
                 </Col>
@@ -58,7 +59,7 @@ import aboutStyle from "./about.module.css"
                   <h3 className={aboutStyle.Subtitles}>    Commitment to Quality
                     </h3>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    At Zenith Roofing Services we commit to providing you with quality brands, staff productivity, financing options, and a quality relationship with our company. 
                     </p>
                   </div>
                 </Col>
@@ -77,11 +78,10 @@ import aboutStyle from "./about.module.css"
                   <h3 className={aboutStyle.Subtitles}>    Commitment to Quality
                     </h3>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    At Zenith Roofing Services we commit to providing you with quality brands, staff productivity, financing options, and a quality relationship with our company. 
                     </p>
                   </div>
                 </Col>
-                  
               </Row>
               <Row className={aboutStyle.Titlerow}>
               <Col>
@@ -98,7 +98,7 @@ import aboutStyle from "./about.module.css"
                       Core Values
                     </h3>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    We have noticed that most home and business owners are continuously frustrated because they are not receiving the proper information of their roof and paying high prices for low quality materials. They work with roofing contractors that don't do their research or refuse to advance with modern day technology. This can not only be more costly long term but also a safety hazard. Our core values look at what is in the best interest for our clients. We will provide the best information about roofing because we understand that each roof must be tailored to the likes of each of our clients. Our values lie within our clients, and by giving them as much information as possible, listening to their situation, and implementing a game plan to solve the problem we hope to gain much more than their trust. Our goal is for our clients to have such a great experience with their roofing process that they feel like they are reaching out to family. 
                       </p>
                 </div>
                 </Col>

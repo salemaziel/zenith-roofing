@@ -32,7 +32,7 @@ import { Climbing } from '../../../images/index'
           </Row>
         </Container>
         </section>
-        <section className={aboutStyle.Section}>
+        {/*<section className={aboutStyle.Section}>
           <Container>
         <Row className={aboutStyle.HistoryRow}>
             <Col>
@@ -48,7 +48,7 @@ import { Climbing } from '../../../images/index'
             </div>
             </Row>
           </Container>
-        </section>
+    </section>*/}
       </>
     )
   }
