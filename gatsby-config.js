@@ -1,8 +1,8 @@
 //'use strict';
 
-//require("dotenv").config({
-//  path: `.env.${process.env.NODE_ENV}`,
-//})
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
 //const siteConfig = require('./config.js');
 const config = require('./config/site');
@@ -89,7 +89,12 @@ module.exports = {
         icon: `src/images/logo-vert-square-x512.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+        options: {
+          exclude: [`/blog`, `/blog/*`, ],
+        }
+    },
     `gatsby-plugin-robots-txt`,
     `gatsby-plugin-offline`,
     // this (optional) plugin enables Progressive Web App + Offline functionality

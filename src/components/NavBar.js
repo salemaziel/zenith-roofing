@@ -37,7 +37,7 @@ function NavbarCustom(props) {
           margin: "auto",
         }}
       >
-        <Row style={{display: 'flex', flexWrap: 'nowrap'}}>
+        <Row className="d-flex flex-nowrap">
           <Link rel="preload" to="/">
             <Navbar.Brand>
               <img
@@ -116,7 +116,32 @@ function NavbarCustom(props) {
                 </NavDropdown.Item>
                 <NavDropdown.Item eventKey="/services">All Services</NavDropdown.Item>
               </NavDropdown>
+              <NavDropdown
+                as={Link}
+                href="/serviceAreas"
+                to="/serviceAreas"
+                eventKey="serviceAreas"
+                title="Service Areas"
+                id="nav-dropdown-locations"
+              >
+               <NavDropdown.Item eventKey="/san-diego-county-roofing/carlsbad-roofing">
+                  Carlsbad{" "}
+                </NavDropdown.Item>
+                <NavDropdown.Item eventKey="/san-diego-county-roofing/escondido-roofing">
+                  Escondido
+                </NavDropdown.Item>
+                <NavDropdown.Item eventKey="/san-diego-county-roofing/oceanside-roofing">
+                  {" "}
+                  Oceanside{" "}
+                </NavDropdown.Item>
+                <NavDropdown.Item eventKey="/san-diego-county-roofing/san-marcos-roofing">
+                  San Marcos{" "}
+                </NavDropdown.Item>
+                <NavDropdown.Item eventKey="/san-diego-county-roofing/vista-roofing">
+                  Vista
+                </NavDropdown.Item>
 
+              </NavDropdown>
 
               <NavDropdown
                 href="/services"
@@ -166,7 +191,7 @@ function NavbarCustom(props) {
 
 <Nav.Item>
               <Button
-                className="QuoteNav"
+                className="QuoteNav ml-2"
                 as={Link}
                 rel="preload"
                 to="/contact"

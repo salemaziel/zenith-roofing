@@ -41,7 +41,6 @@ export default function EstimateForm() {
   return (
     <>
       <div className={estimateformStyles.formBox}>
-        <Container fluid>
           <div className="item-heading">
             <h3 className={estimateformStyles.title}>Get A Free Estimate</h3>
           </div>
@@ -195,7 +194,6 @@ export default function EstimateForm() {
               </ul>
             </Form.Group>
           </form>
-        </Container>
       </div>
     </>
   )

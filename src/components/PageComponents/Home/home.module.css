@@ -213,6 +213,7 @@
   bottom: 0;
   background-color: rgba(255, 255, 255, 0.75);
   max-width: 100%;
+  z-index: 100;
 }
 
 
@@ -1140,14 +1141,14 @@ div.boxes-area .row {
     background-color: #fff;
     color: #000;
     height: 80%;
-    width: 90%;
+    width: 95%;
     border-radius: 5px;
     border: 1px solid;
     border-color: #ff9900;
     margin: auto;
     padding: 0px;
     z-index: 4;
-    max-width: 90%;
+    max-width: 95%;
     justify-content: center;
     align-items: center;
     align-content: center;

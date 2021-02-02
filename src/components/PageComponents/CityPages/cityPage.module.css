@@ -8,10 +8,22 @@
 
 article.article {
     margin: auto;
-    margin-top: 2rem;
+
 }
 
 article.article p {
     margin: auto;
-    padding: 0.5rem 0 1rem 0;
+    padding: 0 0 1rem 0;
+}
+
+.Map {
+    height: 350px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+@media screen and (min-width: 767px) {
+    .Map {
+        height: 400px;
+        width: 100%;
+    }
 }
