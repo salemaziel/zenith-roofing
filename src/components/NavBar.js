@@ -134,6 +134,9 @@ function NavbarCustom(props) {
                   {" "}
                   Oceanside{" "}
                 </NavDropdown.Item>
+                <NavDropdown.Item eventKey="/san-diego-county-roofing/rancho-bernardo-roofing">
+                  Rancho Bernardo
+                </NavDropdown.Item>
                 <NavDropdown.Item eventKey="/san-diego-county-roofing/san-marcos-roofing">
                   San Marcos{" "}
                 </NavDropdown.Item>
