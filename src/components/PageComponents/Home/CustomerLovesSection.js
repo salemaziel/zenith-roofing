@@ -42,7 +42,7 @@ class CustomerLovesSection extends React.Component {
                     professionalism, timeliness, and superior customer service
                     on every job. We strive to develop lasting relationships
                     with all of our customers by getting the job done so well,
-                    the next time roofing service is needed, there is is no
+                    the next time roofing service is needed, there is no
                     question who to call.
                   </p>
 
