@@ -13,5 +13,5 @@ models:
     singleInstance: true
     file: /src/pages/index.js
     fields:
-      - name: ''
+      - name: section2
         type: string
