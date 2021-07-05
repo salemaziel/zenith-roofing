@@ -12,3 +12,6 @@ models:
     hideContent: true
     singleInstance: true
     file: /src/pages/index.js
+    fields:
+      - name: ''
+        type: string
