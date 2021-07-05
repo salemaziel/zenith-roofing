@@ -11,4 +11,4 @@ models:
     label: home
     hideContent: true
     singleInstance: true
-    file: ''
+    file: /src/pages/index.js
