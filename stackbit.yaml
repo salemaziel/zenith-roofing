@@ -10,3 +10,5 @@ models:
     type: page
     label: home
     hideContent: true
+    singleInstance: true
+    file: ''
