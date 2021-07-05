@@ -15,3 +15,5 @@ models:
     fields:
       - name: section2
         type: string
+      - name: ''
+        type: string
