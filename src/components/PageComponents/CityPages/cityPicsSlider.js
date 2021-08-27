@@ -72,7 +72,6 @@ export default class CityPicsSlider extends Component {
                   <div key={1}>
                     <div className="px-3">
                       <img
-                        loading="lazy"
                         className=""
                         width="320px"
                         src={this.props.gallery1}
@@ -85,7 +84,6 @@ export default class CityPicsSlider extends Component {
                   <div key={2}>
                     <div className="px-3">
                       <img
-                        loading="lazy"
                         className=""
                         width="320px"
                         src={this.props.gallery2}
@@ -98,7 +96,6 @@ export default class CityPicsSlider extends Component {
                   <div key={3}>
                     <div className="px-3">
                       <img
-                        loading="lazy"
                         className=""
                         width="320px"
                         src={this.props.gallery3}
@@ -111,7 +108,6 @@ export default class CityPicsSlider extends Component {
                   <div key={4}>
                     <div className="px-3">
                       <img
-                        loading="lazy"
                         className=""
                         width="320px"
                         src={this.props.gallery4}
@@ -124,7 +120,6 @@ export default class CityPicsSlider extends Component {
                   <div key={5}>
                     <div className="px-3">
                       <img
-                        loading="lazy"
                         className=""
                         width="320px"
                         src={this.props.gallery5}
@@ -137,7 +132,6 @@ export default class CityPicsSlider extends Component {
                   <div key={6}>
                     <div className="px-3">
                       <img
-                        loading="lazy"
                         className=""
                         width="320px"
                         src={this.props.gallery6}
