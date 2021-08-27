@@ -16,13 +16,13 @@ article.article p {
     padding: 0 0 1rem 0;
 }
 
-.Map {
+.gMap {
     height: 350px;
     width: 100%;
     margin-bottom: 1.5rem;
 }
 @media screen and (min-width: 767px) {
-    .Map {
+    .gMap {
         height: 400px;
         width: 100%;
     }

@@ -2,9 +2,7 @@ import React from 'react';
 
 import { Link } from 'gatsby'
 
-class ContactHeader extends React.Component {
-  render() {
-    return (
+const ContactHeader = () => (
       <section
         className="inner-page-banner contactBanner">
         <div className="container">
@@ -24,7 +22,5 @@ class ContactHeader extends React.Component {
         </div>
       </section>
     );
-  }
-}
 
 export default ContactHeader

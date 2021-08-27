@@ -7,9 +7,7 @@ import Col from "react-bootstrap/Col";
 
 import Container from "react-bootstrap/Container";
 
-class TestimonialSection extends React.Component {
-  render() {
-    return (
+const TestimonialSection = () => (
       <section className="testmonial">
         <Container className="top-text">
             <div className="col-md-12">
@@ -37,7 +35,6 @@ class TestimonialSection extends React.Component {
         </Container>
       </section>
     );
-  }
-}
+
 
 export default TestimonialSection;

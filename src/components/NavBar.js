@@ -10,22 +10,20 @@ import { Link, navigate, navigateTo } from "gatsby"
 import { LogoWshadowDarkVertSm, PhoneNumber } from "../images/index"
 //import NavMobile from './NavMobile'
 
-
 function NavbarCustom(props) {
-
   return (
-    <Navbar 
-    className="fullNav" 
-    style={{
-      position: 'fixed',
-      top: '0',
-      right: '0',
-      left: '0',
-      zIndex: '5',
-      border: '1px solid',
-      borderColor: 'rgba(0,0,0,0.05)',
-      borderRadius: '5px'
-    }}
+    <Navbar
+      className="fullNav"
+      style={{
+        position: "fixed",
+        top: "0",
+        right: "0",
+        left: "0",
+        zIndex: "5",
+        border: "1px solid",
+        borderColor: "rgba(0,0,0,0.05)",
+        borderRadius: "5px",
+      }}
     >
       <Container
         fluid
@@ -52,7 +50,7 @@ function NavbarCustom(props) {
                   textAlign: "center",
                   margin: "0 auto",
                   padding: "0 5px 0 0",
-                  fontSize: "1rem"
+                  fontSize: "1rem",
                 }}
               >
                 Lic# 1036112
@@ -61,10 +59,7 @@ function NavbarCustom(props) {
           </Link>
 
           <div style={{ margin: "auto", padding: "0" }}>
-            <a
-              href="tel:8589006163"
-              style={{ cursor: "pointer" }}
-            >
+            <a href="tel:8589006163" style={{ cursor: "pointer" }}>
               <img
                 src={PhoneNumber}
                 style={{ width: "100%", maxWidth: "150px", minWidth: "100px" }}
@@ -74,103 +69,103 @@ function NavbarCustom(props) {
             </a>
           </div>
 
-            <Nav
-              className="mr-1"
-              defaultActiveKey="/"
-              onSelect={(selectedKey) => navigateTo(`${selectedKey}`)}
-              style={{
-                marginTop: '1.5rem'
-              }}
+          <Nav
+            className="mr-1"
+            defaultActiveKey="/"
+            onSelect={(selectedKey) => navigateTo(`${selectedKey}`)}
+            style={{
+              marginTop: "1.5rem",
+            }}
+          >
+            <NavDropdown
+              as={Link}
+              href="/services"
+              to="/commercial"
+              eventKey="commercial"
+              title="Commercial"
+              id="nav-dropdown-commercial"
             >
+              <NavDropdown.Item eventKey="/services/owens-corning">
+                Owens-Corning Systems
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/services/thermoplastic-polyolefin">
+                Thermoplastic Polyolefin (TPO)
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/services/polyvinyl-chloride">
+                {" "}
+                Polyvinyl Chloride (PVC){" "}
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/services/ethylene-propylene-diene-monomer">
+                Ethylene Propylene Diene Monomer (EPDM){" "}
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/services/tile">
+                Tile{" "}
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/services/shingle">
+                Shingle{" "}
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/services/builtup-roofing">
+                Built-up Roofing BUR{" "}
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/services">
+                All Services
+              </NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown
+              as={Link}
+              href="/serviceAreas"
+              to="/serviceAreas"
+              eventKey="serviceAreas"
+              title="Service Areas"
+              id="nav-dropdown-locations"
+            >
+              <NavDropdown.Item eventKey="/san-diego-county-roofing/carlsbad-roofing">
+                Carlsbad{" "}
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/san-diego-county-roofing/escondido-roofing">
+                Escondido
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/san-diego-county-roofing/oceanside-roofing">
+                {" "}
+                Oceanside{" "}
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/san-diego-county-roofing/rancho-bernardo-roofing">
+                Rancho Bernardo
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/san-diego-county-roofing/san-marcos-roofing">
+                San Marcos{" "}
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/san-diego-county-roofing/vista-roofing">
+                Vista
+              </NavDropdown.Item>
+            </NavDropdown>
 
+            <NavDropdown
+              href="/services"
+              as={Link}
+              to="/residential"
+              title="Residential"
+              id="nav-dropdown-residential"
+              eventKey="residential"
+            >
+              <NavDropdown.Item eventKey="/services/roof-maintenance">
+                Roof Maintenance
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/services/skylights">
+                Skylights
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/services/solar">
+                Solar
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/services/roof-inspections">
+                Inspections
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="/services">
+                All Services
+              </NavDropdown.Item>
+            </NavDropdown>
 
-              <NavDropdown
-                as={Link}
-                href="/services"
-                to="/commercial"
-                eventKey="commercial"
-                title="Commercial"
-                id="nav-dropdown-commercial"
-              >
-                <NavDropdown.Item eventKey="/services/owens-corning">
-                  Owens-Corning Systems
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/thermoplastic-polyolefin">
-                  Thermoplastic Polyolefin (TPO)
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/polyvinyl-chloride">
-                  {" "}
-                  Polyvinyl Chloride (PVC){" "}
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/ethylene-propylene-diene-monomer">
-                  Ethylene Propylene Diene Monomer (EPDM){" "}
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/tile">
-                  Tile{" "}
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/shingle">
-                  Shingle{" "}
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/builtup-roofing">
-                  Built-up Roofing BUR{" "}
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services">All Services</NavDropdown.Item>
-              </NavDropdown>
-              <NavDropdown
-                as={Link}
-                href="/serviceAreas"
-                to="/serviceAreas"
-                eventKey="serviceAreas"
-                title="Service Areas"
-                id="nav-dropdown-locations"
-              >
-               <NavDropdown.Item eventKey="/san-diego-county-roofing/carlsbad-roofing">
-                  Carlsbad{" "}
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/san-diego-county-roofing/escondido-roofing">
-                  Escondido
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/san-diego-county-roofing/oceanside-roofing">
-                  {" "}
-                  Oceanside{" "}
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/san-diego-county-roofing/rancho-bernardo-roofing">
-                  Rancho Bernardo
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/san-diego-county-roofing/san-marcos-roofing">
-                  San Marcos{" "}
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/san-diego-county-roofing/vista-roofing">
-                  Vista
-                </NavDropdown.Item>
-
-              </NavDropdown>
-
-              <NavDropdown
-                href="/services"
-                as={Link}
-                to="/residential"
-                title="Residential"
-                id="nav-dropdown-residential"
-                eventKey="residential"
-              >
-                <NavDropdown.Item eventKey="/services/roof-maintenance">
-                  Roof Maintenance
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/skylights">
-                  Skylights
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/solar">
-                  Solar
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/roof-inspections">
-                  Inspections
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services">All Services</NavDropdown.Item>
-
-              </NavDropdown>
-
-<Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/about"
@@ -180,8 +175,8 @@ function NavbarCustom(props) {
               >
                 About
               </Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
+            </Nav.Item>
+            <Nav.Item>
               <Link
                 to="/services/roof-repairs"
                 className="nav-link"
@@ -190,9 +185,9 @@ function NavbarCustom(props) {
               >
                 Roof Repairs{" "}
               </Link>
-              </Nav.Item>
+            </Nav.Item>
 
-<Nav.Item>
+            <Nav.Item>
               <Button
                 className="QuoteNav ml-2"
                 as={Link}
@@ -201,8 +196,8 @@ function NavbarCustom(props) {
               >
                 Contact
               </Button>
-              </Nav.Item>
-            </Nav>
+            </Nav.Item>
+          </Nav>
         </Row>
       </Container>
     </Navbar>

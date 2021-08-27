@@ -15,7 +15,7 @@ FaTwitter
 
 import { Link } from "gatsby"
 
-import footerStyle from "./footer.module.css"
+import { FooterRow, ColNoMobile, CenterFooter, LogoStyle, SocialIcon, Icon, Middle, Spacer, LinkBox, QuickLinks } from "./footer.module.css"
 
 
 
@@ -23,38 +23,38 @@ import footerStyle from "./footer.module.css"
     return (
       <footer>
         <Container fluid>
-        <Row className={footerStyle.FooterRow}>
-          <Col xs={1} className={footerStyle.ColNoMobile}></Col>
+        <Row className={FooterRow}>
+          <Col xs={1} className={ColNoMobile}></Col>
           <Col>
-          <div className={footerStyle.CenterFooter}>
-            <div className={footerStyle.Logo}>
-              <img src={Logo} className="img-fluid" alt="" />
+          <div className={CenterFooter}>
+            <div className={LogoStyle}>
+              <img loading="lazy" src={Logo} className="img-fluid" alt="" />
             </div>
-            <div className={footerStyle.SocialIcon}>
+            <div className={SocialIcon}>
               {" "}
               <a href="#">
                 <FaFacebook
-                  className={footerStyle.Icon}
+                  className={Icon}
                 />
               </a>{" "}
               <a href="#">
                 <FaTwitter
-                  className={footerStyle.Icon}
+                  className={Icon}
                 />
               </a>{" "}
               <a href="#">
                 <FaInstagram
-                  className={footerStyle.Icon}
+                  className={Icon}
                 />
               </a>{" "}
               {/*} <a href="#">
-                  <FontAwesomeIcon icon={faEnvelope} className={footerStyle.Icon} />
+                  <FontAwesomeIcon icon={faEnvelope} className={Icon} />
     </a>{" "}*/}
             </div>
             </div>
           </Col>
           <Col xs={6}>
-            <div className={footerStyle.Middle}>
+            <div className={Middle}>
               <p>
                 Zenith Roofing Services provides Service to Escondido, San
                 Marcos, Vista, Oceanside, Rancho Bernardo, Poway, Temecula,
@@ -65,11 +65,11 @@ import footerStyle from "./footer.module.css"
             </div>
           </Col>
           <Col>
-            <div className={footerStyle.Spacer} />
-            <div className={footerStyle.LinkBox}>
+            <div className={Spacer} />
+            <div className={LinkBox}>
               <h2>
                 {" "}
-                <div className={footerStyle.QuickLinks}>Quick Links</div>{" "}
+                <div className={QuickLinks}>Quick Links</div>{" "}
               </h2>
 
               <div className="nav-list">
@@ -133,7 +133,7 @@ import footerStyle from "./footer.module.css"
               </div>
             </div>{" "}
           </Col>
-          <Col xs={1} className={footerStyle.ColNoMobile}></Col>
+          <Col xs={1} className={ColNoMobile}></Col>
         </Row>
         </Container>
       </footer>

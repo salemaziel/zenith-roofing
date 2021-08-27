@@ -2,13 +2,11 @@ import React from "react";
 import { Systemslogo } from '../../../../images/index'
 
 
-class SystemsBoxRight extends React.Component {
-  render() {
-    return (
+const SystemsBoxRight = () => (
       <div className="box-right">
         <h2>
           {" "}
-          <img src={Systemslogo} className="img-system" alt='' />{" "}
+          <img loading="lazy" src={Systemslogo} className="img-system" alt='' />{" "}
           <span>Systems</span> We Work With{" "}
         </h2>
         <ul>
@@ -21,7 +19,6 @@ class SystemsBoxRight extends React.Component {
         </ul>
       </div>
     );
-  }
-}
+
 
 export default SystemsBoxRight;

@@ -81,7 +81,7 @@ class NavMobile extends React.Component {
               <span className="icon-bar" />
               <span className="icon-bar" /> 
           </div>*/}
-              <img src={MenuIcon} alt="" className="menuIcon" />
+              <img  src={MenuIcon} alt="" className="menuIcon" />
             </div>
           </Col>
         </Row>
@@ -90,7 +90,7 @@ class NavMobile extends React.Component {
           title={
             <div>
               <Link>
-                <img src={LogoWshadowDarkVertSm} width="100%" alt="" />
+                <img  src={LogoWshadowDarkVertSm} width="100%" alt="" />
               </Link>
             </div>
           }

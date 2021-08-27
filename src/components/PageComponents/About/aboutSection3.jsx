@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import { Climbing } from '../../../images/index'
 
-class AboutSection2 extends Component {
-  render() {
-    return (
+const AboutSection2 = () => (
       <>
         <section /*className="about-wrap-layout7 bg-shape-2"*/>
           <div className="container">
@@ -25,13 +23,12 @@ class AboutSection2 extends Component {
               </div>
             </div>
             <div className="single-item right-item">
-              <img src={Climbing} alt="About Us" className="img-fluid"/>
+              <img loading="lazy" src={Climbing} alt="About Us" className="img-fluid"/>
             </div>
           </div>
         </section>
       </>
     );
-  }
-}
+
 
 export default AboutSection2

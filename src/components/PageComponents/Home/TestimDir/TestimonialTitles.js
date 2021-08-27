@@ -2,9 +2,7 @@ import React from "react";
 
 import Fade from 'react-reveal/Fade'
 
-class TestimonialTitles extends React.Component {
-  render() {
-    return (
+const TestimonialTitles = () => (
       <div className="top-text">
         <Fade top>
         <h2>Testimonials</h2>
@@ -12,7 +10,6 @@ class TestimonialTitles extends React.Component {
         </Fade>
       </div>
     );
-  }
-}
+
 
 export default TestimonialTitles;

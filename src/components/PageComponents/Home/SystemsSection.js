@@ -3,9 +3,7 @@ import SystemsBox from "./SystemsDir/SystemsBox";
 
 import Row from "react-bootstrap/Row";
 
-class SystemsSection extends React.Component {
-  render() {
-    return (
+const SystemsSection = () => (
       <section className="system-we-work">
         <div className="container-fluid">
           <Row className="justify-content-center">
@@ -14,7 +12,6 @@ class SystemsSection extends React.Component {
         </div>
       </section>
     );
-  }
-}
+
 
 export default SystemsSection;

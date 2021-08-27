@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import HeroHeaderSection from './HeroHeaderSection'
 import HeroBoxesSection from './HeroBoxesSection'
@@ -13,11 +13,14 @@ import '../../../css/main.css'
 
 
 
-class HomeIndex extends Component {
-  render() {
-    return (
+const HomeIndex = () => (
       <>
-        <HeroHeaderSection />
+        <HeroHeaderSection
+        heroHiddenTitle="Zenith Roofing Services"
+        heroVisibleTitle="Serving Southern California"
+        callButton="Call Now"
+        quoteButton="Get A Quote"
+        />
         <HeroBoxesSection />
         <CustomerLovesSection />
         <Preferred />
@@ -30,7 +33,6 @@ class HomeIndex extends Component {
 
       </>
     );
-  }
-}
+
 
 export default HomeIndex;

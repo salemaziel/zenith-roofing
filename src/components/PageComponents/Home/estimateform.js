@@ -5,8 +5,7 @@ import Col from "react-bootstrap/Col"
 import Button from "react-bootstrap/Button"
 import { navigate } from "gatsby"
 
-import estimateformStyles from "./estimateform.module.css"
-import Container from "react-bootstrap/Container"
+import { formBox, title, estimateSubmit } from "./estimateform.module.css"
 
 ///const EstimateForm = (props) => (
 
@@ -40,9 +39,9 @@ export default function EstimateForm() {
 
   return (
     <>
-      <div className={estimateformStyles.formBox}>
+      <div className={formBox}>
           <div className="item-heading">
-            <h3 className={estimateformStyles.title}>Get A Free Estimate</h3>
+            <h3 className={title}>Get A Free Estimate</h3>
           </div>
           <form
             name="EstimateForm"
@@ -185,7 +184,7 @@ export default function EstimateForm() {
                     type="submit"
                     value="Send Message"
                     className="special"
-                    className={estimateformStyles.estimateSubmit}
+                    className={estimateSubmit}
                     onChange={handleSubmit}
                   >
                     Submit{" "}

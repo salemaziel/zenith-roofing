@@ -5,21 +5,21 @@ import Col from "react-bootstrap/Col"
 import Media from 'react-bootstrap/Media'
 
 import { PinkPanther, OwensPreferred } from '../../../images/index'
-import preferredStyle from './preferred.module.css'
+import { Section, ImgBox, OCPanther, OCLogo } from './preferred.module.css'
 
 
 const Preferred = () => (
-    <section className={preferredStyle.Section}>
+    <section className={Section}>
         <Container fluid>
     <Row>
         <Col>
         <Media>
-            <div className={preferredStyle.ImgBox}>
-                <img src={PinkPanther} alt='' className={preferredStyle.OCPanther} />
+            <div className={ImgBox}>
+                <img loading="lazy" src={PinkPanther} alt='' className={OCPanther} />
             </div>
 
-        <div className={preferredStyle.ImgBox}>
-                <img src={OwensPreferred} alt='Owens Corning Preferred Contractor' className={preferredStyle.OCLogo} />
+        <div className={ImgBox}>
+                <img loading="lazy" src={OwensPreferred} alt='Owens Corning Preferred Contractor' className={OCLogo} />
             </div>
             </Media>
         </Col>

@@ -4,7 +4,15 @@ import CityPage from '../../components/PageComponents/CityPages/CityPage'
 
 import { RooferOnSlant, OwensPreferred, Solar } from "../../images/index"
 import {  Helmet } from 'react-helmet'
-
+/*import {
+    SanMarcos11,
+    SanMarcos2,
+    SanMarcos3,
+    SanMarcos4,
+    SanMarcos5,
+    SanMarcos6,
+  } from "../../images/index"
+*/
 
 const SanMarcos = () => (
     <Layout>
@@ -32,7 +40,12 @@ const SanMarcos = () => (
         cityPic2Alt="Roofing in San Marcos, California"
         cityPic3={RooferOnSlant}
         cityPic3Alt="Roofing in San Marcos California"
-        
+        gallery1=""
+        gallery2=""
+        gallery3=""
+        gallery4=""
+        gallery5=""
+        gallery6=""
         
         />
 

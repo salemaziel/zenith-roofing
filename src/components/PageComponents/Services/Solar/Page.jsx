@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
 
@@ -6,16 +6,14 @@ import Header from '../Header'
 import Section1 from './Section1';
 
 import ActionBanner from '../../../actionBanner'
-import pageStyle from '../page.module.css'
+import { AboutBody } from '../page.module.css'
 
-class Page extends Component {
-    render() {
-    return (
+const Page = () => (
         <>
         <Header 
         Service="Solar"
         />
-        <div className={pageStyle.AboutBody} >
+        <div className={AboutBody} >
         <Section1 />
         
         </div>
@@ -24,8 +22,6 @@ class Page extends Component {
       
       </>
     );
-  }
-}
 
 export default Page
 

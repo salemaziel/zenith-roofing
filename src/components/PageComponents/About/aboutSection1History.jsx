@@ -1,23 +1,22 @@
-import React, { Component } from "react"
+import React from "react"
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-import aboutStyle from './about.module.css'
+import { Section, Titlerow, Header, Title } from './about.module.css'
 
-import { Climbing } from '../../../images/index'
 
 
 
     const AboutSectionHistory = (props) => {
     return (
       <>
-        <section className={aboutStyle.Section} >
+        <section className={Section} >
         <Container >
-          <Row className={aboutStyle.Titlerow}>
+          <Row className={Titlerow}>
             <Col>
-              <div className={aboutStyle.Header}>
-                <h2 className={aboutStyle.Title}>
+              <div className={Header}>
+                <h2 className={Title}>
                   Zenith Roofing Services is about getting the job done right.
                 </h2>
                 <p>
@@ -32,19 +31,19 @@ import { Climbing } from '../../../images/index'
           </Row>
         </Container>
         </section>
-        {/*<section className={aboutStyle.Section}>
+        {/*<section className={Section}>
           <Container>
-        <Row className={aboutStyle.HistoryRow}>
+        <Row className={HistoryRow}>
             <Col>
-              <div className={aboutStyle.Header}>
-                <h2 className={aboutStyle.Title}>Our History</h2>
+              <div className={Header}>
+                <h2 className={Title}>Our History</h2>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
               </div>
             </Col>
             <div className="single-item right-item">
-              <img src={Climbing} alt="About Us" className="img-fluid"/>
+              <img loading="lazy" src={Climbing} alt="About Us" className="img-fluid"/>
             </div>
             </Row>
           </Container>

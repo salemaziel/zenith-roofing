@@ -5,7 +5,15 @@ import CityPage from '../../components/PageComponents/CityPages/CityPage'
 import { RooferOnSlant, OwensPreferred, Solar } from "../../images/index"
 
 import {  Helmet } from 'react-helmet'
-
+/*import {
+    RanchoBernardo11,
+    RanchoBernardo2,
+    RanchoBernardo3,
+    RanchoBernardo4,
+    RanchoBernardo5,
+    RanchoBernardo6,
+  } from "../../images/index"
+  */
 
 const RanchoBernardo = () => (
     <Layout>
@@ -17,7 +25,7 @@ const RanchoBernardo = () => (
         cityName="Rancho Bernardo"
         cityState="Rancho Bernardo, California"
         subDescription="Commercial and Residential Roofing in Rancho Bernardo, California"
-        article1="Without a roof, a house is just four walls. It's what keeps you safe, dry, and protected from the outside elements. You don't want to trust your roofing in Escondido, California, to just anyone. Our roofers in North County San Diego are experts in installing, repairing, and replacing roofs. With our years of experience on the job, we create the safest, most secure, and aesthetically pleasing homes."
+        article1="Without a roof, a house is just four walls. It's what keeps you safe, dry, and protected from the outside elements. You don't want to trust your roofing in RanchoBernardondido, California, to just anyone. Our roofers in North County San Diego are experts in installing, repairing, and replacing roofs. With our years of experience on the job, we create the safest, most secure, and aesthetically pleasing homes."
         article2="Whether you need an inspection, maintenance, or a new roof installation, don't work with anyone but the best."
         article3=" "
         article4=""
@@ -33,7 +41,12 @@ const RanchoBernardo = () => (
         cityPic2Alt="Roofing in Rancho Bernardo, California"
         cityPic3={RooferOnSlant}
         cityPic3Alt="Roofing in Rancho Bernardo California"
-        
+        gallery1=""
+        gallery2=""
+        gallery3=""
+        gallery4=""
+        gallery5=""
+        gallery6=""
         
         />
 

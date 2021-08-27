@@ -1,16 +1,16 @@
 import React from 'react';
 import Layout from '../../components/layout';
-import OwensCorningPage from '../../components/PageComponents/Services/EPDM/Page';
+import EPDMPage from '../../components/PageComponents/Services/EPDM/Page';
 import {  Helmet } from 'react-helmet'
 
 
 
 
-const OwensCorning = () => (
+const EPDM = () => (
   <Layout>
-    <Helmet title={'OwensCorning'} />
-    <OwensCorningPage />
+    <Helmet title={'EPDM'} />
+    <EPDMPage />
   </Layout>
 );
 
-export default OwensCorning
+export default EPDM

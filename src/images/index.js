@@ -56,3 +56,52 @@ export const Avatar = require('./new/avatar_640.png');
 export const PhoneNumber = require('./new/phone-sm.png');
 export const PhonenumberHorz = require('./new/phone2Horz-Md.png')
 export const FullLogoNoBgMd = require('./new/full-logo-noBG-x512.png')
+/*************  City Pages  **************/
+/**** Escondido */
+export const Esco1 = require('./zenith-city-pics/esco/esco-1.jpeg')
+export const Esco2 = require('./zenith-city-pics/esco/esco-2.jpeg')
+export const Esco3 = require('./zenith-city-pics/esco/esco-3.png')
+export const Esco4 = require('./zenith-city-pics/esco/esco-4.jpeg')
+export const Esco5 = require('./zenith-city-pics/esco/esco-5.png')
+export const Esco6 = require('./zenith-city-pics/esco/esco-6.png')
+export const Esco7 = require('./zenith-city-pics/esco/esco-7.jpeg')
+export const Esco8 = require('./zenith-city-pics/esco/esco-8.png')
+export const Esco9 = require('./zenith-city-pics/esco/esco-9.png')
+export const Esco10 = require('./zenith-city-pics/esco/esco-10.jpeg')
+export const Esco11 = require('./zenith-city-pics/esco/esco-11.jpeg')
+export const Esco12 = require('./zenith-city-pics/esco/esco-12.jpeg')
+/********* Carlsbad */
+export const Carlsbad1 = require('./zenith-city-pics/carlsbad/carlsbad-1.jpeg')
+export const Carlsbad2 = require('./zenith-city-pics/carlsbad/carlsbad-2.jpeg')
+export const Carlsbad3 = require('./zenith-city-pics/carlsbad/carlsbad-3.png')
+export const Carlsbad4 = require('./zenith-city-pics/carlsbad/carlsbad-4.png')
+export const Carlsbad5 = require('./zenith-city-pics/carlsbad/carlsbad-5.png')
+export const Carlsbad6 = require('./zenith-city-pics/carlsbad/carlsbad-6.png')
+export const Carlsbad7 = require('./zenith-city-pics/carlsbad/carlsbad-7.png')
+export const Carlsbad8 = require('./zenith-city-pics/carlsbad/carlsbad-8.jpeg')
+export const Carlsbad9 = require('./zenith-city-pics/carlsbad/carlsbad-9.png')
+export const Carlsbad10 = require('./zenith-city-pics/carlsbad/carlsbad-10.png')
+export const Carlsbad11 = require('./zenith-city-pics/carlsbad/carlsbad-11.jpeg')
+export const Carlsbad12 = require('./zenith-city-pics/carlsbad/carlsbad-12.png')
+export const Carlsbad13 = require('./zenith-city-pics/carlsbad/carlsbad-13.png')
+/********** Vista */
+export const Vista1 = require('./zenith-city-pics/vista/vista-1.png')
+export const Vista2 = require('./zenith-city-pics/vista/vista-2.jpeg')
+export const Vista3 = require('./zenith-city-pics/vista/vista-3.png')
+export const Vista4 = require('./zenith-city-pics/vista/vista-4.jpeg')
+export const Vista5 = require('./zenith-city-pics/vista/vista-5.jpeg')
+export const Vista6 = require('./zenith-city-pics/vista/vista-6.png')
+export const Vista7 = require('./zenith-city-pics/vista/vista-7.jpeg')
+export const Vista8 = require('./zenith-city-pics/vista/vista-8.jpeg')
+export const Vista9 = require('./zenith-city-pics/vista/vista-9.png')
+export const Vista10 = require('./zenith-city-pics/vista/vista-10.png')
+export const Vista11 = require('./zenith-city-pics/vista/vista-11.png')
+/************ San Marcos */
+
+/************* Oceanside */
+
+/************** Rancho Bernardo */
+
+/*************** Poway */
+
+

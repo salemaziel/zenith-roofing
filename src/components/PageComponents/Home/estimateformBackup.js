@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col"
 import Button from "react-bootstrap/Button"
 import { navigate } from "gatsby"
 
-import estimateformStyles from "./estimateform.module.css"
+import { formBox, title, estimateSubmit} from "./estimateform.module.css"
 import Container from "react-bootstrap/Container"
 
 function encode(data) {
@@ -36,10 +36,10 @@ export default function EstimateForm() {
   }
 
   return (
-    <div className={estimateformStyles.formBox}>
+    <div className={formBox}>
       <Container fluid>
         <div className="item-heading">
-          <h3 className={estimateformStyles.title}>Get A Free Estimate</h3>
+          <h3 className={title}>Get A Free Estimate</h3>
         </div>
 
         <Form
@@ -116,7 +116,7 @@ export default function EstimateForm() {
           </Form.Group>
 
           <Button
-            className={estimateformStyles.estimateSubmit}
+            className={estimateSubmit}
             type="submit"
             onClick={handleSubmit}
           >

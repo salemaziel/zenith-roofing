@@ -1,23 +1,19 @@
-import React, { Component } from "react"
+import React from "react"
 import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 
-import repairStyle from '../page.module.css'
 
-import { Climbing } from '../../../../images/index'
+import { Section, sidebarPageContainer } from '../page.module.css'
+
 import SideBar from "../sidebar"
 
 
-class RRSection1 extends Component {
-  render() {
-    return (
+const RRSection1 = () => (
       <>
 
 
 
-        <section className={repairStyle.Section}>
-          <div className={repairStyle.sidebarPageContainer}>
+        <section className={Section}>
+          <div className={sidebarPageContainer}>
             {/*<div className={pageStyle.autoContainer}>*/}
             <Container>
               <SideBar
@@ -35,7 +31,6 @@ class RRSection1 extends Component {
         </section>
       </>
     )
-  }
-}
+
 
 export default RRSection1

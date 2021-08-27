@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
 
@@ -7,13 +7,13 @@ import AboutSectionHistory from './aboutSection1History';
 import AboutSectionPromise from './aboutSection2Promise';
 
 import ActionBanner from '../../actionBanner'
-import aboutStyle from './about.module.css'
+import { AboutBody } from './about.module.css'
 
 
       const AboutPage = () => (
         <>
         <AboutHeader />
-        <div className={aboutStyle.AboutBody} >
+        <div className={AboutBody} >
         <AboutSectionHistory />
         <AboutSectionPromise />
         </div>

@@ -15,6 +15,7 @@ const Grid = (props) => {
                   <div className={gridStyle.ServiceImgBox}>
                     <Link rel="preload" to={item.link}>
                       <img
+                      loading="lazy"
                         src={item.image}
                         alt="Service"
                         className={gridStyle.ServiceImg}

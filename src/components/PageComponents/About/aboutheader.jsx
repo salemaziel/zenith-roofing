@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby'
 
-class AboutHeader extends React.Component {
-  render() {
-    return (
+const AboutHeader = () => (
       <section
         className="inner-page-banner servicesBanner"
         >
@@ -23,7 +21,5 @@ class AboutHeader extends React.Component {
         </div>
       </section>
     );
-  }
-}
 
 export default AboutHeader

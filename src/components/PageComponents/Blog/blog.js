@@ -7,7 +7,7 @@ import {Link} from 'gatsby'
 
 import { Service18 } from '../../../images/index'
 
-import blogStyle from "../../../templates/blogPost.module.css"
+import { blogPostBG } from "../../../templates/blogPost.module.css"
 
 const BlogPage = (props) => (
   <>
@@ -30,7 +30,7 @@ const BlogPage = (props) => (
       </div>
     </section>
 
-    <section className={blogStyle.blogPostBG}>
+    <section className={blogPostBG}>
     <Grid
         items={[
             {

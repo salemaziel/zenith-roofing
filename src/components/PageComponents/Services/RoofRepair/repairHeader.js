@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby'
 
-class RepairHeader extends React.Component {
-  render() {
-    return (
+const RepairHeader = () => (
       <section
         className="inner-page-banner servicesBanner"
         >
@@ -25,7 +23,6 @@ class RepairHeader extends React.Component {
         </div>
       </section>
     );
-  }
-}
+
 
 export default RepairHeader

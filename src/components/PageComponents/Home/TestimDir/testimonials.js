@@ -14,7 +14,7 @@ import {
   FaStar
 } from 'react-icons/fa'
 
-import testimonialStyle from "./testimonial.module.css"
+import { CardOutline, CardStyle, cardImg  } from "./testimonial.module.css"
 import Slider from "react-slick"
 
 /*const testimonies = [
@@ -92,16 +92,17 @@ class Testimonials extends React.Component {
     return (
       <>
         <Slider {...settings}>
-          <div className={testimonialStyle.CardOutline}>
-            <Card className={testimonialStyle.CardStyle}>
+          <div className={CardOutline}>
+            <Card className={CardStyle}>
               <Card.Body>
                 <Media>
                   {/* <Card.Img 
                   
                     variant="bottom" */}
                   <img
+                    loading="lazy"
                     src={Avatar}
-                    className={testimonialStyle.cardImg}
+                    className={cardImg}
                     alt="Reviewer Profile Pic"
                   />
                   <Col>
@@ -137,15 +138,16 @@ class Testimonials extends React.Component {
               </Card.Body>
             </Card>
           </div>
-          <div className={testimonialStyle.CardOutline}>
-            <Card className={testimonialStyle.CardStyle}>
+          <div className={CardOutline}>
+            <Card className={CardStyle}>
               <Card.Body>
                 <Media>
                   {/*   <Card.Img
                     variant="bottom" */}
                   <img
+                    loading="lazy"
                     src={Avatar}
-                    className={testimonialStyle.cardImg}
+                    className={cardImg}
                     alt="Reviewer Profile Pic"
                   />
                   <Col>
@@ -176,15 +178,16 @@ class Testimonials extends React.Component {
             </Card>
           </div>
 
-          <div className={testimonialStyle.CardOutline}>
-            <Card className={testimonialStyle.CardStyle}>
+          <div className={CardOutline}>
+            <Card className={CardStyle}>
               <Card.Body>
                 <Media>
                   {/*   <Card.Img
                     variant="bottom" */}
                   <img
+                  loading="lazy"
                     src={Avatar}
-                    className={testimonialStyle.cardImg}
+                    className={cardImg}
                     alt="Reviewer Profile Pic"
                   />
                   <Col>
@@ -214,15 +217,16 @@ class Testimonials extends React.Component {
             </Card>
           </div>
 
-          <div className={testimonialStyle.CardOutline}>
-            <Card className={testimonialStyle.CardStyle}>
+          <div className={CardOutline}>
+            <Card className={CardStyle}>
               <Card.Body>
                 <Media>
                   {/*   <Card.Img
                     variant="bottom" */}
                   <img
+                  loading="lazy"
                     src={Avatar}
-                    className={testimonialStyle.cardImg}
+                    className={cardImg}
                     alt="Reviewer Profile Pic"
                   />
                   <Col>
@@ -252,15 +256,16 @@ class Testimonials extends React.Component {
             </Card>
           </div>
 
-          <div className={testimonialStyle.CardOutline}>
-            <Card className={testimonialStyle.CardStyle}>
+          <div className={CardOutline}>
+            <Card className={CardStyle}>
               <Card.Body>
                 <Media>
                   {/*   <Card.Img
                     variant="bottom" */}
                   <img
+                  loading="lazy"
                     src={Avatar}
-                    className={testimonialStyle.cardImg}
+                    className={cardImg}
                     alt="Reviewer Profile Pic"
                   />
                   <Col>
@@ -290,15 +295,16 @@ class Testimonials extends React.Component {
             </Card>
           </div>
 
-          <div className={testimonialStyle.CardOutline}>
-            <Card className={testimonialStyle.CardStyle}>
+          <div className={CardOutline}>
+            <Card className={CardStyle}>
               <Card.Body>
                 <Media>
                   {/*   <Card.Img
                     variant="bottom" */}
                   <img
+                  loading="lazy"
                     src={Avatar}
-                    className={testimonialStyle.cardImg}
+                    className={cardImg}
                     alt="Reviewer Profile Pic"
                   />
                   <Col>
@@ -328,15 +334,16 @@ class Testimonials extends React.Component {
             </Card>
           </div>
 
-          <div className={testimonialStyle.CardOutline}>
-            <Card className={testimonialStyle.CardStyle}>
+          <div className={CardOutline}>
+            <Card className={CardStyle}>
               <Card.Body>
                 <Media>
                   {/*   <Card.Img
                     variant="bottom" */}
                   <img
+                  loading="lazy"
                     src={Avatar}
-                    className={testimonialStyle.cardImg}
+                    className={cardImg}
                     alt="Reviewer Profile Pic"
                   />
                   <Col>
@@ -366,15 +373,16 @@ class Testimonials extends React.Component {
             </Card>
           </div>
 
-          <div className={testimonialStyle.CardOutline}>
-            <Card className={testimonialStyle.CardStyle}>
+          <div className={CardOutline}>
+            <Card className={CardStyle}>
               <Card.Body>
                 <Media>
                   {/*   <Card.Img
                     variant="bottom" */}
                   <img
+                  loading="lazy"
                     src={Avatar}
-                    className={testimonialStyle.cardImg}
+                    className={cardImg}
                     alt="Reviewer Profile Pic"
                   />
                   <Col>
@@ -405,14 +413,14 @@ class Testimonials extends React.Component {
             </Card>
           </div>
 
-          {/*      <div className={testimonialStyle.CardOutline}>
-            <Card className={testimonialStyle.CardStyle}>
+          {/*      <div className={CardOutline}>
+            <Card className={CardStyle}>
               <Card.Body>
                 <Media>
                   <Card.Img
                     variant="bottom"
                     src={Avatar}
-                    className={testimonialStyle.cardImg}
+                    className={cardImg}
                     alt="Reviewer Profile Pic"
                   />
 
@@ -425,14 +433,14 @@ class Testimonials extends React.Component {
               </Card.Body>
             </Card>
           </div> */}
-          {/*        <div className={testimonialStyle.CardOutline}>
-            <Card className={testimonialStyle.CardStyle}>
+          {/*        <div className={CardOutline}>
+            <Card className={CardStyle}>
               <Card.Body>
                 <Media>
                   <Card.Img
                     variant="bottom"
                     src={Avatar}
-                    className={testimonialStyle.cardImg}
+                    className={cardImg}
                     alt="Reviewer Profile Pic"
                   />
 
@@ -445,14 +453,14 @@ class Testimonials extends React.Component {
               </Card.Body>
             </Card>
           </div> */}
-          {/*     <div className={testimonialStyle.CardOutline}>
-            <Card className={testimonialStyle.CardStyle}>
+          {/*     <div className={CardOutline}>
+            <Card className={CardStyle}>
               <Card.Body>
                 <Media>
                   <Card.Img
                     variant="bottom"
                     src={Avatar}
-                    className={testimonialStyle.cardImg}
+                    className={cardImg}
                     alt="Reviewer Profile Pic"
                   />
 
@@ -466,14 +474,14 @@ class Testimonials extends React.Component {
               </Card.Body>
             </Card>
           </div> */}
-          {/*   <div className={testimonialStyle.CardOutline}>
-            <Card className={testimonialStyle.CardStyle}>
+          {/*   <div className={CardOutline}>
+            <Card className={CardStyle}>
               <Card.Body>
                 <Media>
                   <Card.Img
                     variant="bottom"
                     src={Avatar}
-                    className={testimonialStyle.cardImg}
+                    className={cardImg}
                     alt="Reviewer Profile Pic"
                   />
 

@@ -54,6 +54,7 @@ class HeroHeaderSection2 extends React.Component {
             <Col>
               <div>
                 <img
+                  loading="lazy"
                   src={FullLogoNoBgMd}
                   className={homeStyles.Logo}
                   alt="Logo for Zenith Roofing Services Southern California"

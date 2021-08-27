@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby'
 
-class PageHeader extends React.Component {
-  render() {
-    return (
+const PageHeader = () => (
       <section
         className="inner-page-banner servicesBanner"
         >
@@ -24,7 +22,6 @@ class PageHeader extends React.Component {
         </div>
       </section>
     );
-  }
-}
+
 
 export default PageHeader

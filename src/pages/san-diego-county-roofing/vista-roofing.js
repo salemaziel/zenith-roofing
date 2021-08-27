@@ -4,7 +4,14 @@ import CityPage from '../../components/PageComponents/CityPages/CityPage'
 
 import { RooferOnSlant, OwensPreferred, Solar } from "../../images/index"
 import {  Helmet } from 'react-helmet'
-
+import {
+    Vista11,
+    Vista2,
+    Vista3,
+    Vista4,
+    Vista5,
+    Vista6,
+  } from "../../images/index"
 
 const Vista = () => (
     <Layout>
@@ -32,7 +39,12 @@ const Vista = () => (
         cityPic2Alt="Roofing in Vista, California"
         cityPic3={RooferOnSlant}
         cityPic3Alt="Roofing in Vista California"
-        
+        gallery1={Vista11}
+        gallery2={Vista2}
+        gallery3={Vista3}
+        gallery4={Vista4}
+        gallery5={Vista5}
+        gallery6={Vista6}
         
         />
 

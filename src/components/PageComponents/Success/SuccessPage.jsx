@@ -4,7 +4,7 @@ import { CustomersLoveGuy } from '../../../images/index'
 import Row from "react-bootstrap/Row"
 import Container from "react-bootstrap/Container"
 
-import successStyle from "./success.module.css"
+import { CLsection, CLRow, WhyloveUs, WhyTitle, WhySubtitle, SocialIcons, Icon, ColGuy, CLGuy } from "./success.module.css"
 
 
 
@@ -19,19 +19,19 @@ import {
 
 
       const SuccessPage = () => (
-        <section className={successStyle.CLsection}>
+        <section className={CLsection}>
           <Container fluid style={{ }}>
-            <Row className={successStyle.CLRow}>
+            <Row className={CLRow}>
               <Col></Col>
               <Col>
-                <div className={successStyle.WhyloveUs}>
-                  <h1 className={successStyle.WhyTitle}>
+                <div className={WhyloveUs}>
+                  <h1 className={WhyTitle}>
                     {" "}
                   </h1>
   
                   <br />
   
-                  <h4 className={successStyle.WhySubtitle}>
+                  <h4 className={WhySubtitle}>
                     Thanks For Reaching Out! We will contact you within 24 hours
                   </h4>
                 </div>
@@ -43,30 +43,30 @@ import {
                 </div>
 
 
-                <div className={successStyle.SocialIcons}>
+                <div className={SocialIcons}>
                 {" "}
                 <a href="#">
-                  <FaFacebook className={successStyle.Icon} />
+                  <FaFacebook className={Icon} />
                 </a>{" "}
                 <a href="#">
-                  <FaTwitter className={successStyle.Icon} />
+                  <FaTwitter className={Icon} />
                 </a>{" "}
                 <a href="https://www.instagram.com/zenithroofingservices_ca/">
-                  <FaInstagram className={successStyle.Icon} />
+                  <FaInstagram className={Icon} />
                 </a>{" "}
                 <a href="mailto:admin@zenithroofingca.com">
-                  <faEnvelope className={successStyle.Icon} />
+                  <faEnvelope className={Icon} />
                 </a>{" "}
               </div>
                 </Col>
   
   
-              <Col xs={5} className={successStyle.ColGuy}>
+              <Col xs={5} className={ColGuy}>
                 <div>
                   <img
                     src={CustomersLoveGuy}
                     alt=""
-                    className={successStyle.CLGuy}
+                    className={CLGuy}
                   />
                 </div>
               </Col>

@@ -5,6 +5,16 @@ import CityPage from '../../components/PageComponents/CityPages/CityPage'
 import { RooferOnSlant, OwensPreferred, Solar } from "../../images/index"
 
 import {  Helmet } from 'react-helmet'
+import {
+    Esco11,
+    Esco2,
+    Esco3,
+    Esco4,
+    Esco5,
+    Esco6,
+  } from "../../images/index"
+
+
 
 
 const Escondido = () => (
@@ -33,6 +43,12 @@ const Escondido = () => (
         cityPic2Alt="Roofing in Escondido, California"
         cityPic3={RooferOnSlant}
         cityPic3Alt="Roofing in Escondido California"
+        gallery1={Esco11}
+        gallery2={Esco2}
+        gallery3={Esco3}
+        gallery4={Esco4}
+        gallery5={Esco5}
+        gallery6={Esco6}
         
         
         />

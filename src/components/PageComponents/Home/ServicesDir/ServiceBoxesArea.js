@@ -1,11 +1,6 @@
 import React from "react"
-//import ServiceBox1 from "./ServiceBox1"
-//import ServiceBox2 from "./ServiceBox2"
-//import ServiceBox3 from "./ServiceBox3"
-//import ServiceBox4 from "./ServiceBox4"
-//import ServiceBox5 from "./ServiceBox5"
-//import ServiceBox6 from "./ServiceBox6"
-import homeStyles from "../home.module.css"
+
+import { serviceBoxesAreas, boxes, textBoxes, textTitles  } from "../home.module.css"
 
 import {
   Repair,
@@ -21,23 +16,21 @@ import { Link } from "gatsby"
 import Row from "react-bootstrap/Row"
 import Card from "react-bootstrap/Card"
 
-class ServiceBoxesArea extends React.Component {
-  render() {
-    return (
-      <div className={homeStyles.serviceBoxesAreas}>
+const ServiceBoxesArea = () => (
+      <div className={serviceBoxesAreas}>
         <Row style={{marginLeft: '0', marginRight: '0'}}>
           <div className="col-md-4 col-6 p-0">
           <Link rel="preload" to="/services/roof-repairs">
               {" "}
               <Card >
-                <div className={homeStyles.boxes}>
+                <div className={boxes}>
                   {" "}
                   <Card.Img src={Repair} className="img-fluid" alt="" />
                   <Card.ImgOverlay>
-                  <div className={homeStyles.textBoxes}>
+                  <div className={textBoxes}>
                     <Card.Title>
                       {" "}
-                      <div className={homeStyles.textTitles}>
+                      <div className={textTitles}>
                         Roof Repairs
                       </div>{" "}
                     </Card.Title>
@@ -51,14 +44,14 @@ class ServiceBoxesArea extends React.Component {
             <Link rel="preload" to="/services/skylights">
               {" "}
               <Card >
-                <div className={homeStyles.boxes}>
+                <div className={boxes}>
                   {" "}
                   <Card.Img src={Skylights} className="img-fluid" alt="" />
                   <Card.ImgOverlay>
-                  <div className={homeStyles.textBoxes}>
+                  <div className={textBoxes}>
                     <Card.Title>
                       {" "}
-                      <div className={homeStyles.textTitles}>Skylights</div>{" "}
+                      <div className={textTitles}>Skylights</div>{" "}
                     </Card.Title>
                   </div>{" "}
                   </Card.ImgOverlay>
@@ -70,14 +63,14 @@ class ServiceBoxesArea extends React.Component {
             <Link rel="preload" to="/services/solar">
               {" "}
               <Card >
-                <div className={homeStyles.boxes}>
+                <div className={boxes}>
                   {" "}
                   <Card.Img src={Solar} className="img-fluid" alt="" />
                   <Card.ImgOverlay>
-                  <div className={homeStyles.textBoxes}>
+                  <div className={textBoxes}>
                     <Card.Title>
                       {" "}
-                      <div className={homeStyles.textTitles}>Solar</div>{" "}
+                      <div className={textTitles}>Solar</div>{" "}
                     </Card.Title>
                   </div>{" "}
                   </Card.ImgOverlay>
@@ -89,17 +82,17 @@ class ServiceBoxesArea extends React.Component {
             <Link rel="preload" to="/services/roof-restorations">
               {" "}
               <Card >
-                <div className={homeStyles.boxes}>
+                <div className={boxes}>
                   {" "}
                   <Card.Img
                     src={Restorations}
                     className="img-fluid" alt=""
                   />
                   <Card.ImgOverlay>
-                  <div className={homeStyles.textBoxes}>
+                  <div className={textBoxes}>
                     <Card.Title>
                       {" "}
-                      <div className={homeStyles.textTitles}>
+                      <div className={textTitles}>
                         Restorations
                       </div>{" "}
                     </Card.Title>
@@ -113,17 +106,17 @@ class ServiceBoxesArea extends React.Component {
             <Link rel="preload" to="/services/roof-inspections">
               {" "}
               <Card >
-                <div className={homeStyles.boxes}>
+                <div className={boxes}>
                   {" "}
                   <Card.Img
                     src={Inspections}
                     className="img-fluid" alt=""
                   />
                   <Card.ImgOverlay>
-                  <div className={homeStyles.textBoxes}>
+                  <div className={textBoxes}>
                     <Card.Title>
                       {" "}
-                      <div className={homeStyles.textTitles}>
+                      <div className={textTitles}>
                         Inspections
                       </div>{" "}
                     </Card.Title>
@@ -137,14 +130,14 @@ class ServiceBoxesArea extends React.Component {
             <Link rel="preload" to="/services/roof-replacements">
               {" "}
               <Card >
-                <div className={homeStyles.boxes}>
+                <div className={boxes}>
                   {" "}
                   <Card.Img src={Replace} className="img-fluid" alt="" />
                   <Card.ImgOverlay>
-                  <div className={homeStyles.textBoxes}>
+                  <div className={textBoxes}>
                     <Card.Title>
                       {" "}
-                      <div className={homeStyles.textTitles}>
+                      <div className={textTitles}>
                         Roof Replacement
                       </div>{" "}
                     </Card.Title>
@@ -157,7 +150,5 @@ class ServiceBoxesArea extends React.Component {
         </Row>
       </div>
     )
-  }
-}
 
 export default ServiceBoxesArea

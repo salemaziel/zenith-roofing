@@ -1,16 +1,16 @@
 import React from 'react';
 import Layout from '../../components/layout';
-import OwensCorningPage from '../../components/PageComponents/Services/TPO/Page';
+import TPOPage from '../../components/PageComponents/Services/TPO/Page';
 import {  Helmet } from 'react-helmet'
 
 
 
 
-const OwensCorning = () => (
+const TPO = () => (
   <Layout>
-    <Helmet title={'OwensCorning'} />
-    <OwensCorningPage />
+    <Helmet title={'TPO'} />
+    <TPOPage />
   </Layout>
 );
 
-export default OwensCorning
+export default TPO

@@ -1,22 +1,18 @@
-import React, { Component } from "react"
+import React from "react"
 import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 
-import skylightStyle from '../page.module.css'
 
-import { Climbing } from '../../../../images/index'
+import { Section, sidebarPageContainer } from '../page.module.css'
+
 import SideBar from "../sidebar"
 
 
-class Section1 extends Component {
-  render() {
-    return (
+const Section1 = () => (
       <>
 
 
-        <section className={skylightStyle.Section}>
-          <div className={skylightStyle.sidebarPageContainer}>
+        <section className={Section}>
+          <div className={sidebarPageContainer}>
             {/*<div className={pageStyle.autoContainer}>*/}
             <Container>
               <SideBar
@@ -29,7 +25,6 @@ class Section1 extends Component {
         </section>
       </>
     )
-  }
-}
+
 
 export default Section1

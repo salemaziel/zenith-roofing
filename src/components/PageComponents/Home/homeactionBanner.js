@@ -8,8 +8,8 @@ import Modal from "react-modal"
 
 import EstimateForm from '../../PageComponents/Home/estimateform'
 
-import homeStyles from "../../PageComponents/Home/home.module.css"
-import homeactioncomponentStyle from './homeactionbanner.module.css'
+import { homeActionBanner, modalmailingOverlay } from "../../PageComponents/Home/home.module.css"
+import { actionwraplayout1, ButtonBox, ItemTitle, CTAbutton,  } from './homeactionbanner.module.css'
 
 import Fade from 'react-reveal/Fade'
 import {Link} from 'gatsby'
@@ -40,25 +40,25 @@ class HomeActionBanner extends React.Component {
   render() {
     return (
       <section
-        className={homeactioncomponentStyle.actionwraplayout1}
+        className={actionwraplayout1}
       >
         <Container >
           <Row /*className="align-items-center"*/>
             <Col className="col-sm-6 col-md-6" >
-              <div className={homeactioncomponentStyle.ButtonBox}>
+              <div className={ButtonBox}>
                 <Fade top>
-                <h2 className={homeactioncomponentStyle.ItemTitle}>
+                <h2 className={ItemTitle}>
                   Get Your Roofing Project Started Today!
                 </h2>
                 </Fade>
               </div>
             </Col>
             <Col /*className="col-lg-3 col-12 d-flex justify-content-lg-end justify-content-center"*/ >
-              <div className={homeactioncomponentStyle.ButtonBox}>
+              <div className={ButtonBox}>
                 <Fade top>
                 <Button 
                   onClick={this.handleModalOpen}
-                  className={homeactioncomponentStyle.CTAbutton}
+                  className={CTAbutton}
                 >
                   GET A QUOTE
                   <i className="fas fa-angle-right" />
@@ -80,8 +80,8 @@ class HomeActionBanner extends React.Component {
               shouldCloseOnOverlayClick={true}
               shouldCloseOnEsc={true}
               shouldReturnFocusAfterClose={true}
-              className={homeStyles.homeActionBanner}
-              overlayClassName={homeStyles.modalmailingOverlay}
+              className={homeActionBanner}
+              overlayClassName={modalmailingOverlay}
             >
               <Container>
                {/* <LeadFormModal /> */}

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
 
@@ -7,14 +7,14 @@ import Section1 from './Section1';
 
 import ActionBanner from '../../../actionBanner'
 
-import pageStyle from '../page.module.css'
+import { AboutBody } from '../page.module.css'
 
 const Page = () => (
         <>
         <Header
         Service="Polyvinyl Chloride (PVC)"
         />
-        <div className={pageStyle.AboutBody} >
+        <div className={AboutBody} >
         <Section1 />
         
         </div>

@@ -9,8 +9,8 @@ import Modal from "react-modal"
 import EstimateForm from './PageComponents/Home/estimateform'
 
 
-import homeStyles from "./PageComponents/Home/home.module.css"
-import actioncomponentStyle from '../css/actioncomponent.module.css'
+import { homeActionBanner, modalmailingOverlay } from "./PageComponents/Home/home.module.css"
+import { actionwraplayout1, ButtonBox, ItemTitle, CTAbutton } from '../css/actioncomponent.module.css'
 
 
 class ActionBanner extends React.Component {
@@ -38,22 +38,22 @@ class ActionBanner extends React.Component {
   render() {
     return (
       <section
-        className={actioncomponentStyle.actionwraplayout1}
+        className={actionwraplayout1}
       >
         <Container >
           <Row /*className="align-items-center"*/>
             <Col /*className="col-lg-9 col-12"*/ >
-              <div className={actioncomponentStyle.ButtonBox}>
-                <h2 className={actioncomponentStyle.ItemTitle}>
+              <div className={ButtonBox}>
+                <h2 className={ItemTitle}>
                   Get Your Roofing Project Started Today!
                 </h2>
               </div>
             </Col>
             <Col /*className="col-lg-3 col-12 d-flex justify-content-lg-end justify-content-center"*/ >
-              <div className={actioncomponentStyle.ButtonBox}>
+              <div className={ButtonBox}>
                 <Button 
                   onClick={this.handleModalOpen}
-                  className={actioncomponentStyle.CTAbutton}
+                  className={CTAbutton}
                 >
                   GET A QUOTE
                   <i className="fas fa-angle-right" />
@@ -69,8 +69,8 @@ class ActionBanner extends React.Component {
               shouldCloseOnOverlayClick={true}
               shouldCloseOnEsc={true}
               shouldReturnFocusAfterClose={true}
-              className={homeStyles.homeActionBanner}
-              overlayClassName={homeStyles.modalmailingOverlay}
+              className={homeActionBanner}
+              overlayClassName={modalmailingOverlay}
             >
               <Container>
                {/* <LeadFormModal /> */}

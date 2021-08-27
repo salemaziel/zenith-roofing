@@ -1,4 +1,4 @@
-.ServicesGrid {
+.GridSection {
     padding: 10rem 0 6.5rem;
   }
 
@@ -9,7 +9,7 @@
 	padding: 0 5%;
 }
 
-.ServicesGrid h3 {
+.GridSection h3 {
     margin-bottom: 2rem;
 }
 

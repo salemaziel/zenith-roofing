@@ -1,8 +1,8 @@
 //'use strict';
 
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
+//require("dotenv").config({
+//  path: `.env.${process.env.NODE_ENV}`,
+//})
 
 //const siteConfig = require('./config.js');
 const config = require('./config/site');
@@ -30,6 +30,39 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+//    {
+//      resolve: `gatsby-source-google-places`,
+//      options: {
+//        placeIds: ["ChIJv2tRuD7124ARkcdjfkhyMPE"],
+//        apiKey: "AIzaSyCaGUOaS4Ilbpy1m6eSxewRaYbcEFqOaLo",
+//        language: "en-US", // optional, defaults to en-US
+//      },
+//    },
+    {
+      resolve: 'gatsby-plugin-next-seo',
+      options: {
+        titleTemplate: 'Zenith Roofing Services | %s',
+        description: 'Servicing residential and commercial roofing for San Diego, Temecula, Orange, Riverside and Los Angeles Counties',
+        language: 'en',
+        openGraph: {
+          type: 'website',
+          locale: 'en_US',
+          url: 'https://zenithroofingservices.com',
+          site_name: 'Zenith Roofing Services',
+          images: [
+            {
+              url: 'zenithroofingservices.com/logo/logo.png',
+              alt: 'Zenith Roofing Services Logo',
+            }
+          ]
+        },
+        twitter: {
+          handle: '@zenithroofingservices',
+          site: '@site',
+          cardType: 'summary_large_image',
+        },
+      },
+    },
 //    {
 //      resolve: `gatsby-plugin-tawk`,
 //      options: {

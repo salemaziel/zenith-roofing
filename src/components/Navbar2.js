@@ -2,7 +2,6 @@ import React from "react"
 import Navbar from "react-bootstrap/Navbar"
 
 import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
 
 import SideNav from "react-simple-sidenav"
 
@@ -139,9 +138,6 @@ class NavbarCustom extends React.Component {
                 </NavDropdown.Item>
               </NavDropdown>
 
-              {/*<Nav.Link as ={Link} to="/services/roofrepairs" className="nav-link" rel="preload" eventKey="Repairs-Link">
-              Roof Repairs
-      </Nav.Link>*/}
 
               <Nav
                 className="mr-auto"

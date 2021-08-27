@@ -2,10 +2,7 @@ import React from "react"
 
 import Col from "react-bootstrap/Col"
 import {
-  LogoWshadowDarkVertMd,
   FullLogoNoBgMd,
-  PhoneNumber,
-  PhonenumberHorz,
 } from "../../../images/index"
 import Modal from "react-modal"
 import Row from "react-bootstrap/Row"
@@ -20,7 +17,7 @@ import {
 
 import EstimateForm from "./estimateform"
 
-import homeStyles from "./home.module.css"
+import { HeroSection, HeroContainer, Logo, heroTitle, HomeHeroBtns, freecall, getquote, FormDesktop, modalmailing, modalmailingOverlay, ModalContainer  } from "./home.module.css"
 import "./home.module.css"
 
 class HeroHeaderSection extends React.Component {
@@ -48,17 +45,17 @@ class HeroHeaderSection extends React.Component {
 
   render() {
     return (
-      <section className={homeStyles.HeroSection}>
-        <Container fluid className={homeStyles.HeroContainer}>
+      <section className={HeroSection}>
+        <Container fluid className={HeroContainer}>
           <Row style={{margin: '10% auto'}}>
             <Col>
               <div>
                 <img
                   src={FullLogoNoBgMd}
-                  className={homeStyles.Logo}
+                  className={Logo}
                   alt="Logo for Zenith Roofing Services Southern California"
                 />
-                <h1 className={homeStyles.heroTitle}>
+                <h1 className={heroTitle}>
                   <span style={{ display: "none" }}>
                     Zenith Roofing Services
                   </span>
@@ -66,22 +63,22 @@ class HeroHeaderSection extends React.Component {
                 </h1>
               </div>
 
-              <div className={homeStyles.HomeHeroBtns}>
-                <Button className={homeStyles.freecall} href="tel:8589006163">
+              <div className={HomeHeroBtns}>
+                <Button className={freecall} href="tel:8589006163">
                   <FaPhoneAlt
                     style={{ margin: "0 4px 0 0", fontSize: "16px" }}
                   />
                   Call Now
                 </Button>
                 <Button
-                  className={homeStyles.getquote}
+                  className={getquote}
                   onClick={this.handleModalOpen}
                 >
                   Get A Quote
                 </Button>
               </div>
             </Col>
-            <Col className={homeStyles.FormDesktop}>
+            <Col className={FormDesktop}>
               <EstimateForm />
             </Col>
             <Modal
@@ -92,15 +89,15 @@ class HeroHeaderSection extends React.Component {
               shouldCloseOnOverlayClick={true}
               shouldCloseOnEsc={true}
               shouldReturnFocusAfterClose={true}
-              className={homeStyles.modalmailing}
-              overlayClassName={homeStyles.modalmailingOverlay}
+              className={modalmailing}
+              overlayClassName={modalmailingOverlay}
             >
               <Container
                 style={{
                   outlineColor: "none!important",
                   padding: "auto 0!important",
                 }}
-                className={homeStyles.ModalContainer}
+                className={ModalContainer}
               >
                 <EstimateForm />
               </Container>

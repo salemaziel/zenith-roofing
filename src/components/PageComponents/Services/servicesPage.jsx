@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
 import ServicesGrid from './servicesgrid'
@@ -6,16 +6,12 @@ import ServicesHeader from './servicesheader'
 import './services.css'
 
 
-class ServicesPage extends Component {
-    render() {
-    return (
+const ServicesPage = () => (
         <>
         <ServicesHeader />
         <ServicesGrid />
       
       </>
     );
-  }
-}
 
 export default ServicesPage

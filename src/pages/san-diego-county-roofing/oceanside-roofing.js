@@ -4,7 +4,15 @@ import CityPage from '../../components/PageComponents/CityPages/CityPage'
 
 import { RooferOnSlant, OwensPreferred, Solar } from "../../images/index"
 import {  Helmet } from 'react-helmet'
-
+/*import {
+    Oceanside11,
+    Oceanside2,
+    Oceanside3,
+    Oceanside4,
+    Oceanside5,
+    Oceanside6,
+  } from "../../images/index"
+  */
 
 
 const Oceanside = () => (
@@ -33,6 +41,12 @@ const Oceanside = () => (
         cityPic2Alt="Roofing in Oceanside California"
         cityPic3={RooferOnSlant}
         cityPic3Alt="Roofing in Oceanside California"
+        gallery1=""
+        gallery2=""
+        gallery3=""
+        gallery4=""
+        gallery5=""
+        gallery6=""
         
         
         />

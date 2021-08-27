@@ -4,14 +4,14 @@ import React from "react"
 //import Button from "react-bootstrap/Button"
 //import { navigate } from "gatsby"
 
-import estimateformStyles from "./estimateform.module.css"
+import { formBox, title } from "./estimateform.module.css"
 import Container from "react-bootstrap/Container"
 
 const EstimateForm2 = (props) => (
-  <div className={estimateformStyles.formBox}>
+  <div className={formBox}>
          <Container fluid>
         <div className="item-heading">
-          <h3 className={estimateformStyles.title}>Get A Free Estimate</h3>
+          <h3 className={title}>Get A Free Estimate</h3>
         </div>
     {" "} 
       <section>

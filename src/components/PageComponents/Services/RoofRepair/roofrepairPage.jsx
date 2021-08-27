@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
 
@@ -7,16 +7,14 @@ import RRSection1 from './repairSection1';
 
 import ActionBanner from '../../../actionBanner'
 
-import roofrepairStyle from './rr.module.css'
+import { AboutBody } from './rr.module.css'
 
-class RRPage extends Component {
-    render() {
-    return (
+const RRPage = () => (
         <>
         <Header 
         Service="Roof Repair"
         />
-        <div className={roofrepairStyle.AboutBody} >
+        <div className={AboutBody} >
         <RRSection1 />
         </div>
         <ActionBanner />
@@ -24,8 +22,6 @@ class RRPage extends Component {
       
       </>
     );
-  }
-}
 
 export default RRPage
 

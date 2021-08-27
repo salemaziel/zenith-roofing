@@ -15,7 +15,7 @@ import sectionGridStyle from "./services.module.css"
 
 const SectionGrid = (props) => {
   return( 
-  <section className={sectionGridStyle.ServicesGrid}>
+  <section className={sectionGridStyle.GridSection}>
       <Grid
         items={[
             {

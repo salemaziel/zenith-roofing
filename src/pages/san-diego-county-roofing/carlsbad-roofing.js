@@ -5,6 +5,14 @@ import CityPage from '../../components/PageComponents/CityPages/CityPage'
 import { RooferOnSlant, OwensPreferred, Solar } from "../../images/index"
 
 import {  Helmet } from 'react-helmet'
+import {
+    Carlsbad11,
+    Carlsbad2,
+    Carlsbad3,
+    Carlsbad4,
+    Carlsbad5,
+    Carlsbad6,
+  } from "../../images/index"
 
 const Carlsbad = () => (
     <Layout>
@@ -32,6 +40,12 @@ const Carlsbad = () => (
         cityPic2Alt="Roofing in Carlsbad, California"
         cityPic3={RooferOnSlant}
         cityPic3Alt="Roofing in Carlsbad California"
+        gallery1={Carlsbad11}
+        gallery2={Carlsbad2}
+        gallery3={Carlsbad3}
+        gallery4={Carlsbad4}
+        gallery5={Carlsbad5}
+        gallery6={Carlsbad6}
         
         
         />

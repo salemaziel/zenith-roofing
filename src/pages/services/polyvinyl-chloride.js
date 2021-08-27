@@ -1,16 +1,16 @@
 import React from 'react';
 import Layout from '../../components/layout';
-import OwensCorningPage from '../../components/PageComponents/Services/PVC/Page';
+import Page from '../../components/PageComponents/Services/PVC/Page';
 import {  Helmet } from 'react-helmet'
 
 
 
 
-const OwensCorning = () => (
+const PVC = () => (
   <Layout>
-    <Helmet title={'OwensCorning'} />
-    <OwensCorningPage />
+    <Helmet title={'PVC'} />
+    <Page />
   </Layout>
 );
 
-export default OwensCorning
+export default PVC

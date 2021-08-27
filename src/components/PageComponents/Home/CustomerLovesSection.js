@@ -13,31 +13,29 @@ import {
 
 import Fade from "react-reveal/Fade"
 
-import customerlovesStyle from "./customerloves.module.css"
+import { CLsection, Intro, IntroTitle, IntroText, CLRow, WhyloveUs, WhyTitle, WhySubtitle, Badges, Badgesbox, ColGuy, CLGuy  } from "./customerloves.module.css"
 
-class CustomerLovesSection extends React.Component {
-  render() {
-    return (
-      <section className={customerlovesStyle.CLsection}>
+const CustomerLovesSection = () => (
+      <section className={CLsection}>
         <Container>
           <Row>
             <Col>
-              <div className={customerlovesStyle.Intro}>
+              <div className={Intro}>
                 <Fade top>
-                  <h1 className={customerlovesStyle.IntroTitle}>
+                  <h1 className={IntroTitle}>
                     Zenith Roofing Services proudly serves the following
                     Southern California Counties: <br /> San Diego, Temecula,
                     Orange, Riverside and Los Angeles.{" "}
                   </h1>
                 </Fade>
                 <Fade top>
-                  <p className={customerlovesStyle.IntroText}>
+                  <p className={IntroText}>
                     With years of experience serving the greater Southern
                     California area, Zenith Roofing Services is the solution for
                     all your roofing needs.{" "}
                   </p>
 
-                  <p className={customerlovesStyle.IntroText}>
+                  <p className={IntroText}>
                     We take great pride in our work and prioritize extreme
                     professionalism, timeliness, and superior customer service
                     on every job. We strive to develop lasting relationships
@@ -46,7 +44,7 @@ class CustomerLovesSection extends React.Component {
                     question who to call.
                   </p>
 
-                  <p className={customerlovesStyle.IntroText}>
+                  <p className={IntroText}>
                     Contact us today so we can discuss your needs and make a
                     plan that fits your budget.
                     <br /> <strong> Satisfaction guaranteed!</strong>
@@ -57,19 +55,19 @@ class CustomerLovesSection extends React.Component {
           </Row>
         </Container>
         <Container fluid style={{}}>
-          <Row className={customerlovesStyle.CLRow}>
+          <Row className={CLRow}>
             <Col className="Nomobile"></Col>
             <Col>
-              <div className={customerlovesStyle.WhyloveUs}>
+              <div className={WhyloveUs}>
                 <Fade top>
-                  <h1 className={customerlovesStyle.WhyTitle}>
+                  <h1 className={WhyTitle}>
                     {" "}
                     Why Choose Zenith Roofing?
                   </h1>
 
                   <br />
 
-                  <h2 className={customerlovesStyle.WhySubtitle}>
+                  <h2 className={WhySubtitle}>
                     Our Customers Love Us!
                   </h2>
 
@@ -86,13 +84,14 @@ class CustomerLovesSection extends React.Component {
               <a
                 style={{ display: "flex" }}
                 href="https://roofinginsights.com/directory/"
-                className={customerlovesStyle.Badges}
+                className={Badges}
                               >
                 <img
+                  loading="lazy"
                   /*style={{ maxWidth: 200, height: "auto" }}*/
                   alt="roofers near me, roofing near me, roofing contractor near me, roofing directory, roofers directory, trusted roofers"
                   src="https://roofinginsights.com/wp-content/uploads/2020/05/certified-contractor-roofing-directory-roofers-near-me.png?e2a1a8&e2a1a8"
-                  className={customerlovesStyle.Badges}
+                  className={Badges}
                 />
               </a>
               </Col>
@@ -103,41 +102,44 @@ class CustomerLovesSection extends React.Component {
           <Row>
             <Col>
 
-              <div className={customerlovesStyle.Badgesbox}>
+              <div className={Badgesbox}>
                 <img
+                  loading="lazy"
                   src={BadgeHAtoprated}
                   alt=""
-                  className={customerlovesStyle.Badges}
+                  className={Badges}
                 />
                 <img
+                  loading="lazy"
                   src={BadgeHAelite}
                   alt=""
-                  className={customerlovesStyle.Badges}
+                  className={Badges}
                 />
                 <img
+                  loading="lazy"
                   src={BadgeHAbest2019}
                   alt=""
-                  className={customerlovesStyle.Badges}
+                  className={Badges}
                 />
               </div>
 
             </Col>
 
-            <Col xs={5} className={customerlovesStyle.ColGuy}>
+            <Col xs={5} className={ColGuy}>
               <div>
                 <img
+                  loading="lazy"
                   src={CustomersLoveGuy}
                   alt=""
-                  className={customerlovesStyle.CLGuy}
+                  className={CLGuy}
                 />
               </div>
             </Col>
           </Row>
         </Container>{" "}
-        {/*<img src={CustomersLove} className="img-fluid" alt='' />{" "}*/}
+        {/*<img loading="lazy" src={CustomersLove} className="img-fluid" alt='' />{" "}*/}
       </section>
     )
-  }
-}
+
 
 export default CustomerLovesSection

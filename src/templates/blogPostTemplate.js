@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import Container from "react-bootstrap/Container"
 import Image from "react-bootstrap/Image"
 import Row from "react-bootstrap/Row"
@@ -7,12 +7,12 @@ import { Link } from "gatsby"
 
 import ActionBanner from "../components/actionBanner"
 
-import blogStyle from "./blogPost.module.css"
+import { blogPostBG } from "./blogPost.module.css"
 import Button from "react-bootstrap/Button"
 
 const BlogPostTemplate = (props) => (
   <>
-    <section className={blogStyle.blogPostBG}>
+    <section className={blogPostBG}>
       <Container className="py-5">
         <Row className="justify-content-start">
         <Col xs={12} lg={8}>

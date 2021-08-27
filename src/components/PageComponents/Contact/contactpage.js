@@ -36,16 +36,7 @@ export default function ContactPage() {
 
   return (
     <div>
-      {/*<section className="section-contacthero">
-                    <div className="container cx_inner">
-                        <div className="row" style={{display: 'flex', flexWrap: 'wrap'}}>
-                            <div className="col-12">
-                                <h1>Get in touch</h1>
-                                <p className="p">Fill out the form below and a Global Lighting Project representative will contact you as soon as possible.</p>
-                            </div>
-                        </div>
-                    </div>
-        </section>*/}
+
       <ContactHeader />
       <section className="section-contact">
         <div className="container py-5">
@@ -145,13 +136,13 @@ export default function ContactPage() {
                 <h4 className="followus">Follow Us</h4>
                 <div className="followus">
                   <a href="https://www.facebook.com/zenithroofingservicesca/" rel="nofollow ">
-                    <FaFacebook />
+                    <FaFacebook size="2rem"/>
                   </a>
                   {/*<a href="#">
                     <FaTwitter />
                                             </a>*/}
                   <a href="https://www.instagram.com/zenithroofingservices_ca/" rel="nofollow">
-                    <FaInstagram />
+                    <FaInstagram size="2rem" />
                   </a>
                 </div>
               </aside>

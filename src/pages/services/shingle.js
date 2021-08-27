@@ -1,16 +1,16 @@
 import React from 'react';
 import Layout from '../../components/layout';
-import OwensCorningPage from '../../components/PageComponents/Services/Shingle/Page';
+import ShinglePage from '../../components/PageComponents/Services/Shingle/Page';
 import {  Helmet } from 'react-helmet'
 
 
 
 
-const OwensCorning = () => (
+const Shingle = () => (
   <Layout>
-    <Helmet title={'OwensCorning'} />
-    <OwensCorningPage />
+    <Helmet title={'Shingle'} />
+    <ShinglePage />
   </Layout>
 );
 
-export default OwensCorning
+export default Shingle

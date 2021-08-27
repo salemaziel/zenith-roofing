@@ -6,25 +6,24 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import { Climbing } from "../../../images/index"
 
-import sidebarStyles from "./sidebar.module.css"
-import { Nav, NavLink } from "react-bootstrap"
+import { AsideCategories, sidebarWidget, Categories, active, Title, Description } from "./sidebar.module.css"
 
 const SideBar = (props) => {
   return (
     <>
-      {/*<div className={sidebarStyles.sidebarPageContainer}>
-        <div className={sidebarStyles.autoContainer}>*/}
+      {/*<div className={sidebarPageContainer}>
+        <div className={autoContainer}>*/}
       <Row>
         {/*Sidebar Side*/}
         <div className="sidebar-side col-lg-3 col-md-4 col-sm-12 col-xs-12">
-          <aside className={sidebarStyles.AsideCategories}>
+          <aside className={AsideCategories}>
             {/*Blog Category Widget*/}
-            <div className={sidebarStyles.sidebarWidget}>
-              <ul className={sidebarStyles.Categories}>
+            <div className={sidebarWidget}>
+              <ul className={Categories}>
                 <li>
                   <Link
                     to="/services/builtup-roofing"
-                    activeClassName={sidebarStyles.active}
+                    activeClassName={active}
                   >
                     Built-Up Roofing (BUR)
                   </Link>
@@ -32,7 +31,7 @@ const SideBar = (props) => {
                 <li>
                   <Link 
                   to="/services/ethylene-propylene-diene-monomer"
-                  activeClassName={sidebarStyles.active}
+                  activeClassName={active}
                   >
                     Ethylene Propylene Diene Monomer (EPDM)
                   </Link>
@@ -40,26 +39,26 @@ const SideBar = (props) => {
                 <li>
                   <Link 
                   to="/services/roof-inspections"
-                  activeClassName={sidebarStyles.active}
+                  activeClassName={active}
                   >Inspections</Link>
                 </li>
                 <li>
                   <Link 
                   to="/services/roof-maintenance"
-                  activeClassName={sidebarStyles.active}
+                  activeClassName={active}
                   >Maintenance</Link>
                 </li>
                 <li>
                   <Link 
                   to="/services/owens-corning"
-                  activeClassName={sidebarStyles.active}
+                  activeClassName={active}
                   >Owens-Corning</Link>
                 </li>
 
                 <li>
                   <Link 
                   to="/services/polyvinyl-chloride"
-                  activeClassName={sidebarStyles.active}
+                  activeClassName={active}
                   >
                     Polyvinyl Chloride (PVC)
                   </Link>
@@ -68,20 +67,20 @@ const SideBar = (props) => {
                 <li>
                   <Link 
                   to="/services/roof-repairs"
-                  activeClassName={sidebarStyles.active}
+                  activeClassName={active}
                   >Roof Repair</Link>
                 </li>
                 <li>
                   <Link 
                   to="/services/roof-replacements"
-                  activeClassName={sidebarStyles.active}
+                  activeClassName={active}
                   >Roof Replacement</Link>
                 </li>
 
                 <li>
                   <Link 
                   to="/services/roof-restorations"
-                  activeClassName={sidebarStyles.active}
+                  activeClassName={active}
                   >
                     Roof Restorations
                   </Link>
@@ -91,33 +90,33 @@ const SideBar = (props) => {
                 <li>
                   <Link 
                   to="/services/shingle"
-                  activeClassName={sidebarStyles.active}
+                  activeClassName={active}
                   >Shingle</Link>
                 </li>
                 <li>
                   <Link 
                   to="/services/skylights"
-                  activeClassName={sidebarStyles.active}
+                  activeClassName={active}
                   >Skylights</Link>
                 </li>
 
                 <li>
                   <Link 
                   to="/services/solar"
-                  activeClassName={sidebarStyles.active}
+                  activeClassName={active}
                   >Solar</Link>
                 </li>
 
                 <li>
                   <Link 
                   to="/services/tile"
-                  activeClassName={sidebarStyles.active}
+                  activeClassName={active}
                   >Tile</Link>
                 </li>
                 <li>
                   <Link 
                   to="/services/thermoplastic-polyolefin"
-                  activeClassName={sidebarStyles.active}
+                  activeClassName={active}
                   >
                     Thermoplastic Polyolefin (TPO)
                   </Link>
@@ -133,10 +132,10 @@ const SideBar = (props) => {
               padding: "0 2rem",
             }}
           >
-            <h2 className={sidebarStyles.Title}>{props.Title}</h2>
-            <img src={Climbing} alt="Roof Repairs" className="img-fluid" />
+            <h2 className={Title}>{props.Title}</h2>
+            <img loading="lazy" src={Climbing} alt="Roof Repairs" className="img-fluid" />
           </div>
-          <div className={sidebarStyles.Description}>
+          <div className={Description}>
             <p>{props.Description}</p>
             <p>{props.Description2}</p>
             <p>{props.Description3}</p>

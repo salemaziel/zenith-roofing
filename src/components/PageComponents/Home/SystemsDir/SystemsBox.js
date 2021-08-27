@@ -8,9 +8,7 @@ import Row from "react-bootstrap/Row"
 import Card from "react-bootstrap/Card"
 
 
-class SystemsBox extends React.Component {
-  render() {
-    return (
+const SystemsBox = () => (
       <Card className="col-md-11 box">
         <Row className="d-flex flex-row">
           <div className="col-lg-6 my-auto">
@@ -26,7 +24,6 @@ class SystemsBox extends React.Component {
         </Row>
       </Card>
     );
-  }
-}
+
 
 export default SystemsBox;

@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
 
@@ -38,7 +38,7 @@ function GMaps(props) {
           position={position2}
 
           />
-        { /* Child components, such as markers, info windows, etc. */ }
+        { /* Child components, such as markers, info windows, etc. * / }
         <></>
       </GoogleMap>
     </LoadScript>
@@ -47,3 +47,4 @@ function GMaps(props) {
 }
 
 export default GMaps
+*/
