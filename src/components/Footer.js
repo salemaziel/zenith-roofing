@@ -10,7 +10,8 @@ import { Logo } from "../images/index"
 import {
 FaFacebook,
 FaInstagram,
-FaTwitter
+FaTwitter,
+FaYoutube
 } from 'react-icons/fa'
 
 import { Link } from "gatsby"
@@ -32,18 +33,18 @@ import { FooterRow, ColNoMobile, CenterFooter, LogoStyle, SocialIcon, Icon, Midd
             </div>
             <div className={SocialIcon}>
               {" "}
-              <a href="#">
+              <a href="https://www.facebook.com/zenithroofingservicesca/" target="_blank" rel="noreferrer noopener">
                 <FaFacebook
                   className={Icon}
                 />
               </a>{" "}
-              <a href="#">
-                <FaTwitter
+              <a href="https://www.instagram.com/zenithroofingservices_ca/" target="_blank" rel="noreferrer noopener">
+                <FaInstagram
                   className={Icon}
                 />
               </a>{" "}
-              <a href="#">
-                <FaInstagram
+              <a href="https://www.youtube.com/channel/UC4XWWL-_WfuIrokcD3KkuFQ/videos" target="_blank" rel="noreferrer noopener">
+                <FaYoutube
                   className={Icon}
                 />
               </a>{" "}
