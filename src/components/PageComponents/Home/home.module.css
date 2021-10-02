@@ -1,10 +1,12 @@
 .HeroSection {
   position: relative;
-  background: url("../../../images/hero.jpg") no-repeat;
+  /*background: url("../../../images/hero.jpg") no-repeat;*/
+  background-image: linear-gradient(to right, rgba(50, 0, 0, 0.15) 0%, rgba(50, 0, 0, 0.15) 40%, rgba(50, 0, 0, 0.15) 66%, rgba(50, 0, 0, 0.15)),linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 40%, rgba(0, 0, 0, 0.15) 66%, rgba(0, 0, 0, 0.15)), url("../../../images/sept-30-2021/2020-10-13_19-44-25_UTC_2.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 0px 10% 0px;
   min-height: 80vh;
-  background-position: center center;
+  background-position: 5% 25%;
 }
 
 .divheroLogo {
@@ -30,10 +32,11 @@
     color: #ff9900;
     font-weight: bold;
     text-transform: uppercase;
-   /* text-shadow: 2px 2px 3px #8b8888;*/
-    text-shadow: 3px 3px 5px black;
-    -webkit-text-shadow: 3px 3px 5px black;
-/*    -webkit-text-shadow: 3px 3px 5px #8b8888;*/
+    text-shadow: 2px 2px 3px black;
+    -webkit-text-shadow: 2px 2px 3px black;
+    /*text-shadow: 3px 3px 5px black;*/
+    /*-webkit-text-shadow: 3px 3px 5px black;*/
+    /*-webkit-text-shadow: 3px 3px 5px #8b8888;*/
     margin: auto;
     padding: 0 0 2rem;
     font-family: 'Montserrat', sans-serif;
@@ -85,7 +88,20 @@
     margin: auto;
     width: 70vw;
     max-width: 90%;
+    animation: fadeInFwd 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.8s both;
 }
+
+@keyframes fadeInFwd {
+    from {
+      transform: translateZ(-80px);
+      opacity:0;
+    }
+    to {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+}
+
 
 .colHeroLogo {
   flex: 0 0 50%;
@@ -199,6 +215,9 @@
   transform: translate(0%, 30%);
   box-shadow: 0px 0px 11px 5px rgba(186, 186, 186, 1);
   -webkit-box-shadow: 0px 0px 11px 5px rgba(186, 186, 186, 1);
+  /*animation-duration: 2;
+  animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  animation-delay: 0.5s;*/
 }
 
 .modalmailingOverlay {
@@ -632,7 +651,7 @@ div.boxes-area .row {
 
   .HeroSection {
     position: relative;
-    background: url("../../../images/hero.jpg") no-repeat;
+    /*background: url("../../../images/hero.jpg") no-repeat;*/
     background-size: cover;
     padding: 20px 0px 10% 0px;
     /*max-height: 650px;*/
@@ -871,9 +890,9 @@ div.boxes-area .row {
 
   .HeroSection {
     position: relative;
-    background: url("../../../images/hero.jpg") no-repeat;
+    /*background: url("../../../images/hero.jpg") no-repeat;*/
     background-size: cover;
-    background-position: 50% 95%;
+    background-position: 50% 5%;
     padding: 30px 0px 10% 0px;
     min-height: 60vh;
     text-align: center;
@@ -1093,6 +1112,9 @@ div.boxes-area .row {
 @media screen and (max-width: 480px) {
   .HeroSection {
     padding: 5% 0;
+    background-position: 15% 50%;
+    padding: 0 0 5% 0;
+
 }
   .HeroSection .container {
     margin: 10% 0;

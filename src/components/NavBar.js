@@ -78,7 +78,6 @@ function NavbarCustom(props) {
             }}
           >
             <NavDropdown
-              as={Link}
               href="/services"
               to="/commercial"
               eventKey="commercial"
@@ -112,7 +111,6 @@ function NavbarCustom(props) {
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown
-              as={Link}
               href="/serviceAreas"
               to="/serviceAreas"
               eventKey="serviceAreas"
@@ -142,7 +140,6 @@ function NavbarCustom(props) {
 
             <NavDropdown
               href="/services"
-              as={Link}
               to="/residential"
               title="Residential"
               id="nav-dropdown-residential"
@@ -177,14 +174,15 @@ function NavbarCustom(props) {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Link
+            <Nav.Link
+                as={Link}
                 to="/services/roof-repairs"
                 className="nav-link"
                 rel="preload"
                 eventKey="/services/roof-repairs"
               >
                 Roof Repairs{" "}
-              </Link>
+              </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>

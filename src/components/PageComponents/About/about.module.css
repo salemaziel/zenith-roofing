@@ -26,12 +26,6 @@
     min-height: 50vh;
 }
 
-.Titlerow {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2rem auto;
-    padding: 2rem;
-}
 
 .HistoryRow {
     display: block;
@@ -67,9 +61,10 @@
 .Titlerow {
     display: flex;
     flex-wrap: wrap;
-    margin: 2rem auto;
+    margin: 0 auto 2rem auto;
     padding: 2rem;
 }
+
 
 .Nomobile {
     display: block;

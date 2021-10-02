@@ -2,7 +2,7 @@ import React from "react"
 import { navigate } from "gatsby-link"
 import "./contact.css"
 
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa"
 
 import ContactHeader from "./contactheader"
 
@@ -41,7 +41,7 @@ export default function ContactPage() {
       <section className="section-contact">
         <div className="container py-5">
           <div
-            className="row pb-5 mb-5"
+            className="row pb-5"
             style={{ display: "flex", flexWrap: "wrap" }}
           >
             <div className="col-12 col-md-8">
@@ -65,7 +65,7 @@ export default function ContactPage() {
                       <input name="bot-field" onChange={handleChange} />
                     </label>
                   </p>
-                  <div className="col-12 col-md-6">
+                  <div className="col-12">
                     <input
                       type="text"
                       id="fullname"
@@ -75,7 +75,7 @@ export default function ContactPage() {
                       required
                     />
                   </div>
-                  <div className="col-12 col-md-6">
+                  <div className="col-12">
                     <input
                       type="email"
                       id="email"
@@ -85,7 +85,7 @@ export default function ContactPage() {
                       required
                     />
                   </div>
-                  <div className="col-12 col-md-6">
+                  <div className="col-12">
                     <input
                       type="tel"
                       id="phone"
@@ -133,17 +133,40 @@ export default function ContactPage() {
                     </a>
                   </p>
                 </div>
+                <div className="contact_info">
+                  {/**<p className="mb-2">Phone</p>
+                                                <p className="mb-2"><a href="tel:#">760-555-5555</a></p>**/}
+                  <h4 className="mb-2">Phone</h4>
+                  <p className="mb-2">
+                    <a href="tel:8589006163">
+                    (858) 900-6163
+                    </a>
+                  </p>
+                </div>
+                <div className="contact_info">
+                <div className="mb-2 pb-3">
                 <h4 className="followus">Follow Us</h4>
-                <div className="followus">
-                  <a href="https://www.facebook.com/zenithroofingservicesca/" rel="nofollow ">
-                    <FaFacebook size="2rem"/>
+
+                  <a href="https://www.facebook.com/zenithroofingservicesca/" target="_blank" rel="noreferrer noopener">
+                    <FaFacebook size="2rem" color="blue"/>
                   </a>
-                  {/*<a href="#">
-                    <FaTwitter />
-                                            </a>*/}
-                  <a href="https://www.instagram.com/zenithroofingservices_ca/" rel="nofollow">
-                    <FaInstagram size="2rem" />
+                  <a href="https://www.instagram.com/zenithroofingservices_ca/"                 target="_blank" rel="noreferrer noopener">
+                    <FaInstagram size="2rem" color="purple" />
                   </a>
+                  <a href="https://www.youtube.com/channel/UC4XWWL-_WfuIrokcD3KkuFQ/videos" target="_blank" rel="noreferrer noopener">
+                <FaYoutube size="2rem" color="red"
+                />
+              </a>{" "}
+              </div>
+                </div>
+                <div className="contact_info">
+                  <div className="py-3">
+                  <h4 className="mb-2">Main Office:</h4>
+                  <p className="mb-2">
+                    1537 Simpson Way <br />
+                    Escondido, CA 92029
+                  </p>
+                  </div>
                 </div>
               </aside>
             </div>
