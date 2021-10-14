@@ -12,19 +12,20 @@ const Section1 = () => (
 
         <section className={Section}>
           <div className={sidebarPageContainer}>
-            {/*<div className={pageStyle.autoContainer}>*/}
             <Container>
               <SideBar
-              Title="Owens-Corning"
-              Description="An Owens-Corning system will warranty your roof for a lifetime, with shingles that can withstand high winds and heavy rains, this will be a system worth installing. Call for more info on this premium warranty! "
-              Description2=""
-              Description3=""
-              Description4=""
+              title="Owens-Corning Systems"
+              body={
+                <>
+                <p>
+                An Owens-Corning system will warranty your roof for a lifetime, with shingles that can withstand high winds and heavy rains, this will be a system worth installing. Call for more info on this premium warranty! 
+                </p>
+                </>
+              }
 
 
               />
             </Container>
-            {/*</div>*/}
           </div>
         </section>
       </>

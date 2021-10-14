@@ -104,4 +104,55 @@ export const Vista11 = require('./zenith-city-pics/vista/vista-11.png')
 
 /*************** Poway */
 
+/*****************Services */
+/********* BUR */
+export const BUR1 = require('./services/Built-Up Roofing/21-04-22_13-35-31_5404-1500x1125.jpg')
+
+
+/******** EPDM */
+export const EPDM1 = require('./services/EPDM/epdm-1.jpg')
+export const EPDM2 = require('./services/EPDM/epdm-2.jpg')
+
+/*********TPO */
+export const TPO1 = require('./services/Single Ply Roof TPO/IMG_0380-1500x1125.jpg')
+
+
+/******** Tile */
+export const Tile1 = require('./services/Tile Roof Replacement/C55C03E5-0F18-41F4-BB88-C152BA99BC4B.jpg')
+
+
+/******** Restorations */
+export const Restorations1 = require('./services/Tile Roof Lift and Lay/21-09-25 12-26-20 DE85-square.jpg')
+
+/******** Replacements */
+//export const Replacements1 = require('./services/')
+
+
+/******** Repairs */
+//export const Repairs1 = require('./services/')
+
+
+/********* Maintenance */
+//export const Maintenance1 = require('./services/')
+
+
+/******** PVC */
+//export const PVC1 = require('./services/')
+
+
+/******** Owens Corning */
+export const OwensCorning1 = require('./services/Owens Corning/RemoteMediaFile_6553661_0_2021_09_22_13_58_30-1500x843.jpg')
+
+
+/******** Solar */
+export const Solar1 = require('./services/Solar Preperation /IMG_6794-1500x1125.jpg')
+
+/******** Skylight */
+export const Skylight1 = require('./services/Skylight Repair or Replacement/2021-08-20-18-11-54-470-fs8.png')
+
+export const Skylight2 = require('./services/Skylight Repair or Replacement/IMG_7389-1500x1125.jpg')
+
+/******** Shingle */
+export const Shingle1 = require('./services/Shingle Roof Replacement/21-07-15_17-50-12_6652-1500x1125.jpg')
+
 

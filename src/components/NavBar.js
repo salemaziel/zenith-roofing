@@ -145,6 +145,9 @@ function NavbarCustom(props) {
               id="nav-dropdown-residential"
               eventKey="residential"
             >
+              <NavDropdown.Item eventKey="/services/roof-inspections">
+                Inspections
+              </NavDropdown.Item>
               <NavDropdown.Item eventKey="/services/roof-maintenance">
                 Roof Maintenance
               </NavDropdown.Item>
@@ -152,11 +155,9 @@ function NavbarCustom(props) {
                 Skylights
               </NavDropdown.Item>
               <NavDropdown.Item eventKey="/services/solar">
-                Solar
+                Solar Preparation
               </NavDropdown.Item>
-              <NavDropdown.Item eventKey="/services/roof-inspections">
-                Inspections
-              </NavDropdown.Item>
+
               <NavDropdown.Item eventKey="/services">
                 All Services
               </NavDropdown.Item>

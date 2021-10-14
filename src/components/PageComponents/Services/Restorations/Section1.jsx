@@ -14,19 +14,26 @@ const Section1 = () => (
 
         <section className={Section}>
           <div className={sidebarPageContainer}>
-            {/*<div className={pageStyle.autoContainer}>*/}
             <Container>
               <SideBar
-              Title="Roof Restorations"
-              Description="There are several causes for a roof leak from improper flashing install, broken tiles, Storm damage, wind damage, or roof is passed its life expectancy. It is important to have your roof look at by a specialized professional. Here are the necessary steps to approach your leaky roof."
-              Description2="Step One: Fill out the the contact info on the phone screen or give us a call to schedule a free estimate for owners."
-              Description3="Step Two: Sourcing the leak from the inside to pin point water intrusion."
-              Description4="Step three: Receive a proposal, sign up and we will take care of the rest, with warranty options."
+              title="Roof Restorations"
+              body={
+                <>
+                <p>
+                Roof restorations are a great option if you do not want to tear off your roof, have a lot of AC units, pipes or penetrations. It provides a water seamless waterproof system. The only downside of restoring your roof is you are not able to see if there is wood damage below. You can still repair wood in the areas where the roof is leaking however sometimes there is trapped moisture in between the roof and deck  that hasn't shown through. Other than that, restoring your roof can help prevent leaks for 10 years which provides peace of mind. Best restoration coating is silicone. Tropical Roofing Products #924 along side with its seam sealer #9400 is the silicone we recommend to do any roof restoration. 
+                </p>  
+                <p>
+                The reason we like to use silicone as opposed to its competitor Elastomeric is elastomeric peels. We have inspected roofs with elastomeric roof coating and they usually peel in the low spots. Most elastomeric products are water based that is why they are way less than silicone. When elastomeric expands and contracts the sealant tears and allows mixture to get underneath the coating. Moisture build up eventually causes blistering or bubbling on your elastomeric coating surface. 
+                </p> 
+                <p>
+                Another downside about elastomeric coatings is that they need to be applied on a hot day for 48 hours to cure. That being said, any condensation at night will ruin your coating roof restoration. This is often missed by the installer. As opposed to silicone which will be dry to touch within 2-8 hours. 
+                </p> 
+                </>
+              }
 
 
               />
             </Container>
-            {/*</div>*/}
           </div>
         </section>
       </>

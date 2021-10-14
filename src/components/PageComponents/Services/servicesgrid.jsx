@@ -4,13 +4,22 @@ import { Link } from "gatsby"
 import {
   Service14,
   Service15,
-  Service16,
-  Service17,
   Service18,
   Service19,
+  BUR1,
+  EPDM1,
+  Restorations1,
+  Solar1,
+  Skylight2,
+  Shingle1,
+  OwensCorning1,
+  Tile1,
+  TPO1,
+
 } from "../../../images/index"
 
 import Container from "react-bootstrap/Container"
+
 
 import { GridSection, ContainerServices, ServiceBox, ServiceImgBox, ServiceImg, ServiceTitle, ReadMore } from "./services.module.css"
 
@@ -27,7 +36,7 @@ const ServicesGrid = () => (
                   <Link rel="preload" to="/services/builtup-roofing">
                     <img
                       loading="lazy"
-                      src={Service18}
+                      src={BUR1}
                       alt="Service"
                       className={ServiceImg}
                     />
@@ -39,11 +48,7 @@ const ServicesGrid = () => (
                       Built-Up Roofing
                     </Link>
                   </h3>
-                  {/*<p>
-                  Borem Ipsum is simply text of the printing and type
-                  setting industry. Lorem Ipsum has been standard
-                  community area has redummy.
-                </p>*/}
+
                   <Link
                     rel="preload"
                     to="/services/builtup-roofing"
@@ -64,7 +69,7 @@ const ServicesGrid = () => (
                   >
                     <img
                       loading="lazy"
-                      src={Service15}
+                      src={EPDM1}
                       alt="Service"
                       className={ServiceImg}
                     />
@@ -79,11 +84,7 @@ const ServicesGrid = () => (
                       Ethylene Propylene Diene Monomer (EPDM)
                     </Link>
                   </h3>
-                  {/*<p>
-                  Borem Ipsum is simply text of the printing and type
-                  setting industry. Lorem Ipsum has been standard
-                  community area has redummy.
-                </p>*/}
+
                   <Link
                     rel="preload"
                     to="/services/ethylene-propylene-diene-monomer"
@@ -113,11 +114,7 @@ const ServicesGrid = () => (
                       Inspections
                     </Link>
                   </h3>
-                  {/*<p>
-                  Borem Ipsum is simply text of the printing and type
-                  setting industry. Lorem Ipsum has been standard
-                  community area has redummy.
-                </p>*/}
+
                   <Link
                     rel="preload"
                     to="/services/roof-inspections"
@@ -147,11 +144,7 @@ const ServicesGrid = () => (
                       Maintenance
                     </Link>
                   </h3>
-                  {/*<p>
-                  Borem Ipsum is simply text of the printing and type
-                  setting industry. Lorem Ipsum has been standard
-                  community area has redummy.
-                </p>*/}
+
                   <Link
                     rel="preload"
                     to="/services/roof-maintenance"
@@ -169,7 +162,7 @@ const ServicesGrid = () => (
                   <Link rel="preload" to="/services/owens-corning">
                     <img
                       loading="lazy"
-                      src={Service14}
+                      src={OwensCorning1}
                       alt="Service"
                       className={ServiceImg}
                     />
@@ -213,9 +206,7 @@ const ServicesGrid = () => (
                       Polyvinyl Chloride (PVC)
                     </Link>
                   </h3>
-                  {/*  <p>
-                Is a system that will warranty your roof for a lifetime, with shingles that can withstand high winds and heavy rains, this will be a system worth installing. Call for more info on this premium warranty!
-                </p>*/}
+
                   <Link
                     to="/services/polyvinyl-chloride"
                     className={ReadMore}
@@ -245,11 +236,7 @@ const ServicesGrid = () => (
                       Roof Repair
                     </Link>
                   </h3>
-                  {/*<p>
-                  Borem Ipsum is simply text of the printing and type
-                  setting industry. Lorem Ipsum has been standard
-                  community area has redummy.
-                </p>*/}
+
                   <Link
                     rel="preload"
                     to="/services/roof-repairs"
@@ -280,11 +267,7 @@ const ServicesGrid = () => (
                       Roof Replacement
                     </Link>
                   </h3>
-                  {/*<p>
-                  Borem Ipsum is simply text of the printing and type
-                  setting industry. Lorem Ipsum has been standard
-                  community area has redummy.
-                </p>*/}
+
 
                   <Link
                     rel="preload"
@@ -304,7 +287,7 @@ const ServicesGrid = () => (
                   <Link rel="preload" to="/services/roof-restorations">
                     <img
                       loading="lazy"
-                      src={Service17}
+                      src={Restorations1}
                       alt="Service"
                       className={ServiceImg}
                     />
@@ -316,11 +299,7 @@ const ServicesGrid = () => (
                       Restorations
                     </Link>
                   </h3>
-                  {/*<p>
-                  Borem Ipsum is simply text of the printing and type
-                  setting industry. Lorem Ipsum has been standard
-                  community area has redummy.
-                </p>*/}
+
                   <Link
                     rel="preload"
                     to="/services/roof-restorations"
@@ -340,7 +319,7 @@ const ServicesGrid = () => (
                   <Link rel="preload" to="/services/shingle">
                     <img
                       loading="lazy"
-                      src={Service18}
+                      src={Shingle1}
                       alt="Service"
                       className={ServiceImg}
                     />
@@ -352,11 +331,7 @@ const ServicesGrid = () => (
                       Shingle
                     </Link>
                   </h3>
-                  {/*<p>
-                  Borem Ipsum is simply text of the printing and type
-                  setting industry. Lorem Ipsum has been standard
-                  community area has redummy.
-                </p>*/}
+
                   <Link
                     rel="preload"
                     to="/services/shingle"
@@ -376,7 +351,7 @@ const ServicesGrid = () => (
                   <Link rel="preload" to="/services/skylights">
                     <img
                       loading="lazy"
-                      src={Service15}
+                      src={Skylight2}
                       alt="Service"
                       className={ServiceImg}
                     />
@@ -388,11 +363,7 @@ const ServicesGrid = () => (
                       SkyLights
                     </Link>
                   </h3>
-                  {/*<p>
-                  Borem Ipsum is simply text of the printing and type
-                  setting industry. Lorem Ipsum has been standard
-                  community area has redummy.
-                </p>*/}
+
                   <Link
                     rel="preload"
                     to="/services/skylights"
@@ -412,7 +383,7 @@ const ServicesGrid = () => (
                   <Link rel="preload" to="/services/solar">
                     <img
                       loading="lazy"
-                      src={Service16}
+                      src={Solar1}
                       alt="Service"
                       className={ServiceImg}
                     />
@@ -421,14 +392,10 @@ const ServicesGrid = () => (
                 <div className="item-content">
                   <h3 className={ServiceTitle}>
                     <Link rel="preload" to="/services/solar">
-                      Solar
+                      Solar Prep
                     </Link>
                   </h3>
-                  {/*<p>
-                  Borem Ipsum is simply text of the printing and type
-                  setting industry. Lorem Ipsum has been standard
-                  community area has redummy.
-                </p>*/}
+
                   <Link
                     rel="preload"
                     to="/services/solar"
@@ -448,7 +415,7 @@ const ServicesGrid = () => (
                   <Link rel="preload" to="/services/tile">
                     <img
                       loading="lazy"
-                      src={Service16}
+                      src={Tile1}
                       alt="Service"
                       className={ServiceImg}
                     />
@@ -460,11 +427,7 @@ const ServicesGrid = () => (
                       Tile
                     </Link>
                   </h3>
-                  {/*<p>
-                  Borem Ipsum is simply text of the printing and type
-                  setting industry. Lorem Ipsum has been standard
-                  community area has redummy.
-                </p>*/}
+
                   <Link
                     rel="preload"
                     to="/services/tile"
@@ -486,7 +449,7 @@ const ServicesGrid = () => (
                   <Link rel="preload" to="/services/thermoplastic-polyolefin">
                     <img
                       loading="lazy"
-                      src={Service16}
+                      src={TPO1}
                       alt="Service"
                       className={ServiceImg}
                     />
@@ -498,11 +461,7 @@ const ServicesGrid = () => (
                       Thermoplastic Polyolefin (TPO)
                     </Link>
                   </h3>
-                  {/*<p>
-                  Borem Ipsum is simply text of the printing and type
-                  setting industry. Lorem Ipsum has been standard
-                  community area has redummy.
-                </p>*/}
+
                   <Link
                     rel="preload"
                     to="/services/thermoplastic-polyolefin"

@@ -11,8 +11,6 @@ import { AsideCategories, sidebarWidget, Categories, active, Title, Description 
 const SideBar = (props) => {
   return (
     <>
-      {/*<div className={sidebarPageContainer}>
-        <div className={autoContainer}>*/}
       <Row>
         {/*Sidebar Side*/}
         <div className="sidebar-side col-lg-3 col-md-4 col-sm-12 col-xs-12">
@@ -104,7 +102,7 @@ const SideBar = (props) => {
                   <Link 
                   to="/services/solar"
                   activeClassName={active}
-                  >Solar</Link>
+                  >Solar Preparation</Link>
                 </li>
 
                 <li>
@@ -132,29 +130,15 @@ const SideBar = (props) => {
               padding: "0 2rem",
             }}
           >
-            <h2 className={Title}>{props.Title}</h2>
+            <h2 className={Title}>{props.title}</h2>
             <img loading="lazy" src={Climbing} alt="Roof Repairs" className="img-fluid" />
           </div>
           <div className={Description}>
-            <p>{props.Description}</p>
-            <p>{props.Description2}</p>
-            <p>{props.Description3}</p>
+            {props.body}
 
-            <p>{props.Description4}</p>
-
-            {/*<p>
-                  2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>
-
-                <p>
-                  3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-                </p>*/}
           </div>
         </Col>
       </Row>
-      {/*</div>
-      </div>*/}
     </>
   )
 }
