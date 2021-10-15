@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./Header"
 import Footer from "./Footer"
+import Footer2 from "./Footer2"
 //import SideNav from "react-simple-sidenav"
 //import { Link } from 'gatsby'
 //import { LogoWshadowDarkVertSm } from '../images/index'
@@ -37,7 +38,7 @@ const Layout = ({ children, hideFooter }) => (
       <NavMobile />
 
       {children}
-      {!hideFooter && <Footer />}
+      {!hideFooter && <Footer2 />}
     </>
   )
 

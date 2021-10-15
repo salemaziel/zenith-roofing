@@ -721,8 +721,9 @@ div.boxes-area .row {
 	position:relative;
     background:#0d4879;
     background-size: cover;
-    padding:75px 0px;
+    padding:0px;
     background-image: url('../images/pattern2.png');
+	background-repeat: no-repeat;
 
 }
 .testmonial .top-text{
@@ -832,6 +833,7 @@ footer{
     background:#0d4778;
 	background-size: cover;
 	background-image: url('../images/pattern2.png');
+	background-repeat: no-repeat;
 	margin: -4rem 0 0 0;
 	min-height: 25em;
 }
