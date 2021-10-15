@@ -20,7 +20,16 @@ const Section1 = () => (
                 <p>
                 An Owens-Corning system will warranty your roof for a lifetime, with shingles that can withstand high winds and heavy rains, this will be a system worth installing. Call for more info on this premium warranty! 
                 </p>
+                <div
+ className="oc_shingle_view"
+ data-shingle="trudefinition-duration"
+ data-view="shingle"
+ data-layout="stacked" 
+ data-style="default"
+>
+</div>
                 </>
+                
               }
 
 
