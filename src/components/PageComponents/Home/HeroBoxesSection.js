@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  Block1,
-  Block2,
-  Block3
-} from '../../../images/index'
+
 
 import Working from '../../../images/sept-30-2021/2020-11-06_16-59-44_UTC.jpg'
 import Working2 from '../../../images/sept-30-2021/2021-01-06_00-40-32_UTC_1.jpg'

@@ -43,11 +43,11 @@ class HomeActionBanner extends React.Component {
         className={actionwraplayout1}
       >
         <Container >
-          <Row /*className="align-items-center"*/>
-            <Col className="col-sm-6 col-md-6" >
+          <Row className="flex-column flex-lg-row">
+            <Col className="" >
               <div className={ButtonBox}>
                 <Fade top>
-                <h2 className={ItemTitle}>
+                <h2 className={`${ItemTitle}` + " text-center"}>
                   Get Your Roofing Project Started Today!
                 </h2>
                 </Fade>
@@ -67,8 +67,8 @@ class HomeActionBanner extends React.Component {
               </div>
               <Row className="justify-content-center text-center text-white">
                 <Col>
-                  <p>Financing Available. Learn More <Link to="/financing" rel="preload">Here</Link></p>
-                </Col>
+                  <p className="py-3 font-weight-bold">Financing Available. Learn More <Link to="/financing" rel="preload" className="text-warning" style={{textDecoration: `underline`}}>Here</Link></p>
+                </Col> 
               </Row>
             </Col>
           </Row>

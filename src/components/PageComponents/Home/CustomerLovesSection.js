@@ -28,7 +28,7 @@ const CustomerLovesSection = () => (
                     Orange, Riverside and Los Angeles.{" "}
                   </h1>
                 </Fade>
-                <Fade top>
+                <Fade bottom>
                   <p className={IntroText}>
                     With years of experience serving the greater Southern
                     California area, Zenith Roofing Services is the solution for
@@ -59,7 +59,7 @@ const CustomerLovesSection = () => (
             <Col className="Nomobile"></Col>
             <Col>
               <div className={WhyloveUs}>
-                <Fade top>
+                <Fade bottom>
                   <h1 className={WhyTitle}>
                     {" "}
                     Why Choose Zenith Roofing?
@@ -70,7 +70,8 @@ const CustomerLovesSection = () => (
                   <h2 className={WhySubtitle}>
                     Our Customers Love Us!
                   </h2>
-
+                  </Fade>
+                  <Fade bottom>
                   <p>
                     Check out our 5 star reviews from happy customers! Call us
                     today so we can discuss your needs and make a plan that fits

@@ -100,9 +100,12 @@
     }
 
 }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 780px) {
     .ItemTitle {
       font-size: 34px;
+    }
+    .ButtonBox {
+      padding: 1rem 0;
     }
   }
   @media screen and (max-width: 480px) {
