@@ -116,6 +116,9 @@
     .CLsection {
         background-image: linear-gradient(9deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.3) 33%, rgba(255,255,255,0.3) 66%, rgba(159,177,181,1) 100%), url('../../../images/pattern-bg.jpg');
     }
+    .Badges {
+        height: 180px;
+    }
 }
 
 

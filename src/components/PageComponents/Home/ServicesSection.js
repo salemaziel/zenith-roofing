@@ -14,7 +14,7 @@ const ServicesSection = () => (
           <Row>
             <div className="col-md-12">
               <div className={topText}>
-                <Fade top>
+                <Fade bottom>
                 <h2
                 className={Title}>
                   What we do</h2>

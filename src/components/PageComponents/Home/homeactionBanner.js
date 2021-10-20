@@ -46,8 +46,8 @@ class HomeActionBanner extends React.Component {
           <Row className="flex-column flex-lg-row">
             <Col className="" >
               <div className={ButtonBox}>
-                <Fade top>
-                <h2 className={`${ItemTitle}` + " text-center"}>
+                <Fade bottom>
+                <h2 className={ `${ItemTitle}` + " text-center"}>
                   Get Your Roofing Project Started Today!
                 </h2>
                 </Fade>
@@ -55,7 +55,7 @@ class HomeActionBanner extends React.Component {
             </Col>
             <Col /*className="col-lg-3 col-12 d-flex justify-content-lg-end justify-content-center"*/ >
               <div className={ButtonBox}>
-                <Fade top>
+                <Fade bottom>
                 <Button 
                   onClick={this.handleModalOpen}
                   className={CTAbutton}

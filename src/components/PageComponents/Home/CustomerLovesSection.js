@@ -21,7 +21,7 @@ const CustomerLovesSection = () => (
           <Row>
             <Col>
               <div className={Intro}>
-                <Fade top>
+                <Fade bottom>
                   <h1 className={IntroTitle}>
                     Zenith Roofing Services proudly serves the following
                     Southern California Counties: <br /> San Diego, Temecula,

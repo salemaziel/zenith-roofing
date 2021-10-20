@@ -148,7 +148,9 @@ p {
 }
 
 @media screen and (max-width: 980px) {
-
+    .GridSection {
+        padding: 6.5rem 0;
+      }
 }
 
 

@@ -75,7 +75,7 @@
     align-content: center;
     text-align: center;
     font-size: 3rem;
-    margin: 100px auto;
+    padding: 100px 0;
 
 }
 
@@ -137,6 +137,9 @@
 
     .ColGuy {
         display: none;
+    }
+    .CLRow {
+        display: block;
     }
 }
 

@@ -8,7 +8,7 @@ import SideBar from "../sidebar"
 
 import { Climbing } from "../../../../images/index"
 
-import {
+/*import {
   Service14,
   Service15,
   Service18,
@@ -24,6 +24,7 @@ import {
   TPO1,
 
 } from '../../../../images/index'
+*/
 
 const Section1 = () => (
       <>

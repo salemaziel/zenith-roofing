@@ -10,7 +10,6 @@ import { Logo } from "../images/index"
 import {
 FaFacebook,
 FaInstagram,
-FaTwitter,
 FaYoutube
 } from 'react-icons/fa'
 

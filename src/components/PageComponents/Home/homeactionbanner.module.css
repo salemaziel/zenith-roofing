@@ -2,7 +2,7 @@
     padding: 10rem 0;
     /*background: rgba(238, 32, 42, 0.9) url('../images/roofbanner.jpg');*/
     background-image: url('../../../images/roofbanner.jpg');
-    margin: -2rem 0 4rem 0;
+    margin: auto auto 4rem;
   }
   .action-wrap-layout2 {
     padding: 10rem 0;
@@ -84,7 +84,7 @@
 @media screen and (max-width: 980px) {
 
   .actionwraplayout1 {
-    margin: 10rem auto 0;
+    margin: auto;
   }
     .action-box-layout1 {
       text-align: center;
@@ -107,6 +107,7 @@
     .ButtonBox {
       padding: 1rem 0;
     }
+
   }
   @media screen and (max-width: 480px) {
     .ItemTitle {
