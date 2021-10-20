@@ -1114,6 +1114,7 @@ div.boxes-area .row {
     padding: 5% 0;
     background-position: 15% 50%;
     padding: 0 0 5% 0;
+    background-image: linear-gradient(to right, rgba(50, 0, 0, 0.15) 0%, rgba(50, 0, 0, 0.15) 40%, rgba(50, 0, 0, 0.15) 66%, rgba(50, 0, 0, 0.15)),linear-gradient(to right, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 40%, rgba(0, 0, 0, 0.15) 66%, rgba(0, 0, 0, 0.15)), url("../../../images/sept-30-2021/2020-10-13_19-44-25_UTC_2-600x.jpg");
 
 }
   .HeroSection .container {

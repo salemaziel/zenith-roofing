@@ -6,6 +6,7 @@ import CustomerLovesSection from './CustomerLovesSection'
 import ServicesSection from './ServicesSection'
 import SystemsSection from './SystemsSection'
 import TestimonialSection from './TestimonialSection'
+//import TestimonialSection2 from './TestimonialSection2';
 import HomeActionBanner from './homeactionBanner'
 import Preferred from './preferred'
 
@@ -27,6 +28,7 @@ const HomeIndex = () => (
         <ServicesSection />
         <HomeActionBanner />
         <SystemsSection />
+
        <TestimonialSection />
       
 

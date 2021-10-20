@@ -29,8 +29,7 @@
     }
 
     .Description {
-        margin: auto;
-        margin-top: 2rem;
+        margin: 2rem auto 8rem;
         padding: 0 2rem;
     }
 
@@ -209,6 +208,9 @@
     .sidebarPageContainer {
         position: relative;
         padding: 70px 0px 60px;
+    }
+    .Description {
+        margin: 2rem auto 4rem;
     }
 }
 

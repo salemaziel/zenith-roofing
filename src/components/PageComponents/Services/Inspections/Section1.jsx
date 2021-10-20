@@ -6,7 +6,7 @@ import { Section, sidebarPageContainer } from '../page.module.css'
 
 import SideBar from "../sidebar"
 
-import ServiceInfo from "./ServiceInfo"
+import { Climbing } from "../../../../images/index"
 
 
 const Section1 = () => {
@@ -19,7 +19,8 @@ const Section1 = () => {
             {/*<div className={pageStyle.autoContainer}>*/}
             <Container>
               <SideBar
-              title="oof Inspections"
+              title="Roof Inspections"
+              image={Climbing}
               body={
                 <>
                 <p>

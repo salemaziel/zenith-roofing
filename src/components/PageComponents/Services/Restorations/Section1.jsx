@@ -6,6 +6,21 @@ import { Section, sidebarPageContainer } from '../page.module.css'
 
 import SideBar from "../sidebar"
 
+import {
+  Service14,
+  Service15,
+  Service18,
+  Service19,
+  BUR1,
+  EPDM1,
+  Restorations1,
+  Solar1,
+  Skylight2,
+  Shingle1,
+  OwensCorning1,
+  Tile1,
+  TPO1,
+} from '../../../../images/index'
 
 const Section1 = () => (
       <>
@@ -17,6 +32,7 @@ const Section1 = () => (
             <Container>
               <SideBar
               title="Roof Restorations"
+              image={Restorations1}
               body={
                 <>
                 <p>

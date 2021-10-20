@@ -8,6 +8,7 @@ import {
   Service19,
   BUR1,
   EPDM1,
+  PVC1,
   Restorations1,
   Solar1,
   Skylight2,
@@ -194,7 +195,7 @@ const ServicesGrid = () => (
                   <Link rel="preload" to="/services/polyvinyl-chloride">
                     <img
                       loading="lazy"
-                      src={Service14}
+                      src={PVC1}
                       alt="Service"
                       className={ServiceImg}
                     />
@@ -392,7 +393,7 @@ const ServicesGrid = () => (
                 <div className="item-content">
                   <h3 className={ServiceTitle}>
                     <Link rel="preload" to="/services/solar">
-                      Solar Prep
+                      Solar Preparation
                     </Link>
                   </h3>
 

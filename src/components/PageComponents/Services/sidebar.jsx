@@ -131,7 +131,7 @@ const SideBar = (props) => {
             }}
           >
             <h2 className={Title}>{props.title}</h2>
-            <img loading="lazy" src={Climbing} alt="Roof Repairs" className="img-fluid" />
+            <img loading="lazy" src={props.image} alt="Roof Repairs" className="img-fluid" />
           </div>
           <div className={Description}>
             {props.body}

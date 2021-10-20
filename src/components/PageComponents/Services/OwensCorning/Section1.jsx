@@ -5,7 +5,9 @@ import Container from 'react-bootstrap/Container'
 import { Section, sidebarPageContainer } from '../page.module.css'
 
 import SideBar from "../sidebar"
-
+import {
+  OwensCorning1
+} from '../../../../images/index'
 
 const Section1 = () => (
       <>
@@ -15,6 +17,7 @@ const Section1 = () => (
             <Container>
               <SideBar
               title="Owens-Corning Systems"
+              image={OwensCorning1}
               body={
                 <>
                 <p>
