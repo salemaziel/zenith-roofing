@@ -1,15 +1,15 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+//import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./Header"
-import Footer from "./Footer"
+//import Footer from "./Footer"
 import Footer2 from "./Footer2"
 //import SideNav from "react-simple-sidenav"
 //import { Link } from 'gatsby'
 //import { LogoWshadowDarkVertSm } from '../images/index'
-import NavMobile from './NavMobile'
-import NavbarCustom from "./NavBar"
+//import NavMobile from './NavMobile'
+//import NavbarCustom from "./NavBar"
 
 
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -34,8 +34,7 @@ const Layout = ({ children, hideFooter }) => (
   `)*/
     <>
       <Header /*siteTitle={data.site.siteMetadata.title}*/ />
-      <NavbarCustom />
-      <NavMobile />
+
 
       {children}
       {!hideFooter && <Footer2 />}

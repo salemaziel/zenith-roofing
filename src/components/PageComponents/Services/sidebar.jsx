@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
 import { AsideCategories, sidebarWidget, Categories, active, Title, Description } from "./sidebar.module.css"
+import Button from "react-bootstrap/Button"
 
 const SideBar = (props) => {
   return (
@@ -123,18 +124,15 @@ const SideBar = (props) => {
           </aside>
         </div>
         <Col className="justify-content-center">
-          <div
-            style={{
-              margin: "auto",
-              padding: "0 2rem",
-            }}
-          >
+          <div className="mx-auto px-2 px-lg-4">
             <h2 className={Title}>{props.title}</h2>
             <img loading="lazy" src={props.image} alt="Roof Repairs" className="img-fluid" />
           </div>
           <div className={Description}>
             {props.body}
-
+            <div className="text-center justify-content-center mt-5 flex-row Nodesktop">
+            <Link to="/services" className="bg-warning text-white font-weight-bold text-center px-3 py-4 mx-2 " style={{borderRadius: `5px`}}>Back to Services</Link>
+            </div>
           </div>
         </Col>
       </Row>

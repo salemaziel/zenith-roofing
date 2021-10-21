@@ -30,7 +30,7 @@
 
     .Description {
         margin: 2rem auto 8rem;
-        padding: 0 2rem;
+        padding: 0 1.5rem;
     }
 
 
@@ -211,6 +211,7 @@
     }
     .Description {
         margin: 2rem auto 4rem;
+        padding: 0 0.5rem;
     }
 }
 

@@ -1,6 +1,7 @@
-import React from "react"
+//import React, { useState, useEffect } from "react";
+import React from 'react'
 import SideNav from "react-simple-sidenav"
-import { Link, navigateTo } from "gatsby"
+import { Link, navigate } from "gatsby"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
@@ -11,11 +12,16 @@ import Button from "react-bootstrap/Button"
 
 //import navmobileStyles from "./navmobile.module.css"
 import { MenuIcon } from "../images/index"
+//const NavMobile = () => {   
+//  const [showNav, setShowNav] = useState();
+//  const [open, setOpen ] = useState();
+//  function handleClick(){
+//    setOpen(!open)
+//  };
 
 class NavMobile extends React.Component {
   constructor() {
     super()
-
     this.state = {
       showNav: false,
       title: "",
@@ -74,13 +80,9 @@ class NavMobile extends React.Component {
             <div
               className="navbar-toggle mobileNav"
               onClick={() => this.setState({ showNav: true })}
+              /*onClick={() => setShowNav(true)}*/
             >
               {" "}
-              {/*<div className={navmobileStyles.menu}>
-              <span className="icon-bar" />
-              <span className="icon-bar" />
-              <span className="icon-bar" /> 
-          </div>*/}
               <img  src={MenuIcon} alt="" className="menuIcon" />
             </div>
           </Col>
@@ -114,7 +116,7 @@ class NavMobile extends React.Component {
             <Nav.Item>
             <Link rel="preload" className="nav-link" to="/services">
               Commercial
-            </Link>
+          </Link>
             </Nav.Item>,
             <Nav.Item>
             <Link rel="preload" className="nav-link" to="/services">
@@ -135,7 +137,7 @@ class NavMobile extends React.Component {
             </a>
             </Nav.Item>,
             <Nav.Item>
-            <Button className="QuoteNav" rel="preload" onClick={() => navigateTo("/contact")}>
+            <Button className="QuoteNav" rel="preload" onClick={() => navigate("/contact")}>
               Contact Us
             </Button>
             </Nav.Item>,
@@ -152,9 +154,9 @@ class NavMobile extends React.Component {
           onHideNav={() => this.setState({ showNav: false })}
         />
       </Container>
-    )
-  }
-}
+    );
+  };
+};
 
 
 export default NavMobile

@@ -32,7 +32,11 @@ const RRSection1 = () => (
                 <p>
                 Roof life expectancy can vary widely depending on the region you live in. In San Diego county and the greater Southern California area, the average life expectancy for a new roof is approximately 30 years. 
                 </p>
-                <h3>Roof Types and Life Expectancy in Southern California</h3>
+                <br />
+                <hr />
+                <br />
+                <h3 className="text-center">Roof Types and Life Expectancy in Southern California</h3>
+                <br />
                 <Table striped bordered hover>
                   <thead>
                     <tr>
