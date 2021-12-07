@@ -72,7 +72,7 @@ export default class CityPicsSlider extends Component {
                   <div key={1}>
                     <div className="px-3">
                       <img
-                        className=""
+                        className="rounded"
                         width="320px"
                         src={this.props.gallery1}
                         alt
@@ -84,7 +84,7 @@ export default class CityPicsSlider extends Component {
                   <div key={2}>
                     <div className="px-3">
                       <img
-                        className=""
+                        className="rounded"
                         width="320px"
                         src={this.props.gallery2}
                         alt
@@ -96,7 +96,7 @@ export default class CityPicsSlider extends Component {
                   <div key={3}>
                     <div className="px-3">
                       <img
-                        className=""
+                        className="rounded"
                         width="320px"
                         src={this.props.gallery3}
                         alt
@@ -108,7 +108,7 @@ export default class CityPicsSlider extends Component {
                   <div key={4}>
                     <div className="px-3">
                       <img
-                        className=""
+                        className="rounded"
                         width="320px"
                         src={this.props.gallery4}
                         alt
@@ -120,7 +120,7 @@ export default class CityPicsSlider extends Component {
                   <div key={5}>
                     <div className="px-3">
                       <img
-                        className=""
+                        className="rounded"
                         width="320px"
                         src={this.props.gallery5}
                         alt
@@ -132,7 +132,7 @@ export default class CityPicsSlider extends Component {
                   <div key={6}>
                     <div className="px-3">
                       <img
-                        className=""
+                        className="rounded"
                         width="320px"
                         src={this.props.gallery6}
                         alt

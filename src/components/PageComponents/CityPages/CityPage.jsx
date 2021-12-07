@@ -299,7 +299,7 @@ const CityPage = (props) => {
           </Container>
         </section>
 
-        <section className="my-5 py-5">
+        <section className="mt-5 py-5">
           <Container>
             <Row>
               <Col>

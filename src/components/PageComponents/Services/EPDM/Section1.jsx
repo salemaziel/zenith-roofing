@@ -9,7 +9,35 @@ import {
   EPDM1
 } from '../../../../images/index'
 
-const Section1 = () => (
+const Section1 = () => {
+/*  const items = [
+    {
+      image: BUR5,
+      imageAlt: "Built Up roofing",
+    },
+    {
+      image: BUR5,
+      imageAlt: "Built Up roofing",
+    },
+    {
+      image: BUR5,
+      imageAlt: "Built Up roofing",
+    },
+    {
+      image: BUR5,
+      imageAlt: "Built Up roofing",
+    },
+    {
+      image: BUR5,
+      imageAlt: "Built Up roofing",
+    },
+    {
+      image: BUR5,
+      imageAlt: "Built Up roofing",
+    },
+  ]
+*/
+  return(
       <>
 
         <section className={Section}>
@@ -30,6 +58,21 @@ const Section1 = () => (
                   </p>
                   </>
               }
+              /*gallery={
+                <Container className="text-center">
+                  <Row>
+                  {items.map((item, index) => (
+                  <div className="col-md-4 mb-4" key={index}>
+                    <img
+                      className="img-fluid"
+                      src={item.image}
+                      alt={item.imageAlt}
+                    />
+                  </div>
+                ))}
+                </Row>
+                  </Container>
+              }*/
 
 
               />
@@ -39,6 +82,6 @@ const Section1 = () => (
         </section>
       </>
     )
-
+            }
 
 export default Section1

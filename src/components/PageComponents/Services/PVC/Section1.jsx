@@ -1,18 +1,41 @@
 import React from "react"
 import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 
 import { Section, sidebarPageContainer } from "../page.module.css"
 
 import SideBar from "../sidebar"
 
 import {
-
   PVC1,
+  PVC2,
+  PVC3,
+  PVC4
 } from "../../../../images/index"
 
 import { Link } from "gatsby"
 
-const Section1 = () => (
+const Section1 = () => {
+  const items = [
+    {
+      image: PVC1,
+      imageAlt: "Polyvinyl Chloride (PVC) roofing",
+    },
+    {
+      image: PVC2,
+      imageAlt: "Polyvinyl Chloride (PVC) roofing",
+    },
+    {
+      image: PVC3,
+      imageAlt: "Polyvinyl Chloride (PVC) roofing",
+    },
+    {
+      image: PVC4,
+      imageAlt: "Polyvinyl Chloride (PVC) roofing",
+    },
+  ]
+  return(
   <>
     <section className={Section}>
       <div className={sidebarPageContainer}>
@@ -77,11 +100,26 @@ const Section1 = () => (
                 </p>
               </>
             }
+            gallery={
+              <Container className="text-center">
+                <Row>
+                {items.map((item, index) => (
+                <div className="col-md-4 mb-4" key={index}>
+                  <img
+                    className="img-fluid rounded"
+                    src={item.image}
+                    alt={item.imageAlt}
+                  />
+                </div>
+              ))}
+              </Row>
+                </Container>
+            }
           />
         </Container>
       </div>
     </section>
   </>
 )
-
+}
 export default Section1

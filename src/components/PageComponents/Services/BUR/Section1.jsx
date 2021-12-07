@@ -1,16 +1,68 @@
 import React from "react"
 import Container from "react-bootstrap/Container"
+import Row from 'react-bootstrap/Row'
 
 import { Section, sidebarPageContainer } from "../page.module.css"
 
 import SideBar from "../sidebar"
 
 import {
-  BUR1
+  BUR1,
+  BUR2,
+  BUR3,
+  BUR4,
+  BUR5,
+  BUR6,
+  BUR7,
+  BUR8,
+  BUR9,
+  BUR10,
+  BUR11,
+  BUR12,
+  BUR13,
 } from '../../../../images/index'
 
 
-const Section1 = () => (
+const Section1 = () => {
+    const items = [
+      {
+        image: BUR5,
+        imageAlt: "Built Up roofing",
+      },
+      {
+        image: BUR6,
+        imageAlt: "Built Up roofing",
+      },
+      {
+        image: BUR7,
+        imageAlt: "Built Up roofing",
+      },
+      {
+        image: BUR8,
+        imageAlt: "Built Up roofing",
+      },
+      {
+        image: BUR9,
+        imageAlt: "Built Up roofing",
+      },
+      {
+        image: BUR10,
+        imageAlt: "Built Up roofing",
+      },
+      {
+        image: BUR11,
+        imageAlt: "Built Up roofing",
+      },
+      {
+        image: BUR12,
+        imageAlt: "Built Up roofing",
+      },
+      {
+        image: BUR13,
+        imageAlt: "Built Up roofing",
+      },
+    ]
+    return(
   <>
     <section className={Section}>
       <div className={sidebarPageContainer}>
@@ -52,12 +104,28 @@ const Section1 = () => (
                 </p>
               </>
             }
+            gallery={
+              <Container className="text-center">
+                <Row>
+                {items.map((item, index) => (
+                <div className="col-md-4 mb-4" key={index}>
+                  <img
+                    className="img-fluid rounded"
+                    src={item.image}
+                    alt={item.imageAlt}
+                  />
+                </div>
+              ))}
+              </Row>
+                </Container>
+            }
           />
+
         </Container>
-        {/*</div>*/}
       </div>
     </section>
   </>
 )
+}
 
 export default Section1

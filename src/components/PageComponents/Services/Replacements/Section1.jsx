@@ -1,16 +1,40 @@
 import React from "react"
 import Table from "react-bootstrap/Table"
 import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
 
 import { Section, sidebarPageContainer } from "../page.module.css"
 
 import SideBar from "../sidebar"
 
 import {
+  Replacements1,
+  Replacements2,
+  Replacements3,
+  Replacements4,
   Climbing,
 } from '../../../../images/index'
 
-const Section1 = () => (
+const Section1 = () => {
+  const items = [
+    {
+      image: Replacements1,
+      imageAlt: "Polyvinyl Chloride (PVC) roofing",
+    },
+    {
+      image: Replacements2,
+      imageAlt: "Polyvinyl Chloride (PVC) roofing",
+    },
+    {
+      image: Replacements3,
+      imageAlt: "Polyvinyl Chloride (PVC) roofing",
+    },
+    {
+      image: Replacements4,
+      imageAlt: "Polyvinyl Chloride (PVC) roofing",
+    },
+  ]
+  return(
   <>
     <section className={Section}>
       <div className={sidebarPageContainer}>
@@ -112,11 +136,27 @@ const Section1 = () => (
                 </Table>
               </>
             }
+            gallery={
+              <Container className="text-center">
+                <Row>
+                {items.map((item, index) => (
+                <div className="col-md-4 mb-4" key={index}>
+                  <img
+                    className="img-fluid rounded"
+                    src={item.image}
+                    alt={item.imageAlt}
+                  />
+                </div>
+              ))}
+              </Row>
+                </Container>
+            }
+          
           />
         </Container>
       </div>
     </section>
   </>
 )
-
+}
 export default Section1

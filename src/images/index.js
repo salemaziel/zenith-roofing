@@ -107,11 +107,37 @@ export const Vista11 = require('./zenith-city-pics/vista/vista-11.png')
 /*****************Services */
 /********* BUR */
 export const BUR1 = require('./services/Built-Up Roofing/21-04-22_13-35-31_5404-1500x1125.jpg')
+export const BUR2 = require('./services/Built-Up Roofing/21-04-02_13-11-15_4929.png')
+export const BUR3 = require('./services/Built-Up Roofing/21-04-02_13-11-16_4930.png')
+export const BUR4 = require('./services/Built-Up Roofing/21-04-02_13-12-18_4941.png')
+export const BUR5 = require('./services/Built-Up Roofing/21-04-02_13-12-28_4943.png')
+export const BUR6 = require('./services/Built-Up Roofing/21-04-02_13-12-31_4944.png')
+export const BUR7 = require('./services/Built-Up Roofing/21-04-22_13-35-33_5405.jpg')
+export const BUR8 = require('./services/Built-Up Roofing/21-04-22_13-35-33_5406.jpg')
+export const BUR9 = require('./services/Built-Up Roofing/21-09-28_11-49-47_ACB1.jpg')
+export const BUR10 = require('./services/Built-Up Roofing/21-09-28_11-49-48_6964.jpg')
+export const BUR11 = require('./services/Built-Up Roofing/21-09-28_11-49-51_3FCA.jpg')
+export const BUR12 = require('./services/Built-Up Roofing/21-09-28_11-49-53_CA13.jpg')
+export const BUR13 = require('./services/Built-Up Roofing/21-09-28_11-49-54_3BA8.jpg')
 
 
 /******** EPDM */
 export const EPDM1 = require('./services/EPDM/epdm-1.jpg')
 export const EPDM2 = require('./services/EPDM/epdm-2.jpg')
+/*export const EPDM3 = require('./services/EPDM/')
+export const EPDM4 = require('./services/EPDM')
+export const EPDM5 = require('./services/EPDM')
+export const EPDM6 = require('./services/EPDM')
+export const EPDM7 = require('./services/EPDM')
+export const EPDM8 = require('./services/EPDM')
+export const EPDM9 = require('./services/EPDM')
+export const EPDM10 = require('./services/EPDM')
+export const EPDM11 = require('./services/EPDM')
+export const EPDM12 = require('./services/EPDM')
+*/
+
+
+
 
 /*********TPO */
 export const TPO1 = require('./services/Single Ply Roof TPO/IMG_0380-1500x1125.jpg')
@@ -125,7 +151,10 @@ export const Tile1 = require('./services/Tile Roof Replacement/C55C03E5-0F18-41F
 export const Restorations1 = require('./services/Tile Roof Lift and Lay/21-09-25 12-26-20 DE85-square.jpg')
 
 /******** Replacements */
-//export const Replacements1 = require('./services/')
+export const Replacements1 = require('./services/roof-replacements/21-03-25_18-50-59_4754.jpg')
+export const Replacements2 = require('./services/roof-replacements/21-03-25_18-50-59_4755.jpg')
+export const Replacements3 = require('./services/roof-replacements/21-03-29_13-51-39_4821.jpg')
+export const Replacements4 = require('./services/roof-replacements/21-03-29_13-51-39_4823.jpg')
 
 
 /******** Repairs */
@@ -138,20 +167,51 @@ export const Restorations1 = require('./services/Tile Roof Lift and Lay/21-09-25
 
 /******** PVC */
 export const PVC1 = require('./services/Single Ply PVC/IMG_0384.jpg')
+export const PVC2 = require('./services/Single Ply PVC/IMG_0379.jpg')
+export const PVC3 = require('./services/Single Ply PVC/IMG_0380.jpg')
+export const PVC4 = require('./services/Single Ply PVC/IMG_0383.jpg')
 
 /******** Owens Corning */
 export const OwensCorning1 = require('./services/Owens Corning/RemoteMediaFile_6553661_0_2021_09_22_13_58_30-1500x843.jpg')
 
 
 /******** Solar */
-export const Solar1 = require('./services/Solar Preperation /IMG_6794-1500x1125.jpg')
+export const Solar1 = require('./services/solar-prep/IMG_6794-1500x1125.jpg')
+export const Solar2 = require('./services/solar-prep/2021-03-10-12-54-01-328-fs8-fs8.png')
+export const Solar3 = require('./services/solar-prep/2021-03-10-12-54-25-778-fs8-fs8.png')
+export const Solar4 = require('./services/solar-prep/2021-03-26-15-25-15-356-fs8.png')
+export const Solar5 = require('./services/solar-prep/2021-03-26-15-25-31-961-fs8-fs8.png')
+export const Solar6 = require('./services/solar-prep/2021-03-27-09-30-10-389-fs8.png')
+export const Solar7 = require('./services/solar-prep/2021-03-27-09-30-18-205-fs8-fs8.png')
+export const Solar8 = require('./services/solar-prep/2021-03-27-09-30-25-048-fs8-fs8.png')
+export const Solar9 = require('./services/solar-prep/2021-07-02-13-02-54-579-fs8-fs8.png')
+export const Solar10 = require('./services/solar-prep/IMG_4689-fs8-fs8.png')
+
+
 
 /******** Skylight */
 export const Skylight1 = require('./services/Skylight Repair or Replacement/2021-08-20-18-11-54-470-fs8.png')
-
 export const Skylight2 = require('./services/Skylight Repair or Replacement/IMG_7389-1500x1125.jpg')
+export const Skylight3 = require('./services/skylights/2021-06-17-14-52-55-859-fs8.png')
+export const Skylight4 = require('./services/skylights/2021-08-20-18-11-54-470-fs8.png')
+export const Skylight5 = require('./services/skylights/IMG_0256.jpg')
+export const Skylight6 = require('./services/skylights/IMG_5268.jpg')
+export const Skylight7 = require('./services/skylights/IMG_6710.jpg')
+
+
 
 /******** Shingle */
 export const Shingle1 = require('./services/Shingle Roof Replacement/21-07-15_17-50-12_6652-1500x1125.jpg')
+export const Shingle2 = require('./services/shingles/20-10-13_21-37-24_1393.jpg')
+export const Shingle3 = require('./services/shingles/21-02-01_17-27-11_3453.jpg')
+export const Shingle4 = require('./services/shingles/21-03-02_11-26-11_4127.png')
+export const Shingle5 = require('./services/shingles/21-03-02_11-26-18_4128.png')
+export const Shingle6 = require('./services/shingles/21-03-27_09-26-35_4775.png')
+export const Shingle7 = require('./services/shingles/21-07-15_17-50-00_7490.jpg')
+export const Shingle8 = require('./services/shingles/21-07-15_17-50-12_6604.jpg')
+export const Shingle9 = require('./services/shingles/21-08-26_12-17-22_7533.png')
+export const Shingle10 = require('./services/shingles/21-08-26_12-20-47_7540.png')
+
+
 
 

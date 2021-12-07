@@ -31,6 +31,7 @@ const Section1 = () => {
                   roof. After evaluation, it can be determined if the property needs
                   maintenance, repair or a full replacement.
                 </p>
+                <br />
                 <h3>How much does a roof inspection cost?</h3>
                 <p>
                   In San Diego County, a typical roof inspection costs $150.00. However,
