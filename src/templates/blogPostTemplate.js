@@ -43,7 +43,7 @@ const BlogPostTemplate = (props) => (
         </Row>
         <Row className="py-5">
           <Col>
-        <Button as={Link} to="/blog" className="px-4 py-2" style={{backgroundColor: '#ff9900', borderColor: '#ff9900', fontSize: '20px', fontWeight: '700', textShadow: '1px 1px 2px black'}}>Back to Blog</Button>
+        <Button as={Link} to="/blog/" className="px-4 py-2" style={{backgroundColor: '#ff9900', borderColor: '#ff9900', fontSize: '20px', fontWeight: '700', textShadow: '1px 1px 2px black'}}>Back to Blog</Button>
         </Col>
         </Row>
       </Container>

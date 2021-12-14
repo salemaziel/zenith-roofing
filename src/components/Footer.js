@@ -78,7 +78,7 @@ import { FooterRow, ColNoMobile, CenterFooter, LogoStyle, SocialIcon, Icon, Midd
                     <li style={{ padding: "1rem" }}>
                       <Link
                         rel="preload"
-                        to="/about"
+                        to="/about/"
                         style={{ color: "white" }}
                       >
                         About
@@ -88,7 +88,7 @@ import { FooterRow, ColNoMobile, CenterFooter, LogoStyle, SocialIcon, Icon, Midd
                     <li style={{ padding: "1rem" }}>
                       <Link
                         rel="preload"
-                        to="/services"
+                        to="/services/"
                         style={{ color: "white" }}
                       >
                         Services
@@ -98,7 +98,7 @@ import { FooterRow, ColNoMobile, CenterFooter, LogoStyle, SocialIcon, Icon, Midd
                     <li style={{ padding: "1rem" }}>
                       <Link
                         rel="preload"
-                        to="/contact"
+                        to="/contact/"
                         style={{ color: "white" }}
                       >
                         Contact
@@ -108,7 +108,7 @@ import { FooterRow, ColNoMobile, CenterFooter, LogoStyle, SocialIcon, Icon, Midd
                  {/*   <li style={{ padding: "1rem" }}>
                       <Link
                         rel="preload"
-                        to="/systems"
+                        to="/systems/"
                         style={{ color: "white" }}
                       >
                         Systems

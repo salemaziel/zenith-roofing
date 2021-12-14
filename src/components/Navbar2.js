@@ -105,35 +105,35 @@ class NavbarCustom extends React.Component {
 
               <NavDropdown
                 as={Link}
-                href="/services"
-                to="/commercial"
-                eventKey="commercial"
+                href="/services/"
+                to="/commercial/"
+                eventKey="commercial/"
                 title="Commercial"
                 id="nav-dropdown-commercial"
               >
-                <NavDropdown.Item eventKey="/services/owens-corning">
+                <NavDropdown.Item eventKey="/services/owens-corning/">
                   Owens-Corning Systems
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/thermoplastic-polyolefin">
+                <NavDropdown.Item eventKey="/services/thermoplastic-polyolefin/">
                   Thermoplastic Polyolefin (TPO)
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/polyvinyl-chloride">
+                <NavDropdown.Item eventKey="/services/polyvinyl-chloride/">
                   {" "}
                   Polyvinyl Chloride (PVC){" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/ethylene-propylene-diene-monomer">
+                <NavDropdown.Item eventKey="/services/ethylene-propylene-diene-monomer/">
                   Ethylene Propylene Diene Monomer (EPDM){" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/tile">
+                <NavDropdown.Item eventKey="/services/tile/">
                   Tile{" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/shingle">
+                <NavDropdown.Item eventKey="/services/shingle/">
                   Shingle{" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/builtup-roofing">
+                <NavDropdown.Item eventKey="/services/builtup-roofing/">
                   Built-up Roofing BUR{" "}
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services">
+                <NavDropdown.Item eventKey="/services/">
                   All Services
                 </NavDropdown.Item>
               </NavDropdown>
@@ -146,26 +146,26 @@ class NavbarCustom extends React.Component {
               ></Nav>
 
               <NavDropdown
-                href="/services"
+                href="/services/"
                 as={Link}
-                to="/residential"
+                to="/residential/"
                 title="Residential"
                 id="nav-dropdown-residential"
-                eventKey="residential"
+                eventKey="residential/"
               >
-                <NavDropdown.Item eventKey="/services/roof-maintenance">
+                <NavDropdown.Item eventKey="/services/roof-maintenance/">
                   Roof Maintenance
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/skylights">
+                <NavDropdown.Item eventKey="/services/skylights/">
                   Skylights
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/solar">
+                <NavDropdown.Item eventKey="/services/solar/">
                   Solar
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/roof-inspections">
+                <NavDropdown.Item eventKey="/services/roof-inspections/">
                   Inspections
                 </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services">
+                <NavDropdown.Item eventKey="/services/">
                   All Services
                 </NavDropdown.Item>
               </NavDropdown>
@@ -175,10 +175,10 @@ class NavbarCustom extends React.Component {
               <Nav.Item>
                 <Nav.Link
                   as={Link}
-                  to="/about"
+                  to="/about/"
                   className="nav-link"
                   rel="preload"
-                  eventKey="/about"
+                  eventKey="/about/"
                 >
                   About
                 </Nav.Link>
@@ -186,15 +186,15 @@ class NavbarCustom extends React.Component {
               <Nav.Item>
                 <Nav.Link
                   as={Link}
-                  to="/services/roofrepairs"
+                  to="/services/roofrepairs/"
                   className="nav-link"
                   rel="preload"
-                  eventKey="/services/roofrepairs"
+                  eventKey="/services/roofrepairs/"
                 >
                   Roof Repairs{" "}
                 </Nav.Link>
               </Nav.Item>
-              {/*<Nav.Link as ={Link} to="/contact" className="nav-link" rel="preload">
+              {/*<Nav.Link as ={Link} to="/contact/" className="nav-link" rel="preload">
               Contact
              </Nav.Link>*/}
               <Nav.Item>
@@ -202,7 +202,7 @@ class NavbarCustom extends React.Component {
                   className="QuoteNav"
                   as={Link}
                   rel="preload"
-                  to="/contact"
+                  to="/contact/"
                 >
                   Contact
                 </Button>
@@ -247,7 +247,7 @@ class NavbarCustom extends React.Component {
                 as={Link}
                 rel="preload"
                 className="nav-link"
-                to="/services/roofrepairs"
+                to="/services/roofrepairs/"
               >
                 Roof Repairs
               </Nav.Link>
@@ -267,7 +267,7 @@ class NavbarCustom extends React.Component {
                 as={Link}
                 rel="preload"
                 className="nav-link"
-                to="/services"
+                to="/services/"
               >
                 Residential
               </Nav.Link>
@@ -277,7 +277,7 @@ class NavbarCustom extends React.Component {
                 as={Link}
                 rel="preload"
                 className="nav-link"
-                to="/about"
+                to="/about/"
               >
                 About Us
               </Nav.Link>
@@ -294,7 +294,7 @@ class NavbarCustom extends React.Component {
               <Button
                 className="QuoteNav"
                 rel="preload"
-                onClick={() => navigateTo("/contact")}
+                onClick={() => navigateTo("/contact/")}
               >
                 Contact Us
               </Button>

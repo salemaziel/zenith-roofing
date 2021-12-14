@@ -67,7 +67,7 @@ class HomeActionBanner extends React.Component {
               </div>
               <Row className="justify-content-center text-center text-white">
                 <Col>
-                  <p className="py-3 font-weight-bold">Financing Available. Learn More <Link to="/financing" rel="preload" className="text-warning" style={{textDecoration: `underline`}}>Here</Link></p>
+                  <p className="py-3 font-weight-bold">Financing Available. Learn More <Link to="/financing/" rel="preload" className="text-warning" style={{textDecoration: `underline`}}>Here</Link></p>
                 </Col> 
               </Row>
             </Col>

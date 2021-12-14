@@ -65,21 +65,21 @@ const Footer2 = (props) => {
               <li className="py-1">
               <Link
                         rel="preload"
-                        to="/about"
+                        to="/about/"
                         style={{ color: "white" }}
                       >About Us</Link>
               </li>
               <li className="py-1">
               <Link
                         rel="preload"
-                        to="/services"
+                        to="/services/"
                         style={{ color: "white" }}
                       >Commercial Services</Link>
               </li>
               <li className="py-1">
               <Link
                         rel="preload"
-                        to="/services"
+                        to="/services/"
                         style={{ color: "white" }}
                       >Residential Services</Link>
               </li>

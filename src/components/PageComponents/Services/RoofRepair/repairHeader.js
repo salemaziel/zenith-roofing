@@ -15,7 +15,7 @@ const RepairHeader = () => (
                     <Link rel="preload" to="/">Home</Link>
                   </li>
                   <li>
-                  <Link rel="preload" to="/">Services</Link></li>
+                  <Link rel="preload" to="/services/">Services</Link></li>
                 </ul>
               </div>
             </div>

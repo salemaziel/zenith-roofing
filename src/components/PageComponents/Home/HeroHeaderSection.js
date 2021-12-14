@@ -16,6 +16,8 @@ import {
 } from 'react-icons/fa'
 
 import EstimateForm from "./estimateform"
+import EstimateFormMobile from "./estimateformMobile"
+
 
 import { HeroSection, HeroContainer, Logo, heroTitle, HomeHeroBtns, freecall, getquote, FormDesktop, modalmailing, modalmailingOverlay, ModalContainer  } from "./home.module.css"
 import "./home.module.css"
@@ -64,13 +66,14 @@ class HeroHeaderSection extends React.Component {
               </div>
 
               <div className={HomeHeroBtns}>
-                <Button className={freecall} href="tel:8589006163">
+                <Button id="callnow" className={freecall} href="tel:8589006163">
                   <FaPhoneAlt
                     style={{ margin: "0 4px 0 0", fontSize: "16px" }}
                   />
                   Call Now
                 </Button>
                 <Button
+                  id="getQuoteMobile"
                   className={getquote}
                   onClick={this.handleModalOpen}
                 >
@@ -99,7 +102,7 @@ class HeroHeaderSection extends React.Component {
                 }}
                 className={ModalContainer}
               >
-                <EstimateForm />
+                <EstimateFormMobile />
               </Container>
             </Modal>
           </Row>

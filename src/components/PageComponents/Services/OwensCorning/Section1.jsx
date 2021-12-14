@@ -60,7 +60,7 @@ const Section1 = () => (
                   Owens-Corning Preferred Warranty.
                 </p>
                 <p>
-                <Link to="/contact">Contact us </Link> for more info on this premium warranty!
+                <Link to="/contact/">Contact us </Link> for more info on this premium warranty!
                 </p>
                 <div
                   className="oc_shingle_view"

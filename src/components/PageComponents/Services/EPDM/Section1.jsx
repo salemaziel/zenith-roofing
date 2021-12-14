@@ -53,7 +53,7 @@ const Section1 = () => {
                   Ethylene Propylene Diene Monomer (EPDM) is a rubber roof that is usually installed on smaller low slope areas. It is usually available in black it is long lasting and lightweight. It is able to withstand hail, high winds and is fire resistant. Typically we only install this product for spec jobs, as this material is not available in the San Diego County region unless special ordered. 
                   </p>
                   <p>
-                  However, we do offer other waterproofing membranes such as <Link to="/services/builtup-roofing">Cold Process Built Up Roofs</Link>, <Link to="/services/thermoplastic-polyolefin"> Thermoplastic Polyolefin (TPO)</Link>, and Modified BItumen Torch down. 
+                  However, we do offer other waterproofing membranes such as <Link to="/services/builtup-roofing/">Cold Process Built Up Roofs</Link>, <Link to="/services/thermoplastic-polyolefin/"> Thermoplastic Polyolefin (TPO)</Link>, and Modified BItumen Torch down. 
 
                   </p>
                   </>

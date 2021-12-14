@@ -49,14 +49,14 @@ const SuccessPage = () => (
             <a
               href="https://www.facebook.com/zenithroofingservicesca/"
               target="_blank"
-              rel="noreferrer noopener"
+              rel="noreferrer noopener me"
             >
               <FaFacebook className={Icon} color="orange" />
             </a>{" "}
             <a
               href="https://www.instagram.com/zenithroofingservices_ca/"
               target="_blank"
-              rel="noreferrer noopener"
+              rel="noreferrer noopener me"
             >
               <FaInstagram className={Icon} color="orange"/>
             </a>{" "}

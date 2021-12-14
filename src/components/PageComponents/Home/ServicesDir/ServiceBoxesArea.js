@@ -20,7 +20,7 @@ const ServiceBoxesArea = () => (
       <div className={serviceBoxesAreas}>
         <Row style={{marginLeft: '0', marginRight: '0'}}>
           <div className="col-md-4 col-6 p-0">
-          <Link rel="preload" to="/services/roof-repairs">
+          <Link rel="preload" to="/services/roof-repairs/">
               {" "}
               <Card >
                 <div className={boxes}>
@@ -41,7 +41,7 @@ const ServiceBoxesArea = () => (
             </Link>
           </div>
           <div className="col-md-4 col-6 p-0">
-            <Link rel="preload" to="/services/skylights">
+            <Link rel="preload" to="/services/skylights/">
               {" "}
               <Card >
                 <div className={boxes}>
@@ -60,7 +60,7 @@ const ServiceBoxesArea = () => (
             </Link>
           </div>
           <div className="col-md-4 col-6 p-0">
-            <Link rel="preload" to="/services/solar">
+            <Link rel="preload" to="/services/solar/">
               {" "}
               <Card >
                 <div className={boxes}>
@@ -79,7 +79,7 @@ const ServiceBoxesArea = () => (
             </Link>
           </div>
           <div className="col-md-4 col-6 p-0">
-            <Link rel="preload" to="/services/roof-restorations">
+            <Link rel="preload" to="/services/roof-restorations/">
               {" "}
               <Card >
                 <div className={boxes}>
@@ -103,7 +103,7 @@ const ServiceBoxesArea = () => (
             </Link>
           </div>
           <div className="col-md-4 col-6 p-0">
-            <Link rel="preload" to="/services/roof-inspections">
+            <Link rel="preload" to="/services/roof-inspections/">
               {" "}
               <Card >
                 <div className={boxes}>
@@ -127,7 +127,7 @@ const ServiceBoxesArea = () => (
             </Link>
           </div>
           <div className="col-md-4 col-6 p-0">
-            <Link rel="preload" to="/services/roof-replacements">
+            <Link rel="preload" to="/services/roof-replacements/">
               {" "}
               <Card >
                 <div className={boxes}>

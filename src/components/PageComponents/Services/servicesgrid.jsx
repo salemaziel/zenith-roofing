@@ -93,7 +93,7 @@ const ServicesGrid = () => (
         <div className="col-lg-4 col-md-6 col-12">
           <div className={ServiceBox} id="bur">
             <div className={ServiceImgBox}>
-              <Link rel="preload" to="/services/builtup-roofing">
+              <Link rel="preload" to="/services/builtup-roofing/">
                 <img
                   
                   loading="lazy"
@@ -105,14 +105,14 @@ const ServicesGrid = () => (
             </div>
             <div className="item-content">
               <h3 className={ServiceTitle}>
-                <Link rel="preload" to="/services/builtup-roofing">
+                <Link rel="preload" to="/services/builtup-roofing/">
                   Built-Up Roofing
                 </Link>
               </h3>
 
               <Link
                 rel="preload"
-                to="/services/builtup-roofing"
+                to="/services/builtup-roofing/"
                 className={ReadMore}
               >
                 LEARN MORE
@@ -126,7 +126,7 @@ const ServicesGrid = () => (
             <div className={ServiceImgBox}>
               <Link
                 rel="preload"
-                to="/services/ethylene-propylene-diene-monomer"
+                to="/services/ethylene-propylene-diene-monomer/"
               >
                 <img
                   loading="lazy"
@@ -140,7 +140,7 @@ const ServicesGrid = () => (
               <h3 className={ServiceTitle}>
                 <Link
                   rel="preload"
-                  to="/services/ethylene-propylene-diene-monomer"
+                  to="/services/ethylene-propylene-diene-monomer/"
                 >
                   Ethylene Propylene Diene Monomer (EPDM)
                 </Link>
@@ -148,7 +148,7 @@ const ServicesGrid = () => (
 
               <Link
                 rel="preload"
-                to="/services/ethylene-propylene-diene-monomer"
+                to="/services/ethylene-propylene-diene-monomer/"
                 className={ReadMore}
               >
                 LEARN MORE
@@ -160,7 +160,7 @@ const ServicesGrid = () => (
         <div className="col-lg-4 col-md-6 col-12">
           <div className={ServiceBox}>
             <div className={ServiceImgBox}>
-              <Link rel="preload" to="/services/roof-inspections">
+              <Link rel="preload" to="/services/roof-inspections/">
                 <img
                   loading="lazy"
                   src={Service18}
@@ -171,14 +171,14 @@ const ServicesGrid = () => (
             </div>
             <div className="item-content">
               <h3 className={ServiceTitle}>
-                <Link rel="preload" to="/services/roof-inspections">
+                <Link rel="preload" to="/services/roof-inspections/">
                   Inspections
                 </Link>
               </h3>
 
               <Link
                 rel="preload"
-                to="/services/roof-inspections"
+                to="/services/roof-inspections/"
                 className={ReadMore}
               >
                 LEARN MORE
@@ -190,7 +190,7 @@ const ServicesGrid = () => (
         <div className="col-lg-4 col-md-6 col-12">
           <div className={ServiceBox}>
             <div className={ServiceImgBox}>
-              <Link rel="preload" to="/services/roof-maintenance">
+              <Link rel="preload" to="/services/roof-maintenance/">
                 <img
                   loading="lazy"
                   src={Service15}
@@ -201,14 +201,14 @@ const ServicesGrid = () => (
             </div>
             <div className="item-content">
               <h3 className={ServiceTitle}>
-                <Link rel="preload" to="/services/roof-maintenance">
+                <Link rel="preload" to="/services/roof-maintenance/">
                   Maintenance
                 </Link>
               </h3>
 
               <Link
                 rel="preload"
-                to="/services/roof-maintenance"
+                to="/services/roof-maintenance/"
                 className={ReadMore}
               >
                 LEARN MORE
@@ -220,7 +220,7 @@ const ServicesGrid = () => (
         <div className="col-lg-4 col-md-6 col-12">
           <div className={ServiceBox}>
             <div className={ServiceImgBox}>
-              <Link rel="preload" to="/services/owens-corning">
+              <Link rel="preload" to="/services/owens-corning/">
                 <img
                   loading="lazy"
                   src={OwensCorning1}
@@ -231,11 +231,11 @@ const ServicesGrid = () => (
             </div>
             <div className="item-content">
               <h3 className={ServiceTitle}>
-                <Link rel="preload" to="/services/owens-corning">
+                <Link rel="preload" to="/services/owens-corning/">
                   Owens Corning
                 </Link>
               </h3>
-              <Link to="/services/owens-corning" className={ReadMore}>
+              <Link to="/services/owens-corning/" className={ReadMore}>
                 LEARN MORE
               </Link>
             </div>
@@ -245,7 +245,7 @@ const ServicesGrid = () => (
         <div className="col-lg-4 col-md-6 col-12">
           <div className={ServiceBox}>
             <div className={ServiceImgBox}>
-              <Link rel="preload" to="/services/polyvinyl-chloride">
+              <Link rel="preload" to="/services/polyvinyl-chloride/">
                 <img
                   loading="lazy"
                   src={PVC1}
@@ -256,12 +256,12 @@ const ServicesGrid = () => (
             </div>
             <div className="item-content">
               <h3 className={ServiceTitle}>
-                <Link rel="preload" to="/services/polyvinyl-chloride">
+                <Link rel="preload" to="/services/polyvinyl-chloride/">
                   Polyvinyl Chloride (PVC)
                 </Link>
               </h3>
 
-              <Link to="/services/polyvinyl-chloride" className={ReadMore}>
+              <Link to="/services/polyvinyl-chloride/" className={ReadMore}>
                 LEARN MORE
               </Link>
             </div>
@@ -271,7 +271,7 @@ const ServicesGrid = () => (
         <div className="col-lg-4 col-md-6 col-12">
           <div className={ServiceBox}>
             <div className={ServiceImgBox}>
-              <Link rel="preload" to="/services/roof-repairs">
+              <Link rel="preload" to="/services/roof-repairs/">
                 <img
                   loading="lazy"
                   src={Service14}
@@ -282,14 +282,14 @@ const ServicesGrid = () => (
             </div>
             <div className="item-content">
               <h3 className={ServiceTitle}>
-                <Link rel="preload" to="/services/roof-repairs">
+                <Link rel="preload" to="/services/roof-repairs/">
                   Roof Repair
                 </Link>
               </h3>
 
               <Link
                 rel="preload"
-                to="/services/roof-repairs"
+                to="/services/roof-repairs/"
                 className={ReadMore}
               >
                 LEARN MORE
@@ -301,7 +301,7 @@ const ServicesGrid = () => (
         <div className="col-lg-4 col-md-6 col-12">
           <div className={ServiceBox}>
             <div className={ServiceImgBox}>
-              <Link rel="preload" to="/services/roof-replacements">
+              <Link rel="preload" to="/services/roof-replacements/">
                 <img
                   loading="lazy"
                   src={Service19}
@@ -312,14 +312,14 @@ const ServicesGrid = () => (
             </div>
             <div className="item-content">
               <h3 className={ServiceTitle}>
-                <Link rel="preload" to="/services/roof-replacements">
+                <Link rel="preload" to="/services/roof-replacements/">
                   Roof Replacement
                 </Link>
               </h3>
 
               <Link
                 rel="preload"
-                to="/services/roof-replacements"
+                to="/services/roof-replacements/"
                 className={ReadMore}
               >
                 LEARN MORE
@@ -331,7 +331,7 @@ const ServicesGrid = () => (
         <div className="col-lg-4 col-md-6 col-12">
           <div className={ServiceBox}>
             <div className={ServiceImgBox}>
-              <Link rel="preload" to="/services/roof-restorations">
+              <Link rel="preload" to="/services/roof-restorations/">
                 <img
                   loading="lazy"
                   src={Restorations1}
@@ -342,14 +342,14 @@ const ServicesGrid = () => (
             </div>
             <div className="item-content">
               <h3 className={ServiceTitle}>
-                <Link rel="preload" to="/services/roof-restorations">
+                <Link rel="preload" to="/services/roof-restorations/">
                   Restorations
                 </Link>
               </h3>
 
               <Link
                 rel="preload"
-                to="/services/roof-restorations"
+                to="/services/roof-restorations/"
                 className={ReadMore}
               >
                 LEARN MORE
@@ -361,7 +361,7 @@ const ServicesGrid = () => (
         <div className="col-lg-4 col-md-6 col-12">
           <div className={ServiceBox}>
             <div className={ServiceImgBox}>
-              <Link rel="preload" to="/services/shingle">
+              <Link rel="preload" to="/services/shingle/">
                 <img
                   loading="lazy"
                   src={Shingle1}
@@ -372,12 +372,12 @@ const ServicesGrid = () => (
             </div>
             <div className="item-content">
               <h3 className={ServiceTitle}>
-                <Link rel="preload" to="/services/shingle">
+                <Link rel="preload" to="/services/shingle/">
                   Shingle
                 </Link>
               </h3>
 
-              <Link rel="preload" to="/services/shingle" className={ReadMore}>
+              <Link rel="preload" to="/services/shingle/" className={ReadMore}>
                 LEARN MORE
               </Link>
             </div>
@@ -387,7 +387,7 @@ const ServicesGrid = () => (
         <div className="col-lg-4 col-md-6 col-12">
           <div className={ServiceBox}>
             <div className={ServiceImgBox}>
-              <Link rel="preload" to="/services/skylights">
+              <Link rel="preload" to="/services/skylights/">
                 <img
                   loading="lazy"
                   src={Skylight2}
@@ -398,12 +398,12 @@ const ServicesGrid = () => (
             </div>
             <div className="item-content">
               <h3 className={ServiceTitle}>
-                <Link rel="preload" to="/services/skylights">
+                <Link rel="preload" to="/services/skylights/">
                   SkyLights
                 </Link>
               </h3>
 
-              <Link rel="preload" to="/services/skylights" className={ReadMore}>
+              <Link rel="preload" to="/services/skylights/" className={ReadMore}>
                 LEARN MORE
               </Link>
             </div>
@@ -413,7 +413,7 @@ const ServicesGrid = () => (
         <div className="col-lg-4 col-md-6 col-12">
           <div className={ServiceBox}>
             <div className={ServiceImgBox}>
-              <Link rel="preload" to="/services/solar">
+              <Link rel="preload" to="/services/solar/">
                 <img
                   loading="lazy"
                   src={Solar1}
@@ -424,12 +424,12 @@ const ServicesGrid = () => (
             </div>
             <div className="item-content">
               <h3 className={ServiceTitle}>
-                <Link rel="preload" to="/services/solar">
+                <Link rel="preload" to="/services/solar/">
                   Solar Preparation
                 </Link>
               </h3>
 
-              <Link rel="preload" to="/services/solar" className={ReadMore}>
+              <Link rel="preload" to="/services/solar/" className={ReadMore}>
                 LEARN MORE
               </Link>
             </div>
@@ -439,7 +439,7 @@ const ServicesGrid = () => (
         <div className="col-lg-4 col-md-6 col-12">
           <div className={ServiceBox}>
             <div className={ServiceImgBox}>
-              <Link rel="preload" to="/services/tile">
+              <Link rel="preload" to="/services/tile/">
                 <img
                   loading="lazy"
                   src={Tile1}
@@ -450,12 +450,12 @@ const ServicesGrid = () => (
             </div>
             <div className="item-content">
               <h3 className={ServiceTitle}>
-                <Link rel="preload" to="/services/tile">
+                <Link rel="preload" to="/services/tile/">
                   Tile
                 </Link>
               </h3>
 
-              <Link rel="preload" to="/services/tile" className={ReadMore}>
+              <Link rel="preload" to="/services/tile/" className={ReadMore}>
                 LEARN MORE
               </Link>
             </div>
@@ -465,7 +465,7 @@ const ServicesGrid = () => (
         <div className="col-lg-4 col-md-6 col-12">
           <div className={ServiceBox}>
             <div className={ServiceImgBox}>
-              <Link rel="preload" to="/services/thermoplastic-polyolefin">
+              <Link rel="preload" to="/services/thermoplastic-polyolefin/">
                 <img
                   loading="lazy"
                   src={TPO1}
@@ -476,14 +476,14 @@ const ServicesGrid = () => (
             </div>
             <div className="item-content">
               <h3 className={ServiceTitle}>
-                <Link rel="preload" to="/services/thermoplastic-polyolefin">
+                <Link rel="preload" to="/services/thermoplastic-polyolefin/">
                   Thermoplastic Polyolefin (TPO)
                 </Link>
               </h3>
 
               <Link
                 rel="preload"
-                to="/services/thermoplastic-polyolefin"
+                to="/services/thermoplastic-polyolefin/"
                 className={ReadMore}
               >
                 LEARN MORE

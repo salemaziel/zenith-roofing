@@ -26,13 +26,13 @@ const SideBar = (props) => {
             <div className={sidebarWidget}>
               <ul className={Categories}>
                 <li>
-                  <Link to="/services/builtup-roofing" activeClassName={active}>
+                  <Link to="/services/builtup-roofing/" activeClassName={active}>
                     Built-Up Roofing (BUR)
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="/services/ethylene-propylene-diene-monomer"
+                    to="/services/ethylene-propylene-diene-monomer/"
                     activeClassName={active}
                   >
                     Ethylene Propylene Diene Monomer (EPDM)
@@ -40,7 +40,7 @@ const SideBar = (props) => {
                 </li>
                 <li>
                   <Link
-                    to="/services/roof-inspections"
+                    to="/services/roof-inspections/"
                     activeClassName={active}
                   >
                     Inspections
@@ -48,21 +48,21 @@ const SideBar = (props) => {
                 </li>
                 <li>
                   <Link
-                    to="/services/roof-maintenance"
+                    to="/services/roof-maintenance/"
                     activeClassName={active}
                   >
                     Maintenance
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services/owens-corning" activeClassName={active}>
+                  <Link to="/services/owens-corning/" activeClassName={active}>
                     Owens-Corning
                   </Link>
                 </li>
 
                 <li>
                   <Link
-                    to="/services/polyvinyl-chloride"
+                    to="/services/polyvinyl-chloride/"
                     activeClassName={active}
                   >
                     Polyvinyl Chloride (PVC)
@@ -70,13 +70,13 @@ const SideBar = (props) => {
                 </li>
 
                 <li>
-                  <Link to="/services/roof-repairs" activeClassName={active}>
+                  <Link to="/services/roof-repairs/" activeClassName={active}>
                     Roof Repair
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="/services/roof-replacements"
+                    to="/services/roof-replacements/"
                     activeClassName={active}
                   >
                     Roof Replacement
@@ -85,7 +85,7 @@ const SideBar = (props) => {
 
                 <li>
                   <Link
-                    to="/services/roof-restorations"
+                    to="/services/roof-restorations/"
                     activeClassName={active}
                   >
                     Roof Restorations
@@ -93,30 +93,30 @@ const SideBar = (props) => {
                 </li>
 
                 <li>
-                  <Link to="/services/shingle" activeClassName={active}>
+                  <Link to="/services/shingle/" activeClassName={active}>
                     Shingle
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services/skylights" activeClassName={active}>
+                  <Link to="/services/skylights/" activeClassName={active}>
                     Skylights
                   </Link>
                 </li>
 
                 <li>
-                  <Link to="/services/solar" activeClassName={active}>
+                  <Link to="/services/solar/" activeClassName={active}>
                     Solar Preparation
                   </Link>
                 </li>
 
                 <li>
-                  <Link to="/services/tile" activeClassName={active}>
+                  <Link to="/services/tile/" activeClassName={active}>
                     Tile
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="/services/thermoplastic-polyolefin"
+                    to="/services/thermoplastic-polyolefin/"
                     activeClassName={active}
                   >
                     Thermoplastic Polyolefin (TPO)
@@ -140,7 +140,7 @@ const SideBar = (props) => {
             {props.body}
             <div className="text-center justify-content-center mt-5 flex-row Nodesktop">
               <Link
-                to="/services"
+                to="/services/"
                 className="bg-warning text-white font-weight-bold text-center px-3 py-4 mx-2 "
                 style={{ borderRadius: `5px` }}
               >

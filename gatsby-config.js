@@ -109,6 +109,25 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '6',
+        matomoUrl: 'https://analytics.viadelweb.cloud',
+        siteUrl: 'https://zenithroofingservices.com',
+        // All the optional settings
+        matomoPhpScript: 'piwik.php',
+        matomoJsScript: 'piwik.js',
+        exclude: ['/offline-plugin-app-shell-fallback/'],
+        requireConsent: false,
+        requireCookieConsent: false,
+        disableCookies: false,
+        cookieDomain: '*.zenithroofingservices.com',
+        //localScript: '/piwik.js',
+        dev: true,
+        enableJSErrorTracking: true
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Zenith Roofing Services`,

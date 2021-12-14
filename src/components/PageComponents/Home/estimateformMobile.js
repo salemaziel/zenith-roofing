@@ -14,7 +14,7 @@ function encode(data) {
     .join("&")
 }
 
-export default function EstimateForm() {
+export default function EstimateFormMobile() {
   const [state, setState] = React.useState({})
 
   const handleChange = (e) => {
@@ -44,7 +44,7 @@ export default function EstimateForm() {
           </div>
           <form
             name="EstimateForm"
-            id="estimateformDesktop"
+            id="estimateformMobile"
             method="post"
             action="/success"
             data-netlify="true"

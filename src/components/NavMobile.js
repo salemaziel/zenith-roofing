@@ -109,35 +109,35 @@ class NavMobile extends React.Component {
             </Link>
             </Nav.Item>,
                         <Nav.Item>
-            <Link rel="preload" className="nav-link" to="/services/roof-repairs">
+            <Link rel="preload" className="nav-link" to="/services/roof-repairs/">
               Roof Repairs
             </Link>
             </Nav.Item>,
             <Nav.Item>
-            <Link rel="preload" className="nav-link" to="/services">
+            <Link rel="preload" className="nav-link" to="/services/">
               Commercial
           </Link>
             </Nav.Item>,
             <Nav.Item>
-            <Link rel="preload" className="nav-link" to="/services">
+            <Link rel="preload" className="nav-link" to="/services/">
               Residential
             </Link>
             </Nav.Item>,
             <Nav.Item>
-            <Link rel="preload" className="nav-link" to="/about">
+            <Link rel="preload" className="nav-link" to="/about/">
               About Us
             </Link>
             </Nav.Item>,
             <Nav.Item>
             <a
               className="nav-link"
-              href="https://referrals.zenithroofingservices.com"
+              href="https://referrals.zenithroofingservices.com/"
             >
               Referrals
             </a>
             </Nav.Item>,
             <Nav.Item>
-            <Button className="QuoteNav" rel="preload" onClick={() => navigate("/contact")}>
+            <Button className="QuoteNav" rel="preload" onClick={() => navigate("/contact/")}>
               Contact Us
             </Button>
             </Nav.Item>,

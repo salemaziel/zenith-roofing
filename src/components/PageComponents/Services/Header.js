@@ -16,7 +16,7 @@ import { Link } from 'gatsby'
                 <li>
                   <Link to="/" rel="preload">Home</Link>
                 </li>
-                <li><Link rel="preload" to="/services"> Services</Link></li>
+                <li><Link rel="preload" to="/services/"> Services</Link></li>
               </ul>
             </div>
           </div>

@@ -49,7 +49,7 @@ const Section1 = () => {
                   Polyvinyl Chloride (PVC) is a single ply membrane that is
                   typically used on low slopes roofs. It is a nice clean look
                   and usually comes in white or tan colors. Like{" "}
-                  <Link to="/services/thermoplastic-polyolefin">TPO</Link> it is
+                  <Link to="/services/thermoplastic-polyolefin/">TPO</Link> it is
                   an energy efficient membrane because of its ability to reflect
                   (Ultra Violet) UV rays. It will help reduce energy cost and
                   also complies with Title 24 requirements. Like TPO It is also
